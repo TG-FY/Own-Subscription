@@ -10,10 +10,6 @@ shadowsocks = gz.q88q.gq:18890, method=aes-256-cfb, password=epChJS35fV, ssr-pro
 shadowsocks = zz.q88q.gq:12161, method=aes-256-cfb, password=epChJS35fV, ssr-protocol=auth_aes128_sha1, ssr-protocol-param=623:30w67qkpota, obfs=tls1.2_ticket_auth, obfs-host=e6072623.baidu.com, fast-open=false, udp-relay=false, tag=🇭🇰 Q88Q◆香港│株洲│联通1
 shadowsocks = zz.q88q.gq:12163, method=aes-256-cfb, password=epChJS35fV, ssr-protocol=auth_aes128_sha1, ssr-protocol-param=623:30w67qkpota, obfs=tls1.2_ticket_auth, obfs-host=e6072623.baidu.com, fast-open=false, udp-relay=false, tag=🇭🇰 Q88Q◆香港│株洲│联通2
 shadowsocks = zz.q88q.gq:12162, method=aes-256-cfb, password=epChJS35fV, ssr-protocol=auth_aes128_sha1, ssr-protocol-param=623:30w67qkpota, obfs=tls1.2_ticket_auth, obfs-host=e6072623.baidu.com, fast-open=false, udp-relay=false, tag=🇭🇰 Q88Q◆香港│株洲│联通3
-vmess = c1s3.jamjams.net:19970, method=chacha20-ietf-poly1305, password=6213d0c0-432f-445c-8a47-f58b9152b212, fast-open=false, udp-relay=false, tag=🇺🇸 BWG◆美国V2_3
-vmess = c1s4.jamjams.net:19970, method=chacha20-ietf-poly1305, password=6213d0c0-432f-445c-8a47-f58b9152b212, fast-open=false, udp-relay=false, tag=🇯🇵 BWG◆日本 V2
-vmess = c1s5.jamjams.net:19970, method=chacha20-ietf-poly1305, password=6213d0c0-432f-445c-8a47-f58b9152b212, fast-open=false, udp-relay=false, tag=🇳🇱 BWG◆荷兰 V2
-vmess = c1s801.jamjams.net:19970, method=chacha20-ietf-poly1305, password=6213d0c0-432f-445c-8a47-f58b9152b212, fast-open=false, udp-relay=false, tag=🇺🇸 BWG◆美国V2_4
 shadowsocks = bgp1.gemgems.net:15202, method=aes-256-gcm, password=h5B3sCrTFjD9, fast-open=false, udp-relay=false, tag=🇭🇰 沪港电信BGP1 香港1 - NETFLIX
 shadowsocks = bgp2.gemgems.net:15202, method=aes-256-gcm, password=h5B3sCrTFjD9, fast-open=false, udp-relay=false, tag=🇭🇰 沪港电信BGP2 香港1 - NETFLIX
 shadowsocks = bgp3.gemgems.net:15202, method=aes-256-gcm, password=h5B3sCrTFjD9, fast-open=false, udp-relay=false, tag=🇭🇰 沪港联通BGP1 香港1 - NETFLIX
