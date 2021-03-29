@@ -1,0 +1,7 @@
+vmess = c1s801.jamjams.net:19970, method=chacha20-ietf-poly1305, password=6213d0c0-432f-445c-8a47-f58b9152b212, fast-open=false, udp-relay=false, tag=🇺🇸 BWG◆美国V2_1
+vmess = c1s3.jamjams.net:19970, method=chacha20-ietf-poly1305, password=6213d0c0-432f-445c-8a47-f58b9152b212, fast-open=false, udp-relay=false, tag=🇺🇸 BWG◆美国V2_2
+vmess = c1s4.jamjams.net:19970, method=chacha20-ietf-poly1305, password=6213d0c0-432f-445c-8a47-f58b9152b212, fast-open=false, udp-relay=false, tag=🇯🇵 BWG◆日本 V2
+vmess = c1s5.jamjams.net:19970, method=chacha20-ietf-poly1305, password=6213d0c0-432f-445c-8a47-f58b9152b212, fast-open=false, udp-relay=false, tag=🇳🇱 BWG◆荷兰 V2
+trojan = 120.209.53.122:40001, password=1a4ca082, over-tls=true, tls-host=, fast-open=false, udp-relay=false, tls-verification=true, tag=🇭🇰 阿特◆香港
+trojan = 120.209.53.122:50001, password=92b191d0, over-tls=true, tls-host=, fast-open=false, udp-relay=false, tls-verification=true, tag=🇺🇸 阿特◆美国
+trojan = 120.209.53.122:60002, password=1a4ca082, over-tls=true, tls-host=, fast-open=false, udp-relay=false, tls-verification=true, tag=🇯🇵 阿特◆日本
