@@ -1,6 +1,6 @@
-http = a1.ap.fastqvpn.com:29980, username=429013524870594560, password=17652ffb-09e2-45d7-93b5-0e4f728e9542, over-tls=true, fast-open=false, udp-relay=false, tls-verification=false, tag=🇸🇬 新加坡 A1
-http = a2.ap.fastqvpn.com:29980, username=429013524870594560, password=17652ffb-09e2-45d7-93b5-0e4f728e9542, over-tls=true, fast-open=false, udp-relay=false, tls-verification=false, tag=🇸🇬 新加坡 A2
-http = a3.ap.fastqvpn.com:29980, username=429013524870594560, password=17652ffb-09e2-45d7-93b5-0e4f728e9542, over-tls=true, fast-open=false, udp-relay=false, tls-verification=false, tag=🇸🇬 新加坡 A3
+http = a1.ap.fastqvpn.com:29980, username=429013524870594560, password=17652ffb-09e2-45d7-93b5-0e4f728e9542, over-tls=true, fast-open=false, udp-relay=false, tls-verification=false, tag=🇭🇰 香港 A1
+http = a2.ap.fastqvpn.com:29980, username=429013524870594560, password=17652ffb-09e2-45d7-93b5-0e4f728e9542, over-tls=true, fast-open=false, udp-relay=false, tls-verification=false, tag=🇭🇰 香港 A2
+http = a3.ap.fastqvpn.com:29980, username=429013524870594560, password=17652ffb-09e2-45d7-93b5-0e4f728e9542, over-tls=true, fast-open=false, udp-relay=false, tls-verification=false, tag=🇭🇰 香港 A3
 http = a4.ap.fastqvpn.com:29980, username=429013524870594560, password=17652ffb-09e2-45d7-93b5-0e4f728e9542, over-tls=true, fast-open=false, udp-relay=false, tls-verification=false, tag=🇸🇬 新加坡 A4
 http = a5.ap.fastqvpn.com:29980, username=429013524870594560, password=17652ffb-09e2-45d7-93b5-0e4f728e9542, over-tls=true, fast-open=false, udp-relay=false, tls-verification=false, tag=🇭🇰 香港 A5
 http = global.ap.fastqvpn.com:29980, username=429013524870594560, password=17652ffb-09e2-45d7-93b5-0e4f728e9542, over-tls=true, fast-open=false, udp-relay=false, tls-verification=false, tag=🇸🇬 新加坡 GL1
