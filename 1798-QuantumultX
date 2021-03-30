@@ -1,0 +1,33 @@
+http = a1.ap.fastqvpn.com:29980, username=429013524870594560, password=17652ffb-09e2-45d7-93b5-0e4f728e9542, over-tls=true, fast-open=false, udp-relay=false, tls-verification=false, tag=🇸🇬 新加坡 A1
+http = a2.ap.fastqvpn.com:29980, username=429013524870594560, password=17652ffb-09e2-45d7-93b5-0e4f728e9542, over-tls=true, fast-open=false, udp-relay=false, tls-verification=false, tag=🇸🇬 新加坡 A2
+http = a3.ap.fastqvpn.com:29980, username=429013524870594560, password=17652ffb-09e2-45d7-93b5-0e4f728e9542, over-tls=true, fast-open=false, udp-relay=false, tls-verification=false, tag=🇸🇬 新加坡 A3
+http = a4.ap.fastqvpn.com:29980, username=429013524870594560, password=17652ffb-09e2-45d7-93b5-0e4f728e9542, over-tls=true, fast-open=false, udp-relay=false, tls-verification=false, tag=🇸🇬 新加坡 A4
+http = a5.ap.fastqvpn.com:29980, username=429013524870594560, password=17652ffb-09e2-45d7-93b5-0e4f728e9542, over-tls=true, fast-open=false, udp-relay=false, tls-verification=false, tag=🇭🇰 香港 A5
+http = global.ap.fastqvpn.com:29980, username=429013524870594560, password=17652ffb-09e2-45d7-93b5-0e4f728e9542, over-tls=true, fast-open=false, udp-relay=false, tls-verification=false, tag=🇭🇰 香港 GL
+http = global.ap.fastqvpn.com:29986, username=429013524870594560, password=17652ffb-09e2-45d7-93b5-0e4f728e9542, over-tls=true, fast-open=false, udp-relay=false, tls-verification=false, tag=🇸🇬 新加坡 GL
+http = tx.wy.fastqvpn.com:29980, username=429013524870594560, password=17652ffb-09e2-45d7-93b5-0e4f728e9542, over-tls=true, fast-open=false, udp-relay=false, tls-verification=true, tag=🇭🇰 香港 WY
+http = tx.wy.fastqvpn.com:29986, username=429013524870594560, password=17652ffb-09e2-45d7-93b5-0e4f728e9542, over-tls=true, fast-open=false, udp-relay=false, tls-verification=true, tag=🇸🇬 新加坡 WY
+http = a1.er3.xyz:29980, username=429013524870594560, password=17652ffb-09e2-45d7-93b5-0e4f728e9542, over-tls=true, fast-open=false, udp-relay=false, tls-verification=true, tag=🇭🇰 香港 ER
+http = a1.er3.xyz:29986, username=429013524870594560, password=17652ffb-09e2-45d7-93b5-0e4f728e9542, over-tls=true, fast-open=false, udp-relay=false, tls-verification=true, tag=🇸🇬 新加坡 ER
+http = ap1-ge.er3.xyz:29980, username=429013524870594560, password=17652ffb-09e2-45d7-93b5-0e4f728e9542, over-tls=true, fast-open=false, udp-relay=false, tls-verification=true, tag=🇭🇰 香港 GE
+http = ap1-ge.er3.xyz:29986, username=429013524870594560, password=17652ffb-09e2-45d7-93b5-0e4f728e9542, over-tls=true, fast-open=false, udp-relay=false, tls-verification=true, tag=🇸🇬 新加坡 GE
+http = ap1-sg.er3.xyz:29980, username=429013524870594560, password=17652ffb-09e2-45d7-93b5-0e4f728e9542, over-tls=true, fast-open=false, udp-relay=false, tls-verification=true, tag=🇸🇬 新加坡 ER1
+http = ap1-sg.er3.xyz:29982, username=429013524870594560, password=17652ffb-09e2-45d7-93b5-0e4f728e9542, over-tls=true, fast-open=false, udp-relay=false, tls-verification=true, tag=🇸🇬 新加坡 ER2
+http = ap1-sg.er3.xyz:29983, username=429013524870594560, password=17652ffb-09e2-45d7-93b5-0e4f728e9542, over-tls=true, fast-open=false, udp-relay=false, tls-verification=true, tag=🇸🇬 新加坡 ER3
+http = ap1-sg.er3.xyz:29984, username=429013524870594560, password=17652ffb-09e2-45d7-93b5-0e4f728e9542, over-tls=true, fast-open=false, udp-relay=false, tls-verification=true, tag=🇸🇬 新加坡 ER4
+http = ap1-sg.er3.xyz:29985, username=429013524870594560, password=17652ffb-09e2-45d7-93b5-0e4f728e9542, over-tls=true, fast-open=false, udp-relay=false, tls-verification=true, tag=🇸🇬 新加坡 ER5
+http = ap1-sg.er3.xyz:29986, username=429013524870594560, password=17652ffb-09e2-45d7-93b5-0e4f728e9542, over-tls=true, fast-open=false, udp-relay=false, tls-verification=true, tag=🇸🇬 新加坡 ER6
+http = ap1-sg.er3.xyz:29987, username=429013524870594560, password=17652ffb-09e2-45d7-93b5-0e4f728e9542, over-tls=true, fast-open=false, udp-relay=false, tls-verification=true, tag=🇸🇬 新加坡 ER7
+http = ap1-sg.er3.xyz:29988, username=429013524870594560, password=17652ffb-09e2-45d7-93b5-0e4f728e9542, over-tls=true, fast-open=false, udp-relay=false, tls-verification=true, tag=🇸🇬 新加坡 ER8
+http = tw01.pjj.life:29980, username=429013524870594560, password=17652ffb-09e2-45d7-93b5-0e4f728e9542, over-tls=true, fast-open=false, udp-relay=false, tls-verification=true, tag=🇹🇼 台湾 PJJ1
+http = tw02.pjj.life:29980, username=429013524870594560, password=17652ffb-09e2-45d7-93b5-0e4f728e9542, over-tls=true, fast-open=false, udp-relay=false, tls-verification=true, tag=🇹🇼 台湾 PJJ2
+http = tw03.pjj.life:29980, username=429013524870594560, password=17652ffb-09e2-45d7-93b5-0e4f728e9542, over-tls=true, fast-open=false, udp-relay=false, tls-verification=true, tag=🇹🇼 台湾 PJJ3
+http = tw04.pjj.life:29980, username=429013524870594560, password=17652ffb-09e2-45d7-93b5-0e4f728e9542, over-tls=true, fast-open=false, udp-relay=false, tls-verification=true, tag=🇹🇼 台湾 PJJ4
+http = sk03.pjj.life:29980, username=429013524870594560, password=17652ffb-09e2-45d7-93b5-0e4f728e9542, over-tls=true, fast-open=false, udp-relay=false, tls-verification=true, tag=🇰🇷 韩国 PJJ1
+http = sk04.pjj.life:29980, username=429013524870594560, password=17652ffb-09e2-45d7-93b5-0e4f728e9542, over-tls=true, fast-open=false, udp-relay=false, tls-verification=true, tag=🇰🇷 韩国 PJJ2
+http = sg01.pjj.life:29980, username=429013524870594560, password=17652ffb-09e2-45d7-93b5-0e4f728e9542, over-tls=true, fast-open=false, udp-relay=false, tls-verification=true, tag=🇸🇬 新加坡 PJJ1
+http = sg02.pjj.life:29980, username=429013524870594560, password=17652ffb-09e2-45d7-93b5-0e4f728e9542, over-tls=true, fast-open=false, udp-relay=false, tls-verification=true, tag=🇸🇬 新加坡 PJJ2
+http = sg03.pjj.life:29980, username=429013524870594560, password=17652ffb-09e2-45d7-93b5-0e4f728e9542, over-tls=true, fast-open=false, udp-relay=false, tls-verification=true, tag=🇸🇬 新加坡 PJJ3
+http = sg04.pjj.life:29980, username=429013524870594560, password=17652ffb-09e2-45d7-93b5-0e4f728e9542, over-tls=true, fast-open=false, udp-relay=false, tls-verification=true, tag=🇸🇬 新加坡 PJJ4
+http = cm-hk.stunnel.vip:4700, username=none, password=none, over-tls=true, fast-open=false, udp-relay=false, tls-verification=true, tag=🇭🇰 香港 Ghelper VIP
+
