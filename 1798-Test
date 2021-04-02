@@ -1,0 +1,9 @@
+vmess=hj-gzyd01.ddns-only.xyz:10908, method=aes-128-gcm, password=eba4a5bd-2cb7-3222-b48e-e87dc25a8e89, obfs=ws, obfs-host=gia-3808.ddns-only.xyz, obfs-uri=/jdy, fast-open=false, udp-relay=false, tag=旗舰-908|广美GIA|3倍流量|解锁流|V2ray
+vmess=hj-gzyd01.ddns-only.xyz:17606, method=aes-128-gcm, password=eba4a5bd-2cb7-3222-b48e-e87dc25a8e89, obfs=ws, obfs-host=hinet-145.ddns-only.xyz, obfs-uri=/jdy, fast-open=false, udp-relay=false, tag=旗舰-606|广台|解锁流|1.5倍流量|V2ray
+vmess=hinet-143.ddns-only.xyz:17602, method=aes-128-gcm, password=eba4a5bd-2cb7-3222-b48e-e87dc25a8e89, obfs=ws, obfs-host=hinet-143.ddns-only.xyz, obfs-uri=/jdy, fast-open=false, udp-relay=false, tag=入门-602|台湾|解锁流|1倍流量|V2ray
+vmess=hinet-142.ddns-only.xyz:49601, method=aes-128-gcm, password=eba4a5bd-2cb7-3222-b48e-e87dc25a8e89, obfs=ws, obfs-host=hinet-142.ddns-only.xyz, obfs-uri=/jdy, fast-open=false, udp-relay=false, tag=入门-601|台湾|解锁流|1倍流量|V2ray
+vmess=hj-iplc.ddns-only.xyz:17904, method=aes-128-gcm, password=eba4a5bd-2cb7-3222-b48e-e87dc25a8e89, obfs=ws, obfs-host=hinet-145.ddns-only.xyz, obfs-uri=/jdy, fast-open=false, udp-relay=false, tag=IPLC-904|沪台|3倍流量|解锁流|V2ray
+vmess=hj-iplc.ddns-only.xyz:17903, method=aes-128-gcm, password=eba4a5bd-2cb7-3222-b48e-e87dc25a8e89, obfs=ws, obfs-host=jdy-azsg02.ddns-only.xyz, obfs-uri=/jdy, fast-open=false, udp-relay=false, tag=IPLC-903|沪新|3倍流量|SSR
+vmess=hj-iplc.ddns-only.xyz:17902, method=aes-128-gcm, password=eba4a5bd-2cb7-3222-b48e-e87dc25a8e89, obfs=ws, obfs-host=jdy-azsg01.ddns-only.xyz, obfs-uri=/jdy, fast-open=false, udp-relay=false, tag=IPLC-902|沪新|3倍流量|SSR
+vmess=hj-gzyd01.ddns-only.xyz:17703, method=aes-128-gcm, password=eba4a5bd-2cb7-3222-b48e-e87dc25a8e89, obfs=ws, obfs-host=hj-mlxy01.ddns-only.xyz, obfs-uri=/jdy, fast-open=false, udp-relay=false, tag=标准-703|广港|0.5倍流量|解锁流|V2ray
+
