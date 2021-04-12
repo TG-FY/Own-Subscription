@@ -1,37 +1,7 @@
-http = cm-hk.stunnel.vip:4700, username=none, password=none, over-tls=true, fast-open=false, udp-relay=false, tls-verification=true, tag=🇭🇰 【Ghelper】HK/香港
-shadowsocks = 119.147.144.250:18834, method=aes-256-gcm, password=daCxNwo600NW, fast-open=false, udp-relay=false, tag=🇭🇰 广港电信BGP1 香港5 - NETFLIX
-shadowsocks = bgp1.gemgems.net:12431, method=aes-256-gcm, password=RIjuZSqiiXP4, fast-open=false, udp-relay=false, tag=🇨🇳 沪台电信BGP1 台湾2 - NETFLIX
-shadowsocks = bgp3.gemgems.net:12431, method=aes-256-gcm, password=RIjuZSqiiXP4, fast-open=false, udp-relay=false, tag=🇨🇳 沪台联通BGP1 台湾2 - NETFLIX
-shadowsocks = bgp4.gemgems.net:12431, method=aes-256-gcm, password=RIjuZSqiiXP4, fast-open=false, udp-relay=false, tag=🇨🇳 广台移动BGP1 台湾2 - NETFLIX
-shadowsocks = hinet2.gemgems.net:12431, method=aes-256-gcm, password=RIjuZSqiiXP4, fast-open=false, udp-relay=false, tag=🇨🇳 台湾直连线路 hinet2 - NETFLIX
-shadowsocks = bgp1.gemgems.net:10760, method=aes-256-gcm, password=kmaWmvE8fWdP, fast-open=false, udp-relay=false, tag=🇨🇳 沪台电信BGP1 台湾3 - NETFLIX
-shadowsocks = bgp3.gemgems.net:10760, method=aes-256-gcm, password=kmaWmvE8fWdP, fast-open=false, udp-relay=false, tag=🇨🇳 沪台联通BGP1 台湾3 - NETFLIX
-shadowsocks = bgp4.gemgems.net:10760, method=aes-256-gcm, password=kmaWmvE8fWdP, fast-open=false, udp-relay=false, tag=🇨🇳 广台移动BGP1 台湾3 - NETFLIX
-shadowsocks = hinet3.gemgems.net:10760, method=aes-256-gcm, password=kmaWmvE8fWdP, fast-open=false, udp-relay=false, tag=🇨🇳 台湾直连线路 hinet3 - NETFLIX
-shadowsocks = bgp4.gemgems.net:10289, method=aes-256-gcm, password=plAC8oF2SpMh, fast-open=false, udp-relay=false, tag=🇸🇬 广新移动BGP1 新加坡3 - NETFLIX
-shadowsocks = 42.157.160.123:15709, method=aes-256-gcm, password=cdYokmRjyEb1, fast-open=false, udp-relay=false, tag=🇸🇬 苏新电信BGP1 新加坡5 - NETFLIX
-shadowsocks = bgp1.gemgems.net:9657, method=aes-256-gcm, password=4StvDXMGOxmi, fast-open=false, udp-relay=false, tag=🇯🇵 沪日电信BGP1 日本1 - NETFLIX
-shadowsocks = bgp3.gemgems.net:9657, method=aes-256-gcm, password=4StvDXMGOxmi, fast-open=false, udp-relay=false, tag=🇯🇵 沪日联通BGP1 日本1 - NETFLIX
-shadowsocks = 45.93.217.185:9657, method=aes-256-gcm, password=4StvDXMGOxmi, fast-open=false, udp-relay=false, tag=🇯🇵 日本直连线路1 - NETFLIX
-shadowsocks = bgp1.gemgems.net:11462, method=aes-256-gcm, password=kBX9w3NH39So, fast-open=false, udp-relay=false, tag=🇯🇵 沪日电信BGP1 日本2 - NETFLIX
-shadowsocks = bgp3.gemgems.net:11462, method=aes-256-gcm, password=kBX9w3NH39So, fast-open=false, udp-relay=false, tag=🇯🇵 沪日联通BGP1 日本2 - NETFLIX
-shadowsocks = 185.160.25.69:11462, method=aes-256-gcm, password=kBX9w3NH39So, fast-open=false, udp-relay=false, tag=🇯🇵 日本直连线路2 - NETFLIX
-shadowsocks = bgp1.gemgems.net:11286, method=aes-256-gcm, password=aonz4mHWhmet, fast-open=false, udp-relay=false, tag=🇯🇵 沪日电信BGP1 日本3 - NETFLIX
-shadowsocks = bgp3.gemgems.net:11286, method=aes-256-gcm, password=aonz4mHWhmet, fast-open=false, udp-relay=false, tag=🇯🇵 沪日联通BGP1 日本3 - NETFLIX
-shadowsocks = 185.172.114.77:11286, method=aes-256-gcm, password=aonz4mHWhmet, fast-open=false, udp-relay=false, tag=🇯🇵 日本直连线路3 - NETFLIX
-shadowsocks = bgp3.gemgems.net:14301, method=aes-256-gcm, password=WWtYTj7GzW9c, fast-open=false, udp-relay=false, tag=🇯🇵 沪日联通BGP1 日本4 - NETFLIX
-shadowsocks = 185.160.24.199:14301, method=aes-256-gcm, password=WWtYTj7GzW9c, fast-open=false, udp-relay=false, tag=🇯🇵 日本4 直连线路 - NETFLIX
-shadowsocks = bgp1.gemgems.net:9307, method=aes-256-gcm, password=FiobCeZoNfz1, fast-open=false, udp-relay=false, tag=🇺🇸 沪美电信BGP1 费利蒙1
-shadowsocks = bgp3.gemgems.net:9307, method=aes-256-gcm, password=FiobCeZoNfz1, fast-open=false, udp-relay=false, tag=🇺🇸 沪美联通BGP1 费利蒙1
-shadowsocks = bgp4.gemgems.net:9307, method=aes-256-gcm, password=FiobCeZoNfz1, fast-open=false, udp-relay=false, tag=🇺🇸 广美移动BGP1 费利蒙1
-shadowsocks = 173.255.209.163:9307, method=aes-256-gcm, password=FiobCeZoNfz1, fast-open=false, udp-relay=false, tag=🇺🇸 美国费利蒙直连线路1
-shadowsocks = bgp1.gemgems.net:14482, method=aes-256-gcm, password=b738FrNLXhB0, fast-open=false, udp-relay=false, tag=🇺🇸 沪美电信BGP1 费利蒙2
-shadowsocks = bgp3.gemgems.net:14482, method=aes-256-gcm, password=b738FrNLXhB0, fast-open=false, udp-relay=false, tag=🇺🇸 沪美联通BGP1 费利蒙2
-shadowsocks = bgp4.gemgems.net:14482, method=aes-256-gcm, password=b738FrNLXhB0, fast-open=false, udp-relay=false, tag=🇺🇸 广美移动BGP1 费利蒙2
-shadowsocks = 23.239.2.128:14482, method=aes-256-gcm, password=b738FrNLXhB0, fast-open=false, udp-relay=false, tag=🇺🇸 美国费利蒙直连线路2
-shadowsocks = bgp3.gemgems.net:11852, method=aes-256-gcm, password=UavwwFOjfQvL, fast-open=false, udp-relay=false, tag=🇺🇸 沪美联通BGP1 费利蒙3
-shadowsocks = bgp4.gemgems.net:11852, method=aes-256-gcm, password=UavwwFOjfQvL, fast-open=false, udp-relay=false, tag=🇺🇸 广美移动BGP1 费利蒙3
-shadowsocks = 45.56.95.66:11852, method=aes-256-gcm, password=UavwwFOjfQvL, fast-open=false, udp-relay=false, tag=🇺🇸 美国费利蒙直连线路3
+shadowsocks = 3.112.193.236:443, method=aes-256-cfb, password=amazonskr05 ssr-protocol-param=12545:8gzh6I, obfs=tls1.2_ticket_auth, obfs-host=46f8112545.software-download.microsoft.com, fast-open=false, udp-relay=false, tag=🇯🇵日本_AWS
+shadowsocks = 3.34.127.100:444, method=aes-256-cfb, password=amazonskr05 ssr-protocol-param=12545:8gzh6I, obfs=tls1.2_ticket_auth, obfs-host=46f8112545.software-download.microsoft.com, fast-open=false, udp-relay=false, tag=🇰🇷韩国_AWS
+shadowsocks = 13.212.113.145:443, method=aes-256-cfb, password=amazonskr05 ssr-protocol-param=12545:8gzh6I, obfs=tls1.2_ticket_auth, obfs-host=46f8112545.software-download.microsoft.com, fast-open=false, udp-relay=false, tag=🇸🇬新加坡_AWS
+shadowsocks = 18.236.138.147:443, method=aes-256-cfb, password=amazonskr05 ssr-protocol-param=12545:8gzh6I, obfs=tls1.2_ticket_auth, obfs-host=46f8112545.software-download.microsoft.com, fast-open=false, udp-relay=false, tag=🇺🇸美国_AWS
 shadowsocks = hinet.rdns.link:50023, method=aes-256-cfb, password=Getfree.Cloud, ssr-protocol=auth_aes128_md5, ssr-protocol-param=12545:8gzh6I, obfs=tls1.2_ticket_auth, obfs-host=46f8112545.software-download.microsoft.com, fast-open=false, udp-relay=false, tag=🇨🇳 Lv1 台湾 C | Netflix
 shadowsocks = hinet.rdns.link:50024, method=aes-256-cfb, password=Getfree.Cloud, ssr-protocol=auth_aes128_md5, ssr-protocol-param=12545:8gzh6I, obfs=tls1.2_ticket_auth, obfs-host=46f8112545.software-download.microsoft.com, fast-open=false, udp-relay=false, tag=🇨🇳 Lv1 台湾 D | Netflix
 shadowsocks = n3ro-iplc-02.zc8nax4blr6bbjxf.node.cyou:5042, method=chacha20-ietf, password=7CRAZe4cKJygUo3W, ssr-protocol=auth_aes128_sha1, ssr-protocol-param=29561:bPlYHb, obfs=plain, obfs-host=9b61529561.apple.com, fast-open=false, udp-relay=false, tag=🇸🇬 专线 新加坡 B1 深圳BGP
@@ -71,3 +41,37 @@ shadowsocks = n3ro-in-b5.f6as2mdbbflrmbcn.node.cyou:5215, method=chacha20-ietf, 
 shadowsocks = n3ro-in-b1.ccajxxpxjmtedsxn.node.cyou:5216, method=chacha20-ietf, password=7CRAZe4cKJygUo3W, ssr-protocol=auth_aes128_sha1, ssr-protocol-param=29561:bPlYHb, obfs=plain, obfs-host=9b61529561.apple.com, fast-open=false, udp-relay=false, tag=🇭🇰 中继 香港 B6 广州移动
 shadowsocks = n3ro-in-b5.f6as2mdbbflrmbcn.node.cyou:5271, method=chacha20-ietf, password=7CRAZe4cKJygUo3W, ssr-protocol=auth_aes128_sha1, ssr-protocol-param=29561:bPlYHb, obfs=plain, obfs-host=9b61529561.apple.com, fast-open=false, udp-relay=false, tag=🇲🇾 中继 马来西亚 B1 广州移动
 shadowsocks = n3ro-in-b2.cpzzxmnmjza26j8e.node.cyou:5272, method=chacha20-ietf, password=7CRAZe4cKJygUo3W, ssr-protocol=auth_aes128_sha1, ssr-protocol-param=29561:bPlYHb, obfs=plain, obfs-host=9b61529561.apple.com, fast-open=false, udp-relay=false, tag=🇲🇾 中继 马来西亚 B2 广州移动
+shadowsocks = 119.147.144.250:18834, method=aes-256-gcm, password=daCxNwo600NW, fast-open=false, udp-relay=false, tag=🇭🇰 广港电信BGP1 香港5 - NETFLIX
+shadowsocks = bgp1.gemgems.net:12431, method=aes-256-gcm, password=RIjuZSqiiXP4, fast-open=false, udp-relay=false, tag=🇨🇳 沪台电信BGP1 台湾2 - NETFLIX
+shadowsocks = bgp3.gemgems.net:12431, method=aes-256-gcm, password=RIjuZSqiiXP4, fast-open=false, udp-relay=false, tag=🇨🇳 沪台联通BGP1 台湾2 - NETFLIX
+shadowsocks = bgp4.gemgems.net:12431, method=aes-256-gcm, password=RIjuZSqiiXP4, fast-open=false, udp-relay=false, tag=🇨🇳 广台移动BGP1 台湾2 - NETFLIX
+shadowsocks = hinet2.gemgems.net:12431, method=aes-256-gcm, password=RIjuZSqiiXP4, fast-open=false, udp-relay=false, tag=🇨🇳 台湾直连线路 hinet2 - NETFLIX
+shadowsocks = bgp1.gemgems.net:10760, method=aes-256-gcm, password=kmaWmvE8fWdP, fast-open=false, udp-relay=false, tag=🇨🇳 沪台电信BGP1 台湾3 - NETFLIX
+shadowsocks = bgp3.gemgems.net:10760, method=aes-256-gcm, password=kmaWmvE8fWdP, fast-open=false, udp-relay=false, tag=🇨🇳 沪台联通BGP1 台湾3 - NETFLIX
+shadowsocks = bgp4.gemgems.net:10760, method=aes-256-gcm, password=kmaWmvE8fWdP, fast-open=false, udp-relay=false, tag=🇨🇳 广台移动BGP1 台湾3 - NETFLIX
+shadowsocks = hinet3.gemgems.net:10760, method=aes-256-gcm, password=kmaWmvE8fWdP, fast-open=false, udp-relay=false, tag=🇨🇳 台湾直连线路 hinet3 - NETFLIX
+shadowsocks = bgp4.gemgems.net:10289, method=aes-256-gcm, password=plAC8oF2SpMh, fast-open=false, udp-relay=false, tag=🇸🇬 广新移动BGP1 新加坡3 - NETFLIX
+shadowsocks = 42.157.160.123:15709, method=aes-256-gcm, password=cdYokmRjyEb1, fast-open=false, udp-relay=false, tag=🇸🇬 苏新电信BGP1 新加坡5 - NETFLIX
+shadowsocks = bgp1.gemgems.net:9657, method=aes-256-gcm, password=4StvDXMGOxmi, fast-open=false, udp-relay=false, tag=🇯🇵 沪日电信BGP1 日本1 - NETFLIX
+shadowsocks = bgp3.gemgems.net:9657, method=aes-256-gcm, password=4StvDXMGOxmi, fast-open=false, udp-relay=false, tag=🇯🇵 沪日联通BGP1 日本1 - NETFLIX
+shadowsocks = 45.93.217.185:9657, method=aes-256-gcm, password=4StvDXMGOxmi, fast-open=false, udp-relay=false, tag=🇯🇵 日本直连线路1 - NETFLIX
+shadowsocks = bgp1.gemgems.net:11462, method=aes-256-gcm, password=kBX9w3NH39So, fast-open=false, udp-relay=false, tag=🇯🇵 沪日电信BGP1 日本2 - NETFLIX
+shadowsocks = bgp3.gemgems.net:11462, method=aes-256-gcm, password=kBX9w3NH39So, fast-open=false, udp-relay=false, tag=🇯🇵 沪日联通BGP1 日本2 - NETFLIX
+shadowsocks = 185.160.25.69:11462, method=aes-256-gcm, password=kBX9w3NH39So, fast-open=false, udp-relay=false, tag=🇯🇵 日本直连线路2 - NETFLIX
+shadowsocks = bgp1.gemgems.net:11286, method=aes-256-gcm, password=aonz4mHWhmet, fast-open=false, udp-relay=false, tag=🇯🇵 沪日电信BGP1 日本3 - NETFLIX
+shadowsocks = bgp3.gemgems.net:11286, method=aes-256-gcm, password=aonz4mHWhmet, fast-open=false, udp-relay=false, tag=🇯🇵 沪日联通BGP1 日本3 - NETFLIX
+shadowsocks = 185.172.114.77:11286, method=aes-256-gcm, password=aonz4mHWhmet, fast-open=false, udp-relay=false, tag=🇯🇵 日本直连线路3 - NETFLIX
+shadowsocks = bgp3.gemgems.net:14301, method=aes-256-gcm, password=WWtYTj7GzW9c, fast-open=false, udp-relay=false, tag=🇯🇵 沪日联通BGP1 日本4 - NETFLIX
+shadowsocks = 185.160.24.199:14301, method=aes-256-gcm, password=WWtYTj7GzW9c, fast-open=false, udp-relay=false, tag=🇯🇵 日本4 直连线路 - NETFLIX
+shadowsocks = bgp1.gemgems.net:9307, method=aes-256-gcm, password=FiobCeZoNfz1, fast-open=false, udp-relay=false, tag=🇺🇸 沪美电信BGP1 费利蒙1
+shadowsocks = bgp3.gemgems.net:9307, method=aes-256-gcm, password=FiobCeZoNfz1, fast-open=false, udp-relay=false, tag=🇺🇸 沪美联通BGP1 费利蒙1
+shadowsocks = bgp4.gemgems.net:9307, method=aes-256-gcm, password=FiobCeZoNfz1, fast-open=false, udp-relay=false, tag=🇺🇸 广美移动BGP1 费利蒙1
+shadowsocks = 173.255.209.163:9307, method=aes-256-gcm, password=FiobCeZoNfz1, fast-open=false, udp-relay=false, tag=🇺🇸 美国费利蒙直连线路1
+shadowsocks = bgp1.gemgems.net:14482, method=aes-256-gcm, password=b738FrNLXhB0, fast-open=false, udp-relay=false, tag=🇺🇸 沪美电信BGP1 费利蒙2
+shadowsocks = bgp3.gemgems.net:14482, method=aes-256-gcm, password=b738FrNLXhB0, fast-open=false, udp-relay=false, tag=🇺🇸 沪美联通BGP1 费利蒙2
+shadowsocks = bgp4.gemgems.net:14482, method=aes-256-gcm, password=b738FrNLXhB0, fast-open=false, udp-relay=false, tag=🇺🇸 广美移动BGP1 费利蒙2
+shadowsocks = 23.239.2.128:14482, method=aes-256-gcm, password=b738FrNLXhB0, fast-open=false, udp-relay=false, tag=🇺🇸 美国费利蒙直连线路2
+shadowsocks = bgp3.gemgems.net:11852, method=aes-256-gcm, password=UavwwFOjfQvL, fast-open=false, udp-relay=false, tag=🇺🇸 沪美联通BGP1 费利蒙3
+shadowsocks = bgp4.gemgems.net:11852, method=aes-256-gcm, password=UavwwFOjfQvL, fast-open=false, udp-relay=false, tag=🇺🇸 广美移动BGP1 费利蒙3
+shadowsocks = 45.56.95.66:11852, method=aes-256-gcm, password=UavwwFOjfQvL, fast-open=false, udp-relay=false, tag=🇺🇸 美国费利蒙直连线路3
+http = cm-hk.stunnel.vip:4700, username=none, password=none, over-tls=true, fast-open=false, udp-relay=false, tls-verification=true, tag=🇭🇰 【Ghelper】HK/香港
