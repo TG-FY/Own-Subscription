@@ -1,3 +1,15 @@
-vmess=hinet-143.ddns-only.xyz:17602, method=aes-128-gcm, password=eba4a5bd-2cb7-3222-b48e-e87dc25a8e89, obfs=ws, obfs-host=hinet-143.ddns-only.xyz, obfs-uri=/jdy, fast-open=false, udp-relay=false, tag=入门-602|台湾|解锁流|1倍流量|V2ray
-vmess=hinet-142.ddns-only.xyz:49601, method=aes-128-gcm, password=eba4a5bd-2cb7-3222-b48e-e87dc25a8e89, obfs=ws, obfs-host=hinet-142.ddns-only.xyz, obfs-uri=/jdy, fast-open=false, udp-relay=false, tag=入门-601|台湾|解锁流|1倍流量|V2ray
+trojan = 120.209.53.122:40001, password=1a4ca082, over-tls=true, tls-host=, udp-relay=true, tls-verification=false, tag=安徽移动1
+trojan = 120.209.53.122:50001, password=1a4ca082, over-tls=true, tls-host=, udp-relay=true, tls-verification=false, tag=安徽移动2
+trojan = 120.209.53.122:54321, password=1a4ca082, over-tls=true, tls-host=, udp-relay=true, tls-verification=false, tag=安徽移动3
+trojan = 120.209.53.122:60002, password=1a4ca082, over-tls=true, tls-host=, udp-relay=true, tls-verification=false, tag=安徽移动5
+trojan = 111.6.79.107:18201, password=1a4ca082, over-tls=true, tls-host=, udp-relay=true, tls-verification=false, tag=河南移动1
+trojan = 111.6.79.107:18202, password=1a4ca082, over-tls=true, tls-host=, udp-relay=true, tls-verification=false, tag=河南移动2
+trojan = 111.6.79.107:18203, password=1a4ca082, over-tls=true, tls-host=, udp-relay=true, tls-verification=false, tag=河南移动3
+trojan = 111.6.79.107:18204, password=1a4ca082, over-tls=true, tls-host=, udp-relay=true, tls-verification=false, tag=河南移动4
+trojan = 111.6.79.107:18205, password=1a4ca082, over-tls=true, tls-host=, udp-relay=true, tls-verification=false, tag=河南移动5
+trojan = 120.232.43.125:20211, password=1a4ca082, over-tls=true, tls-host=, udp-relay=true, tls-verification=false, tag=广东移动1
+trojan = 120.232.43.125:26211, password=1a4ca082, over-tls=true, tls-host=, udp-relay=true, tls-verification=false, tag=广东移动7
+trojan = 120.232.43.125:27211, password=1a4ca082, over-tls=true, tls-host=, udp-relay=true, tls-verification=false, tag=广东移动8
+trojan = 120.232.43.125:28211, password=1a4ca082, over-tls=true, tls-host=, udp-relay=true, tls-verification=false, tag=广东移动9
+trojan = 120.232.43.125:29211, password=1a4ca082, over-tls=true, tls-host=, udp-relay=true, tls-verification=false, tag=广东移动10
 
