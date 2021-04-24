@@ -9,7 +9,7 @@ proxies:
     server: a1.ap.fastqvpn.com
     port: 29980
     type: http
-    username: 437962166004350976
+    username: "437962166004350976"
     password: 83fbdb99-8301-415d-b465-d582fde09d21
     tls: true
     skip-cert-verify: true
@@ -17,7 +17,7 @@ proxies:
     server: a2.ap.fastqvpn.com
     port: 29980
     type: http
-    username: 437962166004350976
+    username: "437962166004350976"
     password: 83fbdb99-8301-415d-b465-d582fde09d21
     tls: true
     skip-cert-verify: true
@@ -25,7 +25,7 @@ proxies:
     server: a3.ap.fastqvpn.com
     port: 29980
     type: http
-    username: 437962166004350976
+    username: "437962166004350976"
     password: 83fbdb99-8301-415d-b465-d582fde09d21
     tls: true
     skip-cert-verify: true
@@ -33,7 +33,7 @@ proxies:
     server: a4.ap.fastqvpn.com
     port: 29980
     type: http
-    username: 437962166004350976
+    username: "437962166004350976"
     password: 83fbdb99-8301-415d-b465-d582fde09d21
     tls: true
     skip-cert-verify: true
@@ -41,7 +41,7 @@ proxies:
     server: a5.ap.fastqvpn.com
     port: 29980
     type: http
-    username: 437962166004350976
+    username: "437962166004350976"
     password: 83fbdb99-8301-415d-b465-d582fde09d21
     tls: true
     skip-cert-verify: true
@@ -49,7 +49,7 @@ proxies:
     server: global.ap.fastqvpn.com
     port: 29980
     type: http
-    username: 437962166004350976
+    username: "437962166004350976"
     password: 83fbdb99-8301-415d-b465-d582fde09d21
     tls: true
     skip-cert-verify: true
@@ -57,7 +57,7 @@ proxies:
     server: global.ap.fastqvpn.com
     port: 29986
     type: http
-    username: 437962166004350976
+    username: "437962166004350976"
     password: 83fbdb99-8301-415d-b465-d582fde09d21
     tls: true
     skip-cert-verify: true
@@ -65,7 +65,7 @@ proxies:
     server: tx.wy.fastqvpn.com
     port: 29980
     type: http
-    username: 437962166004350976
+    username: "437962166004350976"
     password: 83fbdb99-8301-415d-b465-d582fde09d21
     tls: true
     skip-cert-verify: false
@@ -73,7 +73,7 @@ proxies:
     server: tx.wy.fastqvpn.com
     port: 29986
     type: http
-    username: 437962166004350976
+    username: "437962166004350976"
     password: 83fbdb99-8301-415d-b465-d582fde09d21
     tls: true
     skip-cert-verify: false
@@ -81,7 +81,7 @@ proxies:
     server: a1.er3.xyz
     port: 29980
     type: http
-    username: 437962166004350976
+    username: "437962166004350976"
     password: 83fbdb99-8301-415d-b465-d582fde09d21
     tls: true
     skip-cert-verify: false
@@ -89,7 +89,7 @@ proxies:
     server: a1.er3.xyz
     port: 29986
     type: http
-    username: 437962166004350976
+    username: "437962166004350976"
     password: 83fbdb99-8301-415d-b465-d582fde09d21
     tls: true
     skip-cert-verify: false
@@ -97,7 +97,7 @@ proxies:
     server: ap1-ge.er3.xyz
     port: 29980
     type: http
-    username: 437962166004350976
+    username: "437962166004350976"
     password: 83fbdb99-8301-415d-b465-d582fde09d21
     tls: true
     skip-cert-verify: false
@@ -105,7 +105,7 @@ proxies:
     server: ap1-ge.er3.xyz
     port: 29986
     type: http
-    username: 437962166004350976
+    username: "437962166004350976"
     password: 83fbdb99-8301-415d-b465-d582fde09d21
     tls: true
     skip-cert-verify: false
@@ -113,7 +113,7 @@ proxies:
     server: ap1-sg.er3.xyz
     port: 29980
     type: http
-    username: 437962166004350976
+    username: "437962166004350976"
     password: 83fbdb99-8301-415d-b465-d582fde09d21
     tls: true
     skip-cert-verify: false
@@ -121,7 +121,7 @@ proxies:
     server: ap1-sg.er3.xyz
     port: 29982
     type: http
-    username: 437962166004350976
+    username: "437962166004350976"
     password: 83fbdb99-8301-415d-b465-d582fde09d21
     tls: true
     skip-cert-verify: false
@@ -129,7 +129,7 @@ proxies:
     server: ap1-sg.er3.xyz
     port: 29983
     type: http
-    username: 437962166004350976
+    username: "437962166004350976"
     password: 83fbdb99-8301-415d-b465-d582fde09d21
     tls: true
     skip-cert-verify: false
@@ -137,7 +137,7 @@ proxies:
     server: ap1-sg.er3.xyz
     port: 29984
     type: http
-    username: 437962166004350976
+    username: "437962166004350976"
     password: 83fbdb99-8301-415d-b465-d582fde09d21
     tls: true
     skip-cert-verify: false
@@ -145,7 +145,7 @@ proxies:
     server: ap1-sg.er3.xyz
     port: 29985
     type: http
-    username: 437962166004350976
+    username: "437962166004350976"
     password: 83fbdb99-8301-415d-b465-d582fde09d21
     tls: true
     skip-cert-verify: false
@@ -153,7 +153,7 @@ proxies:
     server: ap1-sg.er3.xyz
     port: 29986
     type: http
-    username: 437962166004350976
+    username: "437962166004350976"
     password: 83fbdb99-8301-415d-b465-d582fde09d21
     tls: true
     skip-cert-verify: false
@@ -161,7 +161,7 @@ proxies:
     server: ap1-sg.er3.xyz
     port: 29987
     type: http
-    username: 437962166004350976
+    username: "437962166004350976"
     password: 83fbdb99-8301-415d-b465-d582fde09d21
     tls: true
     skip-cert-verify: false
@@ -169,7 +169,7 @@ proxies:
     server: ap1-sg.er3.xyz
     port: 29988
     type: http
-    username: 437962166004350976
+    username: "437962166004350976"
     password: 83fbdb99-8301-415d-b465-d582fde09d21
     tls: true
     skip-cert-verify: false
@@ -177,7 +177,7 @@ proxies:
     server: tw01.pjj.life
     port: 29980
     type: http
-    username: 437962166004350976
+    username: "437962166004350976"
     password: 83fbdb99-8301-415d-b465-d582fde09d21
     tls: true
     skip-cert-verify: false
@@ -185,7 +185,7 @@ proxies:
     server: tw02.pjj.life
     port: 29980
     type: http
-    username: 437962166004350976
+    username: "437962166004350976"
     password: 83fbdb99-8301-415d-b465-d582fde09d21
     tls: true
     skip-cert-verify: false
@@ -193,7 +193,7 @@ proxies:
     server: tw03.pjj.life
     port: 29980
     type: http
-    username: 437962166004350976
+    username: "437962166004350976"
     password: 83fbdb99-8301-415d-b465-d582fde09d21
     tls: true
     skip-cert-verify: false
@@ -201,7 +201,7 @@ proxies:
     server: tw04.pjj.life
     port: 29980
     type: http
-    username: 437962166004350976
+    username: "437962166004350976"
     password: 83fbdb99-8301-415d-b465-d582fde09d21
     tls: true
     skip-cert-verify: false
@@ -209,7 +209,7 @@ proxies:
     server: sk03.pjj.life
     port: 29980
     type: http
-    username: 437962166004350976
+    username: "437962166004350976"
     password: 83fbdb99-8301-415d-b465-d582fde09d21
     tls: true
     skip-cert-verify: false
@@ -217,7 +217,7 @@ proxies:
     server: sk04.pjj.life
     port: 29980
     type: http
-    username: 437962166004350976
+    username: "437962166004350976"
     password: 83fbdb99-8301-415d-b465-d582fde09d21
     tls: true
     skip-cert-verify: false
@@ -225,7 +225,7 @@ proxies:
     server: sg01.pjj.life
     port: 29980
     type: http
-    username: 437962166004350976
+    username: "437962166004350976"
     password: 83fbdb99-8301-415d-b465-d582fde09d21
     tls: true
     skip-cert-verify: false
@@ -233,7 +233,7 @@ proxies:
     server: sg02.pjj.life
     port: 29980
     type: http
-    username: 437962166004350976
+    username: "437962166004350976"
     password: 83fbdb99-8301-415d-b465-d582fde09d21
     tls: true
     skip-cert-verify: false
@@ -241,7 +241,7 @@ proxies:
     server: sg03.pjj.life
     port: 29980
     type: http
-    username: 437962166004350976
+    username: "437962166004350976"
     password: 83fbdb99-8301-415d-b465-d582fde09d21
     tls: true
     skip-cert-verify: false
@@ -249,7 +249,7 @@ proxies:
     server: sg04.pjj.life
     port: 29980
     type: http
-    username: 437962166004350976
+    username: "437962166004350976"
     password: 83fbdb99-8301-415d-b465-d582fde09d21
     tls: true
     skip-cert-verify: false
