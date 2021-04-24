@@ -6,7 +6,7 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: 🇯🇵 日本_AWS, server: 3.112.193.236, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇰🇷 韩国_AWS, server: 3.34.127.100, port: 444, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇰🇷 韩国_AWS, server: 3.36.124.242, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇸🇬 新加坡_AWS, server: 13.212.113.145, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇺🇸 美国_AWS, server: 18.236.138.147, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇨🇳 Lv1 台湾 C | Netflix, server: hinet.rdns.link, port: 50023, type: ssr, cipher: aes-256-cfb, password: Getfree.Cloud, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 12545:8gzh6I, obfs-param: 46f8112545.software-download.microsoft.com}
