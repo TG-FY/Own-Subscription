@@ -5,38 +5,260 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 香港 A1, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: 437962166004350976, password: 83fbdb99-8301-415d-b465-d582fde09d21, tls: true, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 A2, server: a2.ap.fastqvpn.com, port: 29980, type: http, username: 437962166004350976, password: 83fbdb99-8301-415d-b465-d582fde09d21, tls: true, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 A3, server: a3.ap.fastqvpn.com, port: 29980, type: http, username: 437962166004350976, password: 83fbdb99-8301-415d-b465-d582fde09d21, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡 A4, server: a4.ap.fastqvpn.com, port: 29980, type: http, username: 437962166004350976, password: 83fbdb99-8301-415d-b465-d582fde09d21, tls: true, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 A5, server: a5.ap.fastqvpn.com, port: 29980, type: http, username: 437962166004350976, password: 83fbdb99-8301-415d-b465-d582fde09d21, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡 GL1, server: global.ap.fastqvpn.com, port: 29980, type: http, username: 437962166004350976, password: 83fbdb99-8301-415d-b465-d582fde09d21, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡 GL2, server: global.ap.fastqvpn.com, port: 29986, type: http, username: 437962166004350976, password: 83fbdb99-8301-415d-b465-d582fde09d21, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡 WY1, server: tx.wy.fastqvpn.com, port: 29980, type: http, username: 437962166004350976, password: 83fbdb99-8301-415d-b465-d582fde09d21, tls: true, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡 WY2, server: tx.wy.fastqvpn.com, port: 29986, type: http, username: 437962166004350976, password: 83fbdb99-8301-415d-b465-d582fde09d21, tls: true, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡 ER1, server: a1.er3.xyz, port: 29980, type: http, username: 437962166004350976, password: 83fbdb99-8301-415d-b465-d582fde09d21, tls: true, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡 ER2, server: a1.er3.xyz, port: 29986, type: http, username: 437962166004350976, password: 83fbdb99-8301-415d-b465-d582fde09d21, tls: true, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡 GE1, server: ap1-ge.er3.xyz, port: 29980, type: http, username: 437962166004350976, password: 83fbdb99-8301-415d-b465-d582fde09d21, tls: true, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡 GE2, server: ap1-ge.er3.xyz, port: 29986, type: http, username: 437962166004350976, password: 83fbdb99-8301-415d-b465-d582fde09d21, tls: true, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡 ER3, server: ap1-sg.er3.xyz, port: 29980, type: http, username: 437962166004350976, password: 83fbdb99-8301-415d-b465-d582fde09d21, tls: true, skip-cert-verify: false}
-  - {name: 🇦🇺 澳大利亚 ER, server: ap1-sg.er3.xyz, port: 29982, type: http, username: 437962166004350976, password: 83fbdb99-8301-415d-b465-d582fde09d21, tls: true, skip-cert-verify: false}
-  - {name: 🇨🇦 加拿大 ER, server: ap1-sg.er3.xyz, port: 29983, type: http, username: 437962166004350976, password: 83fbdb99-8301-415d-b465-d582fde09d21, tls: true, skip-cert-verify: false}
-  - {name: 🇩🇪 德国 ER, server: ap1-sg.er3.xyz, port: 29984, type: http, username: 437962166004350976, password: 83fbdb99-8301-415d-b465-d582fde09d21, tls: true, skip-cert-verify: false}
-  - {name: 🇯🇵 日本 ER, server: ap1-sg.er3.xyz, port: 29985, type: http, username: 437962166004350976, password: 83fbdb99-8301-415d-b465-d582fde09d21, tls: true, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡 ER4, server: ap1-sg.er3.xyz, port: 29986, type: http, username: 437962166004350976, password: 83fbdb99-8301-415d-b465-d582fde09d21, tls: true, skip-cert-verify: false}
-  - {name: 🇬🇧 英国 ER, server: ap1-sg.er3.xyz, port: 29987, type: http, username: 437962166004350976, password: 83fbdb99-8301-415d-b465-d582fde09d21, tls: true, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 ER, server: ap1-sg.er3.xyz, port: 29988, type: http, username: 437962166004350976, password: 83fbdb99-8301-415d-b465-d582fde09d21, tls: true, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡 PJJ1, server: tw01.pjj.life, port: 29980, type: http, username: 437962166004350976, password: 83fbdb99-8301-415d-b465-d582fde09d21, tls: true, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡 PJJ2, server: tw02.pjj.life, port: 29980, type: http, username: 437962166004350976, password: 83fbdb99-8301-415d-b465-d582fde09d21, tls: true, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡 PJJ3, server: tw03.pjj.life, port: 29980, type: http, username: 437962166004350976, password: 83fbdb99-8301-415d-b465-d582fde09d21, tls: true, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡 PJJ4, server: tw04.pjj.life, port: 29980, type: http, username: 437962166004350976, password: 83fbdb99-8301-415d-b465-d582fde09d21, tls: true, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡 PJJ5, server: sk03.pjj.life, port: 29980, type: http, username: 437962166004350976, password: 83fbdb99-8301-415d-b465-d582fde09d21, tls: true, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡 PJJ6, server: sk04.pjj.life, port: 29980, type: http, username: 437962166004350976, password: 83fbdb99-8301-415d-b465-d582fde09d21, tls: true, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡 PJJ7, server: sg01.pjj.life, port: 29980, type: http, username: 437962166004350976, password: 83fbdb99-8301-415d-b465-d582fde09d21, tls: true, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡 PJJ8, server: sg02.pjj.life, port: 29980, type: http, username: 437962166004350976, password: 83fbdb99-8301-415d-b465-d582fde09d21, tls: true, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡 PJJ9, server: sg03.pjj.life, port: 29980, type: http, username: 437962166004350976, password: 83fbdb99-8301-415d-b465-d582fde09d21, tls: true, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡 PJJ0, server: sg04.pjj.life, port: 29980, type: http, username: 437962166004350976, password: 83fbdb99-8301-415d-b465-d582fde09d21, tls: true, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 Ghelper VIP, server: cm-hk.stunnel.vip, port: 4700, type: http, tls: true, skip-cert-verify: false}
+  - name: 🇭🇰 香港 A1
+    server: a1.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: 437962166004350976
+    password: 83fbdb99-8301-415d-b465-d582fde09d21
+    tls: true
+    skip-cert-verify: true
+  - name: 🇭🇰 香港 A2
+    server: a2.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: 437962166004350976
+    password: 83fbdb99-8301-415d-b465-d582fde09d21
+    tls: true
+    skip-cert-verify: true
+  - name: 🇭🇰 香港 A3
+    server: a3.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: 437962166004350976
+    password: 83fbdb99-8301-415d-b465-d582fde09d21
+    tls: true
+    skip-cert-verify: true
+  - name: 🇸🇬 新加坡 A4
+    server: a4.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: 437962166004350976
+    password: 83fbdb99-8301-415d-b465-d582fde09d21
+    tls: true
+    skip-cert-verify: true
+  - name: 🇭🇰 香港 A5
+    server: a5.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: 437962166004350976
+    password: 83fbdb99-8301-415d-b465-d582fde09d21
+    tls: true
+    skip-cert-verify: true
+  - name: 🇸🇬 新加坡 GL1
+    server: global.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: 437962166004350976
+    password: 83fbdb99-8301-415d-b465-d582fde09d21
+    tls: true
+    skip-cert-verify: true
+  - name: 🇸🇬 新加坡 GL2
+    server: global.ap.fastqvpn.com
+    port: 29986
+    type: http
+    username: 437962166004350976
+    password: 83fbdb99-8301-415d-b465-d582fde09d21
+    tls: true
+    skip-cert-verify: true
+  - name: 🇸🇬 新加坡 WY1
+    server: tx.wy.fastqvpn.com
+    port: 29980
+    type: http
+    username: 437962166004350976
+    password: 83fbdb99-8301-415d-b465-d582fde09d21
+    tls: true
+    skip-cert-verify: false
+  - name: 🇸🇬 新加坡 WY2
+    server: tx.wy.fastqvpn.com
+    port: 29986
+    type: http
+    username: 437962166004350976
+    password: 83fbdb99-8301-415d-b465-d582fde09d21
+    tls: true
+    skip-cert-verify: false
+  - name: 🇸🇬 新加坡 ER1
+    server: a1.er3.xyz
+    port: 29980
+    type: http
+    username: 437962166004350976
+    password: 83fbdb99-8301-415d-b465-d582fde09d21
+    tls: true
+    skip-cert-verify: false
+  - name: 🇸🇬 新加坡 ER2
+    server: a1.er3.xyz
+    port: 29986
+    type: http
+    username: 437962166004350976
+    password: 83fbdb99-8301-415d-b465-d582fde09d21
+    tls: true
+    skip-cert-verify: false
+  - name: 🇸🇬 新加坡 GE1
+    server: ap1-ge.er3.xyz
+    port: 29980
+    type: http
+    username: 437962166004350976
+    password: 83fbdb99-8301-415d-b465-d582fde09d21
+    tls: true
+    skip-cert-verify: false
+  - name: 🇸🇬 新加坡 GE2
+    server: ap1-ge.er3.xyz
+    port: 29986
+    type: http
+    username: 437962166004350976
+    password: 83fbdb99-8301-415d-b465-d582fde09d21
+    tls: true
+    skip-cert-verify: false
+  - name: 🇸🇬 新加坡 ER3
+    server: ap1-sg.er3.xyz
+    port: 29980
+    type: http
+    username: 437962166004350976
+    password: 83fbdb99-8301-415d-b465-d582fde09d21
+    tls: true
+    skip-cert-verify: false
+  - name: 🇦🇺 澳大利亚 ER
+    server: ap1-sg.er3.xyz
+    port: 29982
+    type: http
+    username: 437962166004350976
+    password: 83fbdb99-8301-415d-b465-d582fde09d21
+    tls: true
+    skip-cert-verify: false
+  - name: 🇨🇦 加拿大 ER
+    server: ap1-sg.er3.xyz
+    port: 29983
+    type: http
+    username: 437962166004350976
+    password: 83fbdb99-8301-415d-b465-d582fde09d21
+    tls: true
+    skip-cert-verify: false
+  - name: 🇩🇪 德国 ER
+    server: ap1-sg.er3.xyz
+    port: 29984
+    type: http
+    username: 437962166004350976
+    password: 83fbdb99-8301-415d-b465-d582fde09d21
+    tls: true
+    skip-cert-verify: false
+  - name: 🇯🇵 日本 ER
+    server: ap1-sg.er3.xyz
+    port: 29985
+    type: http
+    username: 437962166004350976
+    password: 83fbdb99-8301-415d-b465-d582fde09d21
+    tls: true
+    skip-cert-verify: false
+  - name: 🇸🇬 新加坡 ER4
+    server: ap1-sg.er3.xyz
+    port: 29986
+    type: http
+    username: 437962166004350976
+    password: 83fbdb99-8301-415d-b465-d582fde09d21
+    tls: true
+    skip-cert-verify: false
+  - name: 🇬🇧 英国 ER
+    server: ap1-sg.er3.xyz
+    port: 29987
+    type: http
+    username: 437962166004350976
+    password: 83fbdb99-8301-415d-b465-d582fde09d21
+    tls: true
+    skip-cert-verify: false
+  - name: 🇺🇸 美国 ER
+    server: ap1-sg.er3.xyz
+    port: 29988
+    type: http
+    username: 437962166004350976
+    password: 83fbdb99-8301-415d-b465-d582fde09d21
+    tls: true
+    skip-cert-verify: false
+  - name: 🇸🇬 新加坡 PJJ1
+    server: tw01.pjj.life
+    port: 29980
+    type: http
+    username: 437962166004350976
+    password: 83fbdb99-8301-415d-b465-d582fde09d21
+    tls: true
+    skip-cert-verify: false
+  - name: 🇸🇬 新加坡 PJJ2
+    server: tw02.pjj.life
+    port: 29980
+    type: http
+    username: 437962166004350976
+    password: 83fbdb99-8301-415d-b465-d582fde09d21
+    tls: true
+    skip-cert-verify: false
+  - name: 🇸🇬 新加坡 PJJ3
+    server: tw03.pjj.life
+    port: 29980
+    type: http
+    username: 437962166004350976
+    password: 83fbdb99-8301-415d-b465-d582fde09d21
+    tls: true
+    skip-cert-verify: false
+  - name: 🇸🇬 新加坡 PJJ4
+    server: tw04.pjj.life
+    port: 29980
+    type: http
+    username: 437962166004350976
+    password: 83fbdb99-8301-415d-b465-d582fde09d21
+    tls: true
+    skip-cert-verify: false
+  - name: 🇸🇬 新加坡 PJJ5
+    server: sk03.pjj.life
+    port: 29980
+    type: http
+    username: 437962166004350976
+    password: 83fbdb99-8301-415d-b465-d582fde09d21
+    tls: true
+    skip-cert-verify: false
+  - name: 🇸🇬 新加坡 PJJ6
+    server: sk04.pjj.life
+    port: 29980
+    type: http
+    username: 437962166004350976
+    password: 83fbdb99-8301-415d-b465-d582fde09d21
+    tls: true
+    skip-cert-verify: false
+  - name: 🇸🇬 新加坡 PJJ7
+    server: sg01.pjj.life
+    port: 29980
+    type: http
+    username: 437962166004350976
+    password: 83fbdb99-8301-415d-b465-d582fde09d21
+    tls: true
+    skip-cert-verify: false
+  - name: 🇸🇬 新加坡 PJJ8
+    server: sg02.pjj.life
+    port: 29980
+    type: http
+    username: 437962166004350976
+    password: 83fbdb99-8301-415d-b465-d582fde09d21
+    tls: true
+    skip-cert-verify: false
+  - name: 🇸🇬 新加坡 PJJ9
+    server: sg03.pjj.life
+    port: 29980
+    type: http
+    username: 437962166004350976
+    password: 83fbdb99-8301-415d-b465-d582fde09d21
+    tls: true
+    skip-cert-verify: false
+  - name: 🇸🇬 新加坡 PJJ0
+    server: sg04.pjj.life
+    port: 29980
+    type: http
+    username: 437962166004350976
+    password: 83fbdb99-8301-415d-b465-d582fde09d21
+    tls: true
+    skip-cert-verify: false
+  - name: 🇭🇰 香港 Ghelper VIP
+    server: cm-hk.stunnel.vip
+    port: 4700
+    type: http
+    tls: true
+    skip-cert-verify: false
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -9326,4 +9548,3 @@ rules:
  - PROCESS-NAME,baidunetdisk.exe,🎯 全球直连
  - GEOIP,CN,🎯 全球直连
  - MATCH,🐟 漏网之鱼
-
