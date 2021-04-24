@@ -68,7 +68,7 @@ proxies:
     username: "437962166004350976"
     password: 83fbdb99-8301-415d-b465-d582fde09d21
     tls: true
-    skip-cert-verify: false
+    skip-cert-verify: true
   - name: 🇸🇬 新加坡 WY2
     server: tx.wy.fastqvpn.com
     port: 29986
