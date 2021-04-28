@@ -9,250 +9,122 @@ proxies:
     server: a1.ap.fastqvpn.com
     port: 29980
     type: http
-    username: "437962166004350976"
+    username: 437962166004350976
     password: 83fbdb99-8301-415d-b465-d582fde09d21
     tls: true
-    skip-cert-verify: true
+    skip-cert-verify: false
   - name: 🇭🇰 香港-新加坡 A2
     server: a2.ap.fastqvpn.com
     port: 29980
     type: http
-    username: "437962166004350976"
+    username: 437962166004350976
     password: 83fbdb99-8301-415d-b465-d582fde09d21
     tls: true
-    skip-cert-verify: true
+    skip-cert-verify: false
   - name: 🇭🇰 香港-新加坡 A3
     server: a3.ap.fastqvpn.com
     port: 29980
     type: http
-    username: "437962166004350976"
+    username: 437962166004350976
     password: 83fbdb99-8301-415d-b465-d582fde09d21
     tls: true
-    skip-cert-verify: true
+    skip-cert-verify: false
   - name: 🇭🇰 香港-新加坡 A4
     server: a4.ap.fastqvpn.com
     port: 29980
     type: http
-    username: "437962166004350976"
+    username: 437962166004350976
     password: 83fbdb99-8301-415d-b465-d582fde09d21
     tls: true
-    skip-cert-verify: true
+    skip-cert-verify: false
   - name: 🇭🇰 香港-新加坡 A5
     server: a5.ap.fastqvpn.com
     port: 29980
     type: http
-    username: "437962166004350976"
+    username: 437962166004350976
     password: 83fbdb99-8301-415d-b465-d582fde09d21
     tls: true
-    skip-cert-verify: true
-  - name: 🇸🇬 新加坡 GL1
-    server: global.ap.fastqvpn.com
-    port: 29980
-    type: http
-    username: "437962166004350976"
-    password: 83fbdb99-8301-415d-b465-d582fde09d21
-    tls: true
-    skip-cert-verify: true
-  - name: 🇸🇬 新加坡 GL2
-    server: global.ap.fastqvpn.com
-    port: 29986
-    type: http
-    username: "437962166004350976"
-    password: 83fbdb99-8301-415d-b465-d582fde09d21
-    tls: true
-    skip-cert-verify: true
-  - name: 🇸🇬 新加坡 WY1
+    skip-cert-verify: false
+  - name: 🇭🇰 香港 WY
     server: tx.wy.fastqvpn.com
     port: 29980
     type: http
-    username: "437962166004350976"
+    username: 437962166004350976
     password: 83fbdb99-8301-415d-b465-d582fde09d21
     tls: true
-    skip-cert-verify: true
-  - name: 🇸🇬 新加坡 WY2
+    skip-cert-verify: false
+  - name: 🇦🇺 澳大利亚 WY
     server: tx.wy.fastqvpn.com
-    port: 29986
-    type: http
-    username: "437962166004350976"
-    password: 83fbdb99-8301-415d-b465-d582fde09d21
-    tls: true
-    skip-cert-verify: true
-  - name: 🇸🇬 新加坡 ER1
-    server: a1.er3.xyz
-    port: 29980
-    type: http
-    username: "437962166004350976"
-    password: 83fbdb99-8301-415d-b465-d582fde09d21
-    tls: true
-    skip-cert-verify: true
-  - name: 🇸🇬 新加坡 ER2
-    server: a1.er3.xyz
-    port: 29986
-    type: http
-    username: "437962166004350976"
-    password: 83fbdb99-8301-415d-b465-d582fde09d21
-    tls: true
-    skip-cert-verify: true
-  - name: 🇸🇬 新加坡 GE1
-    server: ap1-ge.er3.xyz
-    port: 29980
-    type: http
-    username: "437962166004350976"
-    password: 83fbdb99-8301-415d-b465-d582fde09d21
-    tls: true
-    skip-cert-verify: true
-  - name: 🇸🇬 新加坡 GE2
-    server: ap1-ge.er3.xyz
-    port: 29986
-    type: http
-    username: "437962166004350976"
-    password: 83fbdb99-8301-415d-b465-d582fde09d21
-    tls: true
-    skip-cert-verify: true
-  - name: 🇸🇬 新加坡 ER3
-    server: ap1-sg.er3.xyz
-    port: 29980
-    type: http
-    username: "437962166004350976"
-    password: 83fbdb99-8301-415d-b465-d582fde09d21
-    tls: true
-    skip-cert-verify: true
-  - name: 🇦🇺 澳大利亚 ER
-    server: ap1-sg.er3.xyz
     port: 29982
     type: http
-    username: "437962166004350976"
+    username: 437962166004350976
     password: 83fbdb99-8301-415d-b465-d582fde09d21
     tls: true
-    skip-cert-verify: true
-  - name: 🇨🇦 加拿大 ER
-    server: ap1-sg.er3.xyz
+    skip-cert-verify: false
+  - name: 🇨🇦 加拿大 WY
+    server: tx.wy.fastqvpn.com
     port: 29983
     type: http
-    username: "437962166004350976"
+    username: 437962166004350976
     password: 83fbdb99-8301-415d-b465-d582fde09d21
     tls: true
-    skip-cert-verify: true
-  - name: 🇩🇪 德国 ER
-    server: ap1-sg.er3.xyz
+    skip-cert-verify: false
+  - name: 🇩🇪 德国 WY
+    server: tx.wy.fastqvpn.com
     port: 29984
     type: http
-    username: "437962166004350976"
+    username: 437962166004350976
     password: 83fbdb99-8301-415d-b465-d582fde09d21
     tls: true
-    skip-cert-verify: true
-  - name: 🇯🇵 日本 ER
-    server: ap1-sg.er3.xyz
+    skip-cert-verify: false
+  - name: 🇯🇵 日本 WY
+    server: tx.wy.fastqvpn.com
     port: 29985
     type: http
-    username: "437962166004350976"
+    username: 437962166004350976
     password: 83fbdb99-8301-415d-b465-d582fde09d21
     tls: true
-    skip-cert-verify: true
-  - name: 🇸🇬 新加坡 ER4
-    server: ap1-sg.er3.xyz
+    skip-cert-verify: false
+  - name: 🇸🇬 新加坡 WY
+    server: tx.wy.fastqvpn.com
     port: 29986
     type: http
-    username: "437962166004350976"
+    username: 437962166004350976
     password: 83fbdb99-8301-415d-b465-d582fde09d21
     tls: true
-    skip-cert-verify: true
-  - name: 🇬🇧 英国 ER
-    server: ap1-sg.er3.xyz
+    skip-cert-verify: false
+  - name: 🇬🇧 英国 WY
+    server: tx.wy.fastqvpn.com
     port: 29987
     type: http
-    username: "437962166004350976"
+    username: 437962166004350976
     password: 83fbdb99-8301-415d-b465-d582fde09d21
     tls: true
-    skip-cert-verify: true
-  - name: 🇺🇸 美国 ER
-    server: ap1-sg.er3.xyz
+    skip-cert-verify: false
+  - name: 🇺🇸 美国 WY
+    server: tx.wy.fastqvpn.com
     port: 29988
     type: http
-    username: "437962166004350976"
+    username: 437962166004350976
     password: 83fbdb99-8301-415d-b465-d582fde09d21
     tls: true
-    skip-cert-verify: true
-  - name: 🇸🇬 新加坡 PJJ1
-    server: tw01.pjj.life
+    skip-cert-verify: false
+  - name: 🇭🇰 香港 ER3
+    server: a1.er3.xyz
     port: 29980
     type: http
-    username: "437962166004350976"
+    username: 437962166004350976
     password: 83fbdb99-8301-415d-b465-d582fde09d21
     tls: true
-    skip-cert-verify: true
-  - name: 🇸🇬 新加坡 PJJ2
-    server: tw02.pjj.life
+    skip-cert-verify: false
+  - name: 🇭🇰 香港 CNA
+    server: tx.cna.fastqvpn.com
     port: 29980
     type: http
-    username: "437962166004350976"
+    username: 437962166004350976
     password: 83fbdb99-8301-415d-b465-d582fde09d21
     tls: true
-    skip-cert-verify: true
-  - name: 🇸🇬 新加坡 PJJ3
-    server: tw03.pjj.life
-    port: 29980
-    type: http
-    username: "437962166004350976"
-    password: 83fbdb99-8301-415d-b465-d582fde09d21
-    tls: true
-    skip-cert-verify: true
-  - name: 🇸🇬 新加坡 PJJ4
-    server: tw04.pjj.life
-    port: 29980
-    type: http
-    username: "437962166004350976"
-    password: 83fbdb99-8301-415d-b465-d582fde09d21
-    tls: true
-    skip-cert-verify: true
-  - name: 🇸🇬 新加坡 PJJ5
-    server: sk03.pjj.life
-    port: 29980
-    type: http
-    username: "437962166004350976"
-    password: 83fbdb99-8301-415d-b465-d582fde09d21
-    tls: true
-    skip-cert-verify: true
-  - name: 🇸🇬 新加坡 PJJ6
-    server: sk04.pjj.life
-    port: 29980
-    type: http
-    username: "437962166004350976"
-    password: 83fbdb99-8301-415d-b465-d582fde09d21
-    tls: true
-    skip-cert-verify: true
-  - name: 🇸🇬 新加坡 PJJ7
-    server: sg01.pjj.life
-    port: 29980
-    type: http
-    username: "437962166004350976"
-    password: 83fbdb99-8301-415d-b465-d582fde09d21
-    tls: true
-    skip-cert-verify: true
-  - name: 🇸🇬 新加坡 PJJ8
-    server: sg02.pjj.life
-    port: 29980
-    type: http
-    username: "437962166004350976"
-    password: 83fbdb99-8301-415d-b465-d582fde09d21
-    tls: true
-    skip-cert-verify: true
-  - name: 🇸🇬 新加坡 PJJ9
-    server: sg03.pjj.life
-    port: 29980
-    type: http
-    username: "437962166004350976"
-    password: 83fbdb99-8301-415d-b465-d582fde09d21
-    tls: true
-    skip-cert-verify: true
-  - name: 🇸🇬 新加坡 PJJ0
-    server: sg04.pjj.life
-    port: 29980
-    type: http
-    username: "437962166004350976"
-    password: 83fbdb99-8301-415d-b465-d582fde09d21
-    tls: true
-    skip-cert-verify: true
+    skip-cert-verify: false
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -274,32 +146,16 @@ proxy-groups:
       - 🇭🇰 香港-新加坡 A3
       - 🇭🇰 香港-新加坡 A4
       - 🇭🇰 香港-新加坡 A5
-      - 🇸🇬 新加坡 GL1
-      - 🇸🇬 新加坡 GL2
-      - 🇸🇬 新加坡 WY1
-      - 🇸🇬 新加坡 WY2
-      - 🇸🇬 新加坡 ER1
-      - 🇸🇬 新加坡 ER2
-      - 🇸🇬 新加坡 GE1
-      - 🇸🇬 新加坡 GE2
-      - 🇸🇬 新加坡 ER3
-      - 🇦🇺 澳大利亚 ER
-      - 🇨🇦 加拿大 ER
-      - 🇩🇪 德国 ER
-      - 🇯🇵 日本 ER
-      - 🇸🇬 新加坡 ER4
-      - 🇬🇧 英国 ER
-      - 🇺🇸 美国 ER
-      - 🇸🇬 新加坡 PJJ1
-      - 🇸🇬 新加坡 PJJ2
-      - 🇸🇬 新加坡 PJJ3
-      - 🇸🇬 新加坡 PJJ4
-      - 🇸🇬 新加坡 PJJ5
-      - 🇸🇬 新加坡 PJJ6
-      - 🇸🇬 新加坡 PJJ7
-      - 🇸🇬 新加坡 PJJ8
-      - 🇸🇬 新加坡 PJJ9
-      - 🇸🇬 新加坡 PJJ0
+      - 🇭🇰 香港 WY
+      - 🇦🇺 澳大利亚 WY
+      - 🇨🇦 加拿大 WY
+      - 🇩🇪 德国 WY
+      - 🇯🇵 日本 WY
+      - 🇸🇬 新加坡 WY
+      - 🇬🇧 英国 WY
+      - 🇺🇸 美国 WY
+      - 🇭🇰 香港 ER3
+      - 🇭🇰 香港 CNA
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -311,32 +167,16 @@ proxy-groups:
       - 🇭🇰 香港-新加坡 A3
       - 🇭🇰 香港-新加坡 A4
       - 🇭🇰 香港-新加坡 A5
-      - 🇸🇬 新加坡 GL1
-      - 🇸🇬 新加坡 GL2
-      - 🇸🇬 新加坡 WY1
-      - 🇸🇬 新加坡 WY2
-      - 🇸🇬 新加坡 ER1
-      - 🇸🇬 新加坡 ER2
-      - 🇸🇬 新加坡 GE1
-      - 🇸🇬 新加坡 GE2
-      - 🇸🇬 新加坡 ER3
-      - 🇦🇺 澳大利亚 ER
-      - 🇨🇦 加拿大 ER
-      - 🇩🇪 德国 ER
-      - 🇯🇵 日本 ER
-      - 🇸🇬 新加坡 ER4
-      - 🇬🇧 英国 ER
-      - 🇺🇸 美国 ER
-      - 🇸🇬 新加坡 PJJ1
-      - 🇸🇬 新加坡 PJJ2
-      - 🇸🇬 新加坡 PJJ3
-      - 🇸🇬 新加坡 PJJ4
-      - 🇸🇬 新加坡 PJJ5
-      - 🇸🇬 新加坡 PJJ6
-      - 🇸🇬 新加坡 PJJ7
-      - 🇸🇬 新加坡 PJJ8
-      - 🇸🇬 新加坡 PJJ9
-      - 🇸🇬 新加坡 PJJ0
+      - 🇭🇰 香港 WY
+      - 🇦🇺 澳大利亚 WY
+      - 🇨🇦 加拿大 WY
+      - 🇩🇪 德国 WY
+      - 🇯🇵 日本 WY
+      - 🇸🇬 新加坡 WY
+      - 🇬🇧 英国 WY
+      - 🇺🇸 美国 WY
+      - 🇭🇰 香港 ER3
+      - 🇭🇰 香港 CNA
   - name: 📲 电报消息
     type: select
     proxies:
@@ -518,20 +358,23 @@ proxy-groups:
       - 🇭🇰 香港-新加坡 A3
       - 🇭🇰 香港-新加坡 A4
       - 🇭🇰 香港-新加坡 A5
+      - 🇭🇰 香港 WY
+      - 🇭🇰 香港 ER3
+      - 🇭🇰 香港 CNA
   - name: 🇯🇵 日本节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵 日本 ER
+      - 🇯🇵 日本 WY
   - name: 🇺🇲 美国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 150
     proxies:
-      - 🇺🇸 美国 ER
+      - 🇺🇸 美国 WY
   - name: 🇨🇳 台湾节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -545,26 +388,12 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇸🇬 新加坡 GL1
-      - 🇸🇬 新加坡 GL2
-      - 🇸🇬 新加坡 WY1
-      - 🇸🇬 新加坡 WY2
-      - 🇸🇬 新加坡 ER1
-      - 🇸🇬 新加坡 ER2
-      - 🇸🇬 新加坡 GE1
-      - 🇸🇬 新加坡 GE2
-      - 🇸🇬 新加坡 ER3
-      - 🇸🇬 新加坡 ER4
-      - 🇸🇬 新加坡 PJJ1
-      - 🇸🇬 新加坡 PJJ2
-      - 🇸🇬 新加坡 PJJ3
-      - 🇸🇬 新加坡 PJJ4
-      - 🇸🇬 新加坡 PJJ5
-      - 🇸🇬 新加坡 PJJ6
-      - 🇸🇬 新加坡 PJJ7
-      - 🇸🇬 新加坡 PJJ8
-      - 🇸🇬 新加坡 PJJ9
-      - 🇸🇬 新加坡 PJJ0
+      - 🇭🇰 香港-新加坡 A1
+      - 🇭🇰 香港-新加坡 A2
+      - 🇭🇰 香港-新加坡 A3
+      - 🇭🇰 香港-新加坡 A4
+      - 🇭🇰 香港-新加坡 A5
+      - 🇸🇬 新加坡 WY
   - name: 🇰🇷 韩国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -2586,8 +2415,8 @@ rules:
  - DOMAIN-SUFFIX,bilibili.tv,📺 哔哩哔哩
  - DOMAIN-SUFFIX,biligame.com,📺 哔哩哔哩
  - DOMAIN-SUFFIX,biligame.net,📺 哔哩哔哩
- - DOMAIN-SUFFIX,bilivideo.com,📺 哔哩哔哩
  - DOMAIN-SUFFIX,bilivideo.cn,📺 哔哩哔哩
+ - DOMAIN-SUFFIX,bilivideo.com,📺 哔哩哔哩
  - DOMAIN-SUFFIX,hdslb.com,📺 哔哩哔哩
  - DOMAIN-SUFFIX,im9.com,📺 哔哩哔哩
  - DOMAIN-SUFFIX,smtcdns.net,📺 哔哩哔哩
@@ -4374,7 +4203,7 @@ rules:
  - DOMAIN-SUFFIX,faithfuleye.com,🚀 节点选择
  - DOMAIN-SUFFIX,faiththedog.info,🚀 节点选择
  - DOMAIN-SUFFIX,fakku.net,🚀 节点选择
- - DOMAIN-SUFFIX,truefire.com,🚀 节点选择
+ - DOMAIN-SUFFIX,falsefire.com,🚀 节点选择
  - DOMAIN-SUFFIX,falun-co.org,🚀 节点选择
  - DOMAIN-SUFFIX,falun-ny.net,🚀 节点选择
  - DOMAIN-SUFFIX,falunart.org,🚀 节点选择
