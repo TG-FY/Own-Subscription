@@ -12,7 +12,7 @@ proxies:
     username: "437962166004350976"
     password: 83fbdb99-8301-415d-b465-d582fde09d21
     tls: true
-    skip-cert-verify: true
+    skip-cert-verify: false
   - name: 🇭🇰 香港-新加坡 A2
     server: a2.ap.fastqvpn.com
     port: 29980
@@ -20,7 +20,7 @@ proxies:
     username: "437962166004350976"
     password: 83fbdb99-8301-415d-b465-d582fde09d21
     tls: true
-    skip-cert-verify: true
+    skip-cert-verify: false
   - name: 🇭🇰 香港-新加坡 A3
     server: a3.ap.fastqvpn.com
     port: 29980
@@ -28,7 +28,7 @@ proxies:
     username: "437962166004350976"
     password: 83fbdb99-8301-415d-b465-d582fde09d21
     tls: true
-    skip-cert-verify: true
+    skip-cert-verify: false
   - name: 🇭🇰 香港-新加坡 A4
     server: a4.ap.fastqvpn.com
     port: 29980
@@ -36,7 +36,7 @@ proxies:
     username: "437962166004350976"
     password: 83fbdb99-8301-415d-b465-d582fde09d21
     tls: true
-    skip-cert-verify: true
+    skip-cert-verify: false
   - name: 🇭🇰 香港-新加坡 A5
     server: a5.ap.fastqvpn.com
     port: 29980
@@ -44,7 +44,7 @@ proxies:
     username: "437962166004350976"
     password: 83fbdb99-8301-415d-b465-d582fde09d21
     tls: true
-    skip-cert-verify: true
+    skip-cert-verify: false
   - name: 🇭🇰 香港 WY
     server: tx.wy.fastqvpn.com
     port: 29980
