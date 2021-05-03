@@ -85,14 +85,6 @@ proxies:
     password: 83fbdb99-8301-415d-b465-d582fde09d21
     tls: true
     skip-cert-verify: true
-  - name: 🇸🇬 新加坡 WY
-    server: tx.wy.fastqvpn.com
-    port: 29986
-    type: http
-    username: "437962166004350976"
-    password: 83fbdb99-8301-415d-b465-d582fde09d21
-    tls: true
-    skip-cert-verify: true
   - name: 🇬🇧 英国 WY
     server: tx.wy.fastqvpn.com
     port: 29987
@@ -151,7 +143,6 @@ proxy-groups:
       - 🇨🇦 加拿大 WY
       - 🇩🇪 德国 WY
       - 🇯🇵 日本 WY
-      - 🇸🇬 新加坡 WY
       - 🇬🇧 英国 WY
       - 🇺🇸 美国 WY
       - 🇭🇰 香港 ER3
@@ -172,7 +163,6 @@ proxy-groups:
       - 🇨🇦 加拿大 WY
       - 🇩🇪 德国 WY
       - 🇯🇵 日本 WY
-      - 🇸🇬 新加坡 WY
       - 🇬🇧 英国 WY
       - 🇺🇸 美国 WY
       - 🇭🇰 香港 ER3
@@ -393,7 +383,6 @@ proxy-groups:
       - 🇭🇰 香港-新加坡 A3
       - 🇭🇰 香港-新加坡 A4
       - 🇭🇰 香港-新加坡 A5
-      - 🇸🇬 新加坡 WY
   - name: 🇰🇷 韩国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
