@@ -5,12 +5,10 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇯🇵 日本_AWS, server: 3.112.193.236, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇰🇷 韩国_AWS, server: 3.34.127.100, port: 444, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬 新加坡_AWS, server: 13.212.113.145, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 美国_AWS, server: 18.236.138.147, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇨🇳 Lv1 台湾 C | Netflix, server: hinet.rdns.link, port: 50023, type: ssr, cipher: aes-256-cfb, password: Getfree.Cloud, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 12545:8gzh6I, obfs-param: 46f8112545.software-download.microsoft.com}
-  - {name: 🇨🇳 Lv1 台湾 D | Netflix, server: hinet.rdns.link, port: 50024, type: ssr, cipher: aes-256-cfb, password: Getfree.Cloud, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 12545:8gzh6I, obfs-param: 46f8112545.software-download.microsoft.com}
+  - {name: 🇯🇵 日本_AWS, server: 13.115.122.254, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇰🇷 韩国_AWS, server: 3.36.91.36, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇸🇬 新加坡_AWS, server: 18.140.3.216, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 美国_AWS, server: 52.11.131.203, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇸🇬 专线 新加坡 B1 深圳BGP, server: n3ro-iplc-02.zc8nax4blr6bbjxf.node.cyou, port: 5042, type: ssr, cipher: chacha20-ietf, password: 7CRAZe4cKJygUo3W, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 29561:bPlYHb, obfs-param: 9b61529561.apple.com}
   - {name: 🇸🇬 专线 新加坡 B2 深圳BGP, server: n3ro-iplc-02.zc8nax4blr6bbjxf.node.cyou, port: 5041, type: ssr, cipher: chacha20-ietf, password: 7CRAZe4cKJygUo3W, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 29561:bPlYHb, obfs-param: 9b61529561.apple.com}
   - {name: 🇺🇸 专线 美国 B1 深圳BGP, server: n3ro-iplc-02.zc8nax4blr6bbjxf.node.cyou, port: 5031, type: ssr, cipher: chacha20-ietf, password: 7CRAZe4cKJygUo3W, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 29561:bPlYHb, obfs-param: 9b61529561.apple.com}
@@ -46,7 +44,6 @@ proxies:
   - {name: 🇭🇰 中继 香港 B6 广州移动, server: n3ro-in-b1.ccajxxpxjmtedsxn.node.cyou, port: 5216, type: ssr, cipher: chacha20-ietf, password: 7CRAZe4cKJygUo3W, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 29561:bPlYHb, obfs-param: 9b61529561.apple.com}
   - {name: 🇲🇾 中继 马来西亚 B1 广州移动, server: n3ro-in-b5.f6as2mdbbflrmbcn.node.cyou, port: 5271, type: ssr, cipher: chacha20-ietf, password: 7CRAZe4cKJygUo3W, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 29561:bPlYHb, obfs-param: 9b61529561.apple.com}
   - {name: 🇲🇾 中继 马来西亚 B2 广州移动, server: n3ro-in-b2.cpzzxmnmjza26j8e.node.cyou, port: 5272, type: ssr, cipher: chacha20-ietf, password: 7CRAZe4cKJygUo3W, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 29561:bPlYHb, obfs-param: 9b61529561.apple.com}
-  - {name: 🇭🇰 【Ghelper】HK/香港, server: cm-hk.stunnel.vip, port: 4700, type: http, tls: true, skip-cert-verify: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -67,8 +64,6 @@ proxy-groups:
       - 🇰🇷 韩国_AWS
       - 🇸🇬 新加坡_AWS
       - 🇺🇸 美国_AWS
-      - 🇨🇳 Lv1 台湾 C | Netflix
-      - 🇨🇳 Lv1 台湾 D | Netflix
       - 🇸🇬 专线 新加坡 B1 深圳BGP
       - 🇸🇬 专线 新加坡 B2 深圳BGP
       - 🇺🇸 专线 美国 B1 深圳BGP
@@ -104,7 +99,6 @@ proxy-groups:
       - 🇭🇰 中继 香港 B6 广州移动
       - 🇲🇾 中继 马来西亚 B1 广州移动
       - 🇲🇾 中继 马来西亚 B2 广州移动
-      - 🇭🇰 【Ghelper】HK/香港
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -115,8 +109,6 @@ proxy-groups:
       - 🇰🇷 韩国_AWS
       - 🇸🇬 新加坡_AWS
       - 🇺🇸 美国_AWS
-      - 🇨🇳 Lv1 台湾 C | Netflix
-      - 🇨🇳 Lv1 台湾 D | Netflix
       - 🇸🇬 专线 新加坡 B1 深圳BGP
       - 🇸🇬 专线 新加坡 B2 深圳BGP
       - 🇺🇸 专线 美国 B1 深圳BGP
@@ -152,7 +144,6 @@ proxy-groups:
       - 🇭🇰 中继 香港 B6 广州移动
       - 🇲🇾 中继 马来西亚 B1 广州移动
       - 🇲🇾 中继 马来西亚 B2 广州移动
-      - 🇭🇰 【Ghelper】HK/香港
   - name: 📲 电报消息
     type: select
     proxies:
@@ -336,7 +327,6 @@ proxy-groups:
       - 🇭🇰 中继 香港 B3 广州移动
       - 🇭🇰 中继 香港 B5 广州移动
       - 🇭🇰 中继 香港 B6 广州移动
-      - 🇭🇰 【Ghelper】HK/香港
   - name: 🇯🇵 日本节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -366,8 +356,6 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 Lv1 台湾 C | Netflix
-      - 🇨🇳 Lv1 台湾 D | Netflix
       - 🇨🇳 中继 台湾 B1 广州移动
       - 🇨🇳 中继 台湾 B2 广州移动
       - 🇨🇳 中继 台湾 B3 广州移动
@@ -396,8 +384,6 @@ proxy-groups:
   - name: 🎥 奈飞节点
     type: select
     proxies:
-      - 🇨🇳 Lv1 台湾 C | Netflix
-      - 🇨🇳 Lv1 台湾 D | Netflix
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
