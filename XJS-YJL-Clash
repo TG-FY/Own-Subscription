@@ -10,7 +10,7 @@ proxies:
     port: 29980
     type: http
     username: "442358231600201728"
-    password:984a2e30-e37a-4bd7-87d3-7d26e3c6a861
+    password: 984a2e30-e37a-4bd7-87d3-7d26e3c6a861
     tls: true
     skip-cert-verify: false
   - name: 🇨🇳 香港-新加坡 A2
@@ -18,7 +18,7 @@ proxies:
     port: 29980
     type: http
     username: "442358231600201728"
-    password:984a2e30-e37a-4bd7-87d3-7d26e3c6a861
+    password: 984a2e30-e37a-4bd7-87d3-7d26e3c6a861
     tls: true
     skip-cert-verify: false
   - name: 🇨🇳 香港-新加坡 A3
@@ -26,7 +26,7 @@ proxies:
     port: 29980
     type: http
     username: "442358231600201728"
-    password:984a2e30-e37a-4bd7-87d3-7d26e3c6a861
+    password: 984a2e30-e37a-4bd7-87d3-7d26e3c6a861
     tls: true
     skip-cert-verify: false
   - name: 🇨🇳 香港-新加坡 A4
@@ -34,7 +34,7 @@ proxies:
     port: 29980
     type: http
     username: "442358231600201728"
-    password:984a2e30-e37a-4bd7-87d3-7d26e3c6a861
+    password: 984a2e30-e37a-4bd7-87d3-7d26e3c6a861
     tls: true
     skip-cert-verify: false
   - name: 🇨🇳 香港-新加坡 A5
@@ -42,7 +42,7 @@ proxies:
     port: 29980
     type: http
     username: "442358231600201728"
-    password:984a2e30-e37a-4bd7-87d3-7d26e3c6a861
+    password: 984a2e30-e37a-4bd7-87d3-7d26e3c6a861
     tls: true
     skip-cert-verify: false
   - name: 🇭🇰 香港 WY
@@ -50,7 +50,7 @@ proxies:
     port: 29980
     type: http
     username: "442358231600201728"
-    password:984a2e30-e37a-4bd7-87d3-7d26e3c6a861
+    password: 984a2e30-e37a-4bd7-87d3-7d26e3c6a861
     tls: true
     skip-cert-verify: true
   - name: 🇦🇺 澳大利亚 WY
@@ -58,7 +58,7 @@ proxies:
     port: 29982
     type: http
     username: "442358231600201728"
-    password:984a2e30-e37a-4bd7-87d3-7d26e3c6a861
+    password: 984a2e30-e37a-4bd7-87d3-7d26e3c6a861
     tls: true
     skip-cert-verify: true
   - name: 🇨🇦 加拿大 WY
@@ -66,7 +66,7 @@ proxies:
     port: 29983
     type: http
     username: "442358231600201728"
-    password:984a2e30-e37a-4bd7-87d3-7d26e3c6a861
+    password: 984a2e30-e37a-4bd7-87d3-7d26e3c6a861
     tls: true
     skip-cert-verify: true
   - name: 🇩🇪 德国 WY
@@ -74,7 +74,7 @@ proxies:
     port: 29984
     type: http
     username: "442358231600201728"
-    password:984a2e30-e37a-4bd7-87d3-7d26e3c6a861
+    password: 984a2e30-e37a-4bd7-87d3-7d26e3c6a861
     tls: true
     skip-cert-verify: true
   - name: 🇯🇵 日本 WY
@@ -82,7 +82,7 @@ proxies:
     port: 29985
     type: http
     username: "442358231600201728"
-    password:984a2e30-e37a-4bd7-87d3-7d26e3c6a861
+    password: 984a2e30-e37a-4bd7-87d3-7d26e3c6a861
     tls: true
     skip-cert-verify: true
   - name: 🇬🇧 英国 WY
@@ -90,7 +90,7 @@ proxies:
     port: 29987
     type: http
     username: "442358231600201728"
-    password:984a2e30-e37a-4bd7-87d3-7d26e3c6a861
+    password: 984a2e30-e37a-4bd7-87d3-7d26e3c6a861
     tls: true
     skip-cert-verify: true
   - name: 🇺🇸 美国 WY
@@ -98,7 +98,7 @@ proxies:
     port: 29988
     type: http
     username: "442358231600201728"
-    password:984a2e30-e37a-4bd7-87d3-7d26e3c6a861
+    password: 984a2e30-e37a-4bd7-87d3-7d26e3c6a861
     tls: true
     skip-cert-verify: true
   - name: 🇭🇰 香港 ER3
@@ -106,7 +106,7 @@ proxies:
     port: 29980
     type: http
     username: "442358231600201728"
-    password:984a2e30-e37a-4bd7-87d3-7d26e3c6a861
+    password: 984a2e30-e37a-4bd7-87d3-7d26e3c6a861
     tls: true
     skip-cert-verify: true
   - name: 🇭🇰 香港 CNA
@@ -114,7 +114,7 @@ proxies:
     port: 29980
     type: http
     username: "442358231600201728"
-    password:984a2e30-e37a-4bd7-87d3-7d26e3c6a861
+    password: 984a2e30-e37a-4bd7-87d3-7d26e3c6a861
     tls: true
     skip-cert-verify: true
 proxy-groups:
