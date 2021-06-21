@@ -146,6 +146,102 @@ proxies:
     password: f0c9dd50-9a76-4332-bd75-ab9b94951b32
     tls: true
     skip-cert-verify: true
+  - name: 🇨🇳 台湾1
+    type: vmess
+    server: SCDN.2331.VOLAKT.China-nCDN-nRDS.com
+    port: 2331
+    uuid: 5f472d05-f497-33e5-9c03-9c6529b16dd0
+    alterId: 2
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /iso
+    ws-headers:
+    Host: SCDN.2331.VOLAKT.China-nCDN-nRDS.com
+  - name: 🇨🇳 台湾2
+    type: vmess
+    server: SCDN.2332.AXGTAD.China-nCDN-nRDS.com
+    port: 2332
+    uuid: 5f472d05-f497-33e5-9c03-9c6529b16dd0
+    alterId: 2
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /iso
+    ws-headers:
+    Host: SCDN.2332.AXGTAD.China-nCDN-nRDS.com
+  - name: 🇨🇳 台湾3
+    type: vmess
+    server: SCDN.2333.ZXBVTV.China-nCDN-nRDS.com
+    port: 2333
+    uuid: 5f472d05-f497-33e5-9c03-9c6529b16dd0
+    alterId: 2
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /iso
+    ws-headers:
+    Host: SCDN.2333.ZXBVTV.China-nCDN-nRDS.com
+  - name: 🇨🇳 台湾4
+    type: vmess
+    server: SCDN.2334.BLKOAJ.China-nCDN-nRDS.com
+    port: 2334
+    uuid: 5f472d05-f497-33e5-9c03-9c6529b16dd0
+    alterId: 2
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /iso
+    ws-headers:
+    Host: SCDN.2334.BLKOAJ.China-nCDN-nRDS.com
+  - name: 🇨🇳 台湾5
+    type: vmess
+    server: SCDN.2335.DLZLTQ.China-nCDN-nRDS.com
+    port: 2335
+    uuid: 5f472d05-f497-33e5-9c03-9c6529b16dd0
+    alterId: 2
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /iso
+    ws-headers:
+    Host: SCDN.2335.DLZLTQ.China-nCDN-nRDS.com
+  - name: 🇨🇳 台湾6
+    type: vmess
+    server: SCDN.2336.FOLVKQ.China-nCDN-nRDS.com
+    port: 2336
+    uuid: 5f472d05-f497-33e5-9c03-9c6529b16dd0
+    alterId: 2
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /iso
+    ws-headers:
+    Host: SCDN.2336.FOLVKQ.China-nCDN-nRDS.com
+  - name: 🇨🇳 台湾7
+    type: vmess
+    server: SCDN.2337.ZKLDMF.China-nCDN-nRDS.com
+    port: 2337
+    uuid: 5f472d05-f497-33e5-9c03-9c6529b16dd0
+    alterId: 2
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /iso
+    ws-headers:
+    Host: SCDN.2337.ZKLDMF.China-nCDN-nRDS.com
+  - name: 🇨🇳 台湾8
+    type: vmess
+    server: SCDN.2338.CLGTQF.China-nCDN-nRDS.com
+    port: 2338
+    uuid: 5f472d05-f497-33e5-9c03-9c6529b16dd0
+    alterId: 2
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /iso
+    ws-headers:
+    Host: SCDN.2338.CLGTQF.China-nCDN-nRDS.com
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -165,6 +261,14 @@ proxy-groups:
       - 🇺🇸 美国 WY
       - 🇭🇰 香港 ER3
       - 🇭🇰 香港 CNA
+      - 🇨🇳 台湾1
+      - 🇨🇳 台湾2
+      - 🇨🇳 台湾3
+      - 🇨🇳 台湾4
+      - 🇨🇳 台湾5
+      - 🇨🇳 台湾6
+      - 🇨🇳 台湾7
+      - 🇨🇳 台湾8
       - DIRECT
   - name: ♻️ 自动选择
     type: url-test
@@ -184,7 +288,15 @@ proxy-groups:
       - 🇬🇧 英国 WY
       - 🇺🇸 美国 WY
       - 🇭🇰 香港 ER3
-      - 🇭🇰 香港 CNA
+      - 🇭🇰 香港 CNA      
+      - 🇨🇳 台湾1
+      - 🇨🇳 台湾2
+      - 🇨🇳 台湾3
+      - 🇨🇳 台湾4
+      - 🇨🇳 台湾5
+      - 🇨🇳 台湾6
+      - 🇨🇳 台湾7
+      - 🇨🇳 台湾8
   - name: 📲 电报吹水
     type: select
     proxies:
@@ -204,6 +316,14 @@ proxy-groups:
       - 🇺🇸 美国 WY
       - 🇭🇰 香港 ER3
       - 🇭🇰 香港 CNA
+      - 🇨🇳 台湾1
+      - 🇨🇳 台湾2
+      - 🇨🇳 台湾3
+      - 🇨🇳 台湾4
+      - 🇨🇳 台湾5
+      - 🇨🇳 台湾6
+      - 🇨🇳 台湾7
+      - 🇨🇳 台湾8
       - DIRECT
   - name: 📹 YouTube
     type: select
@@ -224,6 +344,14 @@ proxy-groups:
       - 🇺🇸 美国 WY
       - 🇭🇰 香港 ER3
       - 🇭🇰 香港 CNA
+      - 🇨🇳 台湾1
+      - 🇨🇳 台湾2
+      - 🇨🇳 台湾3
+      - 🇨🇳 台湾4
+      - 🇨🇳 台湾5
+      - 🇨🇳 台湾6
+      - 🇨🇳 台湾7
+      - 🇨🇳 台湾8
       - DIRECT
   - name: 🌍 舍友专用
     type: select
@@ -256,26 +384,27 @@ proxy-groups:
       - 🇺🇸 美国 WY
       - 🇭🇰 香港 ER3
       - 🇭🇰 香港 CNA
+      - 🇨🇳 台湾1
+      - 🇨🇳 台湾2
+      - 🇨🇳 台湾3
+      - 🇨🇳 台湾4
+      - 🇨🇳 台湾5
+      - 🇨🇳 台湾6
+      - 🇨🇳 台湾7
+      - 🇨🇳 台湾8
       - DIRECT
   - name: 📺 巴哈姆特
     type: select
     proxies:
       - 🔰 节点选择
-      - ♻️ 自动选择
-      - 🇨🇳 香港-新加坡 A1
-      - 🇨🇳 香港-新加坡 A2
-      - 🇨🇳 香港-新加坡 A3
-      - 🇨🇳 香港-新加坡 A4
-      - 🇨🇳 香港-新加坡 A5
-      - 🇭🇰 香港 WY
-      - 🇦🇺 澳大利亚 WY
-      - 🇨🇦 加拿大 WY
-      - 🇩🇪 德国 WY
-      - 🇯🇵 日本 WY
-      - 🇬🇧 英国 WY
-      - 🇺🇸 美国 WY
-      - 🇭🇰 香港 ER3
-      - 🇭🇰 香港 CNA
+      - 🇨🇳 台湾1
+      - 🇨🇳 台湾2
+      - 🇨🇳 台湾3
+      - 🇨🇳 台湾4
+      - 🇨🇳 台湾5
+      - 🇨🇳 台湾6
+      - 🇨🇳 台湾7
+      - 🇨🇳 台湾8
       - DIRECT
   - name: 🌍 国外媒体
     type: select
@@ -302,6 +431,14 @@ proxy-groups:
       - 🇺🇸 美国 WY
       - 🇭🇰 香港 ER3
       - 🇭🇰 香港 CNA
+      - 🇨🇳 台湾1
+      - 🇨🇳 台湾2
+      - 🇨🇳 台湾3
+      - 🇨🇳 台湾4
+      - 🇨🇳 台湾5
+      - 🇨🇳 台湾6
+      - 🇨🇳 台湾7
+      - 🇨🇳 台湾8
       - DIRECT
   - name: 🍎 苹果服务
     type: select
@@ -323,6 +460,14 @@ proxy-groups:
       - 🇺🇸 美国 WY
       - 🇭🇰 香港 ER3
       - 🇭🇰 香港 CNA
+      - 🇨🇳 台湾1
+      - 🇨🇳 台湾2
+      - 🇨🇳 台湾3
+      - 🇨🇳 台湾4
+      - 🇨🇳 台湾5
+      - 🇨🇳 台湾6
+      - 🇨🇳 台湾7
+      - 🇨🇳 台湾8
   - name: 🛑 全球拦截
     type: select
     proxies:
