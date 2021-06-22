@@ -330,11 +330,18 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - DIRECT
-  - name: 🎮 游戏平台
+  - name: 📺 巴哈姆特
     type: select
     proxies:
       - 🔰 节点选择
-      - ♻️ 自动选择
+      - 🇨🇳 台湾1
+      - 🇨🇳 台湾2
+      - 🇨🇳 台湾3
+      - 🇨🇳 台湾4
+      - 🇨🇳 台湾5
+      - 🇨🇳 台湾6
+      - 🇨🇳 台湾7
+      - 🇨🇳 台湾8
       - DIRECT
   - name: 🎥 NETFLIX
     type: select
@@ -355,19 +362,6 @@ proxy-groups:
       - 🇺🇸 美国 WY
       - 🇭🇰 香港 ER3
       - 🇭🇰 香港 CNA
-      - 🇨🇳 台湾1
-      - 🇨🇳 台湾2
-      - 🇨🇳 台湾3
-      - 🇨🇳 台湾4
-      - 🇨🇳 台湾5
-      - 🇨🇳 台湾6
-      - 🇨🇳 台湾7
-      - 🇨🇳 台湾8
-      - DIRECT
-  - name: 📺 巴哈姆特
-    type: select
-    proxies:
-      - 🔰 节点选择
       - 🇨🇳 台湾1
       - 🇨🇳 台湾2
       - 🇨🇳 台湾3
@@ -417,6 +411,12 @@ proxy-groups:
       - 🇨🇳 台湾6
       - 🇨🇳 台湾7
       - 🇨🇳 台湾8
+  - name: 🎮 游戏平台
+    type: select
+    proxies:
+      - 🔰 节点选择
+      - ♻️ 自动选择
+      - DIRECT
   - name: 🛑 全球拦截
     type: select
     proxies:
