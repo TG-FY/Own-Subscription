@@ -332,7 +332,19 @@ proxy-groups:
       - 🇰🇷 韩国节点
       - 🇸🇬 狮城节点
       - 🇺🇲 美国节点
-  - name: 🌍 Twitter
+  - name: 🌕 Twitter
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - DIRECT
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 🇸🇬 狮城节点
+      - 🇺🇲 美国节点
+  - name: 🌑 Facebook
     type: select
     proxies:
       - 🚀 节点选择
@@ -759,6 +771,7 @@ rules:
  - DOMAIN-SUFFIX,emarbox.com,🛑 广告拦截
  - DOMAIN-SUFFIX,epsilon.com,🛑 广告拦截
  - DOMAIN-SUFFIX,exosrv.com,🛑 广告拦截
+ - DOMAIN-SUFFIX,staticxx.facebook.com,🛑 广告拦截
  - DOMAIN-SUFFIX,fancyapi.com,🛑 广告拦截
  - DOMAIN-SUFFIX,feitian001.com,🛑 广告拦截
  - DOMAIN-SUFFIX,feixin2.com,🛑 广告拦截
@@ -923,6 +936,7 @@ rules:
  - DOMAIN-SUFFIX,trafficjam.cn,🛑 广告拦截
  - DOMAIN-SUFFIX,trafficmp.com,🛑 广告拦截
  - DOMAIN-SUFFIX,tuia.cn,🛑 广告拦截
+ - DOMAIN-SUFFIX,twitterzs.com,🛑 广告拦截
  - DOMAIN-SUFFIX,ueadlian.com,🛑 广告拦截
  - DOMAIN-SUFFIX,uerzyr.cn,🛑 广告拦截
  - DOMAIN-SUFFIX,ugdtimg.com,🛑 广告拦截
@@ -2283,15 +2297,31 @@ rules:
  - DOMAIN-SUFFIX,tiktokv.com,🎵 TikTok
  - DOMAIN-SUFFIX,tiktokcdn.com,🎵 TikTok
  - DOMAIN-KEYWORD,-tiktokcdn-com,🎵 TikTok
- - DOMAIN-SUFFIX,pscp.tv,🌍 Twitter
- - DOMAIN-SUFFIX,periscope.tv,🌍 Twitter
- - DOMAIN-SUFFIX,t.co,🌍 Twitter
- - DOMAIN-SUFFIX,twimg.co,🌍 Twitter
- - DOMAIN-SUFFIX,twimg.com,🌍 Twitter
- - DOMAIN-SUFFIX,twitpic.com,🌍 Twitter
- - DOMAIN-SUFFIX,twitter.com,🌍 Twitter
- - DOMAIN-SUFFIX,twitter.jp,🌍 Twitter
- - DOMAIN-SUFFIX,vine.co,🌍 Twitter
+ - DOMAIN-SUFFIX,pscp.tv,🌕 Twitter
+ - DOMAIN-SUFFIX,periscope.tv,🌕 Twitter
+ - DOMAIN-SUFFIX,t.co,🌕 Twitter
+ - DOMAIN-SUFFIX,twimg.co,🌕 Twitter
+ - DOMAIN-SUFFIX,twimg.com,🌕 Twitter
+ - DOMAIN-SUFFIX,twitpic.com,🌕 Twitter
+ - DOMAIN-SUFFIX,twitter.com,🌕 Twitter
+ - DOMAIN-SUFFIX,twitter.jp,🌕 Twitter
+ - DOMAIN-SUFFIX,vine.co,🌕 Twitter
+ - DOMAIN-KEYWORD,facebook,🌑 Facebook
+ - IP-CIDR,103.4.96.0/22,🌑 Facebook
+ - IP-CIDR,129.134.0.0/17,🌑 Facebook
+ - IP-CIDR,157.240.0.0/17,🌑 Facebook
+ - IP-CIDR,173.252.64.0/19,🌑 Facebook
+ - IP-CIDR,173.252.96.0/19,🌑 Facebook
+ - IP-CIDR,179.60.192.0/22,🌑 Facebook
+ - IP-CIDR,185.60.216.0/22,🌑 Facebook
+ - IP-CIDR,204.15.20.0/22,🌑 Facebook
+ - IP-CIDR,31.13.24.0/21,🌑 Facebook
+ - IP-CIDR,31.13.64.0/18,🌑 Facebook
+ - IP-CIDR,45.64.40.0/22,🌑 Facebook
+ - IP-CIDR,66.220.144.0/20,🌑 Facebook
+ - IP-CIDR,69.171.224.0/19,🌑 Facebook
+ - IP-CIDR,69.63.176.0/20,🌑 Facebook
+ - IP-CIDR,74.119.76.0/22,🌑 Facebook
  - PROCESS-NAME,OneDrive,Ⓜ️ 微软云盘
  - PROCESS-NAME,OneDriveUpdater,Ⓜ️ 微软云盘
  - DOMAIN-KEYWORD,1drv,Ⓜ️ 微软云盘
