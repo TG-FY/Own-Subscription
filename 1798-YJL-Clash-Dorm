@@ -371,6 +371,34 @@ proxy-groups:
       - 🇨🇳 台湾7
       - 🇨🇳 台湾8
       - DIRECT
+  - name: 🎵 TikTok
+    type: select
+    proxies:
+      - 🔰 节点选择
+      - ♻️ 自动选择
+      - 🇨🇳 香港-新加坡 A1
+      - 🇨🇳 香港-新加坡 A2
+      - 🇨🇳 香港-新加坡 A3
+      - 🇨🇳 香港-新加坡 A4
+      - 🇨🇳 香港-新加坡 A5
+      - 🇭🇰 香港 WY
+      - 🇦🇺 澳大利亚 WY
+      - 🇨🇦 加拿大 WY
+      - 🇩🇪 德国 WY
+      - 🇯🇵 日本 WY
+      - 🇬🇧 英国 WY
+      - 🇺🇸 美国 WY
+      - 🇭🇰 香港 ER3
+      - 🇭🇰 香港 CNA
+      - 🇨🇳 台湾1
+      - 🇨🇳 台湾2
+      - 🇨🇳 台湾3
+      - 🇨🇳 台湾4
+      - 🇨🇳 台湾5
+      - 🇨🇳 台湾6
+      - 🇨🇳 台湾7
+      - 🇨🇳 台湾8
+      - DIRECT
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -382,6 +410,34 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
+      - DIRECT
+  - name: 🌍 Twitter
+    type: select
+    proxies:
+      - 🔰 节点选择
+      - ♻️ 自动选择
+      - 🇨🇳 香港-新加坡 A1
+      - 🇨🇳 香港-新加坡 A2
+      - 🇨🇳 香港-新加坡 A3
+      - 🇨🇳 香港-新加坡 A4
+      - 🇨🇳 香港-新加坡 A5
+      - 🇭🇰 香港 WY
+      - 🇦🇺 澳大利亚 WY
+      - 🇨🇦 加拿大 WY
+      - 🇩🇪 德国 WY
+      - 🇯🇵 日本 WY
+      - 🇬🇧 英国 WY
+      - 🇺🇸 美国 WY
+      - 🇭🇰 香港 ER3
+      - 🇭🇰 香港 CNA
+      - 🇨🇳 台湾1
+      - 🇨🇳 台湾2
+      - 🇨🇳 台湾3
+      - 🇨🇳 台湾4
+      - 🇨🇳 台湾5
+      - 🇨🇳 台湾6
+      - 🇨🇳 台湾7
+      - 🇨🇳 台湾8
       - DIRECT
   - name: 🍎 苹果服务
     type: select
@@ -465,6 +521,20 @@ rules:
  - DOMAIN-SUFFIX,steamcommunity.com,🎮 游戏平台
  - DOMAIN-SUFFIX,steampowered.com,🎮 游戏平台
  - DOMAIN-SUFFIX,steamstatic.com,🎮 游戏平台
+ - DOMAIN-SUFFIX,muscdn.com,🎵 TikTok
+ - DOMAIN-SUFFIX,musical.ly,🎵 TikTok
+ - DOMAIN-SUFFIX,tiktokv.com,🎵 TikTok
+ - DOMAIN-SUFFIX,tiktokcdn.com,🎵 TikTok
+ - DOMAIN-KEYWORD,-tiktokcdn-com,🎵 TikTok
+ - DOMAIN-SUFFIX,pscp.tv,🌍 Twitter
+ - DOMAIN-SUFFIX,periscope.tv,🌍 Twitter
+ - DOMAIN-SUFFIX,t.co,🌍 Twitter
+ - DOMAIN-SUFFIX,twimg.co,🌍 Twitter
+ - DOMAIN-SUFFIX,twimg.com,🌍 Twitter
+ - DOMAIN-SUFFIX,twitpic.com,🌍 Twitter
+ - DOMAIN-SUFFIX,twitter.com,🌍 Twitter
+ - DOMAIN-SUFFIX,twitter.jp,🌍 Twitter
+ - DOMAIN-SUFFIX,vine.co,🌍 Twitter
  - DOMAIN-KEYWORD,1drv,Ⓜ️ 微软服务
  - DOMAIN-KEYWORD,microsoft,Ⓜ️ 微软服务
  - DOMAIN-SUFFIX,aadrm.com,Ⓜ️ 微软服务
