@@ -9,112 +9,112 @@ proxies:
     server: a1.ap.fastqvpn.com
     port: 29980
     type: http
-    username: "451165164822073344"
-    password: f0c9dd50-9a76-4332-bd75-ab9b94951b32
+    username: "460516570016251904"
+    password: c555acde-2503-4e91-b5fe-f8bcbaa3491a
     tls: true
     skip-cert-verify: false
   - name: 🇨🇳 香港-新加坡 A2
     server: a2.ap.fastqvpn.com
     port: 29980
     type: http
-    username: "451165164822073344"
-    password: f0c9dd50-9a76-4332-bd75-ab9b94951b32
+    username: "460516570016251904"
+    password: c555acde-2503-4e91-b5fe-f8bcbaa3491a
     tls: true
     skip-cert-verify: false
   - name: 🇨🇳 香港-新加坡 A3
     server: a3.ap.fastqvpn.com
     port: 29980
     type: http
-    username: "451165164822073344"
-    password: f0c9dd50-9a76-4332-bd75-ab9b94951b32
+    username: "460516570016251904"
+    password: c555acde-2503-4e91-b5fe-f8bcbaa3491a
     tls: true
     skip-cert-verify: false
   - name: 🇨🇳 香港-新加坡 A4
     server: a4.ap.fastqvpn.com
     port: 29980
     type: http
-    username: "451165164822073344"
-    password: f0c9dd50-9a76-4332-bd75-ab9b94951b32
+    username: "460516570016251904"
+    password: c555acde-2503-4e91-b5fe-f8bcbaa3491a
     tls: true
     skip-cert-verify: false
   - name: 🇨🇳 香港-新加坡 A5
     server: a5.ap.fastqvpn.com
     port: 29980
     type: http
-    username: "451165164822073344"
-    password: f0c9dd50-9a76-4332-bd75-ab9b94951b32
+    username: "460516570016251904"
+    password: c555acde-2503-4e91-b5fe-f8bcbaa3491a
     tls: true
     skip-cert-verify: false
   - name: 🇭🇰 香港 WY
     server: tx.wy.fastqvpn.com
     port: 29980
     type: http
-    username: "451165164822073344"
-    password: f0c9dd50-9a76-4332-bd75-ab9b94951b32
+    username: "460516570016251904"
+    password: c555acde-2503-4e91-b5fe-f8bcbaa3491a
     tls: true
     skip-cert-verify: true
   - name: 🇦🇺 澳大利亚 WY
     server: tx.wy.fastqvpn.com
     port: 29982
     type: http
-    username: "451165164822073344"
-    password: f0c9dd50-9a76-4332-bd75-ab9b94951b32
+    username: "460516570016251904"
+    password: c555acde-2503-4e91-b5fe-f8bcbaa3491a
     tls: true
     skip-cert-verify: true
   - name: 🇨🇦 加拿大 WY
     server: tx.wy.fastqvpn.com
     port: 29983
     type: http
-    username: "451165164822073344"
-    password: f0c9dd50-9a76-4332-bd75-ab9b94951b32
+    username: "460516570016251904"
+    password: c555acde-2503-4e91-b5fe-f8bcbaa3491a
     tls: true
     skip-cert-verify: true
   - name: 🇩🇪 德国 WY
     server: tx.wy.fastqvpn.com
     port: 29984
     type: http
-    username: "451165164822073344"
-    password: f0c9dd50-9a76-4332-bd75-ab9b94951b32
+    username: "460516570016251904"
+    password: c555acde-2503-4e91-b5fe-f8bcbaa3491a
     tls: true
     skip-cert-verify: true
   - name: 🇯🇵 日本 WY
     server: tx.wy.fastqvpn.com
     port: 29985
     type: http
-    username: "451165164822073344"
-    password: f0c9dd50-9a76-4332-bd75-ab9b94951b32
+    username: "460516570016251904"
+    password: c555acde-2503-4e91-b5fe-f8bcbaa3491a
     tls: true
     skip-cert-verify: true
   - name: 🇬🇧 英国 WY
     server: tx.wy.fastqvpn.com
     port: 29987
     type: http
-    username: "451165164822073344"
-    password: f0c9dd50-9a76-4332-bd75-ab9b94951b32
+    username: "460516570016251904"
+    password: c555acde-2503-4e91-b5fe-f8bcbaa3491a
     tls: true
     skip-cert-verify: true
   - name: 🇺🇸 美国 WY
     server: tx.wy.fastqvpn.com
     port: 29988
     type: http
-    username: "451165164822073344"
-    password: f0c9dd50-9a76-4332-bd75-ab9b94951b32
+    username: "460516570016251904"
+    password: c555acde-2503-4e91-b5fe-f8bcbaa3491a
     tls: true
     skip-cert-verify: true
   - name: 🇭🇰 香港 ER3
     server: a1.er3.xyz
     port: 29980
     type: http
-    username: "451165164822073344"
-    password: f0c9dd50-9a76-4332-bd75-ab9b94951b32
+    username: "460516570016251904"
+    password: c555acde-2503-4e91-b5fe-f8bcbaa3491a
     tls: true
     skip-cert-verify: true
   - name: 🇭🇰 香港 CNA
     server: tx.cna.fastqvpn.com
     port: 29980
     type: http
-    username: "451165164822073344"
-    password: f0c9dd50-9a76-4332-bd75-ab9b94951b32
+    username: "460516570016251904"
+    password: c555acde-2503-4e91-b5fe-f8bcbaa3491a
     tls: true
     skip-cert-verify: true
 proxy-groups:
