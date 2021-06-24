@@ -384,12 +384,6 @@ proxy-groups:
       - 🎯 全球直连
       - 🇭🇰 香港节点
       - 🇨🇳 台湾节点
-  - name: 📢 谷歌FCM
-    type: select
-    proxies:
-      - DIRECT
-      - 🚀 手动切换
-      - ♻️ 自动选择
   - name: Ⓜ️ 微软云盘
     type: select
     proxies:
@@ -402,6 +396,12 @@ proxy-groups:
       - 🚀 手动切换
       - ♻️ 自动选择
       - DIRECT
+  - name: 📢 谷歌FCM
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 手动切换
+      - ♻️ 自动选择
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -432,6 +432,12 @@ proxy-groups:
       - DIRECT
       - 🚀 节点选择
       - ♻️ 自动选择
+  - name: 🌍 国外媒体
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - DIRECT
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -439,12 +445,6 @@ proxy-groups:
       - REJECT
       - 🚀 手动切换
       - ♻️ 自动选择
-  - name: 🌍 国外媒体
-    type: select
-    proxies:
-      - 🚀 节点选择
-      - ♻️ 自动选择
-      - DIRECT
   - name: 🌍 舍友专用
     type: select
     proxies:
