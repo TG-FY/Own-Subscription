@@ -314,13 +314,6 @@ proxy-groups:
       - 🇰🇷 韩国节点
       - 🇸🇬 狮城节点
       - 🇺🇲 美国节点
-  - name: 🌍 舍友专用
-    type: select
-    proxies:
-      - 🚀 手动切换
-      - ♻️ 自动选择
-      - DIRECT
-      - REJECT
   - name: 🎵 TikTok
     type: select
     proxies:
@@ -433,12 +426,12 @@ proxy-groups:
       - 🇰🇷 韩国节点
       - 🇸🇬 狮城节点
       - 🇺🇲 美国节点
-  - name: 🌍 国外媒体
+  - name: 🎯 全球直连
     type: select
     proxies:
+      - DIRECT
       - 🚀 节点选择
       - ♻️ 自动选择
-      - DIRECT
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -446,12 +439,17 @@ proxy-groups:
       - REJECT
       - 🚀 手动切换
       - ♻️ 自动选择
-  - name: 🎯 全球直连
+  - name: 🌍 国外媒体
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - DIRECT
+  - name: 🌍 舍友专用
     type: select
     proxies:
       - DIRECT
-      - 🚀 节点选择
-      - ♻️ 自动选择
+      - REJECT
   - name: 🐟 漏网之鱼
     type: select
     proxies:
@@ -2294,8 +2292,6 @@ rules:
  - DOMAIN-SUFFIX,update.googleapis.com,🎯 全球直连
  - DOMAIN-SUFFIX,www-googletagmanager.l.google.com,🎯 全球直连
  - DOMAIN-SUFFIX,www.gstatic.com,🎯 全球直连 
- - DOMAIN-SUFFIX,google.com,🌍 舍友专用
- - DOMAIN-SUFFIX,google.com.hk,🌍 舍友专用
  - DOMAIN-SUFFIX,baidu.com,🌍 舍友专用
  - DOMAIN-SUFFIX,sogou.com,🌍 舍友专用
  - DOMAIN-SUFFIX,muscdn.com,🎵 TikTok
@@ -2483,6 +2479,8 @@ rules:
  - DOMAIN-SUFFIX,youtu.be,📹 油管视频
  - DOMAIN-SUFFIX,youtube.com,📹 油管视频
  - DOMAIN-SUFFIX,ytimg.com,📹 油管视频
+ - DOMAIN-SUFFIX,google.com,📹 油管视频
+ - DOMAIN-SUFFIX,google.com.hk,📹 油管视频
  - DOMAIN-KEYWORD,dualstack.apiproxy-,🎥 奈飞视频
  - DOMAIN-KEYWORD,dualstack.ichnaea-web-,🎥 奈飞视频
  - DOMAIN,netflix.com.edgesuite.net,🎥 奈飞视频
