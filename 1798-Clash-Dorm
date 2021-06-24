@@ -320,6 +320,7 @@ proxy-groups:
       - 🚀 手动切换
       - ♻️ 自动选择
       - DIRECT
+      - REJECT
   - name: 🎵 TikTok
     type: select
     proxies:
