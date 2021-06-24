@@ -771,7 +771,6 @@ rules:
  - DOMAIN-SUFFIX,emarbox.com,🛑 广告拦截
  - DOMAIN-SUFFIX,epsilon.com,🛑 广告拦截
  - DOMAIN-SUFFIX,exosrv.com,🛑 广告拦截
- - DOMAIN-SUFFIX,staticxx.facebook.com,🛑 广告拦截
  - DOMAIN-SUFFIX,fancyapi.com,🛑 广告拦截
  - DOMAIN-SUFFIX,feitian001.com,🛑 广告拦截
  - DOMAIN-SUFFIX,feixin2.com,🛑 广告拦截
@@ -917,6 +916,7 @@ rules:
  - DOMAIN-SUFFIX,somecoding.com,🛑 广告拦截
  - DOMAIN-SUFFIX,sponsorpay.com,🛑 广告拦截
  - DOMAIN-SUFFIX,stargame.com,🛑 广告拦截
+ - DOMAIN-SUFFIX,staticxx.facebook.com,🛑 广告拦截
  - DOMAIN-SUFFIX,stg8.com,🛑 广告拦截
  - DOMAIN-SUFFIX,switchadhub.com,🛑 广告拦截
  - DOMAIN-SUFFIX,sycbbs.com,🛑 广告拦截
