@@ -245,13 +245,13 @@ proxy-groups:
     proxies:
       - 🚀 手动切换
       - ♻️ 自动选择
+      - DIRECT
       - 🇭🇰 香港节点
       - 🇨🇳 台湾节点
       - 🇯🇵 日本节点
       - 🇰🇷 韩国节点
       - 🇸🇬 狮城节点
       - 🇺🇲 美国节点
-      - DIRECT
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -295,13 +295,13 @@ proxy-groups:
     proxies:
       - 🚀 手动切换
       - ♻️ 自动选择
+      - DIRECT
       - 🇭🇰 香港节点
       - 🇨🇳 台湾节点
       - 🇯🇵 日本节点
       - 🇰🇷 韩国节点
       - 🇸🇬 狮城节点
       - 🇺🇲 美国节点
-      - DIRECT
   - name: 📹 油管视频
     type: select
     proxies:
@@ -362,18 +362,20 @@ proxy-groups:
       - 🎥 奈飞节点
       - 🚀 手动切换
       - ♻️ 自动选择
+      - DIRECT
       - 🇭🇰 香港节点
       - 🇨🇳 台湾节点
       - 🇯🇵 日本节点
       - 🇰🇷 韩国节点
       - 🇸🇬 狮城节点
       - 🇺🇲 美国节点
-      - DIRECT
   - name: 📺 巴哈姆特
     type: select
     proxies:
       - 🇨🇳 台湾节点
       - 🚀 手动切换
+      - ♻️ 自动选择
+      - DIRECT
       - 🇨🇳 台湾1
       - 🇨🇳 台湾2
       - 🇨🇳 台湾3
@@ -382,7 +384,6 @@ proxy-groups:
       - 🇨🇳 台湾6
       - 🇨🇳 台湾7
       - 🇨🇳 台湾8
-      - DIRECT
   - name: 📺 哔哩哔哩
     type: select
     proxies:
@@ -412,6 +413,7 @@ proxy-groups:
     proxies:
       - DIRECT
       - 🚀 手动切换
+      - ♻️ 自动选择
       - 🇭🇰 香港节点
       - 🇨🇳 台湾节点
       - 🇯🇵 日本节点
