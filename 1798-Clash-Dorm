@@ -293,7 +293,7 @@ proxy-groups:
   - name: 📲 电报消息
     type: select
     proxies:
-      - 🚀 节点选择
+      - 🚀 手动切换
       - ♻️ 自动选择
       - 🇭🇰 香港节点
       - 🇨🇳 台湾节点
@@ -305,7 +305,7 @@ proxy-groups:
   - name: 📹 油管视频
     type: select
     proxies:
-      - 🚀 节点选择
+      - 🚀 手动切换
       - ♻️ 自动选择
       - DIRECT
       - 🇭🇰 香港节点
@@ -317,13 +317,13 @@ proxy-groups:
   - name: 🌍 舍友专用
     type: select
     proxies:
-      - 🚀 节点选择
+      - 🚀 手动切换
       - ♻️ 自动选择
       - DIRECT
   - name: 🎵 TikTok
     type: select
     proxies:
-      - 🚀 节点选择
+      - 🚀 手动切换
       - ♻️ 自动选择
       - DIRECT
       - 🇭🇰 香港节点
@@ -335,7 +335,7 @@ proxy-groups:
   - name: 🌕 Twitter
     type: select
     proxies:
-      - 🚀 节点选择
+      - 🚀 手动切换
       - ♻️ 自动选择
       - DIRECT
       - 🇭🇰 香港节点
@@ -347,7 +347,7 @@ proxy-groups:
   - name: 🌑 Facebook
     type: select
     proxies:
-      - 🚀 节点选择
+      - 🚀 手动切换
       - ♻️ 自动选择
       - DIRECT
       - 🇭🇰 香港节点
@@ -359,9 +359,9 @@ proxy-groups:
   - name: 🎥 奈飞视频
     type: select
     proxies:
-      - 🚀 节点选择
-      - ♻️ 自动选择
       - 🎥 奈飞节点
+      - 🚀 手动切换
+      - ♻️ 自动选择
       - 🇭🇰 香港节点
       - 🇨🇳 台湾节点
       - 🇯🇵 日本节点
@@ -373,7 +373,7 @@ proxy-groups:
     type: select
     proxies:
       - 🇨🇳 台湾节点
-      - 🚀 节点选择
+      - 🚀 手动切换
       - 🇨🇳 台湾1
       - 🇨🇳 台湾2
       - 🇨🇳 台湾3
@@ -393,8 +393,43 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
-      - 🚀 节点选择
+      - 🚀 手动切换
       - ♻️ 自动选择
+  - name: Ⓜ️ 微软云盘
+    type: select
+    proxies:
+      - 🚀 手动切换
+      - ♻️ 自动选择
+      - DIRECT
+  - name: Ⓜ️ 微软服务
+    type: select
+    proxies:
+      - 🚀 手动切换
+      - ♻️ 自动选择
+      - DIRECT
+  - name: 🍎 苹果服务
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 手动切换
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 🇸🇬 狮城节点
+      - 🇺🇲 美国节点
+  - name: 🎮 游戏平台
+    type: select
+    proxies:
+      - 🚀 手动切换
+      - ♻️ 自动选择
+      - DIRECT
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 🇸🇬 狮城节点
+      - 🇺🇲 美国节点
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -407,41 +442,6 @@ proxy-groups:
       - DIRECT
       - 🚀 手动切换
       - ♻️ 自动选择
-  - name: Ⓜ️ 微软云盘
-    type: select
-    proxies:
-      - 🚀 节点选择
-      - ♻️ 自动选择
-      - DIRECT
-  - name: Ⓜ️ 微软服务
-    type: select
-    proxies:
-      - 🚀 节点选择
-      - ♻️ 自动选择
-      - DIRECT
-  - name: 🍎 苹果服务
-    type: select
-    proxies:
-      - DIRECT
-      - 🚀 节点选择
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇯🇵 日本节点
-      - 🇰🇷 韩国节点
-      - 🇸🇬 狮城节点
-      - 🇺🇲 美国节点
-  - name: 🎮 游戏平台
-    type: select
-    proxies:
-      - 🚀 节点选择
-      - ♻️ 自动选择
-      - DIRECT
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇯🇵 日本节点
-      - 🇰🇷 韩国节点
-      - 🇸🇬 狮城节点
-      - 🇺🇲 美国节点
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -2294,7 +2294,9 @@ rules:
  - DOMAIN-SUFFIX,google.com.hk,🌍 舍友专用
  - DOMAIN-SUFFIX,muscdn.com,🎵 TikTok
  - DOMAIN-SUFFIX,musical.ly,🎵 TikTok
+ - DOMAIN-SUFFIX,tiktok.com,🎵 TikTok
  - DOMAIN-SUFFIX,tiktokv.com,🎵 TikTok
+ - DOMAIN-SUFFIX,tik-tokapi.com,🎵 TikTok
  - DOMAIN-SUFFIX,tiktokcdn.com,🎵 TikTok
  - DOMAIN-KEYWORD,-tiktokcdn-com,🎵 TikTok
  - DOMAIN-SUFFIX,pscp.tv,🌕 Twitter
@@ -2816,7 +2818,6 @@ rules:
  - DOMAIN-SUFFIX,tidalhifi.com,🌍 国外媒体
  - DOMAIN,hamifans.emome.net,🌍 国外媒体
  - DOMAIN-SUFFIX,skyking.com.tw,🌍 国外媒体
- - DOMAIN-KEYWORD,-tiktokcdn-com,🌍 国外媒体
  - DOMAIN-SUFFIX,byteoversea.com,🌍 国外媒体
  - DOMAIN-SUFFIX,ibytedtos.com,🌍 国外媒体
  - DOMAIN-SUFFIX,ipstatp.com,🌍 国外媒体
@@ -2826,6 +2827,7 @@ rules:
  - DOMAIN-SUFFIX,tiktok.com,🌍 国外媒体
  - DOMAIN-SUFFIX,tiktokcdn.com,🌍 国外媒体
  - DOMAIN-SUFFIX,tiktokv.com,🌍 国外媒体
+ - DOMAIN-KEYWORD,-tiktokcdn-com,🌍 国外媒体
  - DOMAIN-KEYWORD,ttvnw,🌍 国外媒体
  - DOMAIN-SUFFIX,jtvnw.net,🌍 国外媒体
  - DOMAIN-SUFFIX,ttvnw.net,🌍 国外媒体
