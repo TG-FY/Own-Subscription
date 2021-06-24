@@ -432,12 +432,6 @@ proxy-groups:
       - DIRECT
       - 🚀 节点选择
       - ♻️ 自动选择
-  - name: 🌍 国外媒体
-    type: select
-    proxies:
-      - 🚀 节点选择
-      - ♻️ 自动选择
-      - DIRECT
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -450,6 +444,12 @@ proxy-groups:
     proxies:
       - DIRECT
       - REJECT
+  - name: 🌍 国外媒体
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - DIRECT
   - name: 🐟 漏网之鱼
     type: select
     proxies:
