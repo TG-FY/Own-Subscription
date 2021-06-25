@@ -1,15 +1,9 @@
-http = a1.ap.fastqvpn.com:29980, username=451165164822073344, password=f0c9dd50-9a76-4332-bd75-ab9b94951b32, over-tls=true, fast-open=false, udp-relay=false, tls-verification=false, tag=🇨🇳 香港-新加坡 A1
-http = a2.ap.fastqvpn.com:29980, username=451165164822073344, password=f0c9dd50-9a76-4332-bd75-ab9b94951b32, over-tls=true, fast-open=false, udp-relay=false, tls-verification=false, tag=🇨🇳 香港-新加坡 A2
-http = a3.ap.fastqvpn.com:29980, username=451165164822073344, password=f0c9dd50-9a76-4332-bd75-ab9b94951b32, over-tls=true, fast-open=false, udp-relay=false, tls-verification=false, tag=🇨🇳 香港-新加坡 A3
-http = a4.ap.fastqvpn.com:29980, username=451165164822073344, password=f0c9dd50-9a76-4332-bd75-ab9b94951b32, over-tls=true, fast-open=false, udp-relay=false, tls-verification=false, tag=🇨🇳 香港-新加坡 A4
-http = a5.ap.fastqvpn.com:29980, username=451165164822073344, password=f0c9dd50-9a76-4332-bd75-ab9b94951b32, over-tls=true, fast-open=false, udp-relay=false, tls-verification=false, tag=🇨🇳 香港-新加坡 A5
-http = tx.wy.fastqvpn.com:29980, username=451165164822073344, password=f0c9dd50-9a76-4332-bd75-ab9b94951b32, over-tls=true, fast-open=false, udp-relay=false, tls-verification=true, tag=🇭🇰 香港 WY         
-http = tx.wy.fastqvpn.com:29982, username=451165164822073344, password=f0c9dd50-9a76-4332-bd75-ab9b94951b32, over-tls=true, fast-open=false, udp-relay=false, tls-verification=true, tag=🇦🇺 澳大利亚 WY
-http = tx.wy.fastqvpn.com:29983, username=451165164822073344, password=f0c9dd50-9a76-4332-bd75-ab9b94951b32, over-tls=true, fast-open=false, udp-relay=false, tls-verification=true, tag=🇨🇦 加拿大 WY
-http = tx.wy.fastqvpn.com:29984, username=451165164822073344, password=f0c9dd50-9a76-4332-bd75-ab9b94951b32, over-tls=true, fast-open=false, udp-relay=false, tls-verification=true, tag=🇩🇪 德国 WY
-http = tx.wy.fastqvpn.com:29985, username=451165164822073344, password=f0c9dd50-9a76-4332-bd75-ab9b94951b32, over-tls=true, fast-open=false, udp-relay=false, tls-verification=true, tag=🇯🇵 日本 WY
-http = tx.wy.fastqvpn.com:29987, username=451165164822073344, password=f0c9dd50-9a76-4332-bd75-ab9b94951b32, over-tls=true, fast-open=false, udp-relay=false, tls-verification=true, tag=🇬🇧 英国 WY
-http = tx.wy.fastqvpn.com:29988, username=451165164822073344, password=f0c9dd50-9a76-4332-bd75-ab9b94951b32, over-tls=true, fast-open=false, udp-relay=false, tls-verification=true, tag=🇺🇸 美国 WY
-http = a1.er3.xyz:29980, username=451165164822073344, password=f0c9dd50-9a76-4332-bd75-ab9b94951b32, over-tls=true, fast-open=false, udp-relay=false, tls-verification=true, tag=🇭🇰 香港 ER3
-http = tx.cna.fastqvpn.com:29980, username=451165164822073344, password=f0c9dd50-9a76-4332-bd75-ab9b94951b32, over-tls=true, fast-open=false, udp-relay=false, tls-verification=true, tag=🇭🇰 香港 CNA
+http = global.ap.fastqvpn.com:29980, username=460879411101564928, password=e1334744-409e-4261-8c19-4d7bde6dd1da, over-tls=true, fast-open=false, udp-relay=false, tls-verification=true, tag=🇭🇰 香港 GB
+http = global.ap.fastqvpn.com:29982, username=460879411101564928, password=e1334744-409e-4261-8c19-4d7bde6dd1da, over-tls=true, fast-open=false, udp-relay=false, tls-verification=true, tag=🇦🇺 澳大利亚 GB
+http = global.ap.fastqvpn.com:29983, username=460879411101564928, password=e1334744-409e-4261-8c19-4d7bde6dd1da, over-tls=true, fast-open=false, udp-relay=false, tls-verification=true, tag=🇨🇦 加拿大 GB
+http = global.ap.fastqvpn.com:29984, username=460879411101564928, password=e1334744-409e-4261-8c19-4d7bde6dd1da, over-tls=true, fast-open=false, udp-relay=false, tls-verification=true, tag=🇩🇪 德国 GB
+http = global.ap.fastqvpn.com:29985, username=460879411101564928, password=e1334744-409e-4261-8c19-4d7bde6dd1da, over-tls=true, fast-open=false, udp-relay=false, tls-verification=true, tag=🇯🇵 日本 GB
+http = global.ap.fastqvpn.com:29986, username=460879411101564928, password=e1334744-409e-4261-8c19-4d7bde6dd1da, over-tls=true, fast-open=false, udp-relay=false, tls-verification=true, tag=🇸🇬 新加坡 GB
+http = global.ap.fastqvpn.com:29987, username=460879411101564928, password=e1334744-409e-4261-8c19-4d7bde6dd1da, over-tls=true, fast-open=false, udp-relay=false, tls-verification=true, tag=🇬🇧 英国 GB
+http = global.ap.fastqvpn.com:29987, username=460879411101564928, password=e1334744-409e-4261-8c19-4d7bde6dd1da, over-tls=true, fast-open=false, udp-relay=false, tls-verification=true, tag=🇺🇸 美国 GB
 
