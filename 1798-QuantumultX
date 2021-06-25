@@ -12,18 +12,18 @@ http = a1.er3.xyz:29984, username=460879411101564928, password=e1334744-409e-426
 http = a1.er3.xyz:29985, username=460879411101564928, password=e1334744-409e-4261-8c19-4d7bde6dd1da, over-tls=true, fast-open=false, udp-relay=false, tls-verification=true, tag=🇯🇵 日本 ER3
 http = a1.er3.xyz:29987, username=460879411101564928, password=e1334744-409e-4261-8c19-4d7bde6dd1da, over-tls=true, fast-open=false, udp-relay=false, tls-verification=true, tag=🇬🇧 英国 ER3
 http = a1.er3.xyz:29988, username=460879411101564928, password=e1334744-409e-4261-8c19-4d7bde6dd1da, over-tls=true, fast-open=false, udp-relay=false, tls-verification=true, tag=🇺🇸 美国 ER3
-http = tw01.pjj.life:29980, username=460879411101564928, password=e1334744-409e-4261-8c19-4d7bde6dd1da, over-tls=true, fast-open=false, udp-relay=false, tls-verification=trueTW/台湾◆PJJ1
-http = tw02.pjj.life:29980, username=460879411101564928, password=e1334744-409e-4261-8c19-4d7bde6dd1da, over-tls=true, fast-open=false, udp-relay=false, tls-verification=trueTW/台湾◆PJJ2
-http = tw03.pjj.life:29980, username=460879411101564928, password=e1334744-409e-4261-8c19-4d7bde6dd1da, over-tls=true, fast-open=false, udp-relay=false, tls-verification=trueTW/台湾◆PJJ3
-http = tw04.pjj.life:29980, username=460879411101564928, password=e1334744-409e-4261-8c19-4d7bde6dd1da, over-tls=true, fast-open=false, udp-relay=false, tls-verification=trueTW/台湾◆PJJ4
-http = sk03.pjj.life:29980, username=460879411101564928, password=e1334744-409e-4261-8c19-4d7bde6dd1da, over-tls=true, fast-open=false, udp-relay=false, tls-verification=trueKR/韩国◆PJJ1
-http = sk04.pjj.life:29980, username=460879411101564928, password=e1334744-409e-4261-8c19-4d7bde6dd1da, over-tls=true, fast-open=false, udp-relay=false, tls-verification=trueKR/韩国◆PJJ2
-http = sg01.pjj.life:29980, username=460879411101564928, password=e1334744-409e-4261-8c19-4d7bde6dd1da, over-tls=true, fast-open=false, udp-relay=false, tls-verification=trueSG/新加坡◆PJJ1
-http = sg02.pjj.life:29980, username=460879411101564928, password=e1334744-409e-4261-8c19-4d7bde6dd1da, over-tls=true, fast-open=false, udp-relay=false, tls-verification=trueSG/新加坡◆PJJ2
-http = sg03.pjj.life:29980, username=460879411101564928, password=e1334744-409e-4261-8c19-4d7bde6dd1da, over-tls=true, fast-open=false, udp-relay=false, tls-verification=trueSG/新加坡◆PJJ3
-http = sg04.pjj.life:29980, username=460879411101564928, password=e1334744-409e-4261-8c19-4d7bde6dd1da, over-tls=true, fast-open=false, udp-relay=false, tls-verification=trueSG/新加坡◆PJJ4
-http = hk01.pjj.life:29980, username=460879411101564928, password=e1334744-409e-4261-8c19-4d7bde6dd1da, over-tls=true, fast-open=false, udp-relay=false, tls-verification=trueHK/香港◆PJJ1
-http = hk02.pjj.life:29980, username=460879411101564928, password=e1334744-409e-4261-8c19-4d7bde6dd1da, over-tls=true, fast-open=false, udp-relay=false, tls-verification=trueHK/香港◆PJJ2
-http = hk03.pjj.life:29980, username=460879411101564928, password=e1334744-409e-4261-8c19-4d7bde6dd1da, over-tls=true, fast-open=false, udp-relay=false, tls-verification=trueHK/香港◆PJJ3
-http = hk04.pjj.life:29980, username=460879411101564928, password=e1334744-409e-4261-8c19-4d7bde6dd1da, over-tls=true, fast-open=false, udp-relay=false, tls-verification=trueHK/香港◆PJJ4
+http = tw01.pjj.life:29980, username=460879411101564928, password=e1334744-409e-4261-8c19-4d7bde6dd1da, over-tls=true, fast-open=false, udp-relay=false, tls-verification=true, tag=🇨🇳 TW PJJ1
+http = tw02.pjj.life:29980, username=460879411101564928, password=e1334744-409e-4261-8c19-4d7bde6dd1da, over-tls=true, fast-open=false, udp-relay=false, tls-verification=true, tag=🇨🇳 TW PJJ2
+http = tw03.pjj.life:29980, username=460879411101564928, password=e1334744-409e-4261-8c19-4d7bde6dd1da, over-tls=true, fast-open=false, udp-relay=false, tls-verification=true, tag=🇨🇳 TW PJJ3
+http = tw04.pjj.life:29980, username=460879411101564928, password=e1334744-409e-4261-8c19-4d7bde6dd1da, over-tls=true, fast-open=false, udp-relay=false, tls-verification=true, tag=🇨🇳 TW PJJ4
+http = sk03.pjj.life:29980, username=460879411101564928, password=e1334744-409e-4261-8c19-4d7bde6dd1da, over-tls=true, fast-open=false, udp-relay=false, tls-verification=true, tag=🇰🇷 KR PJJ1
+http = sk04.pjj.life:29980, username=460879411101564928, password=e1334744-409e-4261-8c19-4d7bde6dd1da, over-tls=true, fast-open=false, udp-relay=false, tls-verification=true, tag=🇰🇷 KR PJJ2
+http = sg01.pjj.life:29980, username=460879411101564928, password=e1334744-409e-4261-8c19-4d7bde6dd1da, over-tls=true, fast-open=false, udp-relay=false, tls-verification=true, tag=🇸🇬 新加坡 PJJ1
+http = sg02.pjj.life:29980, username=460879411101564928, password=e1334744-409e-4261-8c19-4d7bde6dd1da, over-tls=true, fast-open=false, udp-relay=false, tls-verification=true, tag=🇸🇬 新加坡 PJJ2
+http = sg03.pjj.life:29980, username=460879411101564928, password=e1334744-409e-4261-8c19-4d7bde6dd1da, over-tls=true, fast-open=false, udp-relay=false, tls-verification=true, tag=🇸🇬 新加坡 PJJ3
+http = sg04.pjj.life:29980, username=460879411101564928, password=e1334744-409e-4261-8c19-4d7bde6dd1da, over-tls=true, fast-open=false, udp-relay=false, tls-verification=true, tag=🇸🇬 新加坡 PJJ4
+http = hk01.pjj.life:29980, username=460879411101564928, password=e1334744-409e-4261-8c19-4d7bde6dd1da, over-tls=true, fast-open=false, udp-relay=false, tls-verification=true, tag=🇭🇰 香港 PJJ1
+http = hk02.pjj.life:29980, username=460879411101564928, password=e1334744-409e-4261-8c19-4d7bde6dd1da, over-tls=true, fast-open=false, udp-relay=false, tls-verification=true, tag=🇭🇰 香港 PJJ2
+http = hk03.pjj.life:29980, username=460879411101564928, password=e1334744-409e-4261-8c19-4d7bde6dd1da, over-tls=true, fast-open=false, udp-relay=false, tls-verification=true, tag=🇭🇰 香港 PJJ3
+http = hk04.pjj.life:29980, username=460879411101564928, password=e1334744-409e-4261-8c19-4d7bde6dd1da, over-tls=true, fast-open=false, udp-relay=false, tls-verification=true, tag=🇭🇰 香港 PJJ4
 
