@@ -9,104 +9,104 @@ proxies:
     server: a1.ap.fastqvpn.com
     port: 29980
     type: http
-    username: "460516570016251904"
-    password: c555acde-2503-4e91-b5fe-f8bcbaa3491a
+    username: "460879411101564928"
+    password: e1334744-409e-4261-8c19-4d7bde6dd1da
     tls: true
     skip-cert-verify: false
   - name: 🇨🇳 香港-新加坡 A2
     server: a2.ap.fastqvpn.com
     port: 29980
     type: http
-    username: "460516570016251904"
-    password: c555acde-2503-4e91-b5fe-f8bcbaa3491a
+    username: "460879411101564928"
+    password: e1334744-409e-4261-8c19-4d7bde6dd1da
     tls: true
     skip-cert-verify: false
   - name: 🇨🇳 香港-新加坡 A3
     server: a3.ap.fastqvpn.com
     port: 29980
     type: http
-    username: "460516570016251904"
-    password: c555acde-2503-4e91-b5fe-f8bcbaa3491a
+    username: "460879411101564928"
+    password: e1334744-409e-4261-8c19-4d7bde6dd1da
     tls: true
     skip-cert-verify: false
   - name: 🇨🇳 香港-新加坡 A4
     server: a4.ap.fastqvpn.com
     port: 29980
     type: http
-    username: "460516570016251904"
-    password: c555acde-2503-4e91-b5fe-f8bcbaa3491a
+    username: "460879411101564928"
+    password: e1334744-409e-4261-8c19-4d7bde6dd1da
     tls: true
     skip-cert-verify: false
   - name: 🇨🇳 香港-新加坡 A5
     server: a5.ap.fastqvpn.com
     port: 29980
     type: http
-    username: "460516570016251904"
-    password: c555acde-2503-4e91-b5fe-f8bcbaa3491a
+    username: "460879411101564928"
+    password: e1334744-409e-4261-8c19-4d7bde6dd1da
     tls: true
     skip-cert-verify: false
   - name: 🇭🇰 香港 WY
     server: tx.wy.fastqvpn.com
     port: 29980
     type: http
-    username: "460516570016251904"
-    password: c555acde-2503-4e91-b5fe-f8bcbaa3491a
+    username: "460879411101564928"
+    password: e1334744-409e-4261-8c19-4d7bde6dd1da
     tls: true
     skip-cert-verify: true
   - name: 🇦🇺 澳大利亚 WY
     server: tx.wy.fastqvpn.com
     port: 29982
     type: http
-    username: "460516570016251904"
-    password: c555acde-2503-4e91-b5fe-f8bcbaa3491a
+    username: "460879411101564928"
+    password: e1334744-409e-4261-8c19-4d7bde6dd1da
     tls: true
     skip-cert-verify: true
   - name: 🇨🇦 加拿大 WY
     server: tx.wy.fastqvpn.com
     port: 29983
     type: http
-    username: "460516570016251904"
-    password: c555acde-2503-4e91-b5fe-f8bcbaa3491a
+    username: "460879411101564928"
+    password: e1334744-409e-4261-8c19-4d7bde6dd1da
     tls: true
     skip-cert-verify: true
   - name: 🇩🇪 德国 WY
     server: tx.wy.fastqvpn.com
     port: 29984
     type: http
-    username: "460516570016251904"
-    password: c555acde-2503-4e91-b5fe-f8bcbaa3491a
+    username: "460879411101564928"
+    password: e1334744-409e-4261-8c19-4d7bde6dd1da
     tls: true
     skip-cert-verify: true
   - name: 🇯🇵 日本 WY
     server: tx.wy.fastqvpn.com
     port: 29985
     type: http
-    username: "460516570016251904"
-    password: c555acde-2503-4e91-b5fe-f8bcbaa3491a
+    username: "460879411101564928"
+    password: e1334744-409e-4261-8c19-4d7bde6dd1da
     tls: true
     skip-cert-verify: true
   - name: 🇬🇧 英国 WY
     server: tx.wy.fastqvpn.com
     port: 29987
     type: http
-    username: "460516570016251904"
-    password: c555acde-2503-4e91-b5fe-f8bcbaa3491a
+    username: "460879411101564928"
+    password: e1334744-409e-4261-8c19-4d7bde6dd1da
     tls: true
     skip-cert-verify: true
   - name: 🇺🇸 美国 WY
     server: tx.wy.fastqvpn.com
     port: 29988
     type: http
-    username: "460516570016251904"
-    password: c555acde-2503-4e91-b5fe-f8bcbaa3491a
+    username: "460879411101564928"
+    password: e1334744-409e-4261-8c19-4d7bde6dd1da
     tls: true
     skip-cert-verify: true
-  - name: 🇭🇰 香港 ER3
-    server: a1.er3.xyz
+  - name: 🇭🇰 香港 PJJ1
+    server: hk01.pjj.life
     port: 29980
     type: http
-    username: "460516570016251904"
-    password: c555acde-2503-4e91-b5fe-f8bcbaa3491a
+    username: "460879411101564928"
+    password: e1334744-409e-4261-8c19-4d7bde6dd1da
     tls: true
     skip-cert-verify: true
   -
@@ -230,7 +230,7 @@ proxy-groups:
       - 🇯🇵 日本 WY
       - 🇬🇧 英国 WY
       - 🇺🇸 美国 WY
-      - 🇭🇰 香港 ER3
+      - 🇭🇰 香港 PJJ1
       - 🇨🇳 台湾1
       - 🇨🇳 台湾2
       - 🇨🇳 台湾3
@@ -270,7 +270,7 @@ proxy-groups:
       - 🇯🇵 日本 WY
       - 🇬🇧 英国 WY
       - 🇺🇸 美国 WY
-      - 🇭🇰 香港 ER3
+      - 🇭🇰 香港 PJJ1
       - 🇨🇳 台湾1
       - 🇨🇳 台湾2
       - 🇨🇳 台湾3
@@ -426,12 +426,6 @@ proxy-groups:
       - 🇰🇷 韩国节点
       - 🇸🇬 狮城节点
       - 🇺🇲 美国节点
-  - name: 🎯 全球直连
-    type: select
-    proxies:
-      - DIRECT
-      - 🚀 节点选择
-      - ♻️ 自动选择
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -450,6 +444,12 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - DIRECT
+  - name: 🎯 全球直连
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - ♻️ 自动选择
   - name: 🐟 漏网之鱼
     type: select
     proxies:
@@ -463,7 +463,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇭🇰 香港 WY
-      - 🇭🇰 香港 ER3
+      - 🇭🇰 香港 PJJ1
   - name: 🇨🇳 台湾节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -523,7 +523,7 @@ proxy-groups:
       - 🇯🇵 日本 WY
       - 🇬🇧 英国 WY
       - 🇺🇸 美国 WY
-      - 🇭🇰 香港 ER3
+      - 🇭🇰 香港 PJJ1
       - 🇺🇲 美国 洛杉矶 谷歌学术可
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
