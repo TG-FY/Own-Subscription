@@ -9,64 +9,64 @@ proxies:
     server: tx.wy.fastqvpn.com
     port: 29980
     type: http
-    username: "460879411101564928"
-    password: e1334744-409e-4261-8c19-4d7bde6dd1da
+    username: "461516536318787584"
+    password: 91049ca7-0b7d-4454-9f6e-92586f8ac7db
     tls: true
     skip-cert-verify: true
   - name: 🇦🇺 澳大利亚 WY
     server: tx.wy.fastqvpn.com
     port: 29982
     type: http
-    username: "460879411101564928"
-    password: e1334744-409e-4261-8c19-4d7bde6dd1da
+    username: "461516536318787584"
+    password: 91049ca7-0b7d-4454-9f6e-92586f8ac7db
     tls: true
     skip-cert-verify: true
   - name: 🇨🇦 加拿大 WY
     server: tx.wy.fastqvpn.com
     port: 29983
     type: http
-    username: "460879411101564928"
-    password: e1334744-409e-4261-8c19-4d7bde6dd1da
+    username: "461516536318787584"
+    password: 91049ca7-0b7d-4454-9f6e-92586f8ac7db
     tls: true
     skip-cert-verify: true
   - name: 🇩🇪 德国 WY
     server: tx.wy.fastqvpn.com
     port: 29984
     type: http
-    username: "460879411101564928"
-    password: e1334744-409e-4261-8c19-4d7bde6dd1da
+    username: "461516536318787584"
+    password: 91049ca7-0b7d-4454-9f6e-92586f8ac7db
     tls: true
     skip-cert-verify: true
   - name: 🇯🇵 日本 WY
     server: tx.wy.fastqvpn.com
     port: 29985
     type: http
-    username: "460879411101564928"
-    password: e1334744-409e-4261-8c19-4d7bde6dd1da
+    username: "461516536318787584"
+    password: 91049ca7-0b7d-4454-9f6e-92586f8ac7db
     tls: true
     skip-cert-verify: true
   - name: 🇬🇧 英国 WY
     server: tx.wy.fastqvpn.com
     port: 29987
     type: http
-    username: "460879411101564928"
-    password: e1334744-409e-4261-8c19-4d7bde6dd1da
+    username: "461516536318787584"
+    password: 91049ca7-0b7d-4454-9f6e-92586f8ac7db
     tls: true
     skip-cert-verify: true
   - name: 🇺🇸 美国 WY
     server: tx.wy.fastqvpn.com
     port: 29988
     type: http
-    username: "460879411101564928"
-    password: e1334744-409e-4261-8c19-4d7bde6dd1da
+    username: "461516536318787584"
+    password: 91049ca7-0b7d-4454-9f6e-92586f8ac7db
     tls: true
     skip-cert-verify: true
   - name: 🇸🇬 新加坡 PJJ1
     server: tw01.pjj.life
     port: 29980
     type: http
-    username: "460879411101564928"
-    password: e1334744-409e-4261-8c19-4d7bde6dd1da
+    username: "461516536318787584"
+    password: 91049ca7-0b7d-4454-9f6e-92586f8ac7db
     tls: true
     skip-cert-verify: true
   -
