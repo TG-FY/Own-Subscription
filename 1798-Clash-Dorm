@@ -454,6 +454,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - 🇸🇬 新加坡 WY
       - 🇸🇬 新加坡 PJJ1
   - name: 🇺🇲 美国节点
     type: select
