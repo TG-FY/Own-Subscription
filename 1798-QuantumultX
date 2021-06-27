@@ -1,8 +1,8 @@
 http=a1.ap.fastqvpn.com:29980, username=461516536318787584, password=91049ca7-0b7d-4454-9f6e-92586f8ac7db, over-tls=true, tls-verification=true, tag=🇸🇬 新加坡 A1
-http=global.ap.fastqvpn.com:29982, username=461516536318787584, password=91049ca7-0b7d-4454-9f6e-92586f8ac7db, over-tls=true, tls-verification=false, tag=🇦🇺 澳大利亚 GB
-http=global.ap.fastqvpn.com:29983, username=461516536318787584, password=91049ca7-0b7d-4454-9f6e-92586f8ac7db, over-tls=true, tls-verification=false, tag=🇨🇦 加拿大 GB
-http=global.ap.fastqvpn.com:29984, username=461516536318787584, password=91049ca7-0b7d-4454-9f6e-92586f8ac7db, over-tls=true, tls-verification=false, tag=🇩🇪 德国 GB
-http=global.ap.fastqvpn.com:29985, username=461516536318787584, password=91049ca7-0b7d-4454-9f6e-92586f8ac7db, over-tls=true, tls-verification=false, tag=🇯🇵 日本 GB
-http=global.ap.fastqvpn.com:29987, username=461516536318787584, password=91049ca7-0b7d-4454-9f6e-92586f8ac7db, over-tls=true, tls-verification=false, tag=🇬🇧 英国 GB
-http=global.ap.fastqvpn.com:29988, username=461516536318787584, password=91049ca7-0b7d-4454-9f6e-92586f8ac7db, over-tls=true, tls-verification=false, tag=🇺🇸 美国 GB
+http=tx.wy.fastqvpn.com:29982, username=461516536318787584, password=91049ca7-0b7d-4454-9f6e-92586f8ac7db, over-tls=true, tls-verification=false, tag=🇦🇺 澳大利亚 GB
+http=tx.wy.fastqvpn.com:29983, username=461516536318787584, password=91049ca7-0b7d-4454-9f6e-92586f8ac7db, over-tls=true, tls-verification=false, tag=🇨🇦 加拿大 GB
+http=tx.wy.fastqvpn.com:29984, username=461516536318787584, password=91049ca7-0b7d-4454-9f6e-92586f8ac7db, over-tls=true, tls-verification=false, tag=🇩🇪 德国 GB
+http=tx.wy.fastqvpn.com:29985, username=461516536318787584, password=91049ca7-0b7d-4454-9f6e-92586f8ac7db, over-tls=true, tls-verification=false, tag=🇯🇵 日本 GB
+http=tx.wy.fastqvpn.com:29987, username=461516536318787584, password=91049ca7-0b7d-4454-9f6e-92586f8ac7db, over-tls=true, tls-verification=false, tag=🇬🇧 英国 GB
+http=tx.wy.fastqvpn.com:29988, username=461516536318787584, password=91049ca7-0b7d-4454-9f6e-92586f8ac7db, over-tls=true, tls-verification=false, tag=🇺🇸 美国 GB
 
