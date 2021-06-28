@@ -5,301 +5,249 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇯🇵 日本_AWS, server: 13.115.122.254, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇰🇷 韩国_AWS, server: 3.36.91.36, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬 新加坡_AWS, server: 18.140.3.216, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 美国_AWS, server: 52.11.131.203, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇨🇳 Lv1 台湾 C | Netflix, server: hinet.rdns.link, port: 50023, type: ssr, cipher: aes-256-cfb, password: Getfree.Cloud, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 12545:8gzh6I, obfs-param: 46f8112545.software-download.microsoft.com}
-  - {name: 🇨🇳 Lv1 台湾 D | Netflix, server: hinet.rdns.link, port: 50024, type: ssr, cipher: aes-256-cfb, password: Getfree.Cloud, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 12545:8gzh6I, obfs-param: 46f8112545.software-download.microsoft.com}
-  - {name: 🇸🇬 专线 新加坡 B1 深圳BGP, server: n3ro-iplc-02.zc8nax4blr6bbjxf.node.cyou, port: 5042, type: ssr, cipher: chacha20-ietf, password: 7CRAZe4cKJygUo3W, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 29561:bPlYHb, obfs-param: 9b61529561.apple.com}
-  - {name: 🇸🇬 专线 新加坡 B2 深圳BGP, server: n3ro-iplc-02.zc8nax4blr6bbjxf.node.cyou, port: 5041, type: ssr, cipher: chacha20-ietf, password: 7CRAZe4cKJygUo3W, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 29561:bPlYHb, obfs-param: 9b61529561.apple.com}
-  - {name: 🇺🇸 专线 美国 B1 深圳BGP, server: n3ro-iplc-02.zc8nax4blr6bbjxf.node.cyou, port: 5031, type: ssr, cipher: chacha20-ietf, password: 7CRAZe4cKJygUo3W, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 29561:bPlYHb, obfs-param: 9b61529561.apple.com}
-  - {name: 🇺🇸 专线 美国 B2 深圳BGP, server: n3ro-iplc-02.zc8nax4blr6bbjxf.node.cyou, port: 5032, type: ssr, cipher: chacha20-ietf, password: 7CRAZe4cKJygUo3W, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 29561:bPlYHb, obfs-param: 9b61529561.apple.com}
-  - {name: 🇭🇰 专线 香港 B1 深圳BGP, server: n3ro-iplc-02.zc8nax4blr6bbjxf.node.cyou, port: 5011, type: ssr, cipher: chacha20-ietf, password: 7CRAZe4cKJygUo3W, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 29561:bPlYHb, obfs-param: 9b61529561.apple.com}
-  - {name: 🇭🇰 专线 香港 B2 深圳BGP, server: n3ro-iplc-02.zc8nax4blr6bbjxf.node.cyou, port: 5012, type: ssr, cipher: chacha20-ietf, password: 7CRAZe4cKJygUo3W, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 29561:bPlYHb, obfs-param: 9b61529561.apple.com}
-  - {name: 🇭🇰 专线 香港 B3 深圳BGP, server: n3ro-iplc-02.zc8nax4blr6bbjxf.node.cyou, port: 5013, type: ssr, cipher: chacha20-ietf, password: 7CRAZe4cKJygUo3W, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 29561:bPlYHb, obfs-param: 9b61529561.apple.com}
-  - {name: 🇲🇾 专线 马来西亚 B1 深圳BGP, server: n3ro-iplc-02.zc8nax4blr6bbjxf.node.cyou, port: 5071, type: ssr, cipher: chacha20-ietf, password: 7CRAZe4cKJygUo3W, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 29561:bPlYHb, obfs-param: 9b61529561.apple.com}
-  - {name: 🇷🇺 中继 冷门-俄罗斯 B4 广州移动, server: n3ro-in-b1.ccajxxpxjmtedsxn.node.cyou, port: 5084, type: ssr, cipher: chacha20-ietf, password: 7CRAZe4cKJygUo3W, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 29561:bPlYHb, obfs-param: 9b61529561.apple.com}
-  - {name: 🇮🇳 中继 冷门-印度 B6 广州移动, server: n3ro-in-b2.cpzzxmnmjza26j8e.node.cyou, port: 5086, type: ssr, cipher: chacha20-ietf, password: 7CRAZe4cKJygUo3W, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 29561:bPlYHb, obfs-param: 9b61529561.apple.com}
-  - {name: 🇩🇪 中继 冷门-德国 B3 广州移动, server: n3ro-in-b5.f6as2mdbbflrmbcn.node.cyou, port: 5083, type: ssr, cipher: chacha20-ietf, password: 7CRAZe4cKJygUo3W, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 29561:bPlYHb, obfs-param: 9b61529561.apple.com}
-  - {name: 🇦🇺 中继 冷门-澳大利亚 B2 广州移动, server: n3ro-in-b1.ccajxxpxjmtedsxn.node.cyou, port: 5082, type: ssr, cipher: chacha20-ietf, password: 7CRAZe4cKJygUo3W, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 29561:bPlYHb, obfs-param: 9b61529561.apple.com}
-  - {name: 🇬🇧 中继 冷门-英国 B7 广州移动, server: n3ro-in-b2.cpzzxmnmjza26j8e.node.cyou, port: 5087, type: ssr, cipher: chacha20-ietf, password: 7CRAZe4cKJygUo3W, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 29561:bPlYHb, obfs-param: 9b61529561.apple.com}
-  - {name: 🇨🇳 中继 台湾 B1 广州移动, server: n3ro-in-b4.czfdixttawemkdmt.node.cyou, port: 5251, type: ssr, cipher: chacha20-ietf, password: 7CRAZe4cKJygUo3W, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 29561:bPlYHb, obfs-param: 9b61529561.apple.com}
-  - {name: 🇨🇳 中继 台湾 B2 广州移动, server: n3ro-in-b5.f6as2mdbbflrmbcn.node.cyou, port: 5252, type: ssr, cipher: chacha20-ietf, password: 7CRAZe4cKJygUo3W, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 29561:bPlYHb, obfs-param: 9b61529561.apple.com}
-  - {name: 🇨🇳 中继 台湾 B3 广州移动, server: n3ro-in-b3.beldfa2xgwsr8r4d.node.cyou, port: 5251, type: ssr, cipher: chacha20-ietf, password: 7CRAZe4cKJygUo3W, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 29561:bPlYHb, obfs-param: 9b61529561.apple.com}
-  - {name: 🇸🇬 中继 新加坡 B1 广州移动, server: n3ro-in-b1.ccajxxpxjmtedsxn.node.cyou, port: 5241, type: ssr, cipher: chacha20-ietf, password: 7CRAZe4cKJygUo3W, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 29561:bPlYHb, obfs-param: 9b61529561.apple.com}
-  - {name: 🇸🇬 中继 新加坡 B2 广州移动, server: n3ro-in-b2.cpzzxmnmjza26j8e.node.cyou, port: 5242, type: ssr, cipher: chacha20-ietf, password: 7CRAZe4cKJygUo3W, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 29561:bPlYHb, obfs-param: 9b61529561.apple.com}
-  - {name: 🇸🇬 中继 新加坡 B3 广州移动, server: n3ro-in-b3.beldfa2xgwsr8r4d.node.cyou, port: 5243, type: ssr, cipher: chacha20-ietf, password: 7CRAZe4cKJygUo3W, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 29561:bPlYHb, obfs-param: 9b61529561.apple.com}
-  - {name: 🇸🇬 中继 新加坡 B4 广州移动, server: n3ro-in-b4.czfdixttawemkdmt.node.cyou, port: 5244, type: ssr, cipher: chacha20-ietf, password: 7CRAZe4cKJygUo3W, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 29561:bPlYHb, obfs-param: 9b61529561.apple.com}
-  - {name: 🇸🇬 中继 新加坡 B5 广州移动, server: n3ro-in-b5.f6as2mdbbflrmbcn.node.cyou, port: 5241, type: ssr, cipher: chacha20-ietf, password: 7CRAZe4cKJygUo3W, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 29561:bPlYHb, obfs-param: 9b61529561.apple.com}
-  - {name: 🇯🇵 中继 日本 B1 广州移动, server: n3ro-in-b1.ccajxxpxjmtedsxn.node.cyou, port: 5221, type: ssr, cipher: chacha20-ietf, password: 7CRAZe4cKJygUo3W, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 29561:bPlYHb, obfs-param: 9b61529561.apple.com}
-  - {name: 🇯🇵 中继 日本 B2 广州移动, server: n3ro-in-b2.cpzzxmnmjza26j8e.node.cyou, port: 5222, type: ssr, cipher: chacha20-ietf, password: 7CRAZe4cKJygUo3W, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 29561:bPlYHb, obfs-param: 9b61529561.apple.com}
-  - {name: 🇯🇵 中继 日本 B3 广州移动, server: n3ro-in-b3.beldfa2xgwsr8r4d.node.cyou, port: 5223, type: ssr, cipher: chacha20-ietf, password: 7CRAZe4cKJygUo3W, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 29561:bPlYHb, obfs-param: 9b61529561.apple.com}
-  - {name: 🇺🇸 中继 美国 B1 广州移动, server: n3ro-in-b1.ccajxxpxjmtedsxn.node.cyou, port: 5231, type: ssr, cipher: chacha20-ietf, password: 7CRAZe4cKJygUo3W, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 29561:bPlYHb, obfs-param: 9b61529561.apple.com}
-  - {name: 🇺🇸 中继 美国 B2 广州移动, server: n3ro-in-b2.cpzzxmnmjza26j8e.node.cyou, port: 5232, type: ssr, cipher: chacha20-ietf, password: 7CRAZe4cKJygUo3W, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 29561:bPlYHb, obfs-param: 9b61529561.apple.com}
-  - {name: 🇺🇸 中继 美国 B3 广州移动, server: n3ro-in-b3.beldfa2xgwsr8r4d.node.cyou, port: 5233, type: ssr, cipher: chacha20-ietf, password: 7CRAZe4cKJygUo3W, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 29561:bPlYHb, obfs-param: 9b61529561.apple.com}
-  - {name: 🇺🇸 中继 美国 B4 广州移动, server: n3ro-in-b4.czfdixttawemkdmt.node.cyou, port: 5231, type: ssr, cipher: chacha20-ietf, password: 7CRAZe4cKJygUo3W, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 29561:bPlYHb, obfs-param: 9b61529561.apple.com}
-  - {name: 🇰🇷 中继 韩国 B1 广州移动, server: n3ro-in-b5.f6as2mdbbflrmbcn.node.cyou, port: 5261, type: ssr, cipher: chacha20-ietf, password: 7CRAZe4cKJygUo3W, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 29561:bPlYHb, obfs-param: 9b61529561.apple.com}
-  - {name: 🇭🇰 中继 香港 B1 广州移动, server: n3ro-in-b1.ccajxxpxjmtedsxn.node.cyou, port: 5211, type: ssr, cipher: chacha20-ietf, password: 7CRAZe4cKJygUo3W, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 29561:bPlYHb, obfs-param: 9b61529561.apple.com}
-  - {name: 🇭🇰 中继 香港 B3 广州移动, server: n3ro-in-b3.beldfa2xgwsr8r4d.node.cyou, port: 5213, type: ssr, cipher: chacha20-ietf, password: 7CRAZe4cKJygUo3W, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 29561:bPlYHb, obfs-param: 9b61529561.apple.com}
-  - {name: 🇭🇰 中继 香港 B5 广州移动, server: n3ro-in-b5.f6as2mdbbflrmbcn.node.cyou, port: 5215, type: ssr, cipher: chacha20-ietf, password: 7CRAZe4cKJygUo3W, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 29561:bPlYHb, obfs-param: 9b61529561.apple.com}
-  - {name: 🇭🇰 中继 香港 B6 广州移动, server: n3ro-in-b1.ccajxxpxjmtedsxn.node.cyou, port: 5216, type: ssr, cipher: chacha20-ietf, password: 7CRAZe4cKJygUo3W, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 29561:bPlYHb, obfs-param: 9b61529561.apple.com}
-  - {name: 🇲🇾 中继 马来西亚 B1 广州移动, server: n3ro-in-b5.f6as2mdbbflrmbcn.node.cyou, port: 5271, type: ssr, cipher: chacha20-ietf, password: 7CRAZe4cKJygUo3W, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 29561:bPlYHb, obfs-param: 9b61529561.apple.com}
-  - {name: 🇲🇾 中继 马来西亚 B2 广州移动, server: n3ro-in-b2.cpzzxmnmjza26j8e.node.cyou, port: 5272, type: ssr, cipher: chacha20-ietf, password: 7CRAZe4cKJygUo3W, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 29561:bPlYHb, obfs-param: 9b61529561.apple.com}
-  - {name: 🇭🇰 【Ghelper】HK/香港, server: cm-hk.stunnel.vip, port: 4700, type: http, tls: true, skip-cert-verify: false}
+  - name: 🇸🇬 新加坡 WY
+    server: tx.wy.fastqvpn.com
+    port: 29980
+    type: http
+    username: "461516536318787584"
+    password: 91049ca7-0b7d-4454-9f6e-92586f8ac7db
+    tls: true
+    skip-cert-verify: true
+  - name: 🇦🇺 澳大利亚 WY
+    server: tx.wy.fastqvpn.com
+    port: 29982
+    type: http
+    username: "461516536318787584"
+    password: 91049ca7-0b7d-4454-9f6e-92586f8ac7db
+    tls: true
+    skip-cert-verify: true
+  - name: 🇨🇦 加拿大 WY
+    server: tx.wy.fastqvpn.com
+    port: 29983
+    type: http
+    username: "461516536318787584"
+    password: 91049ca7-0b7d-4454-9f6e-92586f8ac7db
+    tls: true
+    skip-cert-verify: true
+  - name: 🇩🇪 德国 WY
+    server: tx.wy.fastqvpn.com
+    port: 29984
+    type: http
+    username: "461516536318787584"
+    password: 91049ca7-0b7d-4454-9f6e-92586f8ac7db
+    tls: true
+    skip-cert-verify: true
+  - name: 🇯🇵 日本 WY
+    server: tx.wy.fastqvpn.com
+    port: 29985
+    type: http
+    username: "461516536318787584"
+    password: 91049ca7-0b7d-4454-9f6e-92586f8ac7db
+    tls: true
+    skip-cert-verify: true
+  - name: 🇬🇧 英国 WY
+    server: tx.wy.fastqvpn.com
+    port: 29987
+    type: http
+    username: "461516536318787584"
+    password: 91049ca7-0b7d-4454-9f6e-92586f8ac7db
+    tls: true
+    skip-cert-verify: true
+  - name: 🇺🇸 美国 WY
+    server: tx.wy.fastqvpn.com
+    port: 29988
+    type: http
+    username: "461516536318787584"
+    password: 91049ca7-0b7d-4454-9f6e-92586f8ac7db
+    tls: true
+    skip-cert-verify: true
+  - name: 🇸🇬 新加坡 PJJ1
+    server: tw01.pjj.life
+    port: 29980
+    type: http
+    username: "461516536318787584"
+    password: 91049ca7-0b7d-4454-9f6e-92586f8ac7db
+    tls: true
+    skip-cert-verify: true
+  -
+    name: 🇨🇳 台湾1
+    type: vmess
+    server: SCDN.2331.VOLAKT.China-nCDN-nRDS.com
+    port: 2331
+    uuid: 50a5a1db-2e2d-3c8a-bbe4-c4fe2db46c7f
+    alterId: 2
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /iso
+    ws-headers:
+      Host: SCDN.2331.VOLAKT.China-nCDN-nRDS.com
+  -
+    name: 🇨🇳 台湾2
+    type: vmess
+    server: SCDN.2332.AXGTAD.China-nCDN-nRDS.com
+    port: 2332
+    uuid: 50a5a1db-2e2d-3c8a-bbe4-c4fe2db46c7f
+    alterId: 2
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /iso
+    ws-headers:
+      Host: SCDN.2332.AXGTAD.China-nCDN-nRDS.com
+  -
+    name: 🇨🇳 台湾3
+    type: vmess
+    server: SCDN.2333.ZXBVTV.China-nCDN-nRDS.com
+    port: 2333
+    uuid: 50a5a1db-2e2d-3c8a-bbe4-c4fe2db46c7f
+    alterId: 2
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /iso
+    ws-headers:
+      Host: SCDN.2333.ZXBVTV.China-nCDN-nRDS.com
+  -
+    name: 🇨🇳 台湾4
+    type: vmess
+    server: SCDN.2334.BLKOAJ.China-nCDN-nRDS.com
+    port: 2334
+    uuid: 50a5a1db-2e2d-3c8a-bbe4-c4fe2db46c7f
+    alterId: 2
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /iso
+    ws-headers:
+      Host: SCDN.2334.BLKOAJ.China-nCDN-nRDS.com
+  -
+    name: 🇨🇳 台湾5
+    type: vmess
+    server: SCDN.2335.DLZLTQ.China-nCDN-nRDS.com
+    port: 2335
+    uuid: 50a5a1db-2e2d-3c8a-bbe4-c4fe2db46c7f
+    alterId: 2
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /iso
+    ws-headers:
+      Host: SCDN.2335.DLZLTQ.China-nCDN-nRDS.com
+  -
+    name: 🇨🇳 台湾6
+    type: vmess
+    server: SCDN.2336.FOLVKQ.China-nCDN-nRDS.com
+    port: 2336
+    uuid: 50a5a1db-2e2d-3c8a-bbe4-c4fe2db46c7f
+    alterId: 2
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /iso
+    ws-headers:
+      Host: SCDN.2336.FOLVKQ.China-nCDN-nRDS.com
+  -
+    name: 🇨🇳 台湾7
+    type: vmess
+    server: SCDN.2337.ZKLDMF.China-nCDN-nRDS.com
+    port: 2337
+    uuid: 50a5a1db-2e2d-3c8a-bbe4-c4fe2db46c7f
+    alterId: 2
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /iso
+    ws-headers:
+      Host: SCDN.2337.ZKLDMF.China-nCDN-nRDS.com
+  -
+    name: 🇨🇳 台湾8
+    type: vmess
+    server: SCDN.2338.CLGTQF.China-nCDN-nRDS.com
+    port: 2338
+    uuid: 50a5a1db-2e2d-3c8a-bbe4-c4fe2db46c7f
+    alterId: 2
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /iso
+    ws-headers:
+      Host: SCDN.2338.CLGTQF.China-nCDN-nRDS.com
+  - {name: 🇺🇸 碧海青天-美国, server: tripod.bihai.ga, port: 443, type: trojan, password: 6b2c64ea-63de-455a-97c0-7d1652b0ab71, sni: tripod.bihai.ga}
+  - {name: 🇯🇵 碧海青天-日本, server: jp.bhv2.ml, port: 443, type: trojan, password: d03b6ab9-1b88-dc26-69aa-90975ce92ca5, sni: jp.bhv2.ml}
+  - {name: 🇰🇷 碧海青天-韩国, server: kr.bihai.ga, port: 443, type: trojan, password: 4e5cf028-0925-7c20-54a3-7a2114c0b843, sni: kr.bihai.ga}
+  - {name: 🇭🇰 香港 R, server: 47.242.170.122, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8148316515.microsoft.com}}
+  - {name: 🇭🇰 香港 O NF, server: 149.129.80.211, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8148316515.microsoft.com}}
+  - {name: 🇯🇵 日本 长野 谷歌学术可, server: 121.50.43.30, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8148316515.microsoft.com}}
+  - {name: 🇺🇲 美国 洛杉矶 谷歌学术可, server: 198.148.122.145, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8148316515.microsoft.com}}
 proxy-groups:
-  - name: 🚀 节点选择
-    type: select
-    proxies:
-      - ♻️ 自动选择
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇸🇬 狮城节点
-      - 🇯🇵 日本节点
-      - 🇺🇲 美国节点
-      - 🇰🇷 韩国节点
-      - 🚀 手动切换
-      - DIRECT
   - name: 🚀 手动切换
     type: select
     proxies:
-      - 🇯🇵 日本_AWS
-      - 🇰🇷 韩国_AWS
-      - 🇸🇬 新加坡_AWS
-      - 🇺🇸 美国_AWS
-      - 🇨🇳 Lv1 台湾 C | Netflix
-      - 🇨🇳 Lv1 台湾 D | Netflix
-      - 🇸🇬 专线 新加坡 B1 深圳BGP
-      - 🇸🇬 专线 新加坡 B2 深圳BGP
-      - 🇺🇸 专线 美国 B1 深圳BGP
-      - 🇺🇸 专线 美国 B2 深圳BGP
-      - 🇭🇰 专线 香港 B1 深圳BGP
-      - 🇭🇰 专线 香港 B2 深圳BGP
-      - 🇭🇰 专线 香港 B3 深圳BGP
-      - 🇲🇾 专线 马来西亚 B1 深圳BGP
-      - 🇷🇺 中继 冷门-俄罗斯 B4 广州移动
-      - 🇮🇳 中继 冷门-印度 B6 广州移动
-      - 🇩🇪 中继 冷门-德国 B3 广州移动
-      - 🇦🇺 中继 冷门-澳大利亚 B2 广州移动
-      - 🇬🇧 中继 冷门-英国 B7 广州移动
-      - 🇨🇳 中继 台湾 B1 广州移动
-      - 🇨🇳 中继 台湾 B2 广州移动
-      - 🇨🇳 中继 台湾 B3 广州移动
-      - 🇸🇬 中继 新加坡 B1 广州移动
-      - 🇸🇬 中继 新加坡 B2 广州移动
-      - 🇸🇬 中继 新加坡 B3 广州移动
-      - 🇸🇬 中继 新加坡 B4 广州移动
-      - 🇸🇬 中继 新加坡 B5 广州移动
-      - 🇯🇵 中继 日本 B1 广州移动
-      - 🇯🇵 中继 日本 B2 广州移动
-      - 🇯🇵 中继 日本 B3 广州移动
-      - 🇺🇸 中继 美国 B1 广州移动
-      - 🇺🇸 中继 美国 B2 广州移动
-      - 🇺🇸 中继 美国 B3 广州移动
-      - 🇺🇸 中继 美国 B4 广州移动
-      - 🇰🇷 中继 韩国 B1 广州移动
-      - 🇭🇰 中继 香港 B1 广州移动
-      - 🇭🇰 中继 香港 B3 广州移动
-      - 🇭🇰 中继 香港 B5 广州移动
-      - 🇭🇰 中继 香港 B6 广州移动
-      - 🇲🇾 中继 马来西亚 B1 广州移动
-      - 🇲🇾 中继 马来西亚 B2 广州移动
-      - 🇭🇰 【Ghelper】HK/香港
+      - 🇸🇬 新加坡 WY
+      - 🇦🇺 澳大利亚 WY
+      - 🇨🇦 加拿大 WY
+      - 🇩🇪 德国 WY
+      - 🇯🇵 日本 WY
+      - 🇬🇧 英国 WY
+      - 🇺🇸 美国 WY
+      - 🇸🇬 新加坡 PJJ1
+      - 🇨🇳 台湾1
+      - 🇨🇳 台湾2
+      - 🇨🇳 台湾3
+      - 🇨🇳 台湾4
+      - 🇨🇳 台湾5
+      - 🇨🇳 台湾6
+      - 🇨🇳 台湾7
+      - 🇨🇳 台湾8
+      - 🇭🇰 香港 O NF
+      - 🇺🇸 碧海青天-美国
+      - 🇯🇵 碧海青天-日本
+      - 🇰🇷 碧海青天-韩国
+      - 🇭🇰 香港 R
+      - 🇯🇵 日本 长野 谷歌学术可
+      - 🇺🇲 美国 洛杉矶 谷歌学术可
+  - name: 🚀 节点选择
+    type: select
+    proxies:
+      - 🚀 手动切换
+      - ♻️ 自动选择
+      - DIRECT
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 🇸🇬 狮城节点
+      - 🇺🇲 美国节点
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵 日本_AWS
-      - 🇰🇷 韩国_AWS
-      - 🇸🇬 新加坡_AWS
-      - 🇺🇸 美国_AWS
-      - 🇨🇳 Lv1 台湾 C | Netflix
-      - 🇨🇳 Lv1 台湾 D | Netflix
-      - 🇸🇬 专线 新加坡 B1 深圳BGP
-      - 🇸🇬 专线 新加坡 B2 深圳BGP
-      - 🇺🇸 专线 美国 B1 深圳BGP
-      - 🇺🇸 专线 美国 B2 深圳BGP
-      - 🇭🇰 专线 香港 B1 深圳BGP
-      - 🇭🇰 专线 香港 B2 深圳BGP
-      - 🇭🇰 专线 香港 B3 深圳BGP
-      - 🇲🇾 专线 马来西亚 B1 深圳BGP
-      - 🇷🇺 中继 冷门-俄罗斯 B4 广州移动
-      - 🇮🇳 中继 冷门-印度 B6 广州移动
-      - 🇩🇪 中继 冷门-德国 B3 广州移动
-      - 🇦🇺 中继 冷门-澳大利亚 B2 广州移动
-      - 🇬🇧 中继 冷门-英国 B7 广州移动
-      - 🇨🇳 中继 台湾 B1 广州移动
-      - 🇨🇳 中继 台湾 B2 广州移动
-      - 🇨🇳 中继 台湾 B3 广州移动
-      - 🇸🇬 中继 新加坡 B1 广州移动
-      - 🇸🇬 中继 新加坡 B2 广州移动
-      - 🇸🇬 中继 新加坡 B3 广州移动
-      - 🇸🇬 中继 新加坡 B4 广州移动
-      - 🇸🇬 中继 新加坡 B5 广州移动
-      - 🇯🇵 中继 日本 B1 广州移动
-      - 🇯🇵 中继 日本 B2 广州移动
-      - 🇯🇵 中继 日本 B3 广州移动
-      - 🇺🇸 中继 美国 B1 广州移动
-      - 🇺🇸 中继 美国 B2 广州移动
-      - 🇺🇸 中继 美国 B3 广州移动
-      - 🇺🇸 中继 美国 B4 广州移动
-      - 🇰🇷 中继 韩国 B1 广州移动
-      - 🇭🇰 中继 香港 B1 广州移动
-      - 🇭🇰 中继 香港 B3 广州移动
-      - 🇭🇰 中继 香港 B5 广州移动
-      - 🇭🇰 中继 香港 B6 广州移动
-      - 🇲🇾 中继 马来西亚 B1 广州移动
-      - 🇲🇾 中继 马来西亚 B2 广州移动
-      - 🇭🇰 【Ghelper】HK/香港
-  - name: 📲 电报消息
-    type: select
-    proxies:
-      - 🚀 节点选择
-      - ♻️ 自动选择
-      - 🇸🇬 狮城节点
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇯🇵 日本节点
-      - 🇺🇲 美国节点
-      - 🇰🇷 韩国节点
-      - 🚀 手动切换
-      - DIRECT
-  - name: 📹 油管视频
-    type: select
-    proxies:
-      - 🚀 节点选择
-      - ♻️ 自动选择
-      - 🇸🇬 狮城节点
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇯🇵 日本节点
-      - 🇺🇲 美国节点
-      - 🇰🇷 韩国节点
-      - 🚀 手动切换
-      - DIRECT
-  - name: 🎥 奈飞视频
-    type: select
-    proxies:
-      - 🎥 奈飞节点
-      - 🚀 节点选择
-      - ♻️ 自动选择
-      - 🇸🇬 狮城节点
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇯🇵 日本节点
-      - 🇺🇲 美国节点
-      - 🇰🇷 韩国节点
-      - 🚀 手动切换
-      - DIRECT
-  - name: 📺 巴哈姆特
-    type: select
-    proxies:
-      - 🇨🇳 台湾节点
-      - 🚀 节点选择
-      - 🚀 手动切换
-      - DIRECT
-  - name: 📺 哔哩哔哩
-    type: select
-    proxies:
-      - 🎯 全球直连
-      - 🇨🇳 台湾节点
-      - 🇭🇰 香港节点
-  - name: 🌍 国外媒体
-    type: select
-    proxies:
-      - 🚀 节点选择
-      - ♻️ 自动选择
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇸🇬 狮城节点
-      - 🇯🇵 日本节点
-      - 🇺🇲 美国节点
-      - 🇰🇷 韩国节点
-      - 🚀 手动切换
-      - DIRECT
-  - name: 🌏 国内媒体
-    type: select
-    proxies:
-      - DIRECT
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇸🇬 狮城节点
-      - 🇯🇵 日本节点
-      - 🚀 手动切换
-  - name: 📢 谷歌FCM
-    type: select
-    proxies:
-      - DIRECT
-      - 🚀 节点选择
-      - 🇺🇲 美国节点
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇸🇬 狮城节点
-      - 🇯🇵 日本节点
-      - 🇰🇷 韩国节点
-      - 🚀 手动切换
-  - name: Ⓜ️ 微软云盘
-    type: select
-    proxies:
-      - DIRECT
-      - 🚀 节点选择
-      - 🇺🇲 美国节点
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇸🇬 狮城节点
-      - 🇯🇵 日本节点
-      - 🇰🇷 韩国节点
-      - 🚀 手动切换
-  - name: Ⓜ️ 微软服务
-    type: select
-    proxies:
-      - DIRECT
-      - 🚀 节点选择
-      - 🇺🇲 美国节点
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇸🇬 狮城节点
-      - 🇯🇵 日本节点
-      - 🇰🇷 韩国节点
-      - 🚀 手动切换
-  - name: 🍎 苹果服务
-    type: select
-    proxies:
-      - DIRECT
-      - 🚀 节点选择
-      - 🇺🇲 美国节点
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇸🇬 狮城节点
-      - 🇯🇵 日本节点
-      - 🇰🇷 韩国节点
-      - 🚀 手动切换
-  - name: 🎮 游戏平台
-    type: select
-    proxies:
-      - DIRECT
-      - 🚀 节点选择
-      - 🇺🇲 美国节点
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇸🇬 狮城节点
-      - 🇯🇵 日本节点
-      - 🇰🇷 韩国节点
-      - 🚀 手动切换
-  - name: 🎶 网易音乐
-    type: select
-    proxies:
-      - DIRECT
-      - 🚀 节点选择
-      - ♻️ 自动选择
-  - name: 🎯 全球直连
-    type: select
-    proxies:
-      - DIRECT
-      - 🚀 节点选择
-      - ♻️ 自动选择
+      - 🇸🇬 新加坡 WY
+      - 🇦🇺 澳大利亚 WY
+      - 🇨🇦 加拿大 WY
+      - 🇩🇪 德国 WY
+      - 🇯🇵 日本 WY
+      - 🇬🇧 英国 WY
+      - 🇺🇸 美国 WY
+      - 🇸🇬 新加坡 PJJ1
+      - 🇨🇳 台湾1
+      - 🇨🇳 台湾2
+      - 🇨🇳 台湾3
+      - 🇨🇳 台湾4
+      - 🇨🇳 台湾5
+      - 🇨🇳 台湾6
+      - 🇨🇳 台湾7
+      - 🇨🇳 台湾8
+      - 🇭🇰 香港 O NF
+      - 🇺🇸 碧海青天-美国
+      - 🇯🇵 碧海青天-日本
+      - 🇰🇷 碧海青天-韩国
+      - 🇭🇰 香港 R
+      - 🇯🇵 日本 长野 谷歌学术可
+      - 🇺🇲 美国 洛杉矶 谷歌学术可
   - name: 🛑 广告拦截
     type: select
     proxies:
@@ -310,94 +258,233 @@ proxy-groups:
     proxies:
       - REJECT
       - DIRECT
+  - name: 📲 电报消息
+    type: select
+    proxies:
+      - 🚀 手动切换
+      - ♻️ 自动选择
+      - DIRECT
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 🇸🇬 狮城节点
+      - 🇺🇲 美国节点
+  - name: 📹 油管视频
+    type: select
+    proxies:
+      - 🚀 手动切换
+      - ♻️ 自动选择
+      - DIRECT
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 🇸🇬 狮城节点
+      - 🇺🇲 美国节点
+  - name: 🎵 TikTok
+    type: select
+    proxies:
+      - 🚀 手动切换
+      - ♻️ 自动选择
+      - DIRECT
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 🇸🇬 狮城节点
+      - 🇺🇲 美国节点
+  - name: 🌕 Twitter
+    type: select
+    proxies:
+      - 🚀 手动切换
+      - ♻️ 自动选择
+      - DIRECT
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 🇸🇬 狮城节点
+      - 🇺🇲 美国节点
+  - name: 🌑 Facebook
+    type: select
+    proxies:
+      - 🚀 手动切换
+      - ♻️ 自动选择
+      - DIRECT
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 🇸🇬 狮城节点
+      - 🇺🇲 美国节点
+  - name: 🎥 奈飞视频
+    type: select
+    proxies:
+      - 🎥 奈飞节点
+      - 🚀 手动切换
+      - ♻️ 自动选择
+      - DIRECT
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 🇸🇬 狮城节点
+      - 🇺🇲 美国节点
+  - name: 📺 巴哈姆特
+    type: select
+    proxies:
+      - 🇨🇳 台湾节点
+      - 🚀 手动切换
+      - ♻️ 自动选择
+      - DIRECT
+      - 🇨🇳 台湾1
+      - 🇨🇳 台湾2
+      - 🇨🇳 台湾3
+      - 🇨🇳 台湾4
+      - 🇨🇳 台湾5
+      - 🇨🇳 台湾6
+      - 🇨🇳 台湾7
+      - 🇨🇳 台湾8
+  - name: 📺 哔哩哔哩
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+  - name: Ⓜ️ 微软云盘
+    type: select
+    proxies:
+      - 🚀 手动切换
+      - ♻️ 自动选择
+      - DIRECT
+  - name: Ⓜ️ 微软服务
+    type: select
+    proxies:
+      - 🚀 手动切换
+      - ♻️ 自动选择
+      - DIRECT
+  - name: 📢 谷歌FCM
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 手动切换
+      - ♻️ 自动选择
+  - name: 🍎 苹果服务
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 手动切换
+      - ♻️ 自动选择
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 🇸🇬 狮城节点
+      - 🇺🇲 美国节点
+  - name: 🎮 游戏平台
+    type: select
+    proxies:
+      - 🚀 手动切换
+      - ♻️ 自动选择
+      - DIRECT
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 🇸🇬 狮城节点
+      - 🇺🇲 美国节点
+  - name: 🌏 国内媒体
+    type: select
+    proxies:
+      - DIRECT
+      - REJECT
+      - 🚀 手动切换
+      - ♻️ 自动选择
+  - name: 🌍 国外媒体
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - DIRECT
+  - name: 🎯 全球直连
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - ♻️ 自动选择
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - DIRECT
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇸🇬 狮城节点
-      - 🇯🇵 日本节点
-      - 🇺🇲 美国节点
-      - 🇰🇷 韩国节点
-      - 🚀 手动切换
   - name: 🇭🇰 香港节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 专线 香港 B1 深圳BGP
-      - 🇭🇰 专线 香港 B2 深圳BGP
-      - 🇭🇰 专线 香港 B3 深圳BGP
-      - 🇭🇰 中继 香港 B1 广州移动
-      - 🇭🇰 中继 香港 B3 广州移动
-      - 🇭🇰 中继 香港 B5 广州移动
-      - 🇭🇰 中继 香港 B6 广州移动
-      - 🇭🇰 【Ghelper】HK/香港
-  - name: 🇯🇵 日本节点
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
-    proxies:
-      - 🇯🇵 日本_AWS
-      - 🇯🇵 中继 日本 B1 广州移动
-      - 🇯🇵 中继 日本 B2 广州移动
-      - 🇯🇵 中继 日本 B3 广州移动
-  - name: 🇺🇲 美国节点
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 150
-    proxies:
-      - 🇺🇸 美国_AWS
-      - 🇺🇸 专线 美国 B1 深圳BGP
-      - 🇺🇸 专线 美国 B2 深圳BGP
-      - 🇺🇸 中继 美国 B1 广州移动
-      - 🇺🇸 中继 美国 B2 广州移动
-      - 🇺🇸 中继 美国 B3 广州移动
-      - 🇺🇸 中继 美国 B4 广州移动
+      - 🇭🇰 香港 R
+      - 🇭🇰 香港 O NF
   - name: 🇨🇳 台湾节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 Lv1 台湾 C | Netflix
-      - 🇨🇳 Lv1 台湾 D | Netflix
-      - 🇨🇳 中继 台湾 B1 广州移动
-      - 🇨🇳 中继 台湾 B2 广州移动
-      - 🇨🇳 中继 台湾 B3 广州移动
-  - name: 🇸🇬 狮城节点
+      - 🇨🇳 台湾1
+      - 🇨🇳 台湾2
+      - 🇨🇳 台湾3
+      - 🇨🇳 台湾4
+      - 🇨🇳 台湾5
+      - 🇨🇳 台湾6
+      - 🇨🇳 台湾7
+      - 🇨🇳 台湾8
+  - name: 🇯🇵 日本节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇸🇬 新加坡_AWS
-      - 🇸🇬 专线 新加坡 B1 深圳BGP
-      - 🇸🇬 专线 新加坡 B2 深圳BGP
-      - 🇸🇬 中继 新加坡 B1 广州移动
-      - 🇸🇬 中继 新加坡 B2 广州移动
-      - 🇸🇬 中继 新加坡 B3 广州移动
-      - 🇸🇬 中继 新加坡 B4 广州移动
-      - 🇸🇬 中继 新加坡 B5 广州移动
+      - 🇯🇵 碧海青天-日本
+      - 🇯🇵 日本 长野 谷歌学术可
+      - 🇯🇵 日本 WY
   - name: 🇰🇷 韩国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇰🇷 韩国_AWS
-      - 🇰🇷 中继 韩国 B1 广州移动
+      - 🇰🇷 碧海青天-韩国
+  - name: 🇸🇬 狮城节点
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇸🇬 新加坡 WY
+      - 🇸🇬 新加坡 PJJ1
+  - name: 🇺🇲 美国节点
+    type: select
+    proxies:
+      - 🇺🇸 碧海青天-美国
+      - 🇺🇲 美国 洛杉矶 谷歌学术可
+      - 🇺🇸 美国 WY
   - name: 🎥 奈飞节点
     type: select
     proxies:
-      - 🇨🇳 Lv1 台湾 C | Netflix
-      - 🇨🇳 Lv1 台湾 D | Netflix
+      - 🇭🇰 香港 O NF
+      - 🇺🇲 美国 洛杉矶 谷歌学术可
+      - 🇯🇵 日本 长野 谷歌学术可
+      - 🇸🇬 新加坡 WY
+      - 🇦🇺 澳大利亚 WY
+      - 🇨🇦 加拿大 WY
+      - 🇩🇪 德国 WY
+      - 🇯🇵 日本 WY
+      - 🇬🇧 英国 WY
+      - 🇺🇸 美国 WY
+      - 🇸🇬 新加坡 PJJ1
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -463,7 +550,6 @@ rules:
  - DOMAIN-KEYWORD,pingfore,🛑 广告拦截
  - DOMAIN-KEYWORD,socdm,🛑 广告拦截
  - DOMAIN-KEYWORD,supersonicads,🛑 广告拦截
- - DOMAIN-KEYWORD,tracking,🛑 广告拦截
  - DOMAIN-KEYWORD,usage,🛑 广告拦截
  - DOMAIN-KEYWORD,wlmonitor,🛑 广告拦截
  - DOMAIN-KEYWORD,zjtoolbar,🛑 广告拦截
@@ -792,6 +878,7 @@ rules:
  - DOMAIN-SUFFIX,somecoding.com,🛑 广告拦截
  - DOMAIN-SUFFIX,sponsorpay.com,🛑 广告拦截
  - DOMAIN-SUFFIX,stargame.com,🛑 广告拦截
+ - DOMAIN-SUFFIX,staticxx.facebook.com,🛑 广告拦截
  - DOMAIN-SUFFIX,stg8.com,🛑 广告拦截
  - DOMAIN-SUFFIX,switchadhub.com,🛑 广告拦截
  - DOMAIN-SUFFIX,sycbbs.com,🛑 广告拦截
@@ -811,6 +898,7 @@ rules:
  - DOMAIN-SUFFIX,trafficjam.cn,🛑 广告拦截
  - DOMAIN-SUFFIX,trafficmp.com,🛑 广告拦截
  - DOMAIN-SUFFIX,tuia.cn,🛑 广告拦截
+ - DOMAIN-SUFFIX,twitterzs.com,🛑 广告拦截
  - DOMAIN-SUFFIX,ueadlian.com,🛑 广告拦截
  - DOMAIN-SUFFIX,uerzyr.cn,🛑 广告拦截
  - DOMAIN-SUFFIX,ugdtimg.com,🛑 广告拦截
@@ -2163,7 +2251,38 @@ rules:
  - DOMAIN-SUFFIX,tools.l.google.com,🎯 全球直连
  - DOMAIN-SUFFIX,update.googleapis.com,🎯 全球直连
  - DOMAIN-SUFFIX,www-googletagmanager.l.google.com,🎯 全球直连
- - DOMAIN-SUFFIX,www.gstatic.com,🎯 全球直连
+ - DOMAIN-SUFFIX,www.gstatic.com,🎯 全球直连 
+ - DOMAIN-SUFFIX,muscdn.com,🎵 TikTok
+ - DOMAIN-SUFFIX,musical.ly,🎵 TikTok
+ - DOMAIN-SUFFIX,tiktok.com,🎵 TikTok
+ - DOMAIN-SUFFIX,tiktokv.com,🎵 TikTok
+ - DOMAIN-SUFFIX,tik-tokapi.com,🎵 TikTok
+ - DOMAIN-SUFFIX,tiktokcdn.com,🎵 TikTok
+ - DOMAIN-KEYWORD,-tiktokcdn-com,🎵 TikTok
+ - DOMAIN-SUFFIX,pscp.tv,🌕 Twitter
+ - DOMAIN-SUFFIX,periscope.tv,🌕 Twitter
+ - DOMAIN-SUFFIX,t.co,🌕 Twitter
+ - DOMAIN-SUFFIX,twimg.co,🌕 Twitter
+ - DOMAIN-SUFFIX,twimg.com,🌕 Twitter
+ - DOMAIN-SUFFIX,twitpic.com,🌕 Twitter
+ - DOMAIN-SUFFIX,vine.co,🌕 Twitter
+ - DOMAIN-KEYWORD,twitter,🌕 Twitter
+ - DOMAIN-KEYWORD,facebook,🌑 Facebook
+ - IP-CIDR,103.4.96.0/22,🌑 Facebook
+ - IP-CIDR,129.134.0.0/17,🌑 Facebook
+ - IP-CIDR,157.240.0.0/17,🌑 Facebook
+ - IP-CIDR,173.252.64.0/19,🌑 Facebook
+ - IP-CIDR,173.252.96.0/19,🌑 Facebook
+ - IP-CIDR,179.60.192.0/22,🌑 Facebook
+ - IP-CIDR,185.60.216.0/22,🌑 Facebook
+ - IP-CIDR,204.15.20.0/22,🌑 Facebook
+ - IP-CIDR,31.13.24.0/21,🌑 Facebook
+ - IP-CIDR,31.13.64.0/18,🌑 Facebook
+ - IP-CIDR,45.64.40.0/22,🌑 Facebook
+ - IP-CIDR,66.220.144.0/20,🌑 Facebook
+ - IP-CIDR,69.171.224.0/19,🌑 Facebook
+ - IP-CIDR,69.63.176.0/20,🌑 Facebook
+ - IP-CIDR,74.119.76.0/22,🌑 Facebook
  - PROCESS-NAME,OneDrive,Ⓜ️ 微软云盘
  - PROCESS-NAME,OneDriveUpdater,Ⓜ️ 微软云盘
  - DOMAIN-KEYWORD,1drv,Ⓜ️ 微软云盘
@@ -2294,40 +2413,6 @@ rules:
  - IP-CIDR6,2001:67c:4e8::/48,📲 电报消息,no-resolve
  - IP-CIDR6,2001:b28:f23d::/48,📲 电报消息,no-resolve
  - IP-CIDR6,2001:b28:f23f::/48,📲 电报消息,no-resolve
- - DOMAIN-SUFFIX,163yun.com,🎶 网易音乐
- - DOMAIN-SUFFIX,api.iplay.163.com,🎶 网易音乐
- - DOMAIN-SUFFIX,hz.netease.com,🎶 网易音乐
- - DOMAIN-SUFFIX,mam.netease.com,🎶 网易音乐
- - DOMAIN-SUFFIX,music.163.com,🎶 网易音乐
- - DOMAIN-SUFFIX,music.163.com.163jiasu.com,🎶 网易音乐
- - IP-CIDR,39.105.63.80/32,🎶 网易音乐,no-resolve
- - IP-CIDR,39.105.175.128/32,🎶 网易音乐,no-resolve
- - IP-CIDR,45.254.48.1/32,🎶 网易音乐,no-resolve
- - IP-CIDR,47.100.127.239/32,🎶 网易音乐,no-resolve
- - IP-CIDR,59.111.21.14/31,🎶 网易音乐,no-resolve
- - IP-CIDR,59.111.160.195/32,🎶 网易音乐,no-resolve
- - IP-CIDR,59.111.160.197/32,🎶 网易音乐,no-resolve
- - IP-CIDR,59.111.179.214/32,🎶 网易音乐,no-resolve
- - IP-CIDR,59.111.181.35/32,🎶 网易音乐,no-resolve
- - IP-CIDR,59.111.181.38/32,🎶 网易音乐,no-resolve
- - IP-CIDR,59.111.181.60/32,🎶 网易音乐,no-resolve
- - IP-CIDR,59.111.238.29/32,🎶 网易音乐,no-resolve
- - IP-CIDR,101.71.154.241/32,🎶 网易音乐,no-resolve
- - IP-CIDR,103.126.92.132/31,🎶 网易音乐,no-resolve
- - IP-CIDR,103.126.92.132/32,🎶 网易音乐,no-resolve
- - IP-CIDR,103.126.92.133/32,🎶 网易音乐,no-resolve
- - IP-CIDR,112.13.119.17/32,🎶 网易音乐,no-resolve
- - IP-CIDR,112.13.119.18/32,🎶 网易音乐,no-resolve
- - IP-CIDR,112.13.122.1/32,🎶 网易音乐,no-resolve
- - IP-CIDR,112.13.122.4/32,🎶 网易音乐,no-resolve
- - IP-CIDR,115.236.118.33/32,🎶 网易音乐,no-resolve
- - IP-CIDR,115.236.121.1/32,🎶 网易音乐,no-resolve
- - IP-CIDR,118.24.63.156/32,🎶 网易音乐,no-resolve
- - IP-CIDR,182.92.170.253/32,🎶 网易音乐,no-resolve
- - IP-CIDR,193.112.159.225/32,🎶 网易音乐,no-resolve
- - IP-CIDR,223.252.199.66/31,🎶 网易音乐,no-resolve
- - IP-CIDR,223.252.199.66/32,🎶 网易音乐,no-resolve
- - IP-CIDR,223.252.199.67/32,🎶 网易音乐,no-resolve
  - DOMAIN-SUFFIX,epicgames.com,🎮 游戏平台
  - DOMAIN-SUFFIX,helpshift.com,🎮 游戏平台
  - DOMAIN-SUFFIX,paragon.com,🎮 游戏平台
@@ -2351,6 +2436,8 @@ rules:
  - DOMAIN-SUFFIX,youtu.be,📹 油管视频
  - DOMAIN-SUFFIX,youtube.com,📹 油管视频
  - DOMAIN-SUFFIX,ytimg.com,📹 油管视频
+ - DOMAIN-SUFFIX,google.com,📹 油管视频
+ - DOMAIN-SUFFIX,google.com.hk,📹 油管视频
  - DOMAIN-KEYWORD,dualstack.apiproxy-,🎥 奈飞视频
  - DOMAIN-KEYWORD,dualstack.ichnaea-web-,🎥 奈飞视频
  - DOMAIN,netflix.com.edgesuite.net,🎥 奈飞视频
@@ -2409,6 +2496,7 @@ rules:
  - DOMAIN-SUFFIX,bilibili.tv,📺 哔哩哔哩
  - DOMAIN-SUFFIX,biligame.com,📺 哔哩哔哩
  - DOMAIN-SUFFIX,biligame.net,📺 哔哩哔哩
+ - DOMAIN-SUFFIX,bilivideo.cn,📺 哔哩哔哩
  - DOMAIN-SUFFIX,bilivideo.com,📺 哔哩哔哩
  - DOMAIN-SUFFIX,hdslb.com,📺 哔哩哔哩
  - DOMAIN-SUFFIX,im9.com,📺 哔哩哔哩
@@ -2438,6 +2526,7 @@ rules:
  - DOMAIN-SUFFIX,bilibili.tv,🌏 国内媒体
  - DOMAIN-SUFFIX,biligame.com,🌏 国内媒体
  - DOMAIN-SUFFIX,biligame.net,🌏 国内媒体
+ - DOMAIN-SUFFIX,bilivideo.cn,🌏 国内媒体
  - DOMAIN-SUFFIX,bilivideo.com,🌏 国内媒体
  - DOMAIN-SUFFIX,hdslb.com,🌏 国内媒体
  - DOMAIN-SUFFIX,im9.com,🌏 国内媒体
@@ -2690,7 +2779,6 @@ rules:
  - DOMAIN-SUFFIX,tidalhifi.com,🌍 国外媒体
  - DOMAIN,hamifans.emome.net,🌍 国外媒体
  - DOMAIN-SUFFIX,skyking.com.tw,🌍 国外媒体
- - DOMAIN-KEYWORD,-tiktokcdn-com,🌍 国外媒体
  - DOMAIN-SUFFIX,byteoversea.com,🌍 国外媒体
  - DOMAIN-SUFFIX,ibytedtos.com,🌍 国外媒体
  - DOMAIN-SUFFIX,ipstatp.com,🌍 国外媒体
@@ -2700,6 +2788,7 @@ rules:
  - DOMAIN-SUFFIX,tiktok.com,🌍 国外媒体
  - DOMAIN-SUFFIX,tiktokcdn.com,🌍 国外媒体
  - DOMAIN-SUFFIX,tiktokv.com,🌍 国外媒体
+ - DOMAIN-KEYWORD,-tiktokcdn-com,🌍 国外媒体
  - DOMAIN-KEYWORD,ttvnw,🌍 国外媒体
  - DOMAIN-SUFFIX,jtvnw.net,🌍 国外媒体
  - DOMAIN-SUFFIX,ttvnw.net,🌍 国外媒体
@@ -8620,13 +8709,19 @@ rules:
  - DOMAIN-SUFFIX,acg.tv,🎯 全球直连
  - DOMAIN-SUFFIX,acgvideo.com,🎯 全球直连
  - DOMAIN-SUFFIX,b23.tv,🎯 全球直连
+ - DOMAIN-SUFFIX,bigfun.cn,🎯 全球直连
+ - DOMAIN-SUFFIX,bigfunapp.cn,🎯 全球直连
  - DOMAIN-SUFFIX,biliapi.com,🎯 全球直连
  - DOMAIN-SUFFIX,biliapi.net,🎯 全球直连
+ - DOMAIN-SUFFIX,bilibili.com,🎯 全球直连
+ - DOMAIN-SUFFIX,bilibili.tv,🎯 全球直连
  - DOMAIN-SUFFIX,biligame.com,🎯 全球直连
  - DOMAIN-SUFFIX,biligame.net,🎯 全球直连
  - DOMAIN-SUFFIX,bilivideo.com,🎯 全球直连
+ - DOMAIN-SUFFIX,bilivideo.cn,🎯 全球直连
  - DOMAIN-SUFFIX,hdslb.com,🎯 全球直连
  - DOMAIN-SUFFIX,im9.com,🎯 全球直连
+ - DOMAIN-SUFFIX,smtcdns.net,🎯 全球直连
  - DOMAIN-SUFFIX,battle.net,🎯 全球直连
  - DOMAIN-SUFFIX,battlenet.com,🎯 全球直连
  - DOMAIN-SUFFIX,blizzard.com,🎯 全球直连
