@@ -173,9 +173,24 @@ proxies:
     ws-path: /iso
     ws-headers:
       Host: SCDN.2338.CLGTQF.China-nCDN-nRDS.com
-  - {name: 🇺🇸 碧海青天-美国, server: tripod.bihai.ga, port: 443, type: trojan, password: 6b2c64ea-63de-455a-97c0-7d1652b0ab71, sni: tripod.bihai.ga}
-  - {name: 🇯🇵 碧海青天-日本, server: jp.bhv2.ml, port: 443, type: trojan, password: d03b6ab9-1b88-dc26-69aa-90975ce92ca5, sni: jp.bhv2.ml}
-  - {name: 🇰🇷 碧海青天-韩国, server: kr.bihai.ga, port: 443, type: trojan, password: 4e5cf028-0925-7c20-54a3-7a2114c0b843, sni: kr.bihai.ga}
+  - name: 🇺🇸 碧海青天-美国
+    server: tripod.bihai.ga
+    port: 443
+    type: trojan
+    password: 6b2c64ea-63de-455a-97c0-7d1652b0ab71
+    sni: tripod.bihai.ga
+  - name: 🇯🇵 碧海青天-日本
+    server: jp.bhv2.ml
+    port: 443
+    type: trojan
+    password: d03b6ab9-1b88-dc26-69aa-90975ce92ca5
+    sni: jp.bhv2.ml
+  - name: 🇰🇷 碧海青天-韩国
+    server: kr.bihai.ga
+    port: 443
+    type: trojan
+    password: 4e5cf028-0925-7c20-54a3-7a2114c0b843
+    sni: kr.bihai.ga
   - {name: 🇭🇰 香港 R, server: 47.242.170.122, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8148316515.microsoft.com}}
   - {name: 🇭🇰 香港 O NF, server: 149.129.80.211, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8148316515.microsoft.com}}
   - {name: 🇯🇵 日本 长野 谷歌学术可, server: 121.50.43.30, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8148316515.microsoft.com}}
@@ -262,6 +277,7 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 手动切换
+      - 🚀 节点选择
       - ♻️ 自动选择
       - DIRECT
       - 🇭🇰 香港节点
@@ -274,6 +290,7 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 手动切换
+      - 🚀 节点选择
       - ♻️ 自动选择
       - DIRECT
       - 🇭🇰 香港节点
@@ -286,6 +303,7 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 手动切换
+      - 🚀 节点选择
       - ♻️ 自动选择
       - DIRECT
       - 🇭🇰 香港节点
@@ -298,6 +316,7 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 手动切换
+      - 🚀 节点选择
       - ♻️ 自动选择
       - DIRECT
       - 🇭🇰 香港节点
@@ -310,6 +329,7 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 手动切换
+      - 🚀 节点选择
       - ♻️ 自动选择
       - DIRECT
       - 🇭🇰 香港节点
@@ -356,12 +376,14 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 手动切换
+      - 🚀 节点选择
       - ♻️ 自动选择
       - DIRECT
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🚀 手动切换
+      - 🚀 节点选择
       - ♻️ 自动选择
       - DIRECT
   - name: 📢 谷歌FCM
@@ -369,12 +391,14 @@ proxy-groups:
     proxies:
       - DIRECT
       - 🚀 手动切换
+      - 🚀 节点选择
       - ♻️ 自动选择
   - name: 🍎 苹果服务
     type: select
     proxies:
       - DIRECT
       - 🚀 手动切换
+      - 🚀 节点选择
       - ♻️ 自动选择
       - 🇭🇰 香港节点
       - 🇨🇳 台湾节点
@@ -386,6 +410,7 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 手动切换
+      - 🚀 节点选择
       - ♻️ 自动选择
       - DIRECT
       - 🇭🇰 香港节点
@@ -398,13 +423,14 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
-      - REJECT
       - 🚀 手动切换
+      - 🚀 节点选择
       - ♻️ 自动选择
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
+      - 🚀 手动切换
       - ♻️ 自动选择
       - DIRECT
   - name: 🎯 全球直连
@@ -412,11 +438,13 @@ proxy-groups:
     proxies:
       - DIRECT
       - 🚀 节点选择
+      - 🚀 手动切换
       - ♻️ 自动选择
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - 🚀 节点选择
+      - 🚀 手动切换
       - ♻️ 自动选择
       - DIRECT
   - name: 🇭🇰 香港节点
@@ -2252,37 +2280,59 @@ rules:
  - DOMAIN-SUFFIX,update.googleapis.com,🎯 全球直连
  - DOMAIN-SUFFIX,www-googletagmanager.l.google.com,🎯 全球直连
  - DOMAIN-SUFFIX,www.gstatic.com,🎯 全球直连 
+ - DOMAIN,p16-tiktokcdn-com.akamaized.net,🎵 TikTok
+ - DOMAIN-SUFFIX,byteoversea.com,🎵 TikTok
+ - DOMAIN-SUFFIX,ibytedtos.com,🎵 TikTok
+ - DOMAIN-SUFFIX,ibyteimg.com,🎵 TikTok
+ - DOMAIN-SUFFIX,ipstatp.com,🎵 TikTok
  - DOMAIN-SUFFIX,muscdn.com,🎵 TikTok
  - DOMAIN-SUFFIX,musical.ly,🎵 TikTok
- - DOMAIN-SUFFIX,tiktok.com,🎵 TikTok
- - DOMAIN-SUFFIX,tiktokv.com,🎵 TikTok
+ - DOMAIN-SUFFIX,sgpstatp.com,🎵 TikTok
+ - DOMAIN-SUFFIX,snssdk.com,🎵 TikTok
  - DOMAIN-SUFFIX,tik-tokapi.com,🎵 TikTok
+ - DOMAIN-SUFFIX,tiktok.com,🎵 TikTok
  - DOMAIN-SUFFIX,tiktokcdn.com,🎵 TikTok
+ - DOMAIN-SUFFIX,tiktokv.com,🎵 TikTok
  - DOMAIN-KEYWORD,-tiktokcdn-com,🎵 TikTok
+ - DOMAIN-KEYWORD,musical.ly,🎵 TikTok
+ - DOMAIN-KEYWORD,tiktok,🎵 TikTok
+ - DOMAIN-KEYWORD,tiktokv,🎵 TikTok
  - DOMAIN-SUFFIX,pscp.tv,🌕 Twitter
  - DOMAIN-SUFFIX,periscope.tv,🌕 Twitter
  - DOMAIN-SUFFIX,t.co,🌕 Twitter
  - DOMAIN-SUFFIX,twimg.co,🌕 Twitter
  - DOMAIN-SUFFIX,twimg.com,🌕 Twitter
+ - DOMAIN-SUFFIX,twimg.org,🌕 Twitter
  - DOMAIN-SUFFIX,twitpic.com,🌕 Twitter
+ - DOMAIN-SUFFIX,twitter.com,🌕 Twitter
+ - DOMAIN-SUFFIX,twitter.jp,🌕 Twitter
  - DOMAIN-SUFFIX,vine.co,🌕 Twitter
  - DOMAIN-KEYWORD,twitter,🌕 Twitter
+ - DOMAIN-SUFFIX,cdninstagram.com,🌑 Facebook
+ - DOMAIN-SUFFIX,fb.com,🌑 Facebook
+ - DOMAIN-SUFFIX,fb.me,🌑 Facebook
+ - DOMAIN-SUFFIX,fbaddins.com,🌑 Facebook
+ - DOMAIN-SUFFIX,fbcdn.net,🌑 Facebook
+ - DOMAIN-SUFFIX,fbsbx.com,🌑 Facebook
+ - DOMAIN-SUFFIX,fbworkmail.com,🌑 Facebook
+ - DOMAIN-SUFFIX,instagram.com,🌑 Facebook
+ - DOMAIN-SUFFIX,m.me,🌑 Facebook
+ - DOMAIN-SUFFIX,messenger.com,🌑 Facebook
+ - DOMAIN-SUFFIX,oculus.com,🌑 Facebook
+ - DOMAIN-SUFFIX,oculuscdn.com,🌑 Facebook
+ - DOMAIN-SUFFIX,rocksdb.org,🌑 Facebook
+ - DOMAIN-SUFFIX,whatsapp.com,🌑 Facebook
+ - DOMAIN-SUFFIX,whatsapp.net,🌑 Facebook
  - DOMAIN-KEYWORD,facebook,🌑 Facebook
- - IP-CIDR,103.4.96.0/22,🌑 Facebook
- - IP-CIDR,129.134.0.0/17,🌑 Facebook
- - IP-CIDR,157.240.0.0/17,🌑 Facebook
- - IP-CIDR,173.252.64.0/19,🌑 Facebook
- - IP-CIDR,173.252.96.0/19,🌑 Facebook
- - IP-CIDR,179.60.192.0/22,🌑 Facebook
- - IP-CIDR,185.60.216.0/22,🌑 Facebook
- - IP-CIDR,204.15.20.0/22,🌑 Facebook
- - IP-CIDR,31.13.24.0/21,🌑 Facebook
- - IP-CIDR,31.13.64.0/18,🌑 Facebook
- - IP-CIDR,45.64.40.0/22,🌑 Facebook
- - IP-CIDR,66.220.144.0/20,🌑 Facebook
- - IP-CIDR,69.171.224.0/19,🌑 Facebook
- - IP-CIDR,69.63.176.0/20,🌑 Facebook
- - IP-CIDR,74.119.76.0/22,🌑 Facebook
+ - IP-CIDR,3.123.36.126/32,🌑 Facebook
+ - IP-CIDR,35.157.215.84/32,🌑 Facebook
+ - IP-CIDR,35.157.217.255/32,🌑 Facebook
+ - IP-CIDR,52.58.209.134/32,🌑 Facebook
+ - IP-CIDR,54.93.124.31/32,🌑 Facebook
+ - IP-CIDR,54.162.243.80/32,🌑 Facebook
+ - IP-CIDR,54.173.34.141/32,🌑 Facebook
+ - IP-CIDR,54.235.23.242/32,🌑 Facebook
+ - IP-CIDR,169.45.248.118/32,🌑 Facebook
  - PROCESS-NAME,OneDrive,Ⓜ️ 微软云盘
  - PROCESS-NAME,OneDriveUpdater,Ⓜ️ 微软云盘
  - DOMAIN-KEYWORD,1drv,Ⓜ️ 微软云盘
@@ -2407,12 +2457,20 @@ rules:
  - DOMAIN-SUFFIX,telegram.me,📲 电报消息
  - DOMAIN-SUFFIX,telegram.org,📲 电报消息
  - DOMAIN-SUFFIX,telesco.pe,📲 电报消息
+ - DOMAIN-SUFFIX,tx.me,📲 电报消息
+ - DOMAIN-KEYWORD,telegram,📲 电报消息
+ - IP-CIDR,67.198.55.0/24,📲 电报消息,no-resolve
  - IP-CIDR,91.108.0.0/16,📲 电报消息,no-resolve
+ - IP-CIDR,95.161.64.0/20,📲 电报消息,no-resolve
+ - IP-CIDR,95.161.84.0/23,📲 电报消息,no-resolve
  - IP-CIDR,109.239.140.0/24,📲 电报消息,no-resolve
  - IP-CIDR,149.154.160.0/20,📲 电报消息,no-resolve
+ - IP-CIDR,205.172.60.0/22,📲 电报消息,no-resolve
+ - IP-CIDR6,2001:b28:f23c::/47,📲 电报消息,no-resolve
  - IP-CIDR6,2001:67c:4e8::/48,📲 电报消息,no-resolve
  - IP-CIDR6,2001:b28:f23d::/48,📲 电报消息,no-resolve
  - IP-CIDR6,2001:b28:f23f::/48,📲 电报消息,no-resolve
+ - IP-CIDR6,2001:b28:f242::/48,📲 电报消息,no-resolve
  - DOMAIN-SUFFIX,epicgames.com,🎮 游戏平台
  - DOMAIN-SUFFIX,helpshift.com,🎮 游戏平台
  - DOMAIN-SUFFIX,paragon.com,🎮 游戏平台
@@ -2436,8 +2494,6 @@ rules:
  - DOMAIN-SUFFIX,youtu.be,📹 油管视频
  - DOMAIN-SUFFIX,youtube.com,📹 油管视频
  - DOMAIN-SUFFIX,ytimg.com,📹 油管视频
- - DOMAIN-SUFFIX,google.com,📹 油管视频
- - DOMAIN-SUFFIX,google.com.hk,📹 油管视频
  - DOMAIN-KEYWORD,dualstack.apiproxy-,🎥 奈飞视频
  - DOMAIN-KEYWORD,dualstack.ichnaea-web-,🎥 奈飞视频
  - DOMAIN,netflix.com.edgesuite.net,🎥 奈飞视频
