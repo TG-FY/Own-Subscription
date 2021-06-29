@@ -263,16 +263,6 @@ proxy-groups:
       - 🇭🇰 香港 R
       - 🇯🇵 日本 长野 谷歌学术可
       - 🇺🇲 美国 洛杉矶 谷歌学术可
-  - name: 🛑 广告拦截
-    type: select
-    proxies:
-      - REJECT
-      - DIRECT
-  - name: 🍃 应用净化
-    type: select
-    proxies:
-      - REJECT
-      - DIRECT
   - name: 📲 电报消息
     type: select
     proxies:
@@ -446,6 +436,16 @@ proxy-groups:
       - 🚀 节点选择
       - 🚀 手动切换
       - ♻️ 自动选择
+      - DIRECT
+  - name: 🛑 广告拦截
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🍃 应用净化
+    type: select
+    proxies:
+      - REJECT
       - DIRECT
   - name: 🇭🇰 香港节点
     type: url-test
