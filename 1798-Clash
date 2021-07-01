@@ -504,6 +504,7 @@ proxy-groups:
       - 🇺🇸 美国 WY
       - 🇸🇬 新加坡 PJJ1
 rules:
+ - SRC-IP-CIDR,192.168.1.224/32,DIRECT
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-loopback,🎯 全球直连
