@@ -78,19 +78,6 @@ proxies:
     tls: true
     skip-cert-verify: true
   -
-    name: 🇨🇳 IPLC 莞港 x33.33|游戏|浏览网页
-    type: vmess
-    server: 121.12.172.56
-    port: 11690
-    uuid: f51d7ea0-ef9b-357b-8c37-7b398d6640e0
-    alterId: 1
-    cipher: auto
-    udp: true
-    network: ws
-    ws-path: /xiaodao
-    ws-headers:
-      Host: 121.12.172.56
-  -
     name: 🇨🇳 台湾1 x8|上海中转
     type: vmess
     server: sh-cu-001.xiaoxiaobujidao.xyz
@@ -181,19 +168,9 @@ proxies:
     ws-path: /xiaodao
     ws-headers:
       Host: v2-px-000.bujidao.com
-  -
-    name: 🇭🇰 香港 x2
-    type: vmess
-    server: ali-sg-001.bujidao.org
-    port: 80
-    uuid: f51d7ea0-ef9b-357b-8c37-7b398d6640e0
-    alterId: 1
-    cipher: auto
-    udp: true
-    network: ws
-    ws-path: /xiaodao
-    ws-headers:
-      Host: v2-hk-007.cccccc.cc
+  - {name: 🇭🇰 香港, server: superstar.srayx.xyz, port: 27004, type: vmess, uuid: ad6d775b-d4fb-4c8d-ac94-000593dc9479, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国, server: superstar.srayx.xyz, port: 27008, type: vmess, uuid: ad6d775b-d4fb-4c8d-ac94-000593dc9479, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇰🇷 韩国, server: superstar.srayx.xyz, port: 27011, type: vmess, uuid: ad6d775b-d4fb-4c8d-ac94-000593dc9479, alterId: 0, cipher: auto, tls: false}
   - {name: 🇰🇷 碧海青天-韩国, server: kr.bihai.ga, port: 443, type: vmess, uuid: 4e5cf028-0925-7c20-54a3-7a2114c0b843, alterId: 0, cipher: none, tls: true, network: ws, ws-path: /vqpvvws, ws-headers: {Host: kr.bihai.ga}}
   - {name: 🇭🇰 香港 R, server: 47.242.170.122, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8148316515.microsoft.com}}
   - {name: 🇭🇰 香港 O NF, server: 149.129.80.211, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8148316515.microsoft.com}}
@@ -212,7 +189,6 @@ proxy-groups:
       - 🇬🇧 英国 WY
       - 🇺🇸 美国 WY
       - 🇸🇬 新加坡 PJJ1
-      - 🇨🇳 IPLC 莞港 x33.33|游戏|浏览网页
       - 🇨🇳 台湾1 x8|上海中转
       - 🇨🇳 台湾2 x8|上海中转
       - 🇨🇳 台湾3 x8|浙江中转
@@ -220,10 +196,12 @@ proxy-groups:
       - 🇨🇳 台湾5 x8|安徽中转
       - 🇨🇳 台湾6 x6
       - 🇺🇸 凤凰城 x2
-      - 🇭🇰 香港 x2
-      - 🇭🇰 香港 O NF
+      - 🇭🇰 香港
+      - 🇺🇸 美国
+      - 🇰🇷 韩国
       - 🇰🇷 碧海青天-韩国
       - 🇭🇰 香港 R
+      - 🇭🇰 香港 O NF
       - 🇯🇵 日本 长野 谷歌学术可
       - 🇺🇲 美国 洛杉矶 谷歌学术可
   - name: 🚀 节点选择
@@ -253,7 +231,6 @@ proxy-groups:
       - 🇬🇧 英国 WY
       - 🇺🇸 美国 WY
       - 🇸🇬 新加坡 PJJ1
-      - 🇨🇳 IPLC 莞港 x33.33|游戏|浏览网页
       - 🇨🇳 台湾1 x8|上海中转
       - 🇨🇳 台湾2 x8|上海中转
       - 🇨🇳 台湾3 x8|浙江中转
@@ -261,10 +238,12 @@ proxy-groups:
       - 🇨🇳 台湾5 x8|安徽中转
       - 🇨🇳 台湾6 x6
       - 🇺🇸 凤凰城 x2
-      - 🇭🇰 香港 x2
-      - 🇭🇰 香港 O NF
+      - 🇭🇰 香港
+      - 🇺🇸 美国
+      - 🇰🇷 韩国
       - 🇰🇷 碧海青天-韩国
       - 🇭🇰 香港 R
+      - 🇭🇰 香港 O NF
       - 🇯🇵 日本 长野 谷歌学术可
       - 🇺🇲 美国 洛杉矶 谷歌学术可
   - name: 📲 电报消息
@@ -455,7 +434,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 香港 x2
+      - 🇭🇰 香港
       - 🇭🇰 香港 R
       - 🇭🇰 香港 O NF
   - name: 🇨🇳 台湾节点
@@ -484,6 +463,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - 🇰🇷 韩国
       - 🇰🇷 碧海青天-韩国
   - name: 🇸🇬 狮城节点
     type: url-test
@@ -500,6 +480,7 @@ proxy-groups:
       - 🇺🇲 美国 洛杉矶 谷歌学术可
       - 🇺🇸 凤凰城 x2
       - 🇺🇸 美国 WY
+      - 🇺🇸 美国
   - name: 🎥 奈飞节点
     type: select
     proxies:
