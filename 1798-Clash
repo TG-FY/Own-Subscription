@@ -168,7 +168,7 @@ proxies:
     ws-path: /xiaodao
     ws-headers:
       Host: v2-px-000.bujidao.com
-  - {name: 🇭🇰 香港, server: superstar.srayx.xyz, port: 27004, type: vmess, uuid: ad6d775b-d4fb-4c8d-ac94-000593dc9479, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港, server: superstar.srayx.xyz, port: 27005, type: vmess, uuid: ad6d775b-d4fb-4c8d-ac94-000593dc9479, alterId: 0, cipher: auto, tls: false}
   - {name: 🇺🇸 美国, server: superstar.srayx.xyz, port: 27008, type: vmess, uuid: ad6d775b-d4fb-4c8d-ac94-000593dc9479, alterId: 0, cipher: auto, tls: false}
   - {name: 🇰🇷 韩国, server: superstar.srayx.xyz, port: 27011, type: vmess, uuid: ad6d775b-d4fb-4c8d-ac94-000593dc9479, alterId: 0, cipher: auto, tls: false}
   - {name: 🇰🇷 碧海青天-韩国, server: kr.bihai.ga, port: 443, type: vmess, uuid: 4e5cf028-0925-7c20-54a3-7a2114c0b843, alterId: 0, cipher: none, tls: true, network: ws, ws-path: /vqpvvws, ws-headers: {Host: kr.bihai.ga}}
@@ -204,6 +204,7 @@ proxy-groups:
       - 🇭🇰 香港 O NF
       - 🇯🇵 日本 长野 谷歌学术可
       - 🇺🇲 美国 洛杉矶 谷歌学术可
+      - DIRECT
   - name: 🚀 节点选择
     type: select
     proxies:
