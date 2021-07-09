@@ -439,7 +439,14 @@ proxy-groups:
       - 🚀 手动切换
       - 🚀 节点选择
       - REJECT
-  - name: 🌍 XiaoKeai-ShenChuan
+  - name: 🌍 XiaoKeai-ShenChuan-RJ45
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 手动切换
+      - 🚀 节点选择
+      - REJECT
+  - name: 🌍 XiaoKeai-ShenChuan-WLAN
     type: select
     proxies:
       - DIRECT
@@ -501,7 +508,7 @@ rules:
  - SRC-IP-CIDR,192.168.5.137/32,DIRECT
  - SRC-IP-CIDR,192.168.5.138/32,DIRECT
  - SRC-IP-CIDR,192.168.5.139/32,DIRECT
- - SRC-IP-CIDR,192.168.5.140/32,DIRECT
+ - SRC-IP-CIDR,192.168.5.140/32,🌍 XiaoKeai-ShenChuan-WLAN
  - SRC-IP-CIDR,192.168.5.141/32,DIRECT
  - SRC-IP-CIDR,192.168.5.142/32,DIRECT
  - SRC-IP-CIDR,192.168.5.143/32,DIRECT
@@ -515,7 +522,7 @@ rules:
  - SRC-IP-CIDR,192.168.5.151/32,DIRECT
  - SRC-IP-CIDR,192.168.5.152/32,🌍 KouJiaoyao-Redmi_10X
  - SRC-IP-CIDR,192.168.5.153/32,DIRECT
- - SRC-IP-CIDR,192.168.5.154/32,🌍 XiaoKeai-ShenChuan
+ - SRC-IP-CIDR,192.168.5.154/32,🌍 XiaoKeai-ShenChuan-RJ45
  - SRC-IP-CIDR,192.168.5.155/32,🌍 XiaoNaofu-K30_Pro
  - SRC-IP-CIDR,192.168.5.156/32,DIRECT
  - SRC-IP-CIDR,192.168.5.157/32,🌍 XiaoKeai-OPPO_Reno4_Pro
