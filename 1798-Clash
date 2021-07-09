@@ -411,15 +411,33 @@ proxy-groups:
       - 🇬🇧 英国 WY
       - 🇺🇸 美国 WY
       - 🇸🇬 新加坡 PJJ1
+  - name: 🌍 XiaoNaofu-K30_Pro
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 手动切换
+      - 🚀 节点选择
+      - REJECT
+  - name: 🌍 XiaoNaofu-Dell
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 手动切换
+      - 🚀 节点选择
+      - REJECT
   - name: 🌍 KouJiaoyao-Redmi_10X
     type: select
     proxies:
       - DIRECT
+      - 🚀 手动切换
+      - 🚀 节点选择
       - REJECT
   - name: 🌍 KouJiaoyao-Hewlett_Packard
     type: select
     proxies:
       - DIRECT
+      - 🚀 手动切换
+      - 🚀 节点选择
       - REJECT
   - name: 🌍 XiaoKeai-ShenChuan
     type: select
@@ -498,7 +516,7 @@ rules:
  - SRC-IP-CIDR,192.168.5.152/32,🌍 KouJiaoyao-Redmi_10X
  - SRC-IP-CIDR,192.168.5.153/32,DIRECT
  - SRC-IP-CIDR,192.168.5.154/32,🌍 XiaoKeai-ShenChuan
- - SRC-IP-CIDR,192.168.5.155/32,DIRECT
+ - SRC-IP-CIDR,192.168.5.155/32,🌍 XiaoNaofu-K30_Pro
  - SRC-IP-CIDR,192.168.5.156/32,DIRECT
  - SRC-IP-CIDR,192.168.5.157/32,🌍 XiaoKeai-OPPO_Reno4_Pro
  - SRC-IP-CIDR,192.168.5.158/32,DIRECT
@@ -591,7 +609,7 @@ rules:
  - SRC-IP-CIDR,192.168.5.245/32,DIRECT
  - SRC-IP-CIDR,192.168.5.246/32,DIRECT
  - SRC-IP-CIDR,192.168.5.247/32,DIRECT
- - SRC-IP-CIDR,192.168.5.248/32,DIRECT
+ - SRC-IP-CIDR,192.168.5.248/32,🌍 XiaoNaofu-Dell
  - SRC-IP-CIDR,192.168.5.249/32,DIRECT
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
