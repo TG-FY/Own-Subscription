@@ -168,9 +168,6 @@ proxies:
     ws-path: /xiaodao
     ws-headers:
       Host: v2-px-000.bujidao.com
-  - {name: 🇭🇰 香港, server: superstar.srayx.xyz, port: 27005, type: vmess, uuid: ad6d775b-d4fb-4c8d-ac94-000593dc9479, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国, server: superstar.srayx.xyz, port: 27008, type: vmess, uuid: ad6d775b-d4fb-4c8d-ac94-000593dc9479, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇰🇷 韩国, server: superstar.srayx.xyz, port: 27011, type: vmess, uuid: ad6d775b-d4fb-4c8d-ac94-000593dc9479, alterId: 0, cipher: auto, tls: false}
   - {name: 🇰🇷 碧海青天-韩国, server: kr.bihai.ga, port: 443, type: vmess, uuid: 4e5cf028-0925-7c20-54a3-7a2114c0b843, alterId: 0, cipher: none, tls: true, network: ws, ws-path: /vqpvvws, ws-headers: {Host: kr.bihai.ga}}
   - {name: 🇭🇰 香港 R, server: 47.242.170.122, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8148316515.microsoft.com}}
   - {name: 🇭🇰 香港 O NF, server: 149.129.80.211, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8148316515.microsoft.com}}
@@ -196,9 +193,6 @@ proxy-groups:
       - 🇨🇳 台湾5 x8|安徽中转
       - 🇨🇳 台湾6 x6
       - 🇺🇸 凤凰城 x2
-      - 🇭🇰 香港
-      - 🇺🇸 美国
-      - 🇰🇷 韩国
       - 🇰🇷 碧海青天-韩国
       - 🇭🇰 香港 R
       - 🇭🇰 香港 O NF
@@ -211,11 +205,7 @@ proxy-groups:
       - 🚀 手动切换
       - ♻️ 自动选择
       - DIRECT
-      - 🇭🇰 香港节点
       - 🇨🇳 台湾节点
-      - 🇯🇵 日本节点
-      - 🇰🇷 韩国节点
-      - 🇸🇬 狮城节点
       - 🇺🇲 美国节点
   - name: ♻️ 自动选择
     type: url-test
@@ -239,9 +229,6 @@ proxy-groups:
       - 🇨🇳 台湾5 x8|安徽中转
       - 🇨🇳 台湾6 x6
       - 🇺🇸 凤凰城 x2
-      - 🇭🇰 香港
-      - 🇺🇸 美国
-      - 🇰🇷 韩国
       - 🇰🇷 碧海青天-韩国
       - 🇭🇰 香港 R
       - 🇭🇰 香港 O NF
@@ -254,11 +241,7 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - DIRECT
-      - 🇭🇰 香港节点
       - 🇨🇳 台湾节点
-      - 🇯🇵 日本节点
-      - 🇰🇷 韩国节点
-      - 🇸🇬 狮城节点
       - 🇺🇲 美国节点
   - name: 📹 油管视频
     type: select
@@ -267,11 +250,7 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - DIRECT
-      - 🇭🇰 香港节点
       - 🇨🇳 台湾节点
-      - 🇯🇵 日本节点
-      - 🇰🇷 韩国节点
-      - 🇸🇬 狮城节点
       - 🇺🇲 美国节点
   - name: 🎵 TikTok
     type: select
@@ -280,11 +259,7 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - DIRECT
-      - 🇭🇰 香港节点
       - 🇨🇳 台湾节点
-      - 🇯🇵 日本节点
-      - 🇰🇷 韩国节点
-      - 🇸🇬 狮城节点
       - 🇺🇲 美国节点
   - name: 🌕 Twitter
     type: select
@@ -293,11 +268,7 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - DIRECT
-      - 🇭🇰 香港节点
       - 🇨🇳 台湾节点
-      - 🇯🇵 日本节点
-      - 🇰🇷 韩国节点
-      - 🇸🇬 狮城节点
       - 🇺🇲 美国节点
   - name: 🌑 Facebook
     type: select
@@ -306,11 +277,7 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - DIRECT
-      - 🇭🇰 香港节点
       - 🇨🇳 台湾节点
-      - 🇯🇵 日本节点
-      - 🇰🇷 韩国节点
-      - 🇸🇬 狮城节点
       - 🇺🇲 美国节点
   - name: 🎥 奈飞视频
     type: select
@@ -319,11 +286,7 @@ proxy-groups:
       - 🚀 手动切换
       - ♻️ 自动选择
       - DIRECT
-      - 🇭🇰 香港节点
       - 🇨🇳 台湾节点
-      - 🇯🇵 日本节点
-      - 🇰🇷 韩国节点
-      - 🇸🇬 狮城节点
       - 🇺🇲 美国节点
   - name: 📺 巴哈姆特
     type: select
@@ -338,12 +301,6 @@ proxy-groups:
       - 🇨🇳 台湾4 x8|浙江中转
       - 🇨🇳 台湾5 x8|安徽中转
       - 🇨🇳 台湾6 x6
-  - name: 📺 哔哩哔哩
-    type: select
-    proxies:
-      - 🎯 全球直连
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
   - name: Ⓜ️ 微软云盘
     type: select
     proxies:
@@ -372,11 +329,7 @@ proxy-groups:
       - 🚀 手动切换
       - 🚀 节点选择
       - ♻️ 自动选择
-      - 🇭🇰 香港节点
       - 🇨🇳 台湾节点
-      - 🇯🇵 日本节点
-      - 🇰🇷 韩国节点
-      - 🇸🇬 狮城节点
       - 🇺🇲 美国节点
   - name: 🎮 游戏平台
     type: select
@@ -385,11 +338,7 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - DIRECT
-      - 🇭🇰 香港节点
       - 🇨🇳 台湾节点
-      - 🇯🇵 日本节点
-      - 🇰🇷 韩国节点
-      - 🇸🇬 狮城节点
       - 🇺🇲 美国节点
   - name: 🌏 国内媒体
     type: select
@@ -429,15 +378,6 @@ proxy-groups:
     proxies:
       - REJECT
       - DIRECT
-  - name: 🇭🇰 香港节点
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
-    proxies:
-      - 🇭🇰 香港
-      - 🇭🇰 香港 R
-      - 🇭🇰 香港 O NF
   - name: 🇨🇳 台湾节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -450,38 +390,12 @@ proxy-groups:
       - 🇨🇳 台湾4 x8|浙江中转
       - 🇨🇳 台湾5 x8|安徽中转
       - 🇨🇳 台湾6 x6
-  - name: 🇯🇵 日本节点
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
-    proxies:
-      - 🇯🇵 日本 长野 谷歌学术可
-      - 🇯🇵 日本 WY
-  - name: 🇰🇷 韩国节点
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
-    proxies:
-      - 🇰🇷 韩国
-      - 🇰🇷 碧海青天-韩国
-  - name: 🇸🇬 狮城节点
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
-    proxies:
-      - 🇨🇳 香港-新加坡 A1
-      - 🇸🇬 新加坡 WY
-      - 🇸🇬 新加坡 PJJ1
   - name: 🇺🇲 美国节点
     type: select
     proxies:
       - 🇺🇲 美国 洛杉矶 谷歌学术可
       - 🇺🇸 凤凰城 x2
       - 🇺🇸 美国 WY
-      - 🇺🇸 美国
   - name: 🎥 奈飞节点
     type: select
     proxies:
@@ -497,6 +411,37 @@ proxy-groups:
       - 🇬🇧 英国 WY
       - 🇺🇸 美国 WY
       - 🇸🇬 新加坡 PJJ1
+  - name: 🌍 KouJiaoyao-Redmi_10X
+    type: select
+    proxies:
+      - DIRECT
+      - REJECT
+  - name: 🌍 KouJiaoyao-Hewlett_Packard
+    type: select
+    proxies:
+      - DIRECT
+      - REJECT
+  - name: 🌍 XiaoKeai-ShenChuan
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 手动切换
+      - 🚀 节点选择
+      - REJECT
+  - name: 🌍 XiaoKeai-iPad_Air3
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 手动切换
+      - 🚀 节点选择
+      - REJECT
+  - name: 🌍 XiaoKeai-OPPO_Reno4_Pro
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 手动切换
+      - 🚀 节点选择
+      - REJECT
 rules:
  - SRC-IP-CIDR,192.168.5.100/32,DIRECT
  - SRC-IP-CIDR,192.168.5.101/32,DIRECT
@@ -550,12 +495,12 @@ rules:
  - SRC-IP-CIDR,192.168.5.149/32,DIRECT
  - SRC-IP-CIDR,192.168.5.150/32,DIRECT
  - SRC-IP-CIDR,192.168.5.151/32,DIRECT
- - SRC-IP-CIDR,192.168.5.152/32,DIRECT
+ - SRC-IP-CIDR,192.168.5.152/32,🌍 KouJiaoyao-Redmi_10X
  - SRC-IP-CIDR,192.168.5.153/32,DIRECT
- - SRC-IP-CIDR,192.168.5.154/32,DIRECT
+ - SRC-IP-CIDR,192.168.5.154/32,🌍 XiaoKeai-ShenChuan
  - SRC-IP-CIDR,192.168.5.155/32,DIRECT
  - SRC-IP-CIDR,192.168.5.156/32,DIRECT
- - SRC-IP-CIDR,192.168.5.157/32,DIRECT
+ - SRC-IP-CIDR,192.168.5.157/32,🌍 XiaoKeai-OPPO_Reno4_Pro
  - SRC-IP-CIDR,192.168.5.158/32,DIRECT
  - SRC-IP-CIDR,192.168.5.159/32,DIRECT
  - SRC-IP-CIDR,192.168.5.160/32,DIRECT
@@ -589,7 +534,7 @@ rules:
  - SRC-IP-CIDR,192.168.5.188/32,DIRECT
  - SRC-IP-CIDR,192.168.5.189/32,DIRECT
  - SRC-IP-CIDR,192.168.5.190/32,DIRECT
- - SRC-IP-CIDR,192.168.5.191/32,DIRECT
+ - SRC-IP-CIDR,192.168.5.191/32,🌍 XiaoKeai-iPad_Air3
  - SRC-IP-CIDR,192.168.5.192/32,DIRECT
  - SRC-IP-CIDR,192.168.5.193/32,DIRECT
  - SRC-IP-CIDR,192.168.5.194/32,DIRECT
@@ -632,7 +577,7 @@ rules:
  - SRC-IP-CIDR,192.168.5.231/32,DIRECT
  - SRC-IP-CIDR,192.168.5.232/32,DIRECT
 # - SRC-IP-CIDR,192.168.5.233/32,DIRECT
- - SRC-IP-CIDR,192.168.5.234/32,DIRECT
+ - SRC-IP-CIDR,192.168.5.234/32,🌍 KouJiaoyao-Hewlett_Packard
  - SRC-IP-CIDR,192.168.5.235/32,DIRECT
  - SRC-IP-CIDR,192.168.5.236/32,DIRECT
  - SRC-IP-CIDR,192.168.5.237/32,DIRECT
