@@ -122,19 +122,6 @@ proxies:
     ws-headers:
       Host: qwq.cccccc.cc
   -
-    name: 🇨🇳 台湾5 x8|安徽中转
-    type: vmess
-    server: ah-cu-001.xiaoxiaobujidao.xyz
-    port: 23331
-    uuid: f51d7ea0-ef9b-357b-8c37-7b398d6640e0
-    alterId: 1
-    cipher: auto
-    udp: true
-    network: ws
-    ws-path: /xiaodao
-    ws-headers:
-      Host: qwq.cccccc.cc
-  -
     name: 🇨🇳 台湾6 x6
     type: vmess
     server: v2-twn-001.bujidao.org
@@ -181,7 +168,6 @@ proxy-groups:
       - 🇨🇳 台湾2 x8|上海中转
       - 🇨🇳 台湾3 x8|浙江中转
       - 🇨🇳 台湾4 x8|浙江中转
-      - 🇨🇳 台湾5 x8|安徽中转
       - 🇨🇳 台湾6 x6
       - 🇺🇸 凤凰城 x2
       - 🇰🇷 碧海青天-韩国
@@ -216,7 +202,6 @@ proxy-groups:
       - 🇨🇳 台湾2 x8|上海中转
       - 🇨🇳 台湾3 x8|浙江中转
       - 🇨🇳 台湾4 x8|浙江中转
-      - 🇨🇳 台湾5 x8|安徽中转
       - 🇨🇳 台湾6 x6
       - 🇺🇸 凤凰城 x2
       - 🇰🇷 碧海青天-韩国
@@ -289,7 +274,6 @@ proxy-groups:
       - 🇨🇳 台湾2 x8|上海中转
       - 🇨🇳 台湾3 x8|浙江中转
       - 🇨🇳 台湾4 x8|浙江中转
-      - 🇨🇳 台湾5 x8|安徽中转
       - 🇨🇳 台湾6 x6
   - name: Ⓜ️ 微软云盘
     type: select
@@ -378,7 +362,6 @@ proxy-groups:
       - 🇨🇳 台湾2 x8|上海中转
       - 🇨🇳 台湾3 x8|浙江中转
       - 🇨🇳 台湾4 x8|浙江中转
-      - 🇨🇳 台湾5 x8|安徽中转
       - 🇨🇳 台湾6 x6
   - name: 🇺🇲 美国节点
     type: select
@@ -400,20 +383,6 @@ proxy-groups:
       - 🇯🇵 日本 WY
       - 🇬🇧 英国 WY
       - 🇺🇸 美国 WY
-  - name: 🌍 TG_FY-K30_Ultra
-    type: select
-    proxies:
-      - DIRECT
-      - 🚀 手动切换
-      - 🚀 节点选择
-      - REJECT
-  - name: 🌍 TG_FY-iPad_Air3
-    type: select
-    proxies:
-      - DIRECT
-      - 🚀 手动切换
-      - 🚀 节点选择
-      - REJECT
   - name: 🌍 XiaoNaofu-K30_Pro
     type: select
     proxies:
@@ -538,7 +507,7 @@ rules:
  - SRC-IP-CIDR,192.168.5.164/32,DIRECT
  - SRC-IP-CIDR,192.168.5.165/32,DIRECT
  - SRC-IP-CIDR,192.168.5.166/32,DIRECT
- - SRC-IP-CIDR,192.168.5.167/32,🌍 TG_FY-K30_Ultra
+# - SRC-IP-CIDR,192.168.5.167/32,DIRECT
  - SRC-IP-CIDR,192.168.5.168/32,DIRECT
  - SRC-IP-CIDR,192.168.5.169/32,DIRECT
  - SRC-IP-CIDR,192.168.5.170/32,DIRECT
@@ -595,7 +564,7 @@ rules:
  - SRC-IP-CIDR,192.168.5.221/32,DIRECT
  - SRC-IP-CIDR,192.168.5.222/32,DIRECT
  - SRC-IP-CIDR,192.168.5.223/32,DIRECT
- - SRC-IP-CIDR,192.168.5.224/32,🌍 TG_FY-iPad_Air3
+ - SRC-IP-CIDR,192.168.5.224/32,DIRECT
  - SRC-IP-CIDR,192.168.5.225/32,DIRECT
  - SRC-IP-CIDR,192.168.5.226/32,DIRECT
  - SRC-IP-CIDR,192.168.5.227/32,DIRECT
