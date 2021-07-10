@@ -69,14 +69,6 @@ proxies:
     password: 91049ca7-0b7d-4454-9f6e-92586f8ac7db
     tls: true
     skip-cert-verify: true
-  - name: 🇸🇬 新加坡 PJJ1
-    server: tw01.pjj.life
-    port: 29980
-    type: http
-    username: "461516536318787584"
-    password: 91049ca7-0b7d-4454-9f6e-92586f8ac7db
-    tls: true
-    skip-cert-verify: true
   -
     name: 🇨🇳 台湾1 x8|上海中转
     type: vmess
@@ -185,7 +177,6 @@ proxy-groups:
       - 🇯🇵 日本 WY
       - 🇬🇧 英国 WY
       - 🇺🇸 美国 WY
-      - 🇸🇬 新加坡 PJJ1
       - 🇨🇳 台湾1 x8|上海中转
       - 🇨🇳 台湾2 x8|上海中转
       - 🇨🇳 台湾3 x8|浙江中转
@@ -221,7 +212,6 @@ proxy-groups:
       - 🇯🇵 日本 WY
       - 🇬🇧 英国 WY
       - 🇺🇸 美国 WY
-      - 🇸🇬 新加坡 PJJ1
       - 🇨🇳 台湾1 x8|上海中转
       - 🇨🇳 台湾2 x8|上海中转
       - 🇨🇳 台湾3 x8|浙江中转
@@ -410,7 +400,20 @@ proxy-groups:
       - 🇯🇵 日本 WY
       - 🇬🇧 英国 WY
       - 🇺🇸 美国 WY
-      - 🇸🇬 新加坡 PJJ1
+  - name: 🌍 TG_FY-K30_Ultra
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 手动切换
+      - 🚀 节点选择
+      - REJECT
+  - name: 🌍 TG_FY-iPad_Air3
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 手动切换
+      - 🚀 节点选择
+      - REJECT
   - name: 🌍 XiaoNaofu-K30_Pro
     type: select
     proxies:
@@ -535,7 +538,7 @@ rules:
  - SRC-IP-CIDR,192.168.5.164/32,DIRECT
  - SRC-IP-CIDR,192.168.5.165/32,DIRECT
  - SRC-IP-CIDR,192.168.5.166/32,DIRECT
-# - SRC-IP-CIDR,192.168.5.167/32,DIRECT
+ - SRC-IP-CIDR,192.168.5.167/32,🌍 TG_FY-K30_Ultra
  - SRC-IP-CIDR,192.168.5.168/32,DIRECT
  - SRC-IP-CIDR,192.168.5.169/32,DIRECT
  - SRC-IP-CIDR,192.168.5.170/32,DIRECT
@@ -592,7 +595,7 @@ rules:
  - SRC-IP-CIDR,192.168.5.221/32,DIRECT
  - SRC-IP-CIDR,192.168.5.222/32,DIRECT
  - SRC-IP-CIDR,192.168.5.223/32,DIRECT
- - SRC-IP-CIDR,192.168.5.224/32,DIRECT
+ - SRC-IP-CIDR,192.168.5.224/32,🌍 TG_FY-iPad_Air3
  - SRC-IP-CIDR,192.168.5.225/32,DIRECT
  - SRC-IP-CIDR,192.168.5.226/32,DIRECT
  - SRC-IP-CIDR,192.168.5.227/32,DIRECT
