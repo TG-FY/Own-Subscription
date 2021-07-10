@@ -377,6 +377,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - 🇨🇳 台湾0 x8|负载均衡
       - 🇨🇳 台湾1 x8|上海中转
       - 🇨🇳 台湾2 x8|上海中转
       - 🇨🇳 台湾3 x8|浙江中转
