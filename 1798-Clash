@@ -160,12 +160,14 @@ proxies:
     ws-path: /xiaodao
     ws-headers:
       Host: v2-px-000.bujidao.com
-  - {name: 🇰🇷 碧海青天-韩国, server: kr.bihai.ga, port: 443, type: vmess, uuid: 4e5cf028-0925-7c20-54a3-7a2114c0b843, alterId: 0, cipher: none, tls: true, network: ws, ws-path: /vqpvvws, ws-headers: {Host: kr.bihai.ga}}
   - {name: 🇭🇰 香港 负载均衡, server: superstar.hk1.srayx.xyz, port: 20184, type: vmess, uuid: c101a55d-e437-4d66-b77f-0c2f4f715d70, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: superstar.hk1.srayx.xyz}}
+  - {name: 🇭🇰 香港 80端口, server: 13.88.216.190, port: 80, type: vmess, uuid: f3619029-089e-4b52-9e10-fb74c074bf90, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /Live, ws-headers: {Host: pull.free.video.10010.com}}
+  - {name: 🇺🇸 美国|中转AZ|流媒体 x0.5, server: relay.xxl123.fun, port: 10004, type: vmess, uuid: f3619029-089e-4b52-9e10-fb74c074bf90, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /path, ws-headers: {Host: "http://ec2-54-223-120-161.cn-north-1.compute.amazonaws.com.cn,f932c3d98981b.download.microsoft.com"}}
   - {name: 🇭🇰 香港 R, server: 47.242.170.122, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8148316515.microsoft.com}}
   - {name: 🇭🇰 香港 O NF, server: 149.129.80.211, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8148316515.microsoft.com}}
   - {name: 🇯🇵 日本 长野 谷歌学术可, server: 121.50.43.30, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8148316515.microsoft.com}}
   - {name: 🇺🇲 美国 洛杉矶 谷歌学术可, server: 198.148.122.145, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8148316515.microsoft.com}}
+  - {name: 🇰🇷 碧海青天-韩国, server: kr.bihai.ga, port: 443, type: vmess, uuid: 4e5cf028-0925-7c20-54a3-7a2114c0b843, alterId: 0, cipher: none, tls: true, network: ws, ws-path: /vqpvvws, ws-headers: {Host: kr.bihai.ga}}
 proxy-groups:
   - name: 🚀 手动切换
     type: select
@@ -185,12 +187,14 @@ proxy-groups:
       - 🇨🇳 台湾4 x8|浙江中转
       - 🇨🇳 台湾5 x6|免流节点
       - 🇺🇸 凤凰城 x2
-      - 🇰🇷 碧海青天-韩国
       - 🇭🇰 香港 负载均衡
+      - 🇭🇰 香港 80端口
+      - 🇺🇸 美国|中转AZ|流媒体 x0.5
       - 🇭🇰 香港 R
       - 🇭🇰 香港 O NF
       - 🇯🇵 日本 长野 谷歌学术可
       - 🇺🇲 美国 洛杉矶 谷歌学术可
+      - 🇰🇷 碧海青天-韩国
       - DIRECT
   - name: 🚀 节点选择
     type: select
@@ -221,12 +225,14 @@ proxy-groups:
       - 🇨🇳 台湾4 x8|浙江中转
       - 🇨🇳 台湾5 x6|免流节点
       - 🇺🇸 凤凰城 x2
-      - 🇰🇷 碧海青天-韩国
       - 🇭🇰 香港 负载均衡
+      - 🇭🇰 香港 80端口
+      - 🇺🇸 美国|中转AZ|流媒体 x0.5
       - 🇭🇰 香港 R
       - 🇭🇰 香港 O NF
       - 🇯🇵 日本 长野 谷歌学术可
       - 🇺🇲 美国 洛杉矶 谷歌学术可
+      - 🇰🇷 碧海青天-韩国
   - name: 📲 电报消息
     type: select
     proxies:
@@ -387,6 +393,7 @@ proxy-groups:
     type: select
     proxies:
       - 🇺🇲 美国 洛杉矶 谷歌学术可
+      - 🇺🇸 美国|中转AZ|流媒体 x0.5
       - 🇺🇸 凤凰城 x2
       - 🇺🇸 美国 WY
   - name: 🎥 奈飞节点
@@ -395,6 +402,7 @@ proxy-groups:
       - 🇭🇰 香港 O NF
       - 🇺🇲 美国 洛杉矶 谷歌学术可
       - 🇯🇵 日本 长野 谷歌学术可
+      - 🇺🇸 美国|中转AZ|流媒体 x0.5
       - 🇨🇳 香港-新加坡 A1
       - 🇸🇬 新加坡 WY
       - 🇦🇺 澳大利亚 WY
