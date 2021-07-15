@@ -123,7 +123,7 @@ proxies:
       Host: v2-px-000.bujidao.com
   - name: 🇨🇳 台湾HTTPS
     server: blade17.taipei-rack401.nodes.gen4.ninja
-    port: 90
+    port: 9002
     type: http
     tls: true
   - {name: 🇭🇰 香港 负载均衡, server: superstar.hk1.srayx.xyz, port: 20184, type: vmess, uuid: c101a55d-e437-4d66-b77f-0c2f4f715d70, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: superstar.hk1.srayx.xyz}}
