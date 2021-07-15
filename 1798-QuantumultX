@@ -1,5 +1,6 @@
 http=a1.ap.fastqvpn.com:29980, username=442358231600201728, password=984a2e30-e37a-4bd7-87d3-7d26e3c6a861, over-tls=true, tls-verification=true, tag=🇸🇬 新加坡 A1
-http=tx.wy.fastqvpn.com:29982, username=442358231600201728, password=984a2e30-e37a-4bd7-87d3-7d26e3c6a861, over-tls=true, tls-verification=false, tag=🇦🇺 澳大利亚 WY
+http=tx.wy.fastqvpn.com:29980, username=442358231600201728, password=984a2e30-e37a-4bd7-87d3-7d26e3c6a861, over-tls=true, tls-verification=true, tag=🇸🇬 新加坡 WY
+http=tx.wy.fastqvpn.com:29981, username=442358231600201728, password=984a2e30-e37a-4bd7-87d3-7d26e3c6a861, over-tls=true, tls-verification=false, tag=🇦🇺 澳大利亚 WY
 http=tx.wy.fastqvpn.com:29983, username=442358231600201728, password=984a2e30-e37a-4bd7-87d3-7d26e3c6a861, over-tls=true, tls-verification=false, tag=🇨🇦 加拿大 WY
 http=tx.wy.fastqvpn.com:29984, username=442358231600201728, password=984a2e30-e37a-4bd7-87d3-7d26e3c6a861, over-tls=true, tls-verification=false, tag=🇩🇪 德国 WY
 http=tx.wy.fastqvpn.com:29985, username=442358231600201728, password=984a2e30-e37a-4bd7-87d3-7d26e3c6a861, over-tls=true, tls-verification=false, tag=🇯🇵 日本 WY
