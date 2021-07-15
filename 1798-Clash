@@ -13,48 +13,48 @@ proxies:
     password: f3f30895-f173-4a57-ac90-e7fa405de420
     tls: true
     skip-cert-verify: false
-  - name: 🇸🇬 新加坡 WY
-    server: tx.wy.fastqvpn.com
+  - name: 🇸🇬 新加坡 JC
+    server: jc.ap.fastqvpn.com
     port: 29980
     type: http
     username: "435375818353410048"
     password: f3f30895-f173-4a57-ac90-e7fa405de420
     tls: true
     skip-cert-verify: true
-  - name: 🇨🇦 加拿大 WY
-    server: tx.wy.fastqvpn.com
+  - name: 🇨🇦 加拿大 JC
+    server: jc.ap.fastqvpn.com
     port: 29983
     type: http
     username: "435375818353410048"
     password: f3f30895-f173-4a57-ac90-e7fa405de420
     tls: true
     skip-cert-verify: true
-  - name: 🇩🇪 德国 WY
-    server: tx.wy.fastqvpn.com
+  - name: 🇩🇪 德国 JC
+    server: jc.ap.fastqvpn.com
     port: 29984
     type: http
     username: "435375818353410048"
     password: f3f30895-f173-4a57-ac90-e7fa405de420
     tls: true
     skip-cert-verify: true
-  - name: 🇯🇵 日本 WY
-    server: tx.wy.fastqvpn.com
+  - name: 🇯🇵 日本 JC
+    server: jc.ap.fastqvpn.com
     port: 29985
     type: http
     username: "435375818353410048"
     password: f3f30895-f173-4a57-ac90-e7fa405de420
     tls: true
     skip-cert-verify: true
-  - name: 🇬🇧 英国 WY
-    server: tx.wy.fastqvpn.com
+  - name: 🇬🇧 英国 JC
+    server: jc.ap.fastqvpn.com
     port: 29987
     type: http
     username: "435375818353410048"
     password: f3f30895-f173-4a57-ac90-e7fa405de420
     tls: true
     skip-cert-verify: true
-  - name: 🇺🇸 美国 WY
-    server: tx.wy.fastqvpn.com
+  - name: 🇺🇸 美国 JC
+    server: jc.ap.fastqvpn.com
     port: 29988
     type: http
     username: "435375818353410048"
@@ -126,12 +126,12 @@ proxy-groups:
     type: select
     proxies:
       - 🇨🇳 香港-新加坡 A1
-      - 🇸🇬 新加坡 WY
-      - 🇨🇦 加拿大 WY
-      - 🇩🇪 德国 WY
-      - 🇯🇵 日本 WY
-      - 🇬🇧 英国 WY
-      - 🇺🇸 美国 WY
+      - 🇸🇬 新加坡 JC
+      - 🇨🇦 加拿大 JC
+      - 🇩🇪 德国 JC
+      - 🇯🇵 日本 JC
+      - 🇬🇧 英国 JC
+      - 🇺🇸 美国 JC
       - 🇨🇳 台湾0 x8|负载均衡
       - 🇨🇳 台湾1 x8|上海中转
       - 🇨🇳 台湾5 x6|免流节点
@@ -160,12 +160,12 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇨🇳 香港-新加坡 A1
-      - 🇸🇬 新加坡 WY
-      - 🇨🇦 加拿大 WY
-      - 🇩🇪 德国 WY
-      - 🇯🇵 日本 WY
-      - 🇬🇧 英国 WY
-      - 🇺🇸 美国 WY
+      - 🇸🇬 新加坡 JC
+      - 🇨🇦 加拿大 JC
+      - 🇩🇪 德国 JC
+      - 🇯🇵 日本 JC
+      - 🇬🇧 英国 JC
+      - 🇺🇸 美国 JC
       - 🇨🇳 台湾0 x8|负载均衡
       - 🇨🇳 台湾1 x8|上海中转
       - 🇨🇳 台湾5 x6|免流节点
@@ -343,12 +343,12 @@ proxy-groups:
       - 🇯🇵 日本 长野 谷歌学术可
       - 🇺🇸 美国|中转AZ|流媒体 x0.5
       - 🇨🇳 香港-新加坡 A1
-      - 🇸🇬 新加坡 WY
-      - 🇨🇦 加拿大 WY
-      - 🇩🇪 德国 WY
-      - 🇯🇵 日本 WY
-      - 🇬🇧 英国 WY
-      - 🇺🇸 美国 WY
+      - 🇸🇬 新加坡 JC
+      - 🇨🇦 加拿大 JC
+      - 🇩🇪 德国 JC
+      - 🇯🇵 日本 JC
+      - 🇬🇧 英国 JC
+      - 🇺🇸 美国 JC
   - name: 🌍 XiaoNaofu-K30_Pro
     type: select
     proxies:
