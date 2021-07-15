@@ -21,14 +21,6 @@ proxies:
     password: f3f30895-f173-4a57-ac90-e7fa405de420
     tls: true
     skip-cert-verify: true
-  - name: 🇦🇺 澳大利亚 WY
-    server: tx.wy.fastqvpn.com
-    port: 29982
-    type: http
-    username: "435375818353410048"
-    password: f3f30895-f173-4a57-ac90-e7fa405de420
-    tls: true
-    skip-cert-verify: true
   - name: 🇨🇦 加拿大 WY
     server: tx.wy.fastqvpn.com
     port: 29983
@@ -135,7 +127,6 @@ proxy-groups:
     proxies:
       - 🇨🇳 香港-新加坡 A1
       - 🇸🇬 新加坡 WY
-      - 🇦🇺 澳大利亚 WY
       - 🇨🇦 加拿大 WY
       - 🇩🇪 德国 WY
       - 🇯🇵 日本 WY
@@ -170,7 +161,6 @@ proxy-groups:
     proxies:
       - 🇨🇳 香港-新加坡 A1
       - 🇸🇬 新加坡 WY
-      - 🇦🇺 澳大利亚 WY
       - 🇨🇦 加拿大 WY
       - 🇩🇪 德国 WY
       - 🇯🇵 日本 WY
@@ -354,7 +344,6 @@ proxy-groups:
       - 🇺🇸 美国|中转AZ|流媒体 x0.5
       - 🇨🇳 香港-新加坡 A1
       - 🇸🇬 新加坡 WY
-      - 🇦🇺 澳大利亚 WY
       - 🇨🇦 加拿大 WY
       - 🇩🇪 德国 WY
       - 🇯🇵 日本 WY
