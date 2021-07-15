@@ -121,11 +121,20 @@ proxies:
     ws-path: /xiaodao
     ws-headers:
       Host: v2-px-000.bujidao.com
+  - name: 🇦🇺 澳大利亚 WY
+    server: tx.wy.fastqvpn.com
+    port: 29982
+    type: http
+    username: "461516536318787584"
+    password: 91049ca7-0b7d-4454-9f6e-92586f8ac7db
+    tls: true
+    skip-cert-verify: true
   - name: 🇨🇳 台湾HTTPS
     server: blade17.taipei-rack401.nodes.gen4.ninja
     port: 9002
     type: http
     tls: true
+    skip-cert-verify: true
   - {name: 🇭🇰 香港 负载均衡, server: superstar.hk1.srayx.xyz, port: 20184, type: vmess, uuid: c101a55d-e437-4d66-b77f-0c2f4f715d70, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: superstar.hk1.srayx.xyz}}
   - {name: 🇭🇰 香港 80端口, server: 13.88.216.190, port: 80, type: vmess, uuid: f3619029-089e-4b52-9e10-fb74c074bf90, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /Live, ws-headers: {Host: pull.free.video.10010.com}}
   - {name: 🇺🇸 美国|中转AZ|流媒体 x0.5, server: relay.xxl123.fun, port: 10004, type: vmess, uuid: f3619029-089e-4b52-9e10-fb74c074bf90, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /path, ws-headers: {Host: "http://ec2-54-223-120-161.cn-north-1.compute.amazonaws.com.cn,f932c3d98981b.download.microsoft.com"}}
