@@ -9,64 +9,64 @@ proxies:
     server: a1.ap.fastqvpn.com
     port: 29980
     type: http
-    username: '442358231600201728'
-    password: 984a2e30-e37a-4bd7-87d3-7d26e3c6a861
+    username: '435375818353410048'
+    password: f3f30895-f173-4a57-ac90-e7fa405de420
     tls: true
     skip-cert-verify: false
   - name: 🇸🇬 新加坡 WY
     server: tx.wy.fastqvpn.com
     port: 29980
     type: http
-    username: "442358231600201728"
-    password: 984a2e30-e37a-4bd7-87d3-7d26e3c6a861
+    username: "435375818353410048"
+    password: f3f30895-f173-4a57-ac90-e7fa405de420
     tls: true
     skip-cert-verify: true
   - name: 🇦🇺 澳大利亚 WY
     server: tx.wy.fastqvpn.com
     port: 29982
     type: http
-    username: "442358231600201728"
-    password: 984a2e30-e37a-4bd7-87d3-7d26e3c6a861
+    username: "435375818353410048"
+    password: f3f30895-f173-4a57-ac90-e7fa405de420
     tls: true
     skip-cert-verify: true
   - name: 🇨🇦 加拿大 WY
     server: tx.wy.fastqvpn.com
     port: 29983
     type: http
-    username: "442358231600201728"
-    password: 984a2e30-e37a-4bd7-87d3-7d26e3c6a861
+    username: "435375818353410048"
+    password: f3f30895-f173-4a57-ac90-e7fa405de420
     tls: true
     skip-cert-verify: true
   - name: 🇩🇪 德国 WY
     server: tx.wy.fastqvpn.com
     port: 29984
     type: http
-    username: "442358231600201728"
-    password: 984a2e30-e37a-4bd7-87d3-7d26e3c6a861
+    username: "435375818353410048"
+    password: f3f30895-f173-4a57-ac90-e7fa405de420
     tls: true
     skip-cert-verify: true
   - name: 🇯🇵 日本 WY
     server: tx.wy.fastqvpn.com
     port: 29985
     type: http
-    username: "442358231600201728"
-    password: 984a2e30-e37a-4bd7-87d3-7d26e3c6a861
+    username: "435375818353410048"
+    password: f3f30895-f173-4a57-ac90-e7fa405de420
     tls: true
     skip-cert-verify: true
   - name: 🇬🇧 英国 WY
     server: tx.wy.fastqvpn.com
     port: 29987
     type: http
-    username: "442358231600201728"
-    password: 984a2e30-e37a-4bd7-87d3-7d26e3c6a861
+    username: "435375818353410048"
+    password: f3f30895-f173-4a57-ac90-e7fa405de420
     tls: true
     skip-cert-verify: true
   - name: 🇺🇸 美国 WY
     server: tx.wy.fastqvpn.com
     port: 29988
     type: http
-    username: "442358231600201728"
-    password: 984a2e30-e37a-4bd7-87d3-7d26e3c6a861
+    username: "435375818353410048"
+    password: f3f30895-f173-4a57-ac90-e7fa405de420
     tls: true
     skip-cert-verify: true
   -
