@@ -96,45 +96,6 @@ proxies:
     ws-headers:
       Host: qwq.cccccc.cc
   -
-    name: 🇨🇳 台湾2 x8|上海中转
-    type: vmess
-    server: sh-cu-002.xiaoxiaobujidao.xyz
-    port: 23341
-    uuid: f51d7ea0-ef9b-357b-8c37-7b398d6640e0
-    alterId: 1
-    cipher: auto
-    udp: true
-    network: ws
-    ws-path: /xiaodao
-    ws-headers:
-      Host: qwq.cccccc.cc
-  -
-    name: 🇨🇳 台湾3 x8|浙江中转
-    type: vmess
-    server: zj-cu-001.xiaoxiaobujidao.xyz
-    port: 23341
-    uuid: f51d7ea0-ef9b-357b-8c37-7b398d6640e0
-    alterId: 1
-    cipher: auto
-    udp: true
-    network: ws
-    ws-path: /xiaodao
-    ws-headers:
-      Host: qwq.cccccc.cc
-  -
-    name: 🇨🇳 台湾4 x8|浙江中转
-    type: vmess
-    server: zj-cu-001.xiaoxiaobujidao.xyz
-    port: 33341
-    uuid: f51d7ea0-ef9b-357b-8c37-7b398d6640e0
-    alterId: 1
-    cipher: auto
-    udp: true
-    network: ws
-    ws-path: /xiaodao
-    ws-headers:
-      Host: qwq.cccccc.cc
-  -
     name: 🇨🇳 台湾5 x6|免流节点
     type: vmess
     server: v2-twn-001.bujidao.org
@@ -160,6 +121,11 @@ proxies:
     ws-path: /xiaodao
     ws-headers:
       Host: v2-px-000.bujidao.com
+  - name: 🇨🇳 台湾HTTPS
+    server: blade17.taipei-rack401.nodes.gen4.ninja
+    port: 90
+    type: http
+    tls: true
   - {name: 🇭🇰 香港 负载均衡, server: superstar.hk1.srayx.xyz, port: 20184, type: vmess, uuid: c101a55d-e437-4d66-b77f-0c2f4f715d70, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: superstar.hk1.srayx.xyz}}
   - {name: 🇭🇰 香港 80端口, server: 13.88.216.190, port: 80, type: vmess, uuid: f3619029-089e-4b52-9e10-fb74c074bf90, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /Live, ws-headers: {Host: pull.free.video.10010.com}}
   - {name: 🇺🇸 美国|中转AZ|流媒体 x0.5, server: relay.xxl123.fun, port: 10004, type: vmess, uuid: f3619029-089e-4b52-9e10-fb74c074bf90, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /path, ws-headers: {Host: "http://ec2-54-223-120-161.cn-north-1.compute.amazonaws.com.cn,f932c3d98981b.download.microsoft.com"}}
@@ -182,11 +148,9 @@ proxy-groups:
       - 🇺🇸 美国 WY
       - 🇨🇳 台湾0 x8|负载均衡
       - 🇨🇳 台湾1 x8|上海中转
-      - 🇨🇳 台湾2 x8|上海中转
-      - 🇨🇳 台湾3 x8|浙江中转
-      - 🇨🇳 台湾4 x8|浙江中转
       - 🇨🇳 台湾5 x6|免流节点
       - 🇺🇸 凤凰城 x2
+      - 🇨🇳 台湾HTTPS
       - 🇭🇰 香港 负载均衡
       - 🇭🇰 香港 80端口
       - 🇺🇸 美国|中转AZ|流媒体 x0.5
@@ -220,11 +184,9 @@ proxy-groups:
       - 🇺🇸 美国 WY
       - 🇨🇳 台湾0 x8|负载均衡
       - 🇨🇳 台湾1 x8|上海中转
-      - 🇨🇳 台湾2 x8|上海中转
-      - 🇨🇳 台湾3 x8|浙江中转
-      - 🇨🇳 台湾4 x8|浙江中转
       - 🇨🇳 台湾5 x6|免流节点
       - 🇺🇸 凤凰城 x2
+      - 🇨🇳 台湾HTTPS
       - 🇭🇰 香港 负载均衡
       - 🇭🇰 香港 80端口
       - 🇺🇸 美国|中转AZ|流媒体 x0.5
@@ -296,10 +258,8 @@ proxy-groups:
       - DIRECT
       - 🇨🇳 台湾0 x8|负载均衡
       - 🇨🇳 台湾1 x8|上海中转
-      - 🇨🇳 台湾2 x8|上海中转
-      - 🇨🇳 台湾3 x8|浙江中转
-      - 🇨🇳 台湾4 x8|浙江中转
       - 🇨🇳 台湾5 x6|免流节点
+      - 🇨🇳 台湾HTTPS
   - name: Ⓜ️ 微软云盘
     type: select
     proxies:
@@ -385,10 +345,8 @@ proxy-groups:
     proxies:
       - 🇨🇳 台湾0 x8|负载均衡
       - 🇨🇳 台湾1 x8|上海中转
-      - 🇨🇳 台湾2 x8|上海中转
-      - 🇨🇳 台湾3 x8|浙江中转
-      - 🇨🇳 台湾4 x8|浙江中转
       - 🇨🇳 台湾5 x6|免流节点
+      - 🇨🇳 台湾HTTPS
   - name: 🇺🇲 美国节点
     type: select
     proxies:
