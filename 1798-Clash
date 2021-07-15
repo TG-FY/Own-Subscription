@@ -334,7 +334,7 @@ proxy-groups:
       - 🇺🇲 美国 洛杉矶 谷歌学术可
       - 🇺🇸 美国|中转AZ|流媒体 x0.5
       - 🇺🇸 凤凰城 x2
-      - 🇺🇸 美国 WY
+      - 🇺🇸 美国 JC
   - name: 🎥 奈飞节点
     type: select
     proxies:
