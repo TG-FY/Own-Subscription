@@ -5,8 +5,8 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - name: 🇨🇳 香港-新加坡 A1
-    server: a1.ap.fastqvpn.com
+  - name: 🇨🇳 香港-新加坡 PJJ
+    server: yjl.pjj.life
     port: 29980
     type: http
     username: '435375818353410048'
@@ -112,7 +112,7 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - 🇨🇳 香港-新加坡 A1
+      - 🇨🇳 香港-新加坡 PJJ
       - 🇸🇬 新加坡 JC
       - 🇨🇦 加拿大 JC
       - 🇩🇪 德国 JC
@@ -145,7 +145,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 香港-新加坡 A1
+      - 🇨🇳 香港-新加坡 PJJ
       - 🇸🇬 新加坡 JC
       - 🇨🇦 加拿大 JC
       - 🇩🇪 德国 JC
@@ -326,7 +326,7 @@ proxy-groups:
       - 🇺🇲 美国 洛杉矶 谷歌学术可
       - 🇯🇵 日本 长野 谷歌学术可
       - 🇺🇸 美国 flyXXL
-      - 🇨🇳 香港-新加坡 A1
+      - 🇨🇳 香港-新加坡 PJJ
       - 🇸🇬 新加坡 JC
       - 🇨🇦 加拿大 JC
       - 🇩🇪 德国 JC
