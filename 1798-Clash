@@ -12,7 +12,7 @@ proxies:
     username: '435375818353410048'
     password: f3f30895-f173-4a57-ac90-e7fa405de420
     tls: true
-    skip-cert-verify: false
+    skip-cert-verify: true
   - name: 🇸🇬 新加坡 JC
     server: jc.ap.fastqvpn.com
     port: 29980
