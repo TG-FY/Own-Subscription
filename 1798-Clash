@@ -393,6 +393,13 @@ proxy-groups:
       - 🚀 手动切换
       - 🚀 节点选择
       - REJECT
+  - name: 🌍 MI_AI_SoundBox_Pro
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 手动切换
+      - 🚀 节点选择
+      - REJECT
 rules:
  - SRC-IP-CIDR,192.168.5.100/32,DIRECT
  - SRC-IP-CIDR,192.168.5.101/32,DIRECT
@@ -407,7 +414,7 @@ rules:
  - SRC-IP-CIDR,192.168.5.110/32,DIRECT
  - SRC-IP-CIDR,192.168.5.111/32,DIRECT
  - SRC-IP-CIDR,192.168.5.112/32,DIRECT
- - SRC-IP-CIDR,192.168.5.113/32,DIRECT
+ - SRC-IP-CIDR,192.168.5.113/32,🌍 MI_AI_SoundBox_Pro
 # - SRC-IP-CIDR,192.168.5.114/32,DIRECT
  - SRC-IP-CIDR,192.168.5.115/32,DIRECT
  - SRC-IP-CIDR,192.168.5.116/32,DIRECT
