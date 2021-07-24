@@ -304,7 +304,7 @@ proxy-groups:
   - name: 🎥 奈飞节点
     type: select
     proxies:
-      - 🇭🇰 香港 O NF
+      - 🇭🇰 香港 O NF EDU学术引擎
       - 🇺🇲 美国 洛杉矶 EDU学术引擎
       - 🇯🇵 日本 长野 EDU学术引擎
       - 🇺🇸 美国 flyXXL
