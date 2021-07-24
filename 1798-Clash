@@ -111,7 +111,7 @@ proxy-groups:
       - 🚀 手动切换
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳 台湾节点
+      - 🇹🇼 台湾节点
       - 🇺🇲 美国节点
   - name: ♻️ 自动选择
     type: url-test
@@ -149,7 +149,7 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳 台湾节点
+      - 🇹🇼 台湾节点
       - 🇺🇲 美国节点
   - name: 📹 油管视频
     type: select
@@ -158,7 +158,7 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳 台湾节点
+      - 🇹🇼 台湾节点
       - 🇺🇲 美国节点
   - name: 🎵 TikTok
     type: select
@@ -167,7 +167,7 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳 台湾节点
+      - 🇹🇼 台湾节点
       - 🇺🇲 美国节点
   - name: 🌕 Twitter
     type: select
@@ -176,7 +176,7 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳 台湾节点
+      - 🇹🇼 台湾节点
       - 🇺🇲 美国节点
   - name: 🌑 Facebook
     type: select
@@ -185,7 +185,7 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳 台湾节点
+      - 🇹🇼 台湾节点
       - 🇺🇲 美国节点
   - name: 🎥 奈飞视频
     type: select
@@ -194,12 +194,12 @@ proxy-groups:
       - 🚀 手动切换
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳 台湾节点
+      - 🇹🇼 台湾节点
       - 🇺🇲 美国节点
   - name: 📺 巴哈姆特
     type: select
     proxies:
-      - 🇨🇳 台湾节点
+      - 🇹🇼 台湾节点
       - 🚀 手动切换
       - ♻️ 自动选择
       - DIRECT
@@ -235,7 +235,7 @@ proxy-groups:
       - 🚀 手动切换
       - 🚀 节点选择
       - ♻️ 自动选择
-      - 🇨🇳 台湾节点
+      - 🇹🇼 台湾节点
       - 🇺🇲 美国节点
   - name: 🎮 游戏平台
     type: select
@@ -244,7 +244,7 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳 台湾节点
+      - 🇹🇼 台湾节点
       - 🇺🇲 美国节点
   - name: 🌏 国内媒体
     type: select
@@ -284,7 +284,7 @@ proxy-groups:
     proxies:
       - REJECT
       - DIRECT
-  - name: 🇨🇳 台湾节点
+  - name: 🇹🇼 台湾节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
