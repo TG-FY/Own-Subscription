@@ -61,57 +61,21 @@ proxies:
     password: f3f30895-f173-4a57-ac90-e7fa405de420
     tls: true
     skip-cert-verify: true
-  -
-    name: 🇨🇳 台湾0 x8|负载均衡
-    type: vmess
-    server: 000000.bujidao.org
-    port: 6000
-    uuid: f51d7ea0-ef9b-357b-8c37-7b398d6640e0
-    alterId: 1
-    cipher: auto
-    udp: true
-    network: ws
-    ws-path: /xiaodao
-    ws-headers:
-      Host: pull.free.video.10010.com
-  -
-    name: 🇨🇳 台湾1 x8|上海中转
-    type: vmess
-    server: sh-cu-001.xiaoxiaobujidao.xyz
-    port: 23341
-    uuid: f51d7ea0-ef9b-357b-8c37-7b398d6640e0
-    alterId: 1
-    cipher: auto
-    udp: true
-    network: ws
-    ws-path: /xiaodao
-    ws-headers:
-      Host: qwq.cccccc.cc
-  -
-    name: 🇨🇳 台湾5 x4|免流节点
-    type: vmess
-    server: v2-twn-001.bujidao.org
-    port: 80
-    uuid: f51d7ea0-ef9b-357b-8c37-7b398d6640e0
-    alterId: 1
-    cipher: auto
-    udp: true
-    network: ws
-    ws-path: /xiaodao
-    ws-headers:
-      Host: v2-twn-001.cccccc.cc
-  - {name: 🇨🇳 台湾 移动原生, server: b-ddggqy2d.txwd.xyz, port: 55555, type: vmess, uuid: 1e5a876d-5f0a-3d22-b2bb-cbde61a03a7b, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /mcwy-tw-b, ws-headers: {Host: mcwy-zj.txwd.xyz}}
-  - {name: 🇨🇳 台湾 中继原生, server: a-ddggqy2d.txwd.xyz, port: 44944, type: vmess, uuid: 1e5a876d-5f0a-3d22-b2bb-cbde61a03a7b, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /tw-a, ws-headers: {Host: a-ddggqy2d.txwd.xyz}}
   - {name: 🇭🇰 香港 SuperSTAR, server: 16.162.143.15, port: 23000, type: vmess, uuid: c101a55d-e437-4d66-b77f-0c2f4f715d70, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 16.162.143.15}}
   - {name: 🇸🇬 新加坡 flyXXL, server: relay.xxl123.fun, port: 10010, type: vmess, uuid: f3619029-089e-4b52-9e10-fb74c074bf90, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /path, ws-headers: {Host: "http://ec2-54-223-120-161.cn-north-1.compute.amazonaws.com.cn,f932c3d98981b.download.microsoft.com"}}
   - {name: 🇺🇸 美国 flyXXL, server: relay.xxl123.fun, port: 10004, type: vmess, uuid: f3619029-089e-4b52-9e10-fb74c074bf90, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /path, ws-headers: {Host: "http://ec2-54-223-120-161.cn-north-1.compute.amazonaws.com.cn,f932c3d98981b.download.microsoft.com"}}
-  - {name: 🇭🇰 香港 G, server: 119.28.84.227, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8148316515.microsoft.com}}
-  - {name: 🇭🇰 香港 O NF, server: 149.129.80.211, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8148316515.microsoft.com}}
-  - {name: 🇯🇵 日本 长野 谷歌学术可, server: 121.50.43.30, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8148316515.microsoft.com}}
-  - {name: 🇺🇲 美国 洛杉矶 谷歌学术可, server: 198.148.122.145, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8148316515.microsoft.com}}
+  - {name: 🇮🇳 印度 上网课学习引擎, server: 13.233.57.26, port: 46869, type: vmess, uuid: ec8baeb0-b946-3b35-a633-206b03530298, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: a.189.cn}}
+  - {name: 🇹🇼 台湾 上网课学习引擎, server: 165.154.234.13, port: 46867, type: vmess, uuid: ec8baeb0-b946-3b35-a633-206b03530298, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: a.189.cn}}
+  - {name: 🇹🇼 台湾 移动原生, server: b-ddggqy2d.txwd.xyz, port: 55555, type: vmess, uuid: 1e5a876d-5f0a-3d22-b2bb-cbde61a03a7b, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /mcwy-tw-b, ws-headers: {Host: mcwy-zj.txwd.xyz}}
+  - {name: 🇹🇼 台湾 中继原生, server: a-ddggqy2d.txwd.xyz, port: 44944, type: vmess, uuid: 1e5a876d-5f0a-3d22-b2bb-cbde61a03a7b, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /tw-a, ws-headers: {Host: a-ddggqy2d.txwd.xyz}}
+  - {name: 🇹🇼 台湾 T加速, server: aga.ddns.tjiasu.xyz, port: 443, type: vmess, uuid: 2b142604-83c1-424f-9a25-5f877c8e8450, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /api/tw, ws-headers: {Host: twww.ddns.tjiasu.xyz}}
+  - {name: 🇻🇳 越南 T加速, server: aga.ddns.tjiasu.xyz, port: 443, type: vmess, uuid: 2b142604-83c1-424f-9a25-5f877c8e8450, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /api/vn, ws-headers: {Host: vn.ddns.tjiasu.xyz}}
+  - {name: 🇭🇰 香港 G EDU学术引擎, server: 119.28.84.227, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8148316515.microsoft.com}}
+  - {name: 🇭🇰 香港 O NF EDU学术引擎, server: 149.129.80.211, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8148316515.microsoft.com}}
+  - {name: 🇯🇵 日本 长野 EDU学术引擎, server: 121.50.43.30, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8148316515.microsoft.com}}
+  - {name: 🇺🇲 美国 洛杉矶 EDU学术引擎, server: 198.148.122.145, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8148316515.microsoft.com}}
   - {name: 🇯🇵 日本 碧老师的甲骨文, server: 104.19.16.241, port: 443, type: vmess, uuid: d03b6ab9-1b88-dc26-69aa-90975ce92ca5, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /xmnhvws, ws-headers: {Host: jp.bhv2.ml}}
   - {name: 🇰🇷 韩国 碧老师的甲骨文, server: kr.bihai.ga, port: 443, type: vmess, uuid: 4e5cf028-0925-7c20-54a3-7a2114c0b843, alterId: 0, cipher: none, tls: true, network: ws, ws-path: /vqpvvws, ws-headers: {Host: kr.bihai.ga}}
-  - {name: 🇺🇲 美国 碧老师的GIA, server: tripod.bihai.ga, port: 443, type: vmess, uuid: 6b2c64ea-63de-455a-97c0-7d1652b0ab71, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/vmmwvws?ed=2048", ws-headers: {Host: tripod.bihai.ga}}
   - {name: 🇺🇸 美国 我自己的Heroku, server: 104.19.22.122, port: 443, type: vmess, uuid: ad806487-2d26-4636-98b6-ab85cc8521f7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: holy-morning-543f.3238hee.workers.dev}}
 proxy-groups:
   - name: 🚀 手动切换
@@ -124,21 +88,21 @@ proxy-groups:
       - 🇯🇵 日本 JC
       - 🇬🇧 英国 JC
       - 🇺🇸 美国 JC
-      - 🇨🇳 台湾0 x8|负载均衡
-      - 🇨🇳 台湾1 x8|上海中转
-      - 🇨🇳 台湾5 x4|免流节点
-      - 🇨🇳 台湾 移动原生
-      - 🇨🇳 台湾 中继原生
       - 🇭🇰 香港 SuperSTAR
       - 🇸🇬 新加坡 flyXXL
       - 🇺🇸 美国 flyXXL
-      - 🇭🇰 香港 G
-      - 🇭🇰 香港 O NF
-      - 🇯🇵 日本 长野 谷歌学术可
-      - 🇺🇲 美国 洛杉矶 谷歌学术可
+      - 🇮🇳 印度 上网课学习引擎
+      - 🇹🇼 台湾 上网课学习引擎
+      - 🇹🇼 台湾 移动原生
+      - 🇹🇼 台湾 中继原生
+      - 🇹🇼 台湾 T加速
+      - 🇻🇳 越南 T加速
+      - 🇭🇰 香港 G EDU学术引擎
+      - 🇭🇰 香港 O NF EDU学术引擎
+      - 🇯🇵 日本 长野 EDU学术引擎
+      - 🇺🇲 美国 洛杉矶 EDU学术引擎
       - 🇯🇵 日本 碧老师的甲骨文
       - 🇰🇷 韩国 碧老师的甲骨文
-      - 🇺🇲 美国 碧老师的GIA
       - 🇺🇸 美国 我自己的Heroku
       - DIRECT
   - name: 🚀 节点选择
@@ -162,21 +126,21 @@ proxy-groups:
       - 🇯🇵 日本 JC
       - 🇬🇧 英国 JC
       - 🇺🇸 美国 JC
-      - 🇨🇳 台湾0 x8|负载均衡
-      - 🇨🇳 台湾1 x8|上海中转
-      - 🇨🇳 台湾5 x4|免流节点
-      - 🇨🇳 台湾 移动原生
-      - 🇨🇳 台湾 中继原生
       - 🇭🇰 香港 SuperSTAR
       - 🇸🇬 新加坡 flyXXL
       - 🇺🇸 美国 flyXXL
-      - 🇭🇰 香港 G
-      - 🇭🇰 香港 O NF
-      - 🇯🇵 日本 长野 谷歌学术可
-      - 🇺🇲 美国 洛杉矶 谷歌学术可
+      - 🇮🇳 印度 上网课学习引擎
+      - 🇹🇼 台湾 上网课学习引擎
+      - 🇹🇼 台湾 移动原生
+      - 🇹🇼 台湾 中继原生
+      - 🇹🇼 台湾 T加速
+      - 🇻🇳 越南 T加速
+      - 🇭🇰 香港 G EDU学术引擎
+      - 🇭🇰 香港 O NF EDU学术引擎
+      - 🇯🇵 日本 长野 EDU学术引擎
+      - 🇺🇲 美国 洛杉矶 EDU学术引擎
       - 🇯🇵 日本 碧老师的甲骨文
       - 🇰🇷 韩国 碧老师的甲骨文
-      - 🇺🇲 美国 碧老师的GIA
       - 🇺🇸 美国 我自己的Heroku
   - name: 📲 电报消息
     type: select
@@ -239,11 +203,10 @@ proxy-groups:
       - 🚀 手动切换
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳 台湾0 x8|负载均衡
-      - 🇨🇳 台湾1 x8|上海中转
-      - 🇨🇳 台湾5 x4|免流节点
-      - 🇨🇳 台湾 移动原生
-      - 🇨🇳 台湾 中继原生
+      - 🇹🇼 台湾 上网课学习引擎
+      - 🇹🇼 台湾 移动原生
+      - 🇹🇼 台湾 中继原生
+      - 🇹🇼 台湾 T加速
   - name: Ⓜ️ 微软云盘
     type: select
     proxies:
@@ -327,25 +290,23 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 台湾0 x8|负载均衡
-      - 🇨🇳 台湾1 x8|上海中转
-      - 🇨🇳 台湾5 x4|免流节点
-      - 🇨🇳 台湾 移动原生
-      - 🇨🇳 台湾 中继原生
+      - 🇹🇼 台湾 上网课学习引擎
+      - 🇹🇼 台湾 移动原生
+      - 🇹🇼 台湾 中继原生
+      - 🇹🇼 台湾 T加速
   - name: 🇺🇲 美国节点
     type: select
     proxies:
-      - 🇺🇲 美国 洛杉矶 谷歌学术可
+      - 🇺🇲 美国 洛杉矶 EDU学术引擎
       - 🇺🇸 美国 flyXXL
       - 🇺🇸 美国 JC
-      - 🇺🇲 美国 碧老师的GIA
       - 🇺🇸 美国 我自己的Heroku
   - name: 🎥 奈飞节点
     type: select
     proxies:
       - 🇭🇰 香港 O NF
-      - 🇺🇲 美国 洛杉矶 谷歌学术可
-      - 🇯🇵 日本 长野 谷歌学术可
+      - 🇺🇲 美国 洛杉矶 EDU学术引擎
+      - 🇯🇵 日本 长野 EDU学术引擎
       - 🇺🇸 美国 flyXXL
       - 🇨🇳 香港-新加坡 PJJ
       - 🇸🇬 新加坡 JC
