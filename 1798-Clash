@@ -61,7 +61,7 @@ proxies:
     password: f3f30895-f173-4a57-ac90-e7fa405de420
     tls: true
     skip-cert-verify: true
-  - {name: 🇭🇰 香港 SuperSTAR, server: 16.162.143.15, port: 23000, type: vmess, uuid: c101a55d-e437-4d66-b77f-0c2f4f715d70, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 16.162.143.15}}
+  - {name: 🇭🇰 香港 SuperSTAR, server: superstar.srayx.xyz, port: 27102, type: vmess, uuid: c101a55d-e437-4d66-b77f-0c2f4f715d70, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: superstar.srayx.xyz}}
   - {name: 🇸🇬 新加坡 flyXXL, server: relay.xxl123.fun, port: 10010, type: vmess, uuid: f3619029-089e-4b52-9e10-fb74c074bf90, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /path, ws-headers: {Host: "http://ec2-54-223-120-161.cn-north-1.compute.amazonaws.com.cn,f932c3d98981b.download.microsoft.com"}}
   - {name: 🇺🇸 美国 flyXXL, server: relay.xxl123.fun, port: 10004, type: vmess, uuid: f3619029-089e-4b52-9e10-fb74c074bf90, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /path, ws-headers: {Host: "http://ec2-54-223-120-161.cn-north-1.compute.amazonaws.com.cn,f932c3d98981b.download.microsoft.com"}}
   - {name: 🇮🇳 印度 上网课学习引擎, server: 13.233.57.26, port: 46869, type: vmess, uuid: ec8baeb0-b946-3b35-a633-206b03530298, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: a.189.cn}}
