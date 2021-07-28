@@ -5,105 +5,35 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - name: 🇨🇳 香港-新加坡 PJJ
-    server: yjl.pjj.life
-    port: 29980
-    type: http
-    username: '435375818353410048'
-    password: f3f30895-f173-4a57-ac90-e7fa405de420
-    tls: true
-    skip-cert-verify: true
-  - name: 🇸🇬 新加坡 JC
-    server: jc.ap.fastqvpn.com
-    port: 29980
-    type: http
-    username: "435375818353410048"
-    password: f3f30895-f173-4a57-ac90-e7fa405de420
-    tls: true
-    skip-cert-verify: true
-  - name: 🇨🇦 加拿大 JC
-    server: jc.ap.fastqvpn.com
-    port: 29983
-    type: http
-    username: "435375818353410048"
-    password: f3f30895-f173-4a57-ac90-e7fa405de420
-    tls: true
-    skip-cert-verify: true
-  - name: 🇩🇪 德国 JC
-    server: jc.ap.fastqvpn.com
-    port: 29984
-    type: http
-    username: "435375818353410048"
-    password: f3f30895-f173-4a57-ac90-e7fa405de420
-    tls: true
-    skip-cert-verify: true
-  - name: 🇯🇵 日本 JC
-    server: jc.ap.fastqvpn.com
-    port: 29985
-    type: http
-    username: "435375818353410048"
-    password: f3f30895-f173-4a57-ac90-e7fa405de420
-    tls: true
-    skip-cert-verify: true
-  - name: 🇬🇧 英国 JC
-    server: jc.ap.fastqvpn.com
-    port: 29987
-    type: http
-    username: "435375818353410048"
-    password: f3f30895-f173-4a57-ac90-e7fa405de420
-    tls: true
-    skip-cert-verify: true
-  - name: 🇺🇸 美国 JC
-    server: jc.ap.fastqvpn.com
-    port: 29988
-    type: http
-    username: "435375818353410048"
-    password: f3f30895-f173-4a57-ac90-e7fa405de420
-    tls: true
-    skip-cert-verify: true
   - {name: 🇭🇰 香港 SuperSTAR, server: superstar.srayx.xyz, port: 27102, type: vmess, uuid: c101a55d-e437-4d66-b77f-0c2f4f715d70, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: superstar.srayx.xyz}}
-  - {name: 🇸🇬 新加坡 flyXXL, server: relay.xxl123.fun, port: 10010, type: vmess, uuid: f3619029-089e-4b52-9e10-fb74c074bf90, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /path, ws-headers: {Host: "http://ec2-54-223-120-161.cn-north-1.compute.amazonaws.com.cn,f932c3d98981b.download.microsoft.com"}}
-  - {name: 🇺🇸 美国 flyXXL, server: relay.xxl123.fun, port: 10004, type: vmess, uuid: f3619029-089e-4b52-9e10-fb74c074bf90, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /path, ws-headers: {Host: "http://ec2-54-223-120-161.cn-north-1.compute.amazonaws.com.cn,f932c3d98981b.download.microsoft.com"}}
-  - {name: 🇮🇳 印度 上网课学习引擎, server: 13.233.57.26, port: 46869, type: vmess, uuid: ec8baeb0-b946-3b35-a633-206b03530298, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: a.189.cn}}
-  - {name: 🇹🇼 台湾 移动原生, server: b-ddggqy2d.txwd.xyz, port: 55555, type: vmess, uuid: 1e5a876d-5f0a-3d22-b2bb-cbde61a03a7b, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /mcwy-tw-b, ws-headers: {Host: mcwy-zj.txwd.xyz}}
-  - {name: 🇹🇼 台湾 中继原生, server: a-ddggqy2d.txwd.xyz, port: 44944, type: vmess, uuid: 1e5a876d-5f0a-3d22-b2bb-cbde61a03a7b, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /tw-a, ws-headers: {Host: a-ddggqy2d.txwd.xyz}}
+  - {name: 🇸🇬 新加坡 flyXXL, server: sg01.holiganfan.com, port: 10087, type: trojan, password: f3619029-089e-4b52-9e10-fb74c074bf90, sni: sg01.holiganfan.com}
+  - {name: 🇹🇼 台湾 IEPL, server: tw11.clashcloud.tech, port: 37387, type: ssr, cipher: rc4-md5, password: qbpJjZ, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 🇹🇼 台湾 IPLC, server: tw01.clashcloud.tech, port: 37387, type: ssr, cipher: rc4-md5, password: qbpJjZ, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}  - {name: 🇮🇳 印度 上网课学习引擎, server: 13.233.57.26, port: 46869, type: vmess, uuid: ec8baeb0-b946-3b35-a633-206b03530298, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: a.189.cn}}
   - {name: 🇹🇼 台湾 优质, server: global-transit-01-hk.pucdn.me, port: 21107, type: vmess, uuid: 617177bc-1cf3-36cc-9ffc-f563b0ffce67, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L2-tw-07.pucdn.me}}
   - {name: 🇯🇵 日本 优质, server: global-transit-01-hk.pucdn.me, port: 32302, type: vmess, uuid: 617177bc-1cf3-36cc-9ffc-f563b0ffce67, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L2-aws-jp-02.pucdn.me}}
   - {name: 🇰🇷 韩国 优质, server: global-transit-01-hk.pucdn.me, port: 31101, type: vmess, uuid: 617177bc-1cf3-36cc-9ffc-f563b0ffce67, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l2-kr-01.pucdn.me}}
   - {name: 🇦🇺 澳大利亚 优质, server: l2-au-01.pucdn.me, port: 10080, type: vmess, uuid: 617177bc-1cf3-36cc-9ffc-f563b0ffce67, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /pucloud, ws-headers: {Host: l2-au-01.pucdn.me}}
-  - {name: 🇺🇲 美国 CN2 GIA 优质, server: global-transit-01-hk.pucdn.me, port: 17002, type: vmess, uuid: 617177bc-1cf3-36cc-9ffc-f563b0ffce67, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l2-ua-02.pucdn.me}}
   - {name: 🇹🇼 台湾 T加速, server: aga.ddns.tjiasu.xyz, port: 443, type: vmess, uuid: 2b142604-83c1-424f-9a25-5f877c8e8450, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /api/tw, ws-headers: {Host: twww.ddns.tjiasu.xyz}}
   - {name: 🇻🇳 越南 T加速, server: aga.ddns.tjiasu.xyz, port: 443, type: vmess, uuid: 2b142604-83c1-424f-9a25-5f877c8e8450, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /api/vn, ws-headers: {Host: vn.ddns.tjiasu.xyz}}
   - {name: 🇭🇰 香港 G EDU学术引擎, server: 119.28.84.227, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8148316515.microsoft.com}}
   - {name: 🇭🇰 香港 O NF EDU学术引擎, server: 149.129.80.211, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8148316515.microsoft.com}}
   - {name: 🇯🇵 日本 长野 EDU学术引擎, server: 121.50.43.30, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8148316515.microsoft.com}}
   - {name: 🇺🇲 美国 洛杉矶 EDU学术引擎, server: 198.148.122.145, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8148316515.microsoft.com}}
-  - {name: 🇯🇵 日本 碧老师的甲骨文, server: 104.19.16.241, port: 443, type: vmess, uuid: d03b6ab9-1b88-dc26-69aa-90975ce92ca5, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /xmnhvws, ws-headers: {Host: jp.bhv2.ml}}
+  - {name: 🇯🇵 日本 碧老师的甲骨文, server: jp.bihai.ga, port: 443, type: vmess, uuid: 5d3194e7-3ca8-4876-9a33-ce5749b20927, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/tafbvws?ed=2048", ws-headers: {Host: jp.bihai.ga}}
   - {name: 🇰🇷 韩国 碧老师的甲骨文, server: kr.bihai.ga, port: 443, type: vmess, uuid: 4e5cf028-0925-7c20-54a3-7a2114c0b843, alterId: 0, cipher: none, tls: true, network: ws, ws-path: /vqpvvws, ws-headers: {Host: kr.bihai.ga}}
-  - {name: 🇸🇬 新加坡 熊猫VPN, server: 101.32.167.7, port: 8888, type: ssr, cipher: rc4-md5, password: Xiongmao@^ios.ss, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
   - {name: 🇺🇸 美国 我自己的Heroku, server: 104.19.22.122, port: 443, type: vmess, uuid: ad806487-2d26-4636-98b6-ab85cc8521f7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: holy-morning-543f.3238hee.workers.dev}}
 proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - 🇨🇳 香港-新加坡 PJJ
-      - 🇸🇬 新加坡 JC
-      - 🇨🇦 加拿大 JC
-      - 🇩🇪 德国 JC
-      - 🇯🇵 日本 JC
-      - 🇬🇧 英国 JC
-      - 🇺🇸 美国 JC
       - 🇭🇰 香港 SuperSTAR
       - 🇸🇬 新加坡 flyXXL
-      - 🇺🇸 美国 flyXXL
-      - 🇮🇳 印度 上网课学习引擎
-      - 🇹🇼 台湾 移动原生
-      - 🇹🇼 台湾 中继原生
+      - 🇹🇼 台湾 IEPL
+      - 🇹🇼 台湾 IPLC
       - 🇹🇼 台湾 优质
       - 🇯🇵 日本 优质
       - 🇰🇷 韩国 优质
       - 🇦🇺 澳大利亚 优质
-      - 🇺🇲 美国 CN2 GIA 优质
       - 🇹🇼 台湾 T加速
       - 🇻🇳 越南 T加速
       - 🇭🇰 香港 G EDU学术引擎
@@ -112,7 +42,6 @@ proxy-groups:
       - 🇺🇲 美国 洛杉矶 EDU学术引擎
       - 🇯🇵 日本 碧老师的甲骨文
       - 🇰🇷 韩国 碧老师的甲骨文
-      - 🇸🇬 新加坡 熊猫VPN
       - 🇺🇸 美国 我自己的Heroku
       - DIRECT
   - name: 🚀 节点选择
@@ -129,24 +58,14 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 香港-新加坡 PJJ
-      - 🇸🇬 新加坡 JC
-      - 🇨🇦 加拿大 JC
-      - 🇩🇪 德国 JC
-      - 🇯🇵 日本 JC
-      - 🇬🇧 英国 JC
-      - 🇺🇸 美国 JC
       - 🇭🇰 香港 SuperSTAR
       - 🇸🇬 新加坡 flyXXL
-      - 🇺🇸 美国 flyXXL
-      - 🇮🇳 印度 上网课学习引擎
-      - 🇹🇼 台湾 移动原生
-      - 🇹🇼 台湾 中继原生
+      - 🇹🇼 台湾 IEPL
+      - 🇹🇼 台湾 IPLC
       - 🇹🇼 台湾 优质
       - 🇯🇵 日本 优质
       - 🇰🇷 韩国 优质
       - 🇦🇺 澳大利亚 优质
-      - 🇺🇲 美国 CN2 GIA 优质
       - 🇹🇼 台湾 T加速
       - 🇻🇳 越南 T加速
       - 🇭🇰 香港 G EDU学术引擎
@@ -155,7 +74,6 @@ proxy-groups:
       - 🇺🇲 美国 洛杉矶 EDU学术引擎
       - 🇯🇵 日本 碧老师的甲骨文
       - 🇰🇷 韩国 碧老师的甲骨文
-      - 🇸🇬 新加坡 熊猫VPN
       - 🇺🇸 美国 我自己的Heroku
   - name: 📲 电报消息
     type: select
@@ -218,8 +136,8 @@ proxy-groups:
       - 🚀 手动切换
       - ♻️ 自动选择
       - DIRECT
-      - 🇹🇼 台湾 移动原生
-      - 🇹🇼 台湾 中继原生
+      - 🇹🇼 台湾 IEPL
+      - 🇹🇼 台湾 IPLC
       - 🇹🇼 台湾 优质
       - 🇹🇼 台湾 T加速
   - name: Ⓜ️ 微软云盘
@@ -295,32 +213,23 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇹🇼 台湾 移动原生
-      - 🇹🇼 台湾 中继原生
+      - 🇹🇼 台湾 IEPL
+      - 🇹🇼 台湾 IPLC
       - 🇹🇼 台湾 优质
       - 🇹🇼 台湾 T加速
   - name: 🇺🇲 美国节点
     type: select
     proxies:
       - 🇺🇲 美国 洛杉矶 EDU学术引擎
-      - 🇺🇲 美国 CN2 GIA 优质
-      - 🇺🇸 美国 flyXXL
-      - 🇺🇸 美国 JC
       - 🇺🇸 美国 我自己的Heroku
   - name: 🎥 奈飞节点
     type: select
     proxies:
       - 🇭🇰 香港 O NF EDU学术引擎
-      - 🇺🇲 美国 洛杉矶 EDU学术引擎
+      - 🇹🇼 台湾 IEPL
+      - 🇹🇼 台湾 IPLC
       - 🇯🇵 日本 长野 EDU学术引擎
-      - 🇺🇸 美国 flyXXL
-      - 🇨🇳 香港-新加坡 PJJ
-      - 🇸🇬 新加坡 JC
-      - 🇨🇦 加拿大 JC
-      - 🇩🇪 德国 JC
-      - 🇯🇵 日本 JC
-      - 🇬🇧 英国 JC
-      - 🇺🇸 美国 JC
+      - 🇺🇲 美国 洛杉矶 EDU学术引擎
   - name: 🌍 XiaoNaofu-K30_Pro
     type: select
     proxies:
@@ -575,6 +484,14 @@ rules:
  - DOMAIN,tracking.miui.com,🎯 全球直连
  - DOMAIN,app.adjust.com,🎯 全球直连
  - DOMAIN,bdtj.tagtic.cn,🎯 全球直连
+ - DOMAIN-KEYWORD,youtube,📹 油管视频
+ - DOMAIN,youtubei.googleapis.com,📹 油管视频
+ - DOMAIN,yt3.ggpht.com,📹 油管视频
+ - DOMAIN-SUFFIX,googlevideo.com,📹 油管视频
+ - DOMAIN-SUFFIX,gvt2.com,📹 油管视频
+ - DOMAIN-SUFFIX,youtu.be,📹 油管视频
+ - DOMAIN-SUFFIX,youtube.com,📹 油管视频
+ - DOMAIN-SUFFIX,ytimg.com,📹 油管视频
  - DOMAIN,alt1-mtalk.google.com,📢 谷歌FCM
  - DOMAIN,alt2-mtalk.google.com,📢 谷歌FCM
  - DOMAIN,alt3-mtalk.google.com,📢 谷歌FCM
@@ -866,14 +783,6 @@ rules:
  - DOMAIN-SUFFIX,steamcommunity.com,🎮 游戏平台
  - DOMAIN-SUFFIX,steampowered.com,🎮 游戏平台
  - DOMAIN-SUFFIX,steamstatic.com,🎮 游戏平台
- - DOMAIN-KEYWORD,youtube,📹 油管视频
- - DOMAIN,youtubei.googleapis.com,📹 油管视频
- - DOMAIN,yt3.ggpht.com,📹 油管视频
- - DOMAIN-SUFFIX,googlevideo.com,📹 油管视频
- - DOMAIN-SUFFIX,gvt2.com,📹 油管视频
- - DOMAIN-SUFFIX,youtu.be,📹 油管视频
- - DOMAIN-SUFFIX,youtube.com,📹 油管视频
- - DOMAIN-SUFFIX,ytimg.com,📹 油管视频
  - DOMAIN-KEYWORD,dualstack.apiproxy-,🎥 奈飞视频
  - DOMAIN-KEYWORD,dualstack.ichnaea-web-,🎥 奈飞视频
  - DOMAIN,netflix.com.edgesuite.net,🎥 奈飞视频
