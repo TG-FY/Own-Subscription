@@ -907,9 +907,14 @@ rules:
  - DOMAIN-SUFFIX,go.10086.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,hivedata.cc,🛑 全球拦截
  - DOMAIN-SUFFIX,navi.gd.chinamobile.com,🛑 全球拦截
+ - DOMAIN-KEYWORD,youtube,📹 YouTube
+ - DOMAIN,yt3.ggpht.com,📹 YouTube
  - DOMAIN-SUFFIX,googlevideo.com,📹 YouTube
+ - DOMAIN-SUFFIX,gvt2.com,📹 YouTube
+ - DOMAIN-SUFFIX,youtu.be,📹 YouTube
  - DOMAIN-SUFFIX,youtube.com,📹 YouTube
  - DOMAIN,youtubei.googleapis.com,📹 YouTube
+ - DOMAIN-SUFFIX,ytimg.com,📹 YouTube
  - DOMAIN-SUFFIX,netflix.com,🎥 NETFLIX
  - DOMAIN-SUFFIX,netflix.net,🎥 NETFLIX
  - DOMAIN-SUFFIX,nflxext.com,🎥 NETFLIX
