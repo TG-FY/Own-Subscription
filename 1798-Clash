@@ -30,9 +30,6 @@ cfw-bypass:
   - 192.168.*
   - <local>
 cfw-latency-timeout: 5000
-Proxy: ~
-Proxy Group: ~
-Rule: ~
 proxies:
   - {name: 🇭🇰 香港 SuperSTAR, server: superstar.hk.01.free.srayx.xyz, port: 23000, type: vmess, uuid: c101a55d-e437-4d66-b77f-0c2f4f715d70, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: superstar.hk.01.free.srayx.xyz}}
   - {name: 🇺🇸 美国 SuperSTAR, server: superstar.us.03.srayx.xyz, port: 39403, type: vmess, uuid: c101a55d-e437-4d66-b77f-0c2f4f715d70, alterId: 0, cipher: auto, tls: false}
