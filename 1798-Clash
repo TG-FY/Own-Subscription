@@ -20,7 +20,6 @@ proxies:
   - {name: 🇭🇰 香港 O NF EDU学术引擎, server: 149.129.80.211, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8148316515.microsoft.com}}
   - {name: 🇯🇵 日本 长野 EDU学术引擎, server: 121.50.43.30, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8148316515.microsoft.com}}
   - {name: 🇺🇲 美国 洛杉矶 EDU学术引擎, server: 198.148.122.145, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8148316515.microsoft.com}}
-  - {name: 🇯🇵 日本 碧老师的甲骨文, server: jp.bihai.ga, port: 443, type: vmess, uuid: 5d3194e7-3ca8-4876-9a33-ce5749b20927, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/tafbvws?ed=2048", ws-headers: {Host: jp.bihai.ga}}
   - {name: 🇰🇷 韩国 碧老师的甲骨文, server: kr.bihai.ga, port: 443, type: vmess, uuid: 4e5cf028-0925-7c20-54a3-7a2114c0b843, alterId: 0, cipher: none, tls: true, network: ws, ws-path: /vqpvvws, ws-headers: {Host: kr.bihai.ga}}
   - {name: 🇺🇸 美国 我自己的Heroku, server: 104.19.22.122, port: 443, type: vmess, uuid: ad806487-2d26-4636-98b6-ab85cc8521f7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: holy-morning-543f.3238hee.workers.dev}}
 proxy-groups:
@@ -42,7 +41,6 @@ proxy-groups:
       - 🇭🇰 香港 O NF EDU学术引擎
       - 🇯🇵 日本 长野 EDU学术引擎
       - 🇺🇲 美国 洛杉矶 EDU学术引擎
-      - 🇯🇵 日本 碧老师的甲骨文
       - 🇰🇷 韩国 碧老师的甲骨文
       - 🇺🇸 美国 我自己的Heroku
       - DIRECT
@@ -75,7 +73,6 @@ proxy-groups:
       - 🇭🇰 香港 O NF EDU学术引擎
       - 🇯🇵 日本 长野 EDU学术引擎
       - 🇺🇲 美国 洛杉矶 EDU学术引擎
-      - 🇯🇵 日本 碧老师的甲骨文
       - 🇰🇷 韩国 碧老师的甲骨文
       - 🇺🇸 美国 我自己的Heroku
   - name: 📲 电报消息
