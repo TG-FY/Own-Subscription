@@ -46,8 +46,8 @@ proxies:
   - {name: 🇹🇭 曼谷 跨越长城 ⏬, server: 165.154.232.125, port: 9999, type: vmess, uuid: 89133f74-4e6d-424b-981b-0a334125e5e0, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 165.154.232.125}}
   - {name: 🇮🇳 印度 跨越长城 ⏬, server: 13.233.139.203, port: 8888, type: vmess, uuid: 89133f74-4e6d-424b-981b-0a334125e5e0, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 13.233.139.203}}
   - {name: 🇵🇭 马尼拉 跨越长城 ⏬, server: 165.154.233.144, port: 21888, type: vmess, uuid: 89133f74-4e6d-424b-981b-0a334125e5e0, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 165.154.233.144}}
-  - {name: 🇺🇸 洛杉矶 Banana ⏬, server: 154.9.204.30, port: 50000, type: ssr, cipher: none, password: banana, protocol: auth_chain_a, obfs: plain, protocol-param: "", obfs-param: ""}
   - {name: 🇭🇰 香港 VPNBOB ⏬, server: 103.200.28.116, port: 41322, type: ss, cipher: aes-256-cfb, password: P8Jbuq}
+  - {name: 🇺🇲 美国 洛杉矶 🆎 ⏬, server: us11.omo-m0m.com, port: 18181, type: vmess, uuid: 8d1f6615-b7b8-3302-9076-9f3e9b12d53e, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /api, ws-headers: {Host: www.bing.com}}
   - {name: 🇯🇵 日本 碧老师的甲骨文 🆎 ⏬, server: 104.19.30.205, port: 443, type: vmess, uuid: 5d0c8db8-0d4f-46c4-88e2-49c3968ea81c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /vm02, ws-headers: {Host: armjp1.bihai.tk}}
   - {name: 🇭🇰 香港 G EDU学术引擎, server: 119.28.84.227, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8148316515.microsoft.com}}
   - {name: 🇭🇰 香港 R EDU学术引擎, server: 47.242.170.122, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8148316515.microsoft.com}}
@@ -77,8 +77,8 @@ proxy-groups:
       - 🇹🇭 曼谷 跨越长城 ⏬
       - 🇮🇳 印度 跨越长城 ⏬
       - 🇵🇭 马尼拉 跨越长城 ⏬
-      - 🇺🇸 洛杉矶 Banana ⏬
       - 🇭🇰 香港 VPNBOB ⏬
+      - 🇺🇲 美国 洛杉矶 🆎 ⏬
       - 🇯🇵 日本 碧老师的甲骨文 🆎 ⏬
       - 🇭🇰 香港 G EDU学术引擎
       - 🇭🇰 香港 R EDU学术引擎
@@ -109,8 +109,8 @@ proxy-groups:
       - 🇹🇭 曼谷 跨越长城 ⏬
       - 🇮🇳 印度 跨越长城 ⏬
       - 🇵🇭 马尼拉 跨越长城 ⏬
-      - 🇺🇸 洛杉矶 Banana ⏬
       - 🇭🇰 香港 VPNBOB ⏬
+      - 🇺🇲 美国 洛杉矶 🆎 ⏬
       - 🇯🇵 日本 碧老师的甲骨文 🆎 ⏬
       - 🇭🇰 香港 G EDU学术引擎
       - 🇭🇰 香港 R EDU学术引擎
@@ -198,7 +198,7 @@ proxy-groups:
     type: select
     proxies:
       - 🇺🇸 美国 CaoFeiMe 🚀 🆎 ⏬
-      - 🇺🇸 洛杉矶 Banana ⏬
+      - 🇺🇲 美国 洛杉矶 🆎 ⏬
   - name: 🎥 奈飞节点
     type: select
     proxies:
