@@ -1211,6 +1211,9 @@ rules:
  - DOMAIN,d1k2us671qcoau.cloudfront.net,🌍 国外媒体
  - DOMAIN,d2anahhhmp1ffz.cloudfront.net,🌍 国外媒体
  - DOMAIN,dfp6rglgjqszk.cloudfront.net,🌍 国外媒体
+ - DOMAIN-SUFFIX,googlevideo.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,youtube.com,🌍 国外媒体
+ - DOMAIN,youtubei.googleapis.com,🌍 国外媒体
  - DOMAIN,apple.comscoreresearch.com,🍎 苹果服务
  - DOMAIN-SUFFIX,aaplimg.com,🍎 苹果服务
  - DOMAIN-SUFFIX,akadns.net,🍎 苹果服务
@@ -1266,6 +1269,7 @@ rules:
  - DOMAIN-KEYWORD,telegram,🔰 节点选择
  - DOMAIN-KEYWORD,twitter,🔰 节点选择
  - DOMAIN-KEYWORD,whatsapp,🔰 节点选择
+ - DOMAIN-KEYWORD,youtube,🔰 节点选择
  - DOMAIN-SUFFIX,4sqi.net,🔰 节点选择
  - DOMAIN-SUFFIX,a248.e.akamai.net,🔰 节点选择
  - DOMAIN-SUFFIX,adobedtm.com,🔰 节点选择
@@ -1437,9 +1441,14 @@ rules:
  - DOMAIN-SUFFIX,gstatic.com,🔰 节点选择
  - DOMAIN-SUFFIX,gvt0.com,🔰 节点选择
  - DOMAIN-SUFFIX,gvt1.com,🔰 节点选择
+ - DOMAIN-SUFFIX,gvt2.com,🔰 节点选择
  - DOMAIN-SUFFIX,gvt3.com,🔰 节点选择
  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🔰 节点选择
+ - DOMAIN-SUFFIX,youtu.be,🔰 节点选择
+ - DOMAIN-SUFFIX,youtube-nocookie.com,🔰 节点选择
+ - DOMAIN-SUFFIX,youtube.com,🔰 节点选择
  - DOMAIN-SUFFIX,yt.be,🔰 节点选择
+ - DOMAIN-SUFFIX,ytimg.com,🔰 节点选择
  - IP-CIDR,74.125.0.0/16,🔰 节点选择,no-resolve
  - IP-CIDR,173.194.0.0/16,🔰 节点选择,no-resolve
  - DOMAIN-SUFFIX,cdninstagram.com,🔰 节点选择
