@@ -131,6 +131,33 @@ proxy-groups:
       - DIRECT
       - 🇹🇼 台湾节点
       - 🇺🇲 美国节点
+  - name: 🎵 TikTok
+    type: select
+    proxies:
+      - 🚀 手动切换
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - DIRECT
+      - 🇹🇼 台湾节点
+      - 🇺🇲 美国节点
+  - name: 🌕 Twitter
+    type: select
+    proxies:
+      - 🚀 手动切换
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - DIRECT
+      - 🇹🇼 台湾节点
+      - 🇺🇲 美国节点
+  - name: 🌑 Facebook
+    type: select
+    proxies:
+      - 🚀 手动切换
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - DIRECT
+      - 🇹🇼 台湾节点
+      - 🇺🇲 美国节点
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -932,6 +959,70 @@ rules:
  - DOMAIN-SUFFIX,youtube.com,📹 YouTube
  - DOMAIN,youtubei.googleapis.com,📹 YouTube
  - DOMAIN-SUFFIX,ytimg.com,📹 YouTube
+# - USER-AGENT,TikTok*,🎵 TikTok
+ - DOMAIN-KEYWORD,-tiktokcdn-com,🎵 TikTok
+ - DOMAIN-SUFFIX,byteoversea.com,🎵 TikTok
+ - DOMAIN-SUFFIX,ibytedtos.com,🎵 TikTok
+ - DOMAIN-SUFFIX,ipstatp.com,🎵 TikTok
+ - DOMAIN-SUFFIX,muscdn.com,🎵 TikTok
+ - DOMAIN-SUFFIX,musical.ly,🎵 TikTok
+ - DOMAIN-SUFFIX,tik-tokapi.com,🎵 TikTok
+ - DOMAIN-SUFFIX,tiktok.com,🎵 TikTok
+ - DOMAIN-SUFFIX,tiktokcdn.com,🎵 TikTok
+ - DOMAIN-SUFFIX,tiktokv.com,🎵 TikTok
+#  - DOMAIN,p16-tiktokcdn-com.akamaized.net,🎵 TikTok
+#  - DOMAIN-SUFFIX,byteoversea.com,🎵 TikTok
+#  - DOMAIN-SUFFIX,ibytedtos.com,🎵 TikTok
+#  - DOMAIN-SUFFIX,ibyteimg.com,🎵 TikTok
+#  - DOMAIN-SUFFIX,ipstatp.com,🎵 TikTok
+#  - DOMAIN-SUFFIX,muscdn.com,🎵 TikTok
+#  - DOMAIN-SUFFIX,musical.ly,🎵 TikTok
+#  - DOMAIN-SUFFIX,sgpstatp.com,🎵 TikTok
+#  - DOMAIN-SUFFIX,snssdk.com,🎵 TikTok
+#  - DOMAIN-SUFFIX,tik-tokapi.com,🎵 TikTok
+#  - DOMAIN-SUFFIX,tiktok.com,🎵 TikTok
+#  - DOMAIN-SUFFIX,tiktokcdn.com,🎵 TikTok
+#  - DOMAIN-SUFFIX,tiktokv.com,🎵 TikTok
+#  - DOMAIN-KEYWORD,-tiktokcdn-com,🎵 TikTok
+#  - DOMAIN-KEYWORD,musical.ly,🎵 TikTok
+#  - DOMAIN-KEYWORD,tiktok,🎵 TikTok
+#  - DOMAIN-KEYWORD,tiktokv,🎵 TikTok
+ - DOMAIN-SUFFIX,pscp.tv,🌕 Twitter
+ - DOMAIN-SUFFIX,periscope.tv,🌕 Twitter
+ - DOMAIN-SUFFIX,t.co,🌕 Twitter
+ - DOMAIN-SUFFIX,twimg.co,🌕 Twitter
+ - DOMAIN-SUFFIX,twimg.com,🌕 Twitter
+ - DOMAIN-SUFFIX,twimg.org,🌕 Twitter
+ - DOMAIN-SUFFIX,twitpic.com,🌕 Twitter
+ - DOMAIN-SUFFIX,twitter.com,🌕 Twitter
+ - DOMAIN-SUFFIX,twitter.jp,🌕 Twitter
+ - DOMAIN-SUFFIX,vine.co,🌕 Twitter
+ - DOMAIN-KEYWORD,twitter,🌕 Twitter
+ - DOMAIN-SUFFIX,cdninstagram.com,🌑 Facebook
+ - DOMAIN-SUFFIX,fb.com,🌑 Facebook
+ - DOMAIN-SUFFIX,fb.me,🌑 Facebook
+ - DOMAIN-SUFFIX,fbaddins.com,🌑 Facebook
+ - DOMAIN-SUFFIX,fbcdn.net,🌑 Facebook
+ - DOMAIN-SUFFIX,fbsbx.com,🌑 Facebook
+ - DOMAIN-SUFFIX,fbworkmail.com,🌑 Facebook
+ - DOMAIN-SUFFIX,instagram.com,🌑 Facebook
+ - DOMAIN-SUFFIX,m.me,🌑 Facebook
+ - DOMAIN-SUFFIX,messenger.com,🌑 Facebook
+ - DOMAIN-SUFFIX,oculus.com,🌑 Facebook
+ - DOMAIN-SUFFIX,oculuscdn.com,🌑 Facebook
+ - DOMAIN-SUFFIX,rocksdb.org,🌑 Facebook
+ - DOMAIN-SUFFIX,whatsapp.com,🌑 Facebook
+ - DOMAIN-SUFFIX,whatsapp.net,🌑 Facebook
+ - DOMAIN-KEYWORD,facebook,🌑 Facebook
+ - IP-CIDR,3.123.36.126/32,🌑 Facebook
+ - IP-CIDR,35.157.215.84/32,🌑 Facebook
+ - IP-CIDR,35.157.217.255/32,🌑 Facebook
+ - IP-CIDR,52.58.209.134/32,🌑 Facebook
+ - IP-CIDR,54.93.124.31/32,🌑 Facebook
+ - IP-CIDR,54.162.243.80/32,🌑 Facebook
+ - IP-CIDR,54.173.34.141/32,🌑 Facebook
+ - IP-CIDR,54.235.23.242/32,🌑 Facebook
+ - IP-CIDR,169.45.248.118/32,🌑 Facebook
  - DOMAIN-SUFFIX,netflix.com,🎥 NETFLIX
  - DOMAIN-SUFFIX,netflix.net,🎥 NETFLIX
  - DOMAIN-SUFFIX,nflxext.com,🎥 NETFLIX
@@ -1123,9 +1214,6 @@ rules:
  - DOMAIN,d1k2us671qcoau.cloudfront.net,🌍 国外媒体
  - DOMAIN,d2anahhhmp1ffz.cloudfront.net,🌍 国外媒体
  - DOMAIN,dfp6rglgjqszk.cloudfront.net,🌍 国外媒体
- - DOMAIN-SUFFIX,googlevideo.com,🌍 国外媒体
- - DOMAIN-SUFFIX,youtube.com,🌍 国外媒体
- - DOMAIN,youtubei.googleapis.com,🌍 国外媒体
  - DOMAIN,apple.comscoreresearch.com,🍎 苹果服务
  - DOMAIN-SUFFIX,aaplimg.com,🍎 苹果服务
  - DOMAIN-SUFFIX,akadns.net,🍎 苹果服务
@@ -1181,7 +1269,6 @@ rules:
  - DOMAIN-KEYWORD,telegram,🔰 节点选择
  - DOMAIN-KEYWORD,twitter,🔰 节点选择
  - DOMAIN-KEYWORD,whatsapp,🔰 节点选择
- - DOMAIN-KEYWORD,youtube,🔰 节点选择
  - DOMAIN-SUFFIX,4sqi.net,🔰 节点选择
  - DOMAIN-SUFFIX,a248.e.akamai.net,🔰 节点选择
  - DOMAIN-SUFFIX,adobedtm.com,🔰 节点选择
@@ -1353,14 +1440,9 @@ rules:
  - DOMAIN-SUFFIX,gstatic.com,🔰 节点选择
  - DOMAIN-SUFFIX,gvt0.com,🔰 节点选择
  - DOMAIN-SUFFIX,gvt1.com,🔰 节点选择
- - DOMAIN-SUFFIX,gvt2.com,🔰 节点选择
  - DOMAIN-SUFFIX,gvt3.com,🔰 节点选择
  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🔰 节点选择
- - DOMAIN-SUFFIX,youtu.be,🔰 节点选择
- - DOMAIN-SUFFIX,youtube-nocookie.com,🔰 节点选择
- - DOMAIN-SUFFIX,youtube.com,🔰 节点选择
  - DOMAIN-SUFFIX,yt.be,🔰 节点选择
- - DOMAIN-SUFFIX,ytimg.com,🔰 节点选择
  - IP-CIDR,74.125.0.0/16,🔰 节点选择,no-resolve
  - IP-CIDR,173.194.0.0/16,🔰 节点选择,no-resolve
  - DOMAIN-SUFFIX,cdninstagram.com,🔰 节点选择
