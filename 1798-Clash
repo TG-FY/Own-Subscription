@@ -134,8 +134,7 @@ proxy-groups:
   - name: 🎵 TikTok
     type: select
     proxies:
-      - 🚀 手动切换
-      - 🚀 节点选择
+      - 🔰 节点选择
       - ♻️ 自动选择
       - DIRECT
       - 🇹🇼 台湾节点
@@ -143,8 +142,7 @@ proxy-groups:
   - name: 🌕 Twitter
     type: select
     proxies:
-      - 🚀 手动切换
-      - 🚀 节点选择
+      - 🔰 节点选择
       - ♻️ 自动选择
       - DIRECT
       - 🇹🇼 台湾节点
@@ -152,8 +150,7 @@ proxy-groups:
   - name: 🌑 Facebook
     type: select
     proxies:
-      - 🚀 手动切换
-      - 🚀 节点选择
+      - 🔰 节点选择
       - ♻️ 自动选择
       - DIRECT
       - 🇹🇼 台湾节点
