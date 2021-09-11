@@ -26,95 +26,74 @@ log-level: info
 #    - https://1.1.1.1/dns-query
 external-controller: 9090
 proxies:
-  - {name: 🇭🇰 香港 IPLC 🚀, server: pro-iplc-hk1-8.nrojat.com, port: 465, type: trojan, password: MRnwW3nQQhf67HfN7V, sni: pro-iplc-hk1-8.nrojat.com}
-  - {name: 🇹🇼 台湾 IEPL 🚀, server: iplc-dasdghauo.xyx-xy-01.com, port: 25000, type: vmess, uuid: 8d1f6615-b7b8-3302-9076-9f3e9b12d53e, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.bing.com}}
-  - {name: 🇭🇰 香港超级专线 🚀, server: 47.243.165.95, port: 443, type: ss, cipher: aes-256-gcm, password: 6bfe5e643fae, plugin: v2ray-plugin, plugin-opts: {mode: "websocket", host: alihsknew2.csy2020.club, path: "", tls: true, mux: true, skip-cert-verify: false}}
-  - {name: 🇹🇼 台湾超级专线 🚀 🆎, server: 60.250.78.252, port: 443, type: ss, cipher: aes-256-gcm, password: 864704f37f64, plugin: v2ray-plugin, plugin-opts: {mode: "websocket", host: twn600wd4.csy2020.club, path: "", tls: true, mux: true, skip-cert-verify: false}}
-  - {name: 🇭🇰 香港 CaoFeiMe 🚀 🆎 ⏬, server: cn2.node.zeroteam.top, port: 58251, type: ss, cipher: aes-256-gcm, password: 3c118e0f-f3fd-46b2-b34e-2de3fa3b5477}
-  - {name: 🇰🇷 韩国 CaoFeiMe 🚀 🆎 ⏬, server: wl4.misaka.rest, port: 11451, type: ss, cipher: aes-256-gcm, password: 3c118e0f-f3fd-46b2-b34e-2de3fa3b5477}
-  - {name: 🇺🇸 美国 CaoFeiMe 🚀 🆎 ⏬, server: inp.misaka.rest, port: 11451, type: ss, cipher: aes-256-gcm, password: 3c118e0f-f3fd-46b2-b34e-2de3fa3b5477}
+  - {name: 🇭🇰 香港1 静安 🚀 ⏬, server: 121.12.76.85, port: 556, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 177563:TKzzJA, obfs-param: cfe16177563.www.gov.hk}
+  - {name: 🇭🇰 香港2 静安 🚀 ⏬, server: 121.12.76.86, port: 556, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 177563:TKzzJA, obfs-param: cfe16177563.www.gov.hk}
+  - {name: 🇭🇰 香港3 静安 🚀 ⏬, server: 121.12.76.66, port: 556, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 177563:TKzzJA, obfs-param: cfe16177563.www.gov.hk}
+  - {name: 🇭🇰 香港4 静安 🚀 ⏬, server: 121.12.76.67, port: 556, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 177563:TKzzJA, obfs-param: cfe16177563.www.gov.hk}
+  - {name: 🇹🇼 台湾1 碧海抓取 🚀 ⏬, server: 2.58.241.6, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 🇹🇼 台湾2 碧海抓取 🚀 ⏬, server: 2.58.242.54, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: 🇯🇵 东京 flyXXL 🚀, server: jp05.holiganfan.com, port: 10088, type: trojan, password: f3619029-089e-4b52-9e10-fb74c074bf90, sni: jp05.holiganfan.com, skip-cert-verify: false}
   - {name: 🇨🇦 魁北克 flyXXL 🚀, server: ca.ganfan.space, port: 10086, type: trojan, password: f3619029-089e-4b52-9e10-fb74c074bf90, sni: ca.ganfan.space, skip-cert-verify: false}
   - {name: 🇭🇰 香港 SuperSTAR 🚀 🆎 ⏬, server: superstar.hk.04.free.srayx.xyz, port: 23004, type: ss, cipher: chacha20-ietf-poly1305, password: c101a55d-e437-4d66-b77f-0c2f4f715d70}
-  - {name: 🇭🇰 香港 碧海小屋 🚀 ⏬, server: L1-aws-hk-08.pucdn.me, port: 10800, type: vmess, uuid: 617177bc-1cf3-36cc-9ffc-f563b0ffce67, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /pucloud, ws-headers: {Host: L1-aws-hk-08.pucdn.me}}
+  - {name: 🇯🇵 日本 碧老师的甲骨文 🆎 ⏬, server: 104.19.30.205, port: 443, type: vmess, uuid: 5d0c8db8-0d4f-46c4-88e2-49c3968ea81c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /vm02, ws-headers: {Host: armjp1.bihai.tk}}
+  - {name: 🇺🇸 美国1 碧海抓取 ⏬, server: 65.49.193.120, port: 502, type: ss, cipher: aes-256-cfb, password: bwhskrskr01}
+  - {name: 🇺🇸 美国2 碧海抓取 ⏬, server: 49.51.188.47, port: 32095, type: ss, cipher: aes-256-cfb, password: lanluojing320}
   - {name: 🇹🇼 台湾 碧海小屋 ⏬, server: global-transit-01-hk.pucdn.me, port: 21107, type: vmess, uuid: 617177bc-1cf3-36cc-9ffc-f563b0ffce67, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L2-tw-07.pucdn.me}}
-  - {name: 🇸🇬 新加坡 碧海小屋 ⏬, server: l1-aws-sg-08.pucdn.me, port: 10080, type: vmess, uuid: 617177bc-1cf3-36cc-9ffc-f563b0ffce67, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /pucloud, ws-headers: {Host: l1-aws-sg-08.pucdn.me}}
   - {name: 🇯🇵 日本 碧海小屋 ⏬, server: global-transit-01-hk.pucdn.me, port: 32302, type: vmess, uuid: 617177bc-1cf3-36cc-9ffc-f563b0ffce67, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L2-aws-jp-02.pucdn.me}}
   - {name: 🇰🇷 韩国 碧海小屋 ⏬, server: global-transit-01-hk.pucdn.me, port: 31102, type: vmess, uuid: 617177bc-1cf3-36cc-9ffc-f563b0ffce67, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l2-kr-01.pucdn.me}}
   - {name: 🇰🇷 韩国 跨越长城 ⏬, server: 13.124.14.99, port: 8888, type: vmess, uuid: 89133f74-4e6d-424b-981b-0a334125e5e0, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 13.124.14.99}}
   - {name: 🇻🇳 越南 跨越长城 ⏬, server: 165.154.229.136, port: 21888, type: vmess, uuid: 89133f74-4e6d-424b-981b-0a334125e5e0, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 165.154.229.136}}
   - {name: 🇹🇭 曼谷 跨越长城 ⏬, server: 165.154.232.125, port: 9999, type: vmess, uuid: 89133f74-4e6d-424b-981b-0a334125e5e0, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 165.154.232.125}}
-  - {name: 🇮🇳 印度 跨越长城 ⏬, server: 13.233.139.203, port: 8888, type: vmess, uuid: 89133f74-4e6d-424b-981b-0a334125e5e0, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 13.233.139.203}}
   - {name: 🇵🇭 马尼拉 跨越长城 ⏬, server: 165.154.233.144, port: 21888, type: vmess, uuid: 89133f74-4e6d-424b-981b-0a334125e5e0, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 165.154.233.144}}
-  - {name: 🇭🇰 香港 VPNBOB ⏬, server: 103.200.28.73, port: 41322, type: ss, cipher: aes-256-cfb, password: P8Jbuq}
-  - {name: 🇺🇲 美国 洛杉矶 🆎 ⏬, server: us11.omo-m0m.com, port: 18181, type: vmess, uuid: 8d1f6615-b7b8-3302-9076-9f3e9b12d53e, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /api, ws-headers: {Host: www.bing.com}}
-  - {name: 🇯🇵 日本 碧老师的甲骨文 🆎 ⏬, server: 104.19.30.205, port: 443, type: vmess, uuid: 5d0c8db8-0d4f-46c4-88e2-49c3968ea81c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /vm02, ws-headers: {Host: armjp1.bihai.tk}}
-  - {name: 🇭🇰 香港 G EDU学术引擎, server: 119.28.84.227, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8148316515.microsoft.com}}
-  - {name: 🇭🇰 香港 R EDU学术引擎, server: 47.242.170.122, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8148316515.microsoft.com}}
-  - {name: 🇯🇵 长野 A EDU学术引擎, server: 121.50.43.30, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8148316515.microsoft.com}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
-      - 🇭🇰 香港 IPLC 🚀
-      - 🇹🇼 台湾 IEPL 🚀
-      - 🇭🇰 香港超级专线 🚀
-      - 🇹🇼 台湾超级专线 🚀 🆎
-      - 🇭🇰 香港 CaoFeiMe 🚀 🆎 ⏬
-      - 🇰🇷 韩国 CaoFeiMe 🚀 🆎 ⏬
-      - 🇺🇸 美国 CaoFeiMe 🚀 🆎 ⏬
+      - 🇭🇰 香港1 静安 🚀 ⏬
+      - 🇭🇰 香港2 静安 🚀 ⏬
+      - 🇭🇰 香港3 静安 🚀 ⏬
+      - 🇭🇰 香港4 静安 🚀 ⏬
+      - 🇹🇼 台湾1 碧海抓取 🚀 ⏬
+      - 🇹🇼 台湾2 碧海抓取 🚀 ⏬
       - 🇯🇵 东京 flyXXL 🚀
       - 🇨🇦 魁北克 flyXXL 🚀
       - 🇭🇰 香港 SuperSTAR 🚀 🆎 ⏬
-      - 🇭🇰 香港 碧海小屋 🚀 ⏬
+      - 🇯🇵 日本 碧老师的甲骨文 🆎 ⏬
+      - 🇺🇸 美国1 碧海抓取 ⏬
+      - 🇺🇸 美国2 碧海抓取 ⏬
       - 🇹🇼 台湾 碧海小屋 ⏬
-      - 🇸🇬 新加坡 碧海小屋 ⏬
       - 🇯🇵 日本 碧海小屋 ⏬
       - 🇰🇷 韩国 碧海小屋 ⏬
       - 🇰🇷 韩国 跨越长城 ⏬
       - 🇻🇳 越南 跨越长城 ⏬
       - 🇹🇭 曼谷 跨越长城 ⏬
-      - 🇮🇳 印度 跨越长城 ⏬
       - 🇵🇭 马尼拉 跨越长城 ⏬
-      - 🇭🇰 香港 VPNBOB ⏬
-      - 🇺🇲 美国 洛杉矶 🆎 ⏬
-      - 🇯🇵 日本 碧老师的甲骨文 🆎 ⏬
-      - 🇭🇰 香港 G EDU学术引擎
-      - 🇭🇰 香港 R EDU学术引擎
-      - 🇯🇵 长野 A EDU学术引擎
       - DIRECT
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 500
     proxies:
-      - 🇭🇰 香港 IPLC 🚀
-      - 🇹🇼 台湾 IEPL 🚀
-      - 🇭🇰 香港超级专线 🚀
-      - 🇹🇼 台湾超级专线 🚀 🆎
-      - 🇭🇰 香港 CaoFeiMe 🚀 🆎 ⏬
-      - 🇰🇷 韩国 CaoFeiMe 🚀 🆎 ⏬
-      - 🇺🇸 美国 CaoFeiMe 🚀 🆎 ⏬
+      - 🇭🇰 香港1 静安 🚀 ⏬
+      - 🇭🇰 香港2 静安 🚀 ⏬
+      - 🇭🇰 香港3 静安 🚀 ⏬
+      - 🇭🇰 香港4 静安 🚀 ⏬
+      - 🇹🇼 台湾1 碧海抓取 🚀 ⏬
+      - 🇹🇼 台湾2 碧海抓取 🚀 ⏬
       - 🇯🇵 东京 flyXXL 🚀
       - 🇨🇦 魁北克 flyXXL 🚀
       - 🇭🇰 香港 SuperSTAR 🚀 🆎 ⏬
-      - 🇭🇰 香港 碧海小屋 🚀 ⏬
+      - 🇯🇵 日本 碧老师的甲骨文 🆎 ⏬
+      - 🇺🇸 美国1 碧海抓取 ⏬
+      - 🇺🇸 美国2 碧海抓取 ⏬
       - 🇹🇼 台湾 碧海小屋 ⏬
-      - 🇸🇬 新加坡 碧海小屋 ⏬
       - 🇯🇵 日本 碧海小屋 ⏬
       - 🇰🇷 韩国 碧海小屋 ⏬
       - 🇰🇷 韩国 跨越长城 ⏬
       - 🇻🇳 越南 跨越长城 ⏬
       - 🇹🇭 曼谷 跨越长城 ⏬
-      - 🇮🇳 印度 跨越长城 ⏬
       - 🇵🇭 马尼拉 跨越长城 ⏬
-      - 🇭🇰 香港 VPNBOB ⏬
-      - 🇺🇲 美国 洛杉矶 🆎 ⏬
-      - 🇯🇵 日本 碧老师的甲骨文 🆎 ⏬
-      - 🇭🇰 香港 G EDU学术引擎
-      - 🇭🇰 香港 R EDU学术引擎
-      - 🇯🇵 长野 A EDU学术引擎
   - name: 📲 电报吹水
     type: select
     proxies:
@@ -171,7 +150,8 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - DIRECT
-      - 🇹🇼 台湾 IEPL 🚀
+      - 🇹🇼 台湾1 碧海抓取 🚀 ⏬
+      - 🇹🇼 台湾2 碧海抓取 🚀 ⏬
       - 🇹🇼 台湾 碧海小屋 ⏬
   - name: 🌍 国外媒体
     type: select
@@ -216,20 +196,22 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇹🇼 台湾 IEPL 🚀
+      - 🇹🇼 台湾1 碧海抓取 🚀 ⏬
+      - 🇹🇼 台湾2 碧海抓取 🚀 ⏬
       - 🇹🇼 台湾 碧海小屋 ⏬
   - name: 🇺🇲 美国节点
     type: select
     proxies:
-      - 🇺🇸 美国 CaoFeiMe 🚀 🆎 ⏬
-      - 🇺🇲 美国 洛杉矶 🆎 ⏬
+      - 🇺🇸 美国1 碧海抓取 ⏬
+      - 🇺🇸 美国2 碧海抓取 ⏬
   - name: 🎥 奈飞节点
     type: select
     proxies:
-      - 🇭🇰 香港 IPLC 🚀
-      - 🇹🇼 台湾 IEPL 🚀
-      - 🇭🇰 香港超级专线 🚀
-      - 🇹🇼 台湾超级专线 🚀 🆎
+      - 🇭🇰 香港1 静安 🚀 ⏬
+      - 🇭🇰 香港2 静安 🚀 ⏬
+      - 🇭🇰 香港3 静安 🚀 ⏬
+      - 🇭🇰 香港4 静安 🚀 ⏬
+      - 🇯🇵 东京 flyXXL 🚀
 rules:
  - DOMAIN-SUFFIX,local,DIRECT
  - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
