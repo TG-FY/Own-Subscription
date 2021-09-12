@@ -30,8 +30,7 @@ proxies:
   - {name: 🇭🇰 香港2 静安 🚀 ⏬, server: 121.12.76.86, port: 556, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 177563:TKzzJA, obfs-param: cfe16177563.www.gov.hk}
   - {name: 🇭🇰 香港3 静安 🚀 ⏬, server: 121.12.76.66, port: 556, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 177563:TKzzJA, obfs-param: cfe16177563.www.gov.hk}
   - {name: 🇭🇰 香港4 静安 🚀 ⏬, server: 121.12.76.67, port: 556, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 177563:TKzzJA, obfs-param: cfe16177563.www.gov.hk}
-  - {name: 🇹🇼 台湾1 碧海抓取 🚀 ⏬, server: 2.58.241.6, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 🇹🇼 台湾2 碧海抓取 🚀 ⏬, server: 2.58.242.54, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇹🇼 台湾 碧海抓取 🚀 ⏬, server: 2.58.242.54, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: 🇯🇵 东京 flyXXL 🚀, server: jp05.holiganfan.com, port: 10088, type: trojan, password: f3619029-089e-4b52-9e10-fb74c074bf90, sni: jp05.holiganfan.com, skip-cert-verify: false}
   - {name: 🇨🇦 魁北克 flyXXL 🚀, server: ca.ganfan.space, port: 10086, type: trojan, password: f3619029-089e-4b52-9e10-fb74c074bf90, sni: ca.ganfan.space, skip-cert-verify: false}
   - {name: 🇭🇰 香港 SuperSTAR 🚀 🆎 ⏬, server: superstar.hk.04.free.srayx.xyz, port: 23004, type: ss, cipher: chacha20-ietf-poly1305, password: c101a55d-e437-4d66-b77f-0c2f4f715d70}
@@ -54,8 +53,7 @@ proxy-groups:
       - 🇭🇰 香港2 静安 🚀 ⏬
       - 🇭🇰 香港3 静安 🚀 ⏬
       - 🇭🇰 香港4 静安 🚀 ⏬
-      - 🇹🇼 台湾1 碧海抓取 🚀 ⏬
-      - 🇹🇼 台湾2 碧海抓取 🚀 ⏬
+      - 🇹🇼 台湾 碧海抓取 🚀 ⏬
       - 🇯🇵 东京 flyXXL 🚀
       - 🇨🇦 魁北克 flyXXL 🚀
       - 🇭🇰 香港 SuperSTAR 🚀 🆎 ⏬
@@ -79,8 +77,7 @@ proxy-groups:
       - 🇭🇰 香港2 静安 🚀 ⏬
       - 🇭🇰 香港3 静安 🚀 ⏬
       - 🇭🇰 香港4 静安 🚀 ⏬
-      - 🇹🇼 台湾1 碧海抓取 🚀 ⏬
-      - 🇹🇼 台湾2 碧海抓取 🚀 ⏬
+      - 🇹🇼 台湾 碧海抓取 🚀 ⏬
       - 🇯🇵 东京 flyXXL 🚀
       - 🇨🇦 魁北克 flyXXL 🚀
       - 🇭🇰 香港 SuperSTAR 🚀 🆎 ⏬
@@ -120,8 +117,7 @@ proxy-groups:
       - 🇭🇰 香港2 静安 🚀 ⏬
       - 🇭🇰 香港3 静安 🚀 ⏬
       - 🇭🇰 香港4 静安 🚀 ⏬
-      - 🇹🇼 台湾1 碧海抓取 🚀 ⏬
-      - 🇹🇼 台湾2 碧海抓取 🚀 ⏬
+      - 🇹🇼 台湾 碧海抓取 🚀 ⏬
       - 🇯🇵 东京 flyXXL 🚀
       - 🇨🇦 魁北克 flyXXL 🚀
       - 🇭🇰 香港 SuperSTAR 🚀 🆎 ⏬
@@ -167,8 +163,7 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - DIRECT
-      - 🇹🇼 台湾1 碧海抓取 🚀 ⏬
-      - 🇹🇼 台湾2 碧海抓取 🚀 ⏬
+      - 🇹🇼 台湾 碧海抓取 🚀 ⏬
       - 🇹🇼 台湾 碧海小屋 ⏬
   - name: 🌍 国外媒体
     type: select
@@ -213,8 +208,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇹🇼 台湾1 碧海抓取 🚀 ⏬
-      - 🇹🇼 台湾2 碧海抓取 🚀 ⏬
+      - 🇹🇼 台湾 碧海抓取 🚀 ⏬
       - 🇹🇼 台湾 碧海小屋 ⏬
   - name: 🇺🇲 美国节点
     type: select
