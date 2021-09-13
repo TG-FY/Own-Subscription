@@ -34,7 +34,6 @@ proxies:
   - {name: 🇯🇵 东京 flyXXL 🚀, server: jp05.holiganfan.com, port: 10088, type: trojan, password: f3619029-089e-4b52-9e10-fb74c074bf90, sni: jp05.holiganfan.com, skip-cert-verify: false}
   - {name: 🇨🇦 魁北克 flyXXL 🚀, server: ca.ganfan.space, port: 10086, type: trojan, password: f3619029-089e-4b52-9e10-fb74c074bf90, sni: ca.ganfan.space, skip-cert-verify: false}
   - {name: 🇯🇵 日本 碧老师的甲骨文 🆎 ⏬, server: 104.19.30.205, port: 443, type: vmess, uuid: 5d0c8db8-0d4f-46c4-88e2-49c3968ea81c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /vm02, ws-headers: {Host: armjp1.bihai.tk}}
-  - {name: 🇺🇸 美国 碧海抓取 ⏬, server: 49.51.188.47, port: 32095, type: ss, cipher: aes-256-cfb, password: lanluojing320}
   - {name: 🇹🇼 台湾 碧海小屋 ⏬, server: global-transit-01-hk.pucdn.me, port: 21107, type: vmess, uuid: 617177bc-1cf3-36cc-9ffc-f563b0ffce67, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L2-tw-07.pucdn.me}}
   - {name: 🇯🇵 日本 碧海小屋 ⏬, server: global-transit-01-hk.pucdn.me, port: 32302, type: vmess, uuid: 617177bc-1cf3-36cc-9ffc-f563b0ffce67, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L2-aws-jp-02.pucdn.me}}
   - {name: 🇰🇷 韩国 碧海小屋 ⏬, server: global-transit-01-hk.pucdn.me, port: 31102, type: vmess, uuid: 617177bc-1cf3-36cc-9ffc-f563b0ffce67, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l2-kr-01.pucdn.me}}
@@ -55,7 +54,6 @@ proxy-groups:
       - 🇯🇵 东京 flyXXL 🚀
       - 🇨🇦 魁北克 flyXXL 🚀
       - 🇯🇵 日本 碧老师的甲骨文 🆎 ⏬
-      - 🇺🇸 美国 碧海抓取 ⏬
       - 🇹🇼 台湾 碧海小屋 ⏬
       - 🇯🇵 日本 碧海小屋 ⏬
       - 🇰🇷 韩国 碧海小屋 ⏬
@@ -77,7 +75,6 @@ proxy-groups:
       - 🇯🇵 东京 flyXXL 🚀
       - 🇨🇦 魁北克 flyXXL 🚀
       - 🇯🇵 日本 碧老师的甲骨文 🆎 ⏬
-      - 🇺🇸 美国 碧海抓取 ⏬
       - 🇹🇼 台湾 碧海小屋 ⏬
       - 🇯🇵 日本 碧海小屋 ⏬
       - 🇰🇷 韩国 碧海小屋 ⏬
@@ -116,7 +113,6 @@ proxy-groups:
       - 🇯🇵 东京 flyXXL 🚀
       - 🇨🇦 魁北克 flyXXL 🚀
       - 🇯🇵 日本 碧老师的甲骨文 🆎 ⏬
-      - 🇺🇸 美国 碧海抓取 ⏬
       - 🇹🇼 台湾 碧海小屋 ⏬
       - 🇯🇵 日本 碧海小屋 ⏬
       - 🇰🇷 韩国 碧海小屋 ⏬
@@ -207,7 +203,6 @@ proxy-groups:
     type: select
     proxies:
       - 🇺🇸 洛杉矶 松鼠 🚀 ⏬
-      - 🇺🇸 美国 碧海抓取 ⏬
   - name: 🎥 奈飞节点
     type: select
     proxies:
