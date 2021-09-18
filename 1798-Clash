@@ -76,14 +76,24 @@ proxies:
   - {name: 🇸🇬 新加坡 flyXXL 🚀 ⏬, server: sg10.holiganfan.com, port: 10088, type: trojan, password: f3619029-089e-4b52-9e10-fb74c074bf90, sni: sg10.holiganfan.com, skip-cert-verify: false}
   - {name: 🇯🇵 东京 flyXXL 🚀 ⏬, server: jp05.holiganfan.com, port: 10088, type: trojan, password: f3619029-089e-4b52-9e10-fb74c074bf90, sni: jp05.holiganfan.com, skip-cert-verify: false}
   - {name: 🇨🇦 魁北克 flyXXL 🚀 ⏬, server: ca.ganfan.space, port: 10086, type: trojan, password: f3619029-089e-4b52-9e10-fb74c074bf90, sni: ca.ganfan.space, skip-cert-verify: false}
+  -
+    name: '🇷🇺 俄罗斯 FRANXX 🚀'
+    type: trojan
+    server: 116.163.10.6
+    port: 20004
+    password: 644db369-c9a2-3210-8c25-e0419f05f492
+    sni: node.franxx.codes
+  -
+    name: '🇮🇳 印度 FRANXX 🚀'
+    type: trojan
+    server: 116.163.10.6
+    port: 20010
+    password: 644db369-c9a2-3210-8c25-e0419f05f492
+    sni: in.franxx.codes
   - {name: 🇯🇵 日本 碧老师的甲骨文 🆎 ⏬, server: 104.19.30.205, port: 443, type: vmess, uuid: 5d0c8db8-0d4f-46c4-88e2-49c3968ea81c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /vm02, ws-headers: {Host: armjp1.bihai.tk}}
   - {name: 🇹🇼 台湾 碧海小屋 ⏬, server: global-transit-01-hk.pucdn.me, port: 21107, type: vmess, uuid: 617177bc-1cf3-36cc-9ffc-f563b0ffce67, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L2-tw-07.pucdn.me}}
   - {name: 🇯🇵 日本 碧海小屋 ⏬, server: global-transit-01-hk.pucdn.me, port: 32302, type: vmess, uuid: 617177bc-1cf3-36cc-9ffc-f563b0ffce67, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L2-aws-jp-02.pucdn.me}}
   - {name: 🇰🇷 韩国 碧海小屋 ⏬, server: global-transit-01-hk.pucdn.me, port: 31102, type: vmess, uuid: 617177bc-1cf3-36cc-9ffc-f563b0ffce67, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l2-kr-01.pucdn.me}}
-  - {name: 🇰🇷 韩国 跨越长城 ⏬, server: 13.124.14.99, port: 8888, type: vmess, uuid: 89133f74-4e6d-424b-981b-0a334125e5e0, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 13.124.14.99}}
-  - {name: 🇻🇳 越南 跨越长城 ⏬, server: 165.154.229.136, port: 21888, type: vmess, uuid: 89133f74-4e6d-424b-981b-0a334125e5e0, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 165.154.229.136}}
-  - {name: 🇹🇭 曼谷 跨越长城 ⏬, server: 165.154.232.125, port: 9999, type: vmess, uuid: 89133f74-4e6d-424b-981b-0a334125e5e0, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 165.154.232.125}}
-  - {name: 🇵🇭 马尼拉 跨越长城 ⏬, server: 165.154.233.144, port: 21888, type: vmess, uuid: 89133f74-4e6d-424b-981b-0a334125e5e0, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 165.154.233.144}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -99,14 +109,12 @@ proxy-groups:
       - 🇸🇬 新加坡 flyXXL 🚀 ⏬
       - 🇯🇵 东京 flyXXL 🚀 ⏬
       - 🇨🇦 魁北克 flyXXL 🚀 ⏬
+      - 🇷🇺 俄罗斯 FRANXX 🚀
+      - 🇮🇳 印度 FRANXX 🚀
       - 🇯🇵 日本 碧老师的甲骨文 🆎 ⏬
       - 🇹🇼 台湾 碧海小屋 ⏬
       - 🇯🇵 日本 碧海小屋 ⏬
       - 🇰🇷 韩国 碧海小屋 ⏬
-      - 🇰🇷 韩国 跨越长城 ⏬
-      - 🇻🇳 越南 跨越长城 ⏬
-      - 🇹🇭 曼谷 跨越长城 ⏬
-      - 🇵🇭 马尼拉 跨越长城 ⏬
       - DIRECT
   - name: ♻️ 自动选择
     type: url-test
@@ -123,14 +131,12 @@ proxy-groups:
       - 🇸🇬 新加坡 flyXXL 🚀 ⏬
       - 🇯🇵 东京 flyXXL 🚀 ⏬
       - 🇨🇦 魁北克 flyXXL 🚀 ⏬
+      - 🇷🇺 俄罗斯 FRANXX 🚀
+      - 🇮🇳 印度 FRANXX 🚀
       - 🇯🇵 日本 碧老师的甲骨文 🆎 ⏬
       - 🇹🇼 台湾 碧海小屋 ⏬
       - 🇯🇵 日本 碧海小屋 ⏬
       - 🇰🇷 韩国 碧海小屋 ⏬
-      - 🇰🇷 韩国 跨越长城 ⏬
-      - 🇻🇳 越南 跨越长城 ⏬
-      - 🇹🇭 曼谷 跨越长城 ⏬
-      - 🇵🇭 马尼拉 跨越长城 ⏬
   - name: 📲 电报吹水
     type: select
     proxies:
@@ -165,14 +171,12 @@ proxy-groups:
       - 🇸🇬 新加坡 flyXXL 🚀 ⏬
       - 🇯🇵 东京 flyXXL 🚀 ⏬
       - 🇨🇦 魁北克 flyXXL 🚀 ⏬
+      - 🇷🇺 俄罗斯 FRANXX 🚀
+      - 🇮🇳 印度 FRANXX 🚀
       - 🇯🇵 日本 碧老师的甲骨文 🆎 ⏬
       - 🇹🇼 台湾 碧海小屋 ⏬
       - 🇯🇵 日本 碧海小屋 ⏬
       - 🇰🇷 韩国 碧海小屋 ⏬
-      - 🇰🇷 韩国 跨越长城 ⏬
-      - 🇻🇳 越南 跨越长城 ⏬
-      - 🇹🇭 曼谷 跨越长城 ⏬
-      - 🇵🇭 马尼拉 跨越长城 ⏬
   - name: 🌕 Twitter
     type: select
     proxies:
