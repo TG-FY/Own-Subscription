@@ -44,7 +44,7 @@ proxies:
   -
     name: '🇸🇬 新加坡 二次元 🚀 🆎 ⏬'
     type: vmess
-    server: sg3.ecyjc.com
+    server: sg.ecyjc.com
     port: 443
     uuid: 3b854777-7e15-3cfa-a31f-9a17e62b454b
     alterId: 2
@@ -53,7 +53,7 @@ proxies:
     network: ws
     ws-path: /xxx
     ws-headers:
-      Host: sg3.ecyjc.com
+      Host: sg.ecyjc.com
     tls: true
   -
     name: '🇰🇷 首尔 二次元 🚀 🆎 ⏬'
