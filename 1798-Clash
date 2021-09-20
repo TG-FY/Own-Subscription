@@ -76,7 +76,7 @@ proxies:
   - {name: 🇺🇸 亚特兰大 松鼠 🚀 ⏬, server: 23.106.248.97, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
   - {name: 🇸🇬 新加坡 flyXXL 🚀 ⏬, server: sg10.holiganfan.com, port: 10088, type: trojan, password: f3619029-089e-4b52-9e10-fb74c074bf90, sni: sg10.holiganfan.com, skip-cert-verify: false}
   - {name: 🇯🇵 东京 flyXXL 🚀 ⏬, server: jp05.holiganfan.com, port: 10088, type: trojan, password: f3619029-089e-4b52-9e10-fb74c074bf90, sni: jp05.holiganfan.com, skip-cert-verify: false}
-  - {name: 🇨🇦 安大略 菲菲 🚀 ⏬, server: mlca1.ratzsuck.tk, port: 80, type: vmess, uuid: b42b3764-1068-11ec-a4a6-00505691770e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇦 安大略 菲菲 🚀 ⏬, server: 104.19.226.146, port: 443, type: vmess, uuid: 3c312cd8-1aad-4e99-877c-613b6cd0032e, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /c0eb2/, ws-headers: {Host: ff3.wuxian3.workers.dev}}
   -
     name: '🇷🇺 新西伯利亚 FRANXX 🚀'
     type: trojan
