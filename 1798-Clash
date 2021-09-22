@@ -99,6 +99,9 @@ proxies:
   - {name: 🇹🇼 台湾 碧海小屋 ⏬, server: global-transit-01-hk.pucdn.me, port: 21107, type: vmess, uuid: 617177bc-1cf3-36cc-9ffc-f563b0ffce67, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L2-tw-07.pucdn.me}}
   - {name: 🇯🇵 东京 碧海小屋 ⏬, server: global-transit-01-hk.pucdn.me, port: 32302, type: vmess, uuid: 617177bc-1cf3-36cc-9ffc-f563b0ffce67, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L2-aws-jp-02.pucdn.me}}
   - {name: 🇰🇷 仁川 碧海小屋 ⏬, server: global-transit-01-hk.pucdn.me, port: 31102, type: vmess, uuid: 617177bc-1cf3-36cc-9ffc-f563b0ffce67, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l2-kr-01.pucdn.me}}
+  - {name: 🇻🇳 越南 跨越长城 ⏬, server: 165.154.229.136, port: 21888, type: vmess, uuid: 89133f74-4e6d-424b-981b-0a334125e5e0, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 165.154.229.136}}
+  - {name: 🇹🇭 泰国 跨越长城 ⏬, server: 165.154.232.125, port: 9999, type: vmess, uuid: 89133f74-4e6d-424b-981b-0a334125e5e0, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 165.154.232.125}}
+  - {name: 🇹🇷 土耳其 跨越长城 ⏬, server: 185.219.134.99, port: 16767, type: vmess, uuid: 89133f74-4e6d-424b-981b-0a334125e5e0, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 185.219.134.99}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -125,6 +128,9 @@ proxy-groups:
       - 🇹🇼 台湾 碧海小屋 ⏬
       - 🇯🇵 东京 碧海小屋 ⏬
       - 🇰🇷 仁川 碧海小屋 ⏬
+      - 🇻🇳 越南 跨越长城 ⏬
+      - 🇹🇭 泰国 跨越长城 ⏬
+      - 🇹🇷 土耳其 跨越长城 ⏬
       - DIRECT
   - name: ♻️ 自动选择
     type: url-test
@@ -152,6 +158,9 @@ proxy-groups:
       - 🇹🇼 台湾 碧海小屋 ⏬
       - 🇯🇵 东京 碧海小屋 ⏬
       - 🇰🇷 仁川 碧海小屋 ⏬
+      - 🇻🇳 越南 跨越长城 ⏬
+      - 🇹🇭 泰国 跨越长城 ⏬
+      - 🇹🇷 土耳其 跨越长城 ⏬
   - name: 📹 YouTube
     type: select
     proxies:
@@ -179,6 +188,9 @@ proxy-groups:
       - 🇹🇼 台湾 碧海小屋 ⏬
       - 🇯🇵 东京 碧海小屋 ⏬
       - 🇰🇷 仁川 碧海小屋 ⏬
+      - 🇻🇳 越南 跨越长城 ⏬
+      - 🇹🇭 泰国 跨越长城 ⏬
+      - 🇹🇷 土耳其 跨越长城 ⏬
   - name: 🎵 TikTok
     type: select
     proxies:
@@ -206,6 +218,9 @@ proxy-groups:
       - 🇹🇼 台湾 碧海小屋 ⏬
       - 🇯🇵 东京 碧海小屋 ⏬
       - 🇰🇷 仁川 碧海小屋 ⏬
+      - 🇻🇳 越南 跨越长城 ⏬
+      - 🇹🇭 泰国 跨越长城 ⏬
+      - 🇹🇷 土耳其 跨越长城 ⏬
   - name: 🕶️ Google Play
     type: select
     proxies:
@@ -233,6 +248,9 @@ proxy-groups:
       - 🇹🇼 台湾 碧海小屋 ⏬
       - 🇯🇵 东京 碧海小屋 ⏬
       - 🇰🇷 仁川 碧海小屋 ⏬
+      - 🇻🇳 越南 跨越长城 ⏬
+      - 🇹🇭 泰国 跨越长城 ⏬
+      - 🇹🇷 土耳其 跨越长城 ⏬
   - name: 📞 Google Voice
     type: select
     proxies:
