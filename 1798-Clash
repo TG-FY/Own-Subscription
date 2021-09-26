@@ -77,6 +77,7 @@ proxies:
       Host: kr.ecyjc.com
     tls: true
   - {name: 🇭🇰 香港 静安 🚀 ⏬, server: 121.12.76.86, port: 556, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 177563:TKzzJA, obfs-param: cfe16177563.www.gov.hk}
+  - {name: 🇹🇼 台湾 松鼠 🚀 ⏬ 🛡️, server: 175.98.194.13, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
   - {name: 🇺🇸 洛杉矶 松鼠 🚀 ⏬ 🛡️, server: 154.17.2.64, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: ZEYSaKlBZleNgF7n6e8O4y3DaD9SRpzCuSapRYjAXCxFxwcCq2T583ADI3yO30}
   - {name: 🇺🇸 亚特兰大 松鼠 🚀 ⏬ 🛡️, server: 23.106.248.92, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
   - {name: 🇸🇬 新加坡 flyXXL 🚀 ⏬ 🛡️, server: sg10.holiganfan.com, port: 10088, type: trojan, password: f3619029-089e-4b52-9e10-fb74c074bf90, sni: sg10.holiganfan.com, skip-cert-verify: false}
@@ -118,6 +119,7 @@ proxy-groups:
       - 🇸🇬 新加坡 二次元 🚀 ⏬
       - 🇰🇷 首尔 二次元 🚀 ⏬
       - 🇭🇰 香港 静安 🚀 ⏬
+      - 🇹🇼 台湾 松鼠 🚀 ⏬ 🛡️
       - 🇺🇸 洛杉矶 松鼠 🚀 ⏬ 🛡️
       - 🇺🇸 亚特兰大 松鼠 🚀 ⏬ 🛡️
       - 🇸🇬 新加坡 flyXXL 🚀 ⏬ 🛡️
@@ -148,6 +150,7 @@ proxy-groups:
       - 🇸🇬 新加坡 二次元 🚀 ⏬
       - 🇰🇷 首尔 二次元 🚀 ⏬
       - 🇭🇰 香港 静安 🚀 ⏬
+      - 🇹🇼 台湾 松鼠 🚀 ⏬ 🛡️
       - 🇺🇸 洛杉矶 松鼠 🚀 ⏬ 🛡️
       - 🇺🇸 亚特兰大 松鼠 🚀 ⏬ 🛡️
       - 🇸🇬 新加坡 flyXXL 🚀 ⏬ 🛡️
@@ -178,6 +181,7 @@ proxy-groups:
       - 🇸🇬 新加坡 二次元 🚀 ⏬
       - 🇰🇷 首尔 二次元 🚀 ⏬
       - 🇭🇰 香港 静安 🚀 ⏬
+      - 🇹🇼 台湾 松鼠 🚀 ⏬ 🛡️
       - 🇺🇸 洛杉矶 松鼠 🚀 ⏬ 🛡️
       - 🇺🇸 亚特兰大 松鼠 🚀 ⏬ 🛡️
       - 🇸🇬 新加坡 flyXXL 🚀 ⏬ 🛡️
@@ -208,6 +212,7 @@ proxy-groups:
       - 🇸🇬 新加坡 二次元 🚀 ⏬
       - 🇰🇷 首尔 二次元 🚀 ⏬
       - 🇭🇰 香港 静安 🚀 ⏬
+      - 🇹🇼 台湾 松鼠 🚀 ⏬ 🛡️
       - 🇺🇸 洛杉矶 松鼠 🚀 ⏬ 🛡️
       - 🇺🇸 亚特兰大 松鼠 🚀 ⏬ 🛡️
       - 🇸🇬 新加坡 flyXXL 🚀 ⏬ 🛡️
@@ -238,6 +243,7 @@ proxy-groups:
       - 🇸🇬 新加坡 二次元 🚀 ⏬
       - 🇰🇷 首尔 二次元 🚀 ⏬
       - 🇭🇰 香港 静安 🚀 ⏬
+      - 🇹🇼 台湾 松鼠 🚀 ⏬ 🛡️
       - 🇺🇸 洛杉矶 松鼠 🚀 ⏬ 🛡️
       - 🇺🇸 亚特兰大 松鼠 🚀 ⏬ 🛡️
       - 🇸🇬 新加坡 flyXXL 🚀 ⏬ 🛡️
@@ -309,6 +315,7 @@ proxy-groups:
       - DIRECT
       - 🇹🇼 台湾1 KuLi云 🚀
       - 🇹🇼 台湾2 KuLi云 🚀
+      - 🇹🇼 台湾 松鼠 🚀 ⏬ 🛡️
   - name: Ⓜ️ 微软云盘
     type: select
     proxies:
@@ -354,6 +361,7 @@ proxy-groups:
     proxies:
       - 🇹🇼 台湾1 KuLi云 🚀
       - 🇹🇼 台湾2 KuLi云 🚀
+      - 🇹🇼 台湾 松鼠 🚀 ⏬ 🛡️
   - name: 🇺🇲 美国节点
     type: select
     proxies:
