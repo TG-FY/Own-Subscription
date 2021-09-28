@@ -29,24 +29,23 @@ proxies:
   - {name: 🇭🇰 香港 EDU学术引擎 ⏬, server: 119.28.84.227, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 3876234956.microsoft.com}}
   - {name: 🇯🇵 长野 EDU学术引擎 🚀 ⏬, server: 121.50.43.30, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 3876234956.microsoft.com}}
   - {name: 🇺🇲 洛杉矶 EDU学术引擎 🚀 ⏬, server: 198.148.122.145, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 3876234956.microsoft.com}}
-  - {name: 🇭🇰 香港 吱吱自行车 🚀 🆎 ⏬, server: hkf2.dior.bar, port: 80, type: vmess, uuid: 09ac7c45-0cf2-442a-8323-fc911e641ec7, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hkf2.dior.bar}}
+  - {name: 🇭🇰 香港 吱吱自行车 🚀 🆎 ⏬, server: hk01.uc.dior.bar, port: 21123, type: vmess, uuid: 09ac7c45-0cf2-442a-8323-fc911e641ec7, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}}
   - {name: 🇯🇵 东京 吱吱自行车 🚀 ⏬, server: jp3.dior.bar, port: 80, type: vmess, uuid: 09ac7c45-0cf2-442a-8323-fc911e641ec7, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: jp3.dior.bar}}
-  - {name: 🇰🇷 首尔 吱吱自行车 🚀 ⏬, server: azfree.uc.dior.bar, port: 21225, type: vmess, uuid: 09ac7c45-0cf2-442a-8323-fc911e641ec7, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: azfree.uc.dior.bar}}
   - {name: 🇦🇺 悉尼 吱吱自行车 🚀 ⏬, server: saber.dior.bar, port: 80, type: vmess, uuid: 09ac7c45-0cf2-442a-8323-fc911e641ec7, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: saber.dior.bar}}
   -
     name: '🇭🇰 香港 二次元 🚀 🆎 ⏬'
     type: vmess
     server: azhk.ecyjc.com
-    port: 53187
+    port: 23220
     uuid: 3b854777-7e15-3cfa-a31f-9a17e62b454b
     alterId: 2
     cipher: auto
     udp: true
-    servername: hk.ecyjc.com
+    servername: hk2.ecyjc.com
     network: ws
     ws-path: /xxx
     ws-headers:
-      Host: hk.ecyjc.com
+      Host: hk2.ecyjc.com
     tls: true
   -
     name: '🇸🇬 新加坡 二次元 🚀 ⏬'
@@ -113,7 +112,6 @@ proxy-groups:
       - 🇺🇲 洛杉矶 EDU学术引擎 🚀 ⏬
       - 🇭🇰 香港 吱吱自行车 🚀 🆎 ⏬
       - 🇯🇵 东京 吱吱自行车 🚀 ⏬
-      - 🇰🇷 首尔 吱吱自行车 🚀 ⏬
       - 🇦🇺 悉尼 吱吱自行车 🚀 ⏬
       - 🇭🇰 香港 二次元 🚀 🆎 ⏬
       - 🇸🇬 新加坡 二次元 🚀 ⏬
@@ -144,7 +142,6 @@ proxy-groups:
       - 🇺🇲 洛杉矶 EDU学术引擎 🚀 ⏬
       - 🇭🇰 香港 吱吱自行车 🚀 🆎 ⏬
       - 🇯🇵 东京 吱吱自行车 🚀 ⏬
-      - 🇰🇷 首尔 吱吱自行车 🚀 ⏬
       - 🇦🇺 悉尼 吱吱自行车 🚀 ⏬
       - 🇭🇰 香港 二次元 🚀 🆎 ⏬
       - 🇸🇬 新加坡 二次元 🚀 ⏬
@@ -175,7 +172,6 @@ proxy-groups:
       - 🇺🇲 洛杉矶 EDU学术引擎 🚀 ⏬
       - 🇭🇰 香港 吱吱自行车 🚀 🆎 ⏬
       - 🇯🇵 东京 吱吱自行车 🚀 ⏬
-      - 🇰🇷 首尔 吱吱自行车 🚀 ⏬
       - 🇦🇺 悉尼 吱吱自行车 🚀 ⏬
       - 🇭🇰 香港 二次元 🚀 🆎 ⏬
       - 🇸🇬 新加坡 二次元 🚀 ⏬
@@ -206,7 +202,6 @@ proxy-groups:
       - 🇺🇲 洛杉矶 EDU学术引擎 🚀 ⏬
       - 🇭🇰 香港 吱吱自行车 🚀 🆎 ⏬
       - 🇯🇵 东京 吱吱自行车 🚀 ⏬
-      - 🇰🇷 首尔 吱吱自行车 🚀 ⏬
       - 🇦🇺 悉尼 吱吱自行车 🚀 ⏬
       - 🇭🇰 香港 二次元 🚀 🆎 ⏬
       - 🇸🇬 新加坡 二次元 🚀 ⏬
@@ -237,7 +232,6 @@ proxy-groups:
       - 🇺🇲 洛杉矶 EDU学术引擎 🚀 ⏬
       - 🇭🇰 香港 吱吱自行车 🚀 🆎 ⏬
       - 🇯🇵 东京 吱吱自行车 🚀 ⏬
-      - 🇰🇷 首尔 吱吱自行车 🚀 ⏬
       - 🇦🇺 悉尼 吱吱自行车 🚀 ⏬
       - 🇭🇰 香港 二次元 🚀 🆎 ⏬
       - 🇸🇬 新加坡 二次元 🚀 ⏬
