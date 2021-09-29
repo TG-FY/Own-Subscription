@@ -1380,6 +1380,7 @@ rules:
  - DOMAIN-SUFFIX,icloud.com,🍎 苹果服务
  - DOMAIN-SUFFIX,me.com,🍎 苹果服务
  - DOMAIN-SUFFIX,mzstatic.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,pornemby.club,🔰 节点选择
  - DOMAIN-SUFFIX,bit.no.com,🔰 节点选择
  - DOMAIN-SUFFIX,btlibrary.me,🔰 节点选择
  - DOMAIN-SUFFIX,cccat.io,🔰 节点选择
