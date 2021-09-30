@@ -81,19 +81,11 @@ proxies:
   - {name: 🇸🇬 新加坡 flyXXL 🚀 ⏬ 🛡️, server: sg10.holiganfan.com, port: 10088, type: trojan, password: f3619029-089e-4b52-9e10-fb74c074bf90, sni: sg10.holiganfan.com, skip-cert-verify: false}
   - {name: 🇯🇵 东京 flyXXL 🚀 ⏬ 🛡️, server: jp05.holiganfan.com, port: 10088, type: trojan, password: f3619029-089e-4b52-9e10-fb74c074bf90, sni: jp05.holiganfan.com, skip-cert-verify: false}
   - {name: 🇨🇦 安大略 菲菲 🚀 🆎 ⏬ 🛡️, server: 104.19.226.146, port: 443, type: vmess, uuid: 3c312cd8-1aad-4e99-877c-613b6cd0032e, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /c0eb2/, ws-headers: {Host: ff3.wuxian3.workers.dev}}
-  -
-    name: '🇷🇺 新西伯利亚 FRANXX 🚀 🛡️'
-    type: trojan
-    server: 116.163.10.6
-    port: 20004
-    password: 644db369-c9a2-3210-8c25-e0419f05f492
-    sni: node.franxx.codes
   - {name: 🇹🇼 台湾1 KuLi云 🚀, server: tw02.kuli888.xyz, port: 36368,type: vmess, uuid: 17fe290e-aa74-357b-8eeb-6d9e8a0838a2, alterId: 1, cipher: auto, udp: true, network: ws, ws-path: /v2ray, ws-headers: {"Host":"www.bing.com"}}
   - {name: 🇹🇼 台湾2 KuLi云 🚀, server: tw.kuli888.xyz, port: 35358, type: vmess, uuid: 17fe290e-aa74-357b-8eeb-6d9e8a0838a2, alterId: 1, cipher: auto, udp: true, network: ws, ws-path: /v2ray, ws-headers: {"Host":"www.bing.com"}}
   - {name: 🇯🇵 东京 碧老师的甲骨文 🆎 ⏬ 🛡️, server: 104.19.30.205, port: 443, type: vmess, uuid: 5d0c8db8-0d4f-46c4-88e2-49c3968ea81c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /vm02, ws-headers: {Host: armjp1.bihai.tk}}
   - {name: 🇻🇳 越南 跨越长城 ⏬, server: 165.154.229.136, port: 21888, type: vmess, uuid: 89133f74-4e6d-424b-981b-0a334125e5e0, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 165.154.229.136}}
   - {name: 🇹🇭 泰国 跨越长城 ⏬, server: 165.154.232.125, port: 9999, type: vmess, uuid: 89133f74-4e6d-424b-981b-0a334125e5e0, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 165.154.232.125}}
-  - {name: 🇹🇷 土耳其 跨越长城 ⏬, server: 185.219.134.99, port: 16767, type: vmess, uuid: 89133f74-4e6d-424b-981b-0a334125e5e0, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 185.219.134.99}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -114,13 +106,11 @@ proxy-groups:
       - 🇸🇬 新加坡 flyXXL 🚀 ⏬ 🛡️
       - 🇯🇵 东京 flyXXL 🚀 ⏬ 🛡️
       - 🇨🇦 安大略 菲菲 🚀 🆎 ⏬ 🛡️
-      - 🇷🇺 新西伯利亚 FRANXX 🚀 🛡️
       - 🇹🇼 台湾1 KuLi云 🚀
       - 🇹🇼 台湾2 KuLi云 🚀
       - 🇯🇵 东京 碧老师的甲骨文 🆎 ⏬ 🛡️
       - 🇻🇳 越南 跨越长城 ⏬
       - 🇹🇭 泰国 跨越长城 ⏬
-      - 🇹🇷 土耳其 跨越长城 ⏬
       - DIRECT
   - name: ♻️ 自动选择
     type: url-test
@@ -142,13 +132,11 @@ proxy-groups:
       - 🇸🇬 新加坡 flyXXL 🚀 ⏬ 🛡️
       - 🇯🇵 东京 flyXXL 🚀 ⏬ 🛡️
       - 🇨🇦 安大略 菲菲 🚀 🆎 ⏬ 🛡️
-      - 🇷🇺 新西伯利亚 FRANXX 🚀 🛡️
       - 🇹🇼 台湾1 KuLi云 🚀
       - 🇹🇼 台湾2 KuLi云 🚀
       - 🇯🇵 东京 碧老师的甲骨文 🆎 ⏬ 🛡️
       - 🇻🇳 越南 跨越长城 ⏬
       - 🇹🇭 泰国 跨越长城 ⏬
-      - 🇹🇷 土耳其 跨越长城 ⏬
   - name: 📹 YouTube
     type: select
     proxies:
@@ -170,13 +158,11 @@ proxy-groups:
       - 🇸🇬 新加坡 flyXXL 🚀 ⏬ 🛡️
       - 🇯🇵 东京 flyXXL 🚀 ⏬ 🛡️
       - 🇨🇦 安大略 菲菲 🚀 🆎 ⏬ 🛡️
-      - 🇷🇺 新西伯利亚 FRANXX 🚀 🛡️
       - 🇹🇼 台湾1 KuLi云 🚀
       - 🇹🇼 台湾2 KuLi云 🚀
       - 🇯🇵 东京 碧老师的甲骨文 🆎 ⏬ 🛡️
       - 🇻🇳 越南 跨越长城 ⏬
       - 🇹🇭 泰国 跨越长城 ⏬
-      - 🇹🇷 土耳其 跨越长城 ⏬
   - name: 🎵 TikTok
     type: select
     proxies:
@@ -198,13 +184,11 @@ proxy-groups:
       - 🇸🇬 新加坡 flyXXL 🚀 ⏬ 🛡️
       - 🇯🇵 东京 flyXXL 🚀 ⏬ 🛡️
       - 🇨🇦 安大略 菲菲 🚀 🆎 ⏬ 🛡️
-      - 🇷🇺 新西伯利亚 FRANXX 🚀 🛡️
       - 🇹🇼 台湾1 KuLi云 🚀
       - 🇹🇼 台湾2 KuLi云 🚀
       - 🇯🇵 东京 碧老师的甲骨文 🆎 ⏬ 🛡️
       - 🇻🇳 越南 跨越长城 ⏬
       - 🇹🇭 泰国 跨越长城 ⏬
-      - 🇹🇷 土耳其 跨越长城 ⏬
   - name: 🕶️ Google Play
     type: select
     proxies:
@@ -226,13 +210,11 @@ proxy-groups:
       - 🇸🇬 新加坡 flyXXL 🚀 ⏬ 🛡️
       - 🇯🇵 东京 flyXXL 🚀 ⏬ 🛡️
       - 🇨🇦 安大略 菲菲 🚀 🆎 ⏬ 🛡️
-      - 🇷🇺 新西伯利亚 FRANXX 🚀 🛡️
       - 🇹🇼 台湾1 KuLi云 🚀
       - 🇹🇼 台湾2 KuLi云 🚀
       - 🇯🇵 东京 碧老师的甲骨文 🆎 ⏬ 🛡️
       - 🇻🇳 越南 跨越长城 ⏬
       - 🇹🇭 泰国 跨越长城 ⏬
-      - 🇹🇷 土耳其 跨越长城 ⏬
   - name: 📞 Google Voice
     type: select
     proxies:
