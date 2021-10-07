@@ -26,58 +26,28 @@ log-level: info
 #    - https://1.1.1.1/dns-query
 external-controller: 9090
 proxies:
-  - {name: 🇭🇰 香港 EDU学术引擎 ⏬, server: 119.28.84.227, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 3876234956.microsoft.com}}
-  - {name: 🇯🇵 长野 EDU学术引擎 🚀 ⏬, server: 121.50.43.30, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 3876234956.microsoft.com}}
-  - {name: 🇺🇲 洛杉矶 EDU学术引擎 🚀 ⏬, server: 198.148.122.145, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 3876234956.microsoft.com}}
-  - {name: 🇭🇰 香港 吱吱自行车 🚀 🆎 ⏬, server: hk01.uc.dior.bar, port: 21123, type: vmess, uuid: 09ac7c45-0cf2-442a-8323-fc911e641ec7, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}}
+  - {name: 🇭🇰 香港 EDU学术引擎 ⏬, server: 119.28.71.30, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 3876234956.microsoft.com}}
+  - {name: 🇹🇼 台湾 超级线路 🚀 🆎 ⏬ 🛡️, server: 211.23.141.52, port: 443, type: ss, cipher: aes-256-gcm, password: bff483ac1406, plugin: v2ray-plugin, plugin-opts: {mode: "", host: dx600twnewss001.soflyso.info, path: "", tls: true, mux: false}}
+  - {name: 🇰🇷 首尔 超级线路 🚀 ⏬ 🛡️, server: 27.102.118.27, port: 443, type: ss, cipher: aes-256-gcm, password: f9bf8919c427, plugin: v2ray-plugin, plugin-opts: {mode: "", host: Krkdanew001.soflyso.info, path: "", tls: true, mux: false}}
+  - {name: 🇭🇰 香港 吱吱自行车 🚀 🆎 ⏬, server: hkf3.dior.bar, port: 81, type: vmess, uuid: 09ac7c45-0cf2-442a-8323-fc911e641ec7, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}}
   - {name: 🇯🇵 东京 吱吱自行车 🚀 ⏬, server: jp3.dior.bar, port: 80, type: vmess, uuid: 09ac7c45-0cf2-442a-8323-fc911e641ec7, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: jp3.dior.bar}}
   - {name: 🇦🇺 悉尼 吱吱自行车 🚀 ⏬, server: saber.dior.bar, port: 80, type: vmess, uuid: 09ac7c45-0cf2-442a-8323-fc911e641ec7, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: saber.dior.bar}}
   -
-    name: '🇭🇰 香港 二次元 🚀 🆎 ⏬'
-    type: vmess
-    server: azhk.ecyjc.com
-    port: 23220
-    uuid: 3b854777-7e15-3cfa-a31f-9a17e62b454b
-    alterId: 2
-    cipher: auto
-    udp: true
-    servername: hk2.ecyjc.com
-    network: ws
-    ws-path: /xxx
-    ws-headers:
-      Host: hk2.ecyjc.com
-    tls: true
-  -
-    name: '🇸🇬 新加坡 二次元 🚀 ⏬'
-    type: vmess
-    server: sg.ecyjc.com
-    port: 443
-    uuid: 3b854777-7e15-3cfa-a31f-9a17e62b454b
-    alterId: 2
-    cipher: auto
-    udp: true
-    network: ws
-    ws-path: /xxx
-    ws-headers:
-      Host: sg.ecyjc.com
-    tls: true
-  -
     name: '🇰🇷 首尔 二次元 🚀 ⏬'
     type: vmess
-    server: kr.ecyjc.com
+    server: gykr.ecyjc.xyz
     port: 443
-    uuid: 3b854777-7e15-3cfa-a31f-9a17e62b454b
+    uuid: c4831574-6b86-332e-a229-4d47812b0bb4
     alterId: 2
     cipher: auto
     udp: true
     network: ws
     ws-path: /xxx
     ws-headers:
-      Host: kr.ecyjc.com
+      Host: 
     tls: true
   - {name: 🇭🇰 香港 静安 🚀 ⏬, server: 121.12.76.86, port: 556, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 177563:TKzzJA, obfs-param: cfe16177563.www.gov.hk}
-  - {name: 🇺🇸 洛杉矶 松鼠 🚀 ⏬ 🛡️, server: 154.17.2.64, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: ZEYSaKlBZleNgF7n6e8O4y3DaD9SRpzCuSapRYjAXCxFxwcCq2T583ADI3yO30}
-  - {name: 🇺🇸 亚特兰大 松鼠 🚀 ⏬ 🛡️, server: 23.106.248.92, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 🇺🇸 洛杉矶 松鼠 🚀 ⏬ 🛡️, server: 173.82.160.74, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: IaNR0KqB8uSTlE736e2pFyCDaXwOODlCeA4nx3Yc8Azy9DgpZSaxZS33CRFYj5}
   - {name: 🇸🇬 新加坡 flyXXL 🚀 ⏬ 🛡️, server: sg10.holiganfan.com, port: 10088, type: trojan, password: f3619029-089e-4b52-9e10-fb74c074bf90, sni: sg10.holiganfan.com, skip-cert-verify: false}
   - {name: 🇯🇵 东京 flyXXL 🚀 ⏬ 🛡️, server: jp05.holiganfan.com, port: 10088, type: trojan, password: f3619029-089e-4b52-9e10-fb74c074bf90, sni: jp05.holiganfan.com, skip-cert-verify: false}
   - {name: 🇨🇦 安大略 菲菲 🚀 🆎 ⏬ 🛡️, server: 104.19.30.205, port: 443, type: vmess, uuid: 3c312cd8-1aad-4e99-877c-613b6cd0032e, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /c0eb2/, ws-headers: {Host: ff3.wuxian3.workers.dev}}
@@ -92,17 +62,14 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🇭🇰 香港 EDU学术引擎 ⏬
-      - 🇯🇵 长野 EDU学术引擎 🚀 ⏬
-      - 🇺🇲 洛杉矶 EDU学术引擎 🚀 ⏬
+      - 🇹🇼 台湾 超级线路 🚀 🆎 ⏬ 🛡️
+      - 🇰🇷 首尔 超级线路 🚀 ⏬ 🛡️
       - 🇭🇰 香港 吱吱自行车 🚀 🆎 ⏬
       - 🇯🇵 东京 吱吱自行车 🚀 ⏬
       - 🇦🇺 悉尼 吱吱自行车 🚀 ⏬
-      - 🇭🇰 香港 二次元 🚀 🆎 ⏬
-      - 🇸🇬 新加坡 二次元 🚀 ⏬
       - 🇰🇷 首尔 二次元 🚀 ⏬
       - 🇭🇰 香港 静安 🚀 ⏬
       - 🇺🇸 洛杉矶 松鼠 🚀 ⏬ 🛡️
-      - 🇺🇸 亚特兰大 松鼠 🚀 ⏬ 🛡️
       - 🇸🇬 新加坡 flyXXL 🚀 ⏬ 🛡️
       - 🇯🇵 东京 flyXXL 🚀 ⏬ 🛡️
       - 🇨🇦 安大略 菲菲 🚀 🆎 ⏬ 🛡️
@@ -118,17 +85,14 @@ proxy-groups:
     interval: 500
     proxies:
       - 🇭🇰 香港 EDU学术引擎 ⏬
-      - 🇯🇵 长野 EDU学术引擎 🚀 ⏬
-      - 🇺🇲 洛杉矶 EDU学术引擎 🚀 ⏬
+      - 🇹🇼 台湾 超级线路 🚀 🆎 ⏬ 🛡️
+      - 🇰🇷 首尔 超级线路 🚀 ⏬ 🛡️
       - 🇭🇰 香港 吱吱自行车 🚀 🆎 ⏬
       - 🇯🇵 东京 吱吱自行车 🚀 ⏬
       - 🇦🇺 悉尼 吱吱自行车 🚀 ⏬
-      - 🇭🇰 香港 二次元 🚀 🆎 ⏬
-      - 🇸🇬 新加坡 二次元 🚀 ⏬
       - 🇰🇷 首尔 二次元 🚀 ⏬
       - 🇭🇰 香港 静安 🚀 ⏬
       - 🇺🇸 洛杉矶 松鼠 🚀 ⏬ 🛡️
-      - 🇺🇸 亚特兰大 松鼠 🚀 ⏬ 🛡️
       - 🇸🇬 新加坡 flyXXL 🚀 ⏬ 🛡️
       - 🇯🇵 东京 flyXXL 🚀 ⏬ 🛡️
       - 🇨🇦 安大略 菲菲 🚀 🆎 ⏬ 🛡️
@@ -137,6 +101,18 @@ proxy-groups:
       - 🇯🇵 东京 碧老师的甲骨文 🆎 ⏬ 🛡️
       - 🇻🇳 越南 跨越长城 ⏬
       - 🇹🇭 泰国 跨越长城 ⏬
+  - name: 🍃 净化秘术
+    type: select
+    proxies:
+      - 🔰 节点选择
+      - ♻️ 自动选择
+      - DIRECT
+      - 🇹🇼 台湾节点
+      - 🇺🇲 美国节点
+      - 🇭🇰 香港 吱吱自行车 🚀 🆎 ⏬
+      - 🇹🇼 台湾 超级线路 🚀 🆎 ⏬ 🛡️
+      - 🇨🇦 安大略 菲菲 🚀 🆎 ⏬ 🛡️
+      - 🇯🇵 东京 碧老师的甲骨文 🆎 ⏬ 🛡️
   - name: 📹 YouTube
     type: select
     proxies:
@@ -144,17 +120,14 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 🇭🇰 香港 EDU学术引擎 ⏬
-      - 🇯🇵 长野 EDU学术引擎 🚀 ⏬
-      - 🇺🇲 洛杉矶 EDU学术引擎 🚀 ⏬
+      - 🇹🇼 台湾 超级线路 🚀 🆎 ⏬ 🛡️
+      - 🇰🇷 首尔 超级线路 🚀 ⏬ 🛡️
       - 🇭🇰 香港 吱吱自行车 🚀 🆎 ⏬
       - 🇯🇵 东京 吱吱自行车 🚀 ⏬
       - 🇦🇺 悉尼 吱吱自行车 🚀 ⏬
-      - 🇭🇰 香港 二次元 🚀 🆎 ⏬
-      - 🇸🇬 新加坡 二次元 🚀 ⏬
       - 🇰🇷 首尔 二次元 🚀 ⏬
       - 🇭🇰 香港 静安 🚀 ⏬
       - 🇺🇸 洛杉矶 松鼠 🚀 ⏬ 🛡️
-      - 🇺🇸 亚特兰大 松鼠 🚀 ⏬ 🛡️
       - 🇸🇬 新加坡 flyXXL 🚀 ⏬ 🛡️
       - 🇯🇵 东京 flyXXL 🚀 ⏬ 🛡️
       - 🇨🇦 安大略 菲菲 🚀 🆎 ⏬ 🛡️
@@ -170,17 +143,14 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 🇭🇰 香港 EDU学术引擎 ⏬
-      - 🇯🇵 长野 EDU学术引擎 🚀 ⏬
-      - 🇺🇲 洛杉矶 EDU学术引擎 🚀 ⏬
+      - 🇹🇼 台湾 超级线路 🚀 🆎 ⏬ 🛡️
+      - 🇰🇷 首尔 超级线路 🚀 ⏬ 🛡️
       - 🇭🇰 香港 吱吱自行车 🚀 🆎 ⏬
       - 🇯🇵 东京 吱吱自行车 🚀 ⏬
       - 🇦🇺 悉尼 吱吱自行车 🚀 ⏬
-      - 🇭🇰 香港 二次元 🚀 🆎 ⏬
-      - 🇸🇬 新加坡 二次元 🚀 ⏬
       - 🇰🇷 首尔 二次元 🚀 ⏬
       - 🇭🇰 香港 静安 🚀 ⏬
       - 🇺🇸 洛杉矶 松鼠 🚀 ⏬ 🛡️
-      - 🇺🇸 亚特兰大 松鼠 🚀 ⏬ 🛡️
       - 🇸🇬 新加坡 flyXXL 🚀 ⏬ 🛡️
       - 🇯🇵 东京 flyXXL 🚀 ⏬ 🛡️
       - 🇨🇦 安大略 菲菲 🚀 🆎 ⏬ 🛡️
@@ -196,17 +166,14 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 🇭🇰 香港 EDU学术引擎 ⏬
-      - 🇯🇵 长野 EDU学术引擎 🚀 ⏬
-      - 🇺🇲 洛杉矶 EDU学术引擎 🚀 ⏬
+      - 🇹🇼 台湾 超级线路 🚀 🆎 ⏬ 🛡️
+      - 🇰🇷 首尔 超级线路 🚀 ⏬ 🛡️
       - 🇭🇰 香港 吱吱自行车 🚀 🆎 ⏬
       - 🇯🇵 东京 吱吱自行车 🚀 ⏬
       - 🇦🇺 悉尼 吱吱自行车 🚀 ⏬
-      - 🇭🇰 香港 二次元 🚀 🆎 ⏬
-      - 🇸🇬 新加坡 二次元 🚀 ⏬
       - 🇰🇷 首尔 二次元 🚀 ⏬
       - 🇭🇰 香港 静安 🚀 ⏬
       - 🇺🇸 洛杉矶 松鼠 🚀 ⏬ 🛡️
-      - 🇺🇸 亚特兰大 松鼠 🚀 ⏬ 🛡️
       - 🇸🇬 新加坡 flyXXL 🚀 ⏬ 🛡️
       - 🇯🇵 东京 flyXXL 🚀 ⏬ 🛡️
       - 🇨🇦 安大略 菲菲 🚀 🆎 ⏬ 🛡️
@@ -215,14 +182,6 @@ proxy-groups:
       - 🇯🇵 东京 碧老师的甲骨文 🆎 ⏬ 🛡️
       - 🇻🇳 越南 跨越长城 ⏬
       - 🇹🇭 泰国 跨越长城 ⏬
-  - name: 📞 Google Voice
-    type: select
-    proxies:
-      - 🔰 节点选择
-      - ♻️ 自动选择
-      - DIRECT
-      - 🇹🇼 台湾节点
-      - 🇺🇲 美国节点
   - name: 📲 Telegram
     type: select
     proxies:
@@ -272,6 +231,14 @@ proxy-groups:
       - DIRECT
       - 🇹🇼 台湾节点
       - 🇺🇲 美国节点
+  - name: 🌍 OnlyUS
+    type: select
+    proxies:
+      - 🇺🇲 美国节点
+      - 🔰 节点选择
+      - ♻️ 自动选择
+      - DIRECT
+      - 🇺🇸 洛杉矶 松鼠 🚀 ⏬ 🛡️
   - name: 📺 巴哈姆特
     type: select
     proxies:
@@ -322,7 +289,6 @@ proxy-groups:
     type: select
     proxies:
       - 🇺🇸 洛杉矶 松鼠 🚀 ⏬ 🛡️
-      - 🇺🇸 亚特兰大 松鼠 🚀 ⏬ 🛡️
   - name: 🎥 奈飞节点
     type: select
     proxies:
@@ -331,137 +297,47 @@ proxy-groups:
       - 🇯🇵 东京 flyXXL 🚀 ⏬ 🛡️
       - 🇨🇦 安大略 菲菲 🚀 🆎 ⏬ 🛡️
 rules:
+ - DOMAIN-SUFFIX,acl4.ssr,DIRECT
+ - DOMAIN-SUFFIX,ip6-localhost,DIRECT
+ - DOMAIN-SUFFIX,ip6-loopback,DIRECT
  - DOMAIN-SUFFIX,local,DIRECT
- - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
+ - DOMAIN-SUFFIX,localhost,DIRECT
  - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
- - IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
- - IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
  - IP-CIDR,100.64.0.0/10,DIRECT,no-resolve
+ - IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
+ - IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
+ - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
+ - IP-CIDR,198.18.0.0/16,DIRECT,no-resolve
  - IP-CIDR6,::1/128,DIRECT,no-resolve
  - IP-CIDR6,fc00::/7,DIRECT,no-resolve
  - IP-CIDR6,fe80::/10,DIRECT,no-resolve
  - IP-CIDR6,fd00::/8,DIRECT,no-resolve
- - DOMAIN,app.adjust.com,DIRECT
- - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
+ - DOMAIN,router.asus.com,DIRECT
+ - DOMAIN-SUFFIX,hiwifi.com,DIRECT
+ - DOMAIN-SUFFIX,leike.cc,DIRECT
+ - DOMAIN-SUFFIX,miwifi.com,DIRECT
+ - DOMAIN-SUFFIX,my.router,DIRECT
+ - DOMAIN-SUFFIX,p.to,DIRECT
+ - DOMAIN-SUFFIX,peiluyou.com,DIRECT
+ - DOMAIN-SUFFIX,phicomm.me,DIRECT
+ - DOMAIN-SUFFIX,routerlogin.com,DIRECT
+ - DOMAIN-SUFFIX,tendawifi.com,DIRECT
+ - DOMAIN-SUFFIX,zte.home,DIRECT
+ - DOMAIN-SUFFIX,ol.epicgames.com,DIRECT
+ - DOMAIN-SUFFIX,dizhensubao.getui.com,DIRECT
  - DOMAIN,dl.google.com,DIRECT
- - DOMAIN,mtalk.google.com,DIRECT
+ - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
+ - DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net,DIRECT
+ - DOMAIN,origin-a.akamaihd.net,DIRECT
+ - DOMAIN,fairplay.l.qq.com,DIRECT
  - DOMAIN,livew.l.qq.com,DIRECT
  - DOMAIN,vd.l.qq.com,DIRECT
  - DOMAIN,analytics.strava.com,DIRECT
  - DOMAIN,msg.umeng.com,DIRECT
  - DOMAIN,msg.umengcloud.com,DIRECT
- - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🕶️ Google Play
- - DOMAIN-SUFFIX,services.googleapis.cn,🕶️ Google Play
- - IP-CIDR,120.232.181.162/32,🕶️ Google Play,no-resolve
- - IP-CIDR,120.241.147.226/32,🕶️ Google Play,no-resolve
- - IP-CIDR,120.253.253.226/32,🕶️ Google Play,no-resolve
- - IP-CIDR,120.253.255.162/32,🕶️ Google Play,no-resolve
- - IP-CIDR,120.253.255.34/32,🕶️ Google Play,no-resolve
- - IP-CIDR,120.253.255.98/32,🕶️ Google Play,no-resolve
- - IP-CIDR,180.163.150.162/32,🕶️ Google Play,no-resolve
- - IP-CIDR,180.163.150.34/32,🕶️ Google Play,no-resolve
- - IP-CIDR,180.163.151.162/32,🕶️ Google Play,no-resolve
- - IP-CIDR,180.163.151.34/32,🕶️ Google Play,no-resolve
- - IP-CIDR,203.208.39.0/24,🕶️ Google Play,no-resolve
- - IP-CIDR,203.208.40.0/24,🕶️ Google Play,no-resolve
- - IP-CIDR,203.208.41.0/24,🕶️ Google Play,no-resolve
- - IP-CIDR,203.208.43.0/24,🕶️ Google Play,no-resolve
- - IP-CIDR,203.208.50.0/24,🕶️ Google Play,no-resolve
- - IP-CIDR,220.181.174.162/32,🕶️ Google Play,no-resolve
- - IP-CIDR,220.181.174.226/32,🕶️ Google Play,no-resolve
- - IP-CIDR,220.181.174.34/32,🕶️ Google Play,no-resolve
- - DOMAIN,lens.l.google.com,📞 Google Voice
- - PROCESS-NAME,OneDrive,Ⓜ️ 微软云盘
- - PROCESS-NAME,OneDriveUpdater,Ⓜ️ 微软云盘
- - DOMAIN-KEYWORD,1drv,Ⓜ️ 微软云盘
- - DOMAIN-KEYWORD,onedrive,Ⓜ️ 微软云盘
- - DOMAIN-KEYWORD,skydrive,Ⓜ️ 微软云盘
- - DOMAIN-SUFFIX,livefilestore.com,Ⓜ️ 微软云盘
- - DOMAIN-SUFFIX,oneclient.sfx.ms,Ⓜ️ 微软云盘
- - DOMAIN-SUFFIX,onedrive.com,Ⓜ️ 微软云盘
- - DOMAIN-SUFFIX,onedrive.live.com,Ⓜ️ 微软云盘
- - DOMAIN-SUFFIX,photos.live.com,Ⓜ️ 微软云盘
- - DOMAIN-SUFFIX,sharepoint.com,Ⓜ️ 微软云盘
- - DOMAIN-SUFFIX,sharepointonline.com,Ⓜ️ 微软云盘
- - DOMAIN-SUFFIX,skydrive.wns.windows.com,Ⓜ️ 微软云盘
- - DOMAIN-SUFFIX,spoprod-a.akamaihd.net,Ⓜ️ 微软云盘
- - DOMAIN-SUFFIX,storage.live.com,Ⓜ️ 微软云盘
- - DOMAIN-SUFFIX,storage.msn.com,Ⓜ️ 微软云盘
- - DOMAIN-KEYWORD,1drv,Ⓜ️ 微软服务
- - DOMAIN-KEYWORD,microsoft,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,aadrm.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,acompli.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,acompli.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,aka.ms,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,akadns.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,aspnetcdn.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,assets-yammer.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,azure.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,azure.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,azureedge.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,azurerms.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,bing.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,cloudapp.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,cloudappsecurity.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,edgesuite.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,gfx.ms,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,hotmail.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,live.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,live.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,lync.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,msappproxy.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,msauth.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,msauthimages.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,msecnd.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,msedge.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,msft.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,msftauth.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,msftauthimages.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,msftidentity.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,msidentity.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,msn.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,msocdn.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,msocsp.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,mstea.ms,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,o365weve.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,oaspapps.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,office.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,office.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,office365.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,officeppe.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,omniroot.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,onedrive.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,onenote.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,onenote.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,onestore.ms,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,outlook.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,outlookmobile.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,phonefactor.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,public-trust.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,sfbassets.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,sfx.ms,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,sharepoint.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,sharepointonline.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,skype.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,skypeassets.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,skypeforbusiness.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,staffhub.ms,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,svc.ms,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,sway-cdn.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,sway-extensions.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,sway.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,trafficmanager.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,uservoice.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,virtualearth.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,visualstudio.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,windows-ppe.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,windows.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,windows.net,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,windowsazure.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,windowsupdate.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,wunderlist.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,yammer.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,yammerusercontent.com,Ⓜ️ 微软服务
+ - DOMAIN,tracking.miui.com,DIRECT
+ - DOMAIN,app.adjust.com,DIRECT
+ - DOMAIN,bdtj.tagtic.cn,DIRECT
  - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
  - DOMAIN-KEYWORD,admaster,🛑 全球拦截
  - DOMAIN-KEYWORD,adsage,🛑 全球拦截
@@ -1085,53 +961,57 @@ rules:
  - DOMAIN-SUFFIX,go.10086.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,hivedata.cc,🛑 全球拦截
  - DOMAIN-SUFFIX,navi.gd.chinamobile.com,🛑 全球拦截
+ - DOMAIN,googleapis.cn,🍃 净化秘术
+ - DOMAIN,googleapis.com,🍃 净化秘术
+ - DOMAIN,gstatic.com,🍃 净化秘术
+ - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🕶️ Google Play
+ - DOMAIN-SUFFIX,services.googleapis.cn,🕶️ Google Play
+ - IP-CIDR,120.232.181.162/32,🕶️ Google Play,no-resolve
+ - IP-CIDR,120.241.147.226/32,🕶️ Google Play,no-resolve
+ - IP-CIDR,120.253.253.226/32,🕶️ Google Play,no-resolve
+ - IP-CIDR,120.253.255.162/32,🕶️ Google Play,no-resolve
+ - IP-CIDR,120.253.255.34/32,🕶️ Google Play,no-resolve
+ - IP-CIDR,120.253.255.98/32,🕶️ Google Play,no-resolve
+ - IP-CIDR,180.163.150.162/32,🕶️ Google Play,no-resolve
+ - IP-CIDR,180.163.150.34/32,🕶️ Google Play,no-resolve
+ - IP-CIDR,180.163.151.162/32,🕶️ Google Play,no-resolve
+ - IP-CIDR,180.163.151.34/32,🕶️ Google Play,no-resolve
+ - IP-CIDR,203.208.39.0/24,🕶️ Google Play,no-resolve
+ - IP-CIDR,203.208.40.0/24,🕶️ Google Play,no-resolve
+ - IP-CIDR,203.208.41.0/24,🕶️ Google Play,no-resolve
+ - IP-CIDR,203.208.43.0/24,🕶️ Google Play,no-resolve
+ - IP-CIDR,203.208.50.0/24,🕶️ Google Play,no-resolve
+ - IP-CIDR,220.181.174.162/32,🕶️ Google Play,no-resolve
+ - IP-CIDR,220.181.174.226/32,🕶️ Google Play,no-resolve
+ - IP-CIDR,220.181.174.34/32,🕶️ Google Play,no-resolve
  - DOMAIN-KEYWORD,youtube,📹 YouTube
  - DOMAIN,yt3.ggpht.com,📹 YouTube
  - DOMAIN-SUFFIX,googlevideo.com,📹 YouTube
  - DOMAIN-SUFFIX,gvt2.com,📹 YouTube
  - DOMAIN-SUFFIX,youtu.be,📹 YouTube
  - DOMAIN-SUFFIX,youtube.com,📹 YouTube
- - DOMAIN,youtubei.googleapis.com,📹 YouTube
  - DOMAIN-SUFFIX,ytimg.com,📹 YouTube
+# - DOMAIN,youtubei.googleapis.com,📹 YouTube
 # - USER-AGENT,TikTok*,🎵 TikTok
- - DOMAIN-KEYWORD,-tiktokcdn-com,🎵 TikTok
+ - DOMAIN,p16-tiktokcdn-com.akamaized.net,🎵 TikTok
+ - DOMAIN-SUFFIX,amemv.com,🎵 TikTok
  - DOMAIN-SUFFIX,byteoversea.com,🎵 TikTok
  - DOMAIN-SUFFIX,ibytedtos.com,🎵 TikTok
+ - DOMAIN-SUFFIX,ibyteimg.com,🎵 TikTok
  - DOMAIN-SUFFIX,ipstatp.com,🎵 TikTok
  - DOMAIN-SUFFIX,muscdn.com,🎵 TikTok
  - DOMAIN-SUFFIX,musical.ly,🎵 TikTok
+ - DOMAIN-SUFFIX,sgpstatp.com,🎵 TikTok
+ - DOMAIN-SUFFIX,snssdk.com,🎵 TikTok
  - DOMAIN-SUFFIX,tik-tokapi.com,🎵 TikTok
  - DOMAIN-SUFFIX,tiktok.com,🎵 TikTok
  - DOMAIN-SUFFIX,tiktokcdn.com,🎵 TikTok
  - DOMAIN-SUFFIX,tiktokv.com,🎵 TikTok
-#  - DOMAIN,p16-tiktokcdn-com.akamaized.net,🎵 TikTok
-#  - DOMAIN-SUFFIX,byteoversea.com,🎵 TikTok
-#  - DOMAIN-SUFFIX,ibytedtos.com,🎵 TikTok
-#  - DOMAIN-SUFFIX,ibyteimg.com,🎵 TikTok
-#  - DOMAIN-SUFFIX,ipstatp.com,🎵 TikTok
-#  - DOMAIN-SUFFIX,muscdn.com,🎵 TikTok
-#  - DOMAIN-SUFFIX,musical.ly,🎵 TikTok
-#  - DOMAIN-SUFFIX,sgpstatp.com,🎵 TikTok
-#  - DOMAIN-SUFFIX,snssdk.com,🎵 TikTok
-#  - DOMAIN-SUFFIX,tik-tokapi.com,🎵 TikTok
-#  - DOMAIN-SUFFIX,tiktok.com,🎵 TikTok
-#  - DOMAIN-SUFFIX,tiktokcdn.com,🎵 TikTok
-#  - DOMAIN-SUFFIX,tiktokv.com,🎵 TikTok
-#  - DOMAIN-KEYWORD,-tiktokcdn-com,🎵 TikTok
-#  - DOMAIN-KEYWORD,musical.ly,🎵 TikTok
-#  - DOMAIN-KEYWORD,tiktok,🎵 TikTok
-#  - DOMAIN-KEYWORD,tiktokv,🎵 TikTok
- - DOMAIN-SUFFIX,pscp.tv,🌕 Twitter
- - DOMAIN-SUFFIX,periscope.tv,🌕 Twitter
- - DOMAIN-SUFFIX,t.co,🌕 Twitter
- - DOMAIN-SUFFIX,twimg.co,🌕 Twitter
- - DOMAIN-SUFFIX,twimg.com,🌕 Twitter
- - DOMAIN-SUFFIX,twimg.org,🌕 Twitter
- - DOMAIN-SUFFIX,twitpic.com,🌕 Twitter
- - DOMAIN-SUFFIX,twitter.com,🌕 Twitter
- - DOMAIN-SUFFIX,twitter.jp,🌕 Twitter
- - DOMAIN-SUFFIX,vine.co,🌕 Twitter
- - DOMAIN-KEYWORD,twitter,🌕 Twitter
+ - DOMAIN-KEYWORD,-tiktokcdn-com,🎵 TikTok
+ - DOMAIN-KEYWORD,musical.ly,🎵 TikTok
+ - DOMAIN-KEYWORD,tiktok,🎵 TikTok
+ - DOMAIN-KEYWORD,tiktokv,🎵 TikTok
+ - PROCESS-NAME,com.zhiliaoapp.musically,🎵 TikTok
  - DOMAIN-SUFFIX,cdninstagram.com,🌑 Facebook
  - DOMAIN-SUFFIX,fb.com,🌑 Facebook
  - DOMAIN-SUFFIX,fb.me,🌑 Facebook
@@ -1157,6 +1037,32 @@ rules:
  - IP-CIDR,54.173.34.141/32,🌑 Facebook
  - IP-CIDR,54.235.23.242/32,🌑 Facebook
  - IP-CIDR,169.45.248.118/32,🌑 Facebook
+ - DOMAIN-SUFFIX,pscp.tv,🌕 Twitter
+ - DOMAIN-SUFFIX,periscope.tv,🌕 Twitter
+ - DOMAIN-SUFFIX,t.co,🌕 Twitter
+ - DOMAIN-SUFFIX,twimg.co,🌕 Twitter
+ - DOMAIN-SUFFIX,twimg.com,🌕 Twitter
+ - DOMAIN-SUFFIX,twimg.org,🌕 Twitter
+ - DOMAIN-SUFFIX,twitpic.com,🌕 Twitter
+ - DOMAIN-SUFFIX,twitter.com,🌕 Twitter
+ - DOMAIN-SUFFIX,twitter.jp,🌕 Twitter
+ - DOMAIN-SUFFIX,vine.co,🌕 Twitter
+ - DOMAIN-KEYWORD,twitter,🌕 Twitter
+ - DOMAIN,lens.l.google.com,🌍 OnlyUS
+ - DOMAIN,pornemby.club,🌍 OnlyUS
+ - DOMAIN-KEYWORD,telegram,📲 Telegram
+ - DOMAIN-SUFFIX,t.me,📲 Telegram
+ - DOMAIN-SUFFIX,tdesktop.com,📲 Telegram
+ - DOMAIN-SUFFIX,telegra.ph,📲 Telegram
+ - DOMAIN-SUFFIX,telegram.me,📲 Telegram
+ - DOMAIN-SUFFIX,telegram.org,📲 Telegram
+ - DOMAIN-SUFFIX,telesco.pe,📲 Telegram
+ - IP-CIDR,91.108.0.0/16,📲 Telegram,no-resolve
+ - IP-CIDR,109.239.140.0/24,📲 Telegram,no-resolve
+ - IP-CIDR,149.154.160.0/20,📲 Telegram,no-resolve
+ - IP-CIDR6,2001:67c:4e8::/48,📲 Telegram,no-resolve
+ - IP-CIDR6,2001:b28:f23d::/48,📲 Telegram,no-resolve
+ - IP-CIDR6,2001:b28:f23f::/48,📲 Telegram,no-resolve
  - DOMAIN-SUFFIX,netflix.com,🎥 NETFLIX
  - DOMAIN-SUFFIX,netflix.net,🎥 NETFLIX
  - DOMAIN-SUFFIX,nflxext.com,🎥 NETFLIX
@@ -1183,23 +1089,101 @@ rules:
  - IP-CIDR,192.173.64.0/18,🎥 NETFLIX,no-resolve
  - IP-CIDR,198.38.96.0/19,🎥 NETFLIX,no-resolve
  - IP-CIDR,198.45.48.0/20,🎥 NETFLIX,no-resolve
+ - PROCESS-NAME,OneDrive,Ⓜ️ 微软云盘
+ - PROCESS-NAME,OneDriveUpdater,Ⓜ️ 微软云盘
+ - DOMAIN-KEYWORD,1drv,Ⓜ️ 微软云盘
+ - DOMAIN-KEYWORD,onedrive,Ⓜ️ 微软云盘
+ - DOMAIN-KEYWORD,skydrive,Ⓜ️ 微软云盘
+ - DOMAIN-SUFFIX,livefilestore.com,Ⓜ️ 微软云盘
+ - DOMAIN-SUFFIX,oneclient.sfx.ms,Ⓜ️ 微软云盘
+ - DOMAIN-SUFFIX,onedrive.com,Ⓜ️ 微软云盘
+ - DOMAIN-SUFFIX,onedrive.live.com,Ⓜ️ 微软云盘
+ - DOMAIN-SUFFIX,photos.live.com,Ⓜ️ 微软云盘
+ - DOMAIN-SUFFIX,sharepoint.com,Ⓜ️ 微软云盘
+ - DOMAIN-SUFFIX,sharepointonline.com,Ⓜ️ 微软云盘
+ - DOMAIN-SUFFIX,skydrive.wns.windows.com,Ⓜ️ 微软云盘
+ - DOMAIN-SUFFIX,spoprod-a.akamaihd.net,Ⓜ️ 微软云盘
+ - DOMAIN-SUFFIX,storage.live.com,Ⓜ️ 微软云盘
+ - DOMAIN-SUFFIX,storage.msn.com,Ⓜ️ 微软云盘
+ - DOMAIN-KEYWORD,1drv,Ⓜ️ 微软服务
+ - DOMAIN-KEYWORD,microsoft,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,aadrm.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,acompli.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,acompli.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,aka.ms,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,akadns.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,aspnetcdn.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,assets-yammer.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,azure.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,azure.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,azureedge.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,azurerms.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,bing.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,cloudapp.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,cloudappsecurity.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,edgesuite.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,gfx.ms,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,hotmail.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,live.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,live.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,lync.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msappproxy.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msauth.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msauthimages.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msecnd.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msedge.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msft.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msftauth.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msftauthimages.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msftidentity.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msidentity.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msn.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msocdn.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msocsp.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,mstea.ms,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,o365weve.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,oaspapps.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,office.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,office.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,office365.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,officeppe.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,omniroot.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,onedrive.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,onenote.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,onenote.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,onestore.ms,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,outlook.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,outlookmobile.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,phonefactor.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,public-trust.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,sfbassets.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,sfx.ms,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,sharepoint.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,sharepointonline.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,skype.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,skypeassets.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,skypeforbusiness.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,staffhub.ms,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,svc.ms,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,sway-cdn.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,sway-extensions.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,sway.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,trafficmanager.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,uservoice.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,virtualearth.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,visualstudio.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,windows-ppe.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,windows.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,windows.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,windowsazure.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,windowsupdate.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,wunderlist.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,yammer.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,yammerusercontent.com,Ⓜ️ 微软服务
  - DOMAIN-SUFFIX,bahamut.com.tw,📺 巴哈姆特
  - DOMAIN-SUFFIX,gamer.com.tw,📺 巴哈姆特
  - DOMAIN,gamer-cds.cdn.hinet.net,📺 巴哈姆特
  - DOMAIN,gamer2-cds.cdn.hinet.net,📺 巴哈姆特
- - DOMAIN-KEYWORD,telegram,📲 Telegram
- - DOMAIN-SUFFIX,t.me,📲 Telegram
- - DOMAIN-SUFFIX,tdesktop.com,📲 Telegram
- - DOMAIN-SUFFIX,telegra.ph,📲 Telegram
- - DOMAIN-SUFFIX,telegram.me,📲 Telegram
- - DOMAIN-SUFFIX,telegram.org,📲 Telegram
- - DOMAIN-SUFFIX,telesco.pe,📲 Telegram
- - IP-CIDR,91.108.0.0/16,📲 Telegram,no-resolve
- - IP-CIDR,109.239.140.0/24,📲 Telegram,no-resolve
- - IP-CIDR,149.154.160.0/20,📲 Telegram,no-resolve
- - IP-CIDR6,2001:67c:4e8::/48,📲 Telegram,no-resolve
- - IP-CIDR6,2001:b28:f23d::/48,📲 Telegram,no-resolve
- - IP-CIDR6,2001:b28:f23f::/48,📲 Telegram,no-resolve
  - DOMAIN-SUFFIX,deezer.com,🌍 国外媒体
  - DOMAIN-SUFFIX,dzcdn.net,🌍 国外媒体
  - DOMAIN-SUFFIX,kkbox.com,🌍 国外媒体
