@@ -308,6 +308,7 @@ proxy-groups:
     type: select
     proxies:
       - 🇺🇸 洛杉矶 松鼠 🚀 ⏬ 🛡️
+      - 🇺🇸 美国 二次元 🚀
   - name: 🎥 奈飞节点
     type: select
     proxies:
