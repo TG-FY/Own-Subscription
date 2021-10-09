@@ -3,46 +3,83 @@ socks-port: 7891
 allow-lan: true
 mode: Rule
 log-level: info
-external-controller: :9090
+external-controller: 9090
 proxies:
-  - {name: 🇭🇰 香港 SuperSTAR, server: superstar.hk.01.free.srayx.xyz, port: 23000, type: vmess, uuid: c101a55d-e437-4d66-b77f-0c2f4f715d70, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: superstar.hk.01.free.srayx.xyz}}
-  - {name: 🇺🇸 美国 SuperSTAR, server: superstar.us.03.srayx.xyz, port: 39403, type: vmess, uuid: c101a55d-e437-4d66-b77f-0c2f4f715d70, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡 AWS, server: global-transit-01-hk.pucdn.me, port: 31122, type: vmess, uuid: 617177bc-1cf3-36cc-9ffc-f563b0ffce67, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L2-aws-sg-01.pucdn.me}}
-  - {name: 🇹🇼 台湾 IEPL, server: tw11.clashcloud.tech, port: 37387, type: ssr, cipher: rc4-md5, password: qbpJjZ, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
-  - {name: 🇹🇼 台湾 IPLC, server: tw01.clashcloud.tech, port: 37387, type: ssr, cipher: rc4-md5, password: qbpJjZ, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
-  - {name: 🇹🇼 台湾 优质, server: global-transit-01-hk.pucdn.me, port: 21107, type: vmess, uuid: 617177bc-1cf3-36cc-9ffc-f563b0ffce67, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L2-tw-07.pucdn.me}}
-  - {name: 🇯🇵 日本 优质, server: global-transit-01-hk.pucdn.me, port: 32302, type: vmess, uuid: 617177bc-1cf3-36cc-9ffc-f563b0ffce67, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L2-aws-jp-02.pucdn.me}}
-  - {name: 🇰🇷 韩国 优质, server: global-transit-01-hk.pucdn.me, port: 31101, type: vmess, uuid: 617177bc-1cf3-36cc-9ffc-f563b0ffce67, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l2-kr-01.pucdn.me}}
-  - {name: 🇦🇺 澳大利亚 优质, server: l2-au-01.pucdn.me, port: 10080, type: vmess, uuid: 617177bc-1cf3-36cc-9ffc-f563b0ffce67, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /pucloud, ws-headers: {Host: l2-au-01.pucdn.me}}
-  - {name: 🇹🇼 台湾 T加速, server: aga.ddns.tjiasu.xyz, port: 443, type: vmess, uuid: 2b142604-83c1-424f-9a25-5f877c8e8450, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /api/tw, ws-headers: {Host: twww.ddns.tjiasu.xyz}}
-  - {name: 🇻🇳 越南 T加速, server: aga.ddns.tjiasu.xyz, port: 443, type: vmess, uuid: 2b142604-83c1-424f-9a25-5f877c8e8450, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /api/vn, ws-headers: {Host: vn.ddns.tjiasu.xyz}}
-  - {name: 🇭🇰 香港 G EDU学术引擎, server: 119.28.84.227, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8148316515.microsoft.com}}
-  - {name: 🇭🇰 香港 O NF EDU学术引擎, server: 149.129.80.211, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8148316515.microsoft.com}}
-  - {name: 🇯🇵 日本 长野 EDU学术引擎, server: 121.50.43.30, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8148316515.microsoft.com}}
-  - {name: 🇺🇲 美国 洛杉矶 EDU学术引擎, server: 198.148.122.145, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 8148316515.microsoft.com}}
-  - {name: 🇰🇷 韩国 碧老师的甲骨文, server: kr.bihai.ga, port: 443, type: vmess, uuid: 4e5cf028-0925-7c20-54a3-7a2114c0b843, alterId: 0, cipher: none, tls: true, network: ws, ws-path: /vqpvvws, ws-headers: {Host: kr.bihai.ga}}
-  - {name: 🇺🇸 美国 我自己的Heroku, server: 104.19.22.122, port: 443, type: vmess, uuid: ad806487-2d26-4636-98b6-ab85cc8521f7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: holy-morning-543f.3238hee.workers.dev}}
+  - {name: 🇭🇰 香港 EDU学术引擎 ⚡️ ⏬ 🛡️, server: 47.242.170.122, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 3876234956.microsoft.com}}
+  - {name: 🇸🇬 新加坡 EDU学术引擎 🚀 ⏬ 🛡️, server: 13.229.135.145, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 3876234956.microsoft.com}}
+  - {name: 🇭🇰 香港 吱吱自行车 🚀 🆎 ⏬, server: hkf3.dior.bar, port: 81, type: vmess, uuid: 09ac7c45-0cf2-442a-8323-fc911e641ec7, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}}
+  - {name: 🇭🇰 香港 静安 🚀 ⏬, server: 121.12.76.86, port: 556, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 177563:TKzzJA, obfs-param: cfe16177563.www.gov.hk}
+  - {name: 🇨🇦 安大略 菲菲 🚀 🆎 ⏬ 🛡️, server: 104.19.57.187, port: 443, type: vmess, uuid: 3c312cd8-1aad-4e99-877c-613b6cd0032e, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /c0eb2/, ws-headers: {Host: ff3.wuxian3.workers.dev}}
+  - {name: 🇺🇸 洛杉矶 松鼠 🚀 ⏬ 🛡️, server: 173.82.160.74, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: IaNR0KqB8uSTlE736e2pFyCDaXwOODlCeA4nx3Yc8Azy9DgpZSaxZS33CRFYj5}
+  - {name: 🇹🇼 台湾1 KuLi云 🚀, server: tw02.kuli888.xyz, port: 36368,type: vmess, uuid: 17fe290e-aa74-357b-8eeb-6d9e8a0838a2, alterId: 1, cipher: auto, udp: true, network: ws, ws-path: /v2ray, ws-headers: {"Host":"www.bing.com"}}
+  - {name: 🇹🇼 台湾2 KuLi云 🚀, server: tw.kuli888.xyz, port: 35358, type: vmess, uuid: 17fe290e-aa74-357b-8eeb-6d9e8a0838a2, alterId: 1, cipher: auto, udp: true, network: ws, ws-path: /v2ray, ws-headers: {"Host":"www.bing.com"}}
+  - {name: 🇯🇵 东京 碧老师的甲骨文 🆎 ⏬ 🛡️, server: 104.19.30.205, port: 443, type: vmess, uuid: 5d0c8db8-0d4f-46c4-88e2-49c3968ea81c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /vm02, ws-headers: {Host: armjp1.bihai.tk}}
+  -
+    name: '🇰🇷 首尔 二次元 🚀'
+    type: vmess
+    server: gykr.ecyjc.xyz
+    port: 443
+    uuid: c4831574-6b86-332e-a229-4d47812b0bb4
+    alterId: 2
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /xxx
+    ws-headers:
+      Host: gykr.ecyjc.xyz
+    tls: true
+  -
+    name: '🇺🇸 美国 二次元 🚀'
+    type: vmess
+    server: gyus.ecyjc.xyz
+    port: 443
+    uuid: c4831574-6b86-332e-a229-4d47812b0bb4
+    alterId: 2
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /xxx
+    ws-headers:
+      Host: gyus.ecyjc.xyz
+    tls: true
+  -
+    name: '🇬🇧 伦敦 二次元 🚀'
+    type: vmess
+    server: gyuk.ecyjc.xyz
+    port: 443
+    uuid: c4831574-6b86-332e-a229-4d47812b0bb4
+    alterId: 2
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /xxx
+    ws-headers:
+      Host: gyuk.ecyjc.xyz
+    tls: true
+  - {name: 🇸🇬 新加坡 flyXXL 🚀 ⏬ 🛡️, server: sg10.holiganfan.com, port: 10088, type: trojan, password: f3619029-089e-4b52-9e10-fb74c074bf90, sni: sg10.holiganfan.com, skip-cert-verify: false}
+  - {name: 🇯🇵 东京 flyXXL 🚀 ⏬ 🛡️, server: jp05.holiganfan.com, port: 10088, type: trojan, password: f3619029-089e-4b52-9e10-fb74c074bf90, sni: jp05.holiganfan.com, skip-cert-verify: false}
+  - {name: 🇷🇺 莫斯科 狗子快跑 ⏬, server: dog.newhost.cc, port: 10692, type: ssr, cipher: aes-256-cfb, password: TuXJdt, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 17613:4IhZWw, obfs-param: .microsoft.com}
+  - {name: 🇮🇳 孟买 狗子快跑 ⏬, server: cu.newhost.cc, port: 10693, type: ssr, cipher: aes-256-cfb, password: TuXJdt, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 17613:4IhZWw, obfs-param: .microsoft.com}
 proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - 🇭🇰 香港 SuperSTAR
-      - 🇺🇸 美国 SuperSTAR
-      - 🇸🇬 新加坡 AWS
-      - 🇹🇼 台湾 IEPL
-      - 🇹🇼 台湾 IPLC
-      - 🇹🇼 台湾 优质
-      - 🇯🇵 日本 优质
-      - 🇰🇷 韩国 优质
-      - 🇦🇺 澳大利亚 优质
-      - 🇹🇼 台湾 T加速
-      - 🇻🇳 越南 T加速
-      - 🇭🇰 香港 G EDU学术引擎
-      - 🇭🇰 香港 O NF EDU学术引擎
-      - 🇯🇵 日本 长野 EDU学术引擎
-      - 🇺🇲 美国 洛杉矶 EDU学术引擎
-      - 🇰🇷 韩国 碧老师的甲骨文
-      - 🇺🇸 美国 我自己的Heroku
+      - 🇭🇰 香港 EDU学术引擎 ⚡️ ⏬ 🛡️
+      - 🇸🇬 新加坡 EDU学术引擎 🚀 ⏬ 🛡️
+      - 🇭🇰 香港 吱吱自行车 🚀 🆎 ⏬
+      - 🇭🇰 香港 静安 🚀 ⏬
+      - 🇨🇦 安大略 菲菲 🚀 🆎 ⏬ 🛡️
+      - 🇺🇸 洛杉矶 松鼠 🚀 ⏬ 🛡️
+      - 🇹🇼 台湾1 KuLi云 🚀
+      - 🇹🇼 台湾2 KuLi云 🚀
+      - 🇯🇵 东京 碧老师的甲骨文 🆎 ⏬ 🛡️
+      - 🇰🇷 首尔 二次元 🚀
+      - 🇺🇸 美国 二次元 🚀
+      - 🇬🇧 伦敦 二次元 🚀
+      - 🇸🇬 新加坡 flyXXL 🚀 ⏬ 🛡️
+      - 🇯🇵 东京 flyXXL 🚀 ⏬ 🛡️
+      - 🇷🇺 莫斯科 狗子快跑 ⏬
+      - 🇮🇳 孟买 狗子快跑 ⏬
       - DIRECT
   - name: 🚀 节点选择
     type: select
