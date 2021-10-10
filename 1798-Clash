@@ -1174,26 +1174,36 @@ rules:
  - DOMAIN-SUFFIX,youtube.com,📹 YouTube
  - DOMAIN-SUFFIX,ytimg.com,📹 YouTube
 # - DOMAIN,youtubei.googleapis.com,📹 YouTube
-# - USER-AGENT,TikTok*,🎵 TikTok
- - DOMAIN,p16-tiktokcdn-com.akamaized.net,🎵 TikTok
- - DOMAIN-SUFFIX,amemv.com,🎵 TikTok
+ - DOMAIN-KEYWORD,-tiktokcdn-com,🎵 TikTok
  - DOMAIN-SUFFIX,byteoversea.com,🎵 TikTok
  - DOMAIN-SUFFIX,ibytedtos.com,🎵 TikTok
- - DOMAIN-SUFFIX,ibyteimg.com,🎵 TikTok
  - DOMAIN-SUFFIX,ipstatp.com,🎵 TikTok
  - DOMAIN-SUFFIX,muscdn.com,🎵 TikTok
  - DOMAIN-SUFFIX,musical.ly,🎵 TikTok
- - DOMAIN-SUFFIX,sgpstatp.com,🎵 TikTok
- - DOMAIN-SUFFIX,snssdk.com,🎵 TikTok
  - DOMAIN-SUFFIX,tik-tokapi.com,🎵 TikTok
  - DOMAIN-SUFFIX,tiktok.com,🎵 TikTok
  - DOMAIN-SUFFIX,tiktokcdn.com,🎵 TikTok
  - DOMAIN-SUFFIX,tiktokv.com,🎵 TikTok
- - DOMAIN-KEYWORD,-tiktokcdn-com,🎵 TikTok
- - DOMAIN-KEYWORD,musical.ly,🎵 TikTok
- - DOMAIN-KEYWORD,tiktok,🎵 TikTok
- - DOMAIN-KEYWORD,tiktokv,🎵 TikTok
- - PROCESS-NAME,com.zhiliaoapp.musically,🎵 TikTok
+# - USER-AGENT,TikTok*,🎵 TikTok
+# - DOMAIN,p16-tiktokcdn-com.akamaized.net,🎵 TikTok
+# - DOMAIN-SUFFIX,amemv.com,🎵 TikTok
+# - DOMAIN-SUFFIX,byteoversea.com,🎵 TikTok
+# - DOMAIN-SUFFIX,ibytedtos.com,🎵 TikTok
+# - DOMAIN-SUFFIX,ibyteimg.com,🎵 TikTok
+# - DOMAIN-SUFFIX,ipstatp.com,🎵 TikTok
+# - DOMAIN-SUFFIX,muscdn.com,🎵 TikTok
+# - DOMAIN-SUFFIX,musical.ly,🎵 TikTok
+# - DOMAIN-SUFFIX,sgpstatp.com,🎵 TikTok
+# - DOMAIN-SUFFIX,snssdk.com,🎵 TikTok
+# - DOMAIN-SUFFIX,tik-tokapi.com,🎵 TikTok
+# - DOMAIN-SUFFIX,tiktok.com,🎵 TikTok
+# - DOMAIN-SUFFIX,tiktokcdn.com,🎵 TikTok
+# - DOMAIN-SUFFIX,tiktokv.com,🎵 TikTok
+# - DOMAIN-KEYWORD,-tiktokcdn-com,🎵 TikTok
+# - DOMAIN-KEYWORD,musical.ly,🎵 TikTok
+# - DOMAIN-KEYWORD,tiktok,🎵 TikTok
+# - DOMAIN-KEYWORD,tiktokv,🎵 TikTok
+# - PROCESS-NAME,com.zhiliaoapp.musically,🎵 TikTok
  - DOMAIN-SUFFIX,cdninstagram.com,🌑 Facebook
  - DOMAIN-SUFFIX,fb.com,🌑 Facebook
  - DOMAIN-SUFFIX,fb.me,🌑 Facebook
