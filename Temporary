@@ -1,9 +1,17 @@
-ss://YWVzLTEyOC1jZmI6UWF6RWRjVGdiMTU5QCQq@14.29.124.174:21701#%F0%9F%87%B9%F0%9F%87%BC%E5%8F%B0%E6%9C%8D1%E2%9E%A4Hinet
-ss://YWVzLTEyOC1jZmI6UWF6RWRjVGdiMTU5QCQq@14.29.124.174:20700#%F0%9F%87%B9%F0%9F%87%BC%E5%8F%B0%E6%9C%8D2%E2%9E%A4Hinet
-ss://YWVzLTEyOC1jZmI6UWF6RWRjVGdiMTU5QCQq@14.29.124.174:21570#%F0%9F%87%B9%F0%9F%87%BC%E5%8F%B0%E6%9C%8D3%E2%9E%A4Hinet
-ss://YWVzLTEyOC1jZmI6UWF6RWRjVGdiMTU5QCQq@14.29.124.174:21647#%F0%9F%87%B9%F0%9F%87%BC%E5%8F%B0%E6%9C%8D4%E2%9E%A4Hinet
-ss://YWVzLTEyOC1jZmI6UWF6RWRjVGdiMTU5QCQq@1.14.165.96:40236#%F0%9F%87%B9%F0%9F%87%BC%E5%8F%B0%E6%9C%8D5%E2%9E%A4Hinet
-ss://YWVzLTEyOC1jZmI6UWF6RWRjVGdiMTU5QCQq@159.75.50.77:40059#%F0%9F%87%B9%F0%9F%87%BC%E5%8F%B0%E6%9C%8D6%E2%9E%A4Hinet
-ss://YWVzLTEyOC1jZmI6UWF6RWRjVGdiMTU5QCQq@106.52.33.67:40353#%F0%9F%87%B9%F0%9F%87%BC%E5%8F%B0%E6%9C%8D7%E2%9E%A4Hinet
-ss://YWVzLTEyOC1jZmI6UWF6RWRjVGdiMTU5QCQq@180.163.62.91:20392#%F0%9F%87%B9%F0%9F%87%BC%E5%8F%B0%E6%9C%8D8%E2%9E%A4Hinet
-ss://YWVzLTEyOC1jZmI6UWF6RWRjVGdiMTU5QCQq@42.193.120.172:40500#%F0%9F%87%B9%F0%9F%87%BC%E5%8F%B0%E6%9C%8D9%E2%9E%A4Hinet
+proxies:
+  - {name: 香港, server: dg-hk-node01.linkthink.app, port: 10540, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 228209:jSzLliE2v8, obfs-param: ajax.microsoft.com}
+  - {name: 香港 2, server: dg-hk-node02.linkthink.app, port: 12358, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 228209:jSzLliE2v8, obfs-param: ajax.microsoft.com}
+  - {name: 香港 3, server: 42.157.196.104, port: 20466, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 228209:jSzLliE2v8, obfs-param: ajax.microsoft.com}
+  - {name: 香港 4, server: dg-hk-node01.linkthink.app, port: 10374, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 228208:dhxZP18kDJ, obfs-param: ajax.microsoft.com}
+  - {name: 香港 5, server: dg-hk-node02.linkthink.app, port: 12804, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 228208:dhxZP18kDJ, obfs-param: ajax.microsoft.com}
+  - {name: 香港 6, server: 42.157.196.104, port: 20668, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 228208:dhxZP18kDJ, obfs-param: ajax.microsoft.com}
+  - {name: 香港 7, server: dg-hk-node01.linkthink.app, port: 10462, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 228207:ZRWN6okXjx, obfs-param: ajax.microsoft.com}
+  - {name: 香港 8, server: dg-hk-node02.linkthink.app, port: 12227, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 228207:ZRWN6okXjx, obfs-param: ajax.microsoft.com}
+  - {name: 香港 9, server: 42.157.196.104, port: 20910, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 228207:ZRWN6okXjx, obfs-param: ajax.microsoft.com}
+  - {name: 香港 10, server: dg-hk-node01.linkthink.app, port: 10304, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 228203:CdkxpG7O4m, obfs-param: ajax.microsoft.com}
+  - {name: 香港 11, server: dg-hk-node02.linkthink.app, port: 12070, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 228203:CdkxpG7O4m, obfs-param: ajax.microsoft.com}
+  - {name: 香港 12, server: 42.157.196.104, port: 20070, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 228203:CdkxpG7O4m, obfs-param: ajax.microsoft.com}
+  - {name: 香港 13, server: dg-hk-node01.linkthink.app, port: 10317, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 228199:O5RY7wKBeV, obfs-param: ajax.microsoft.com}
+  - {name: 香港 14, server: dg-hk-node02.linkthink.app, port: 12241, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 228199:O5RY7wKBeV, obfs-param: ajax.microsoft.com}
+  - {name: 香港 15, server: 42.157.196.104, port: 20616, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 228199:O5RY7wKBeV, obfs-param: ajax.microsoft.com}
+
