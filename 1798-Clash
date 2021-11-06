@@ -36,7 +36,7 @@ proxies:
   - {name: 🇹🇼 台湾2 KuLi云 🚀, server: tw.kuli888.xyz, port: 35358, type: vmess, uuid: 17fe290e-aa74-357b-8eeb-6d9e8a0838a2, alterId: 1, cipher: auto, udp: true, network: ws, ws-path: /v2ray, ws-headers: {"Host":"www.bing.com"}}
   - {name: 🇺🇸 美国 碧老师的GAI 🚀 🆎 ⏬ 🛡️, server: tripod.bihai.ga, port: 443, type: vmess, uuid: 5d0c8db8-0d4f-46c4-88e2-49c3968ea81c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /vm02, ws-headers: {Host: tripod.bihai.ga}}
   - {name: 🇯🇵 东京 碧老师的甲骨文 🆎 ⏬ 🛡️, server: 104.19.30.205, port: 443, type: vmess, uuid: 5d0c8db8-0d4f-46c4-88e2-49c3968ea81c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /vm02, ws-headers: {Host: armjp1.bihai.tk}}
-  - name: 🇭🇰 香港 Https ⚡️ 🚀 🆎 ⏬ 🛡️
+  - name: 🇭🇰 香港 Https 🚀 🆎 ⏬ 🛡️
     server: cm-hk.stunnel.vip
     port: 4800
     type: http
@@ -44,7 +44,7 @@ proxies:
     password: 33a6e7b02dcc6f79ffae792369085774
     tls: true
     skip-cert-verify: true
-  - name: 🇹🇼 台北 Https ⚡️ 🚀 ⏬ 🛡️
+  - name: 🇹🇼 台北 Https 🚀 ⏬ 🛡️
     server: tw.gotochinatown.net
     port: 10881
     type: http
@@ -116,8 +116,8 @@ proxy-groups:
       - 🇹🇼 台湾2 KuLi云 🚀
       - 🇺🇸 美国 碧老师的GAI 🚀 🆎 ⏬ 🛡️
       - 🇯🇵 东京 碧老师的甲骨文 🆎 ⏬ 🛡️
-      - 🇭🇰 香港 Https ⚡️ 🚀 🆎 ⏬ 🛡️
-      - 🇹🇼 台北 Https ⚡️ 🚀 ⏬ 🛡️
+      - 🇭🇰 香港 Https 🚀 🆎 ⏬ 🛡️
+      - 🇹🇼 台北 Https 🚀 ⏬ 🛡️
       - 🇷🇺 圣彼得堡 Https 🚀 ⏬ 🛡️
       - 🇫🇷 巴黎 Https 🚀 ⏬ 🛡️
       - 🇩🇪 慕尼黑 Https 🚀 ⏬ 🛡️
@@ -141,8 +141,8 @@ proxy-groups:
       - 🇹🇼 台湾2 KuLi云 🚀
       - 🇺🇸 美国 碧老师的GAI 🚀 🆎 ⏬ 🛡️
       - 🇯🇵 东京 碧老师的甲骨文 🆎 ⏬ 🛡️
-      - 🇭🇰 香港 Https ⚡️ 🚀 🆎 ⏬ 🛡️
-      - 🇹🇼 台北 Https ⚡️ 🚀 ⏬ 🛡️
+      - 🇭🇰 香港 Https 🚀 🆎 ⏬ 🛡️
+      - 🇹🇼 台北 Https 🚀 ⏬ 🛡️
       - 🇷🇺 圣彼得堡 Https 🚀 ⏬ 🛡️
       - 🇫🇷 巴黎 Https 🚀 ⏬ 🛡️
       - 🇩🇪 慕尼黑 Https 🚀 ⏬ 🛡️
@@ -158,7 +158,7 @@ proxy-groups:
       - DIRECT
       - 🇹🇼 台湾节点
       - 🇺🇲 美国节点
-      - 🇭🇰 香港 Https ⚡️ 🚀 🆎 ⏬ 🛡️
+      - 🇭🇰 香港 Https 🚀 🆎 ⏬ 🛡️
       - 🇭🇰 香港 吱吱自行车 🚀 🆎 ⏬
       - 🇨🇦 安大略 菲菲 🚀 🆎 ⏬ 🛡️
       - 🇺🇸 美国 碧老师的GAI 🚀 🆎 ⏬ 🛡️
@@ -179,8 +179,8 @@ proxy-groups:
       - 🇹🇼 台湾2 KuLi云 🚀
       - 🇺🇸 美国 碧老师的GAI 🚀 🆎 ⏬ 🛡️
       - 🇯🇵 东京 碧老师的甲骨文 🆎 ⏬ 🛡️
-      - 🇭🇰 香港 Https ⚡️ 🚀 🆎 ⏬ 🛡️
-      - 🇹🇼 台北 Https ⚡️ 🚀 ⏬ 🛡️
+      - 🇭🇰 香港 Https 🚀 🆎 ⏬ 🛡️
+      - 🇹🇼 台北 Https 🚀 ⏬ 🛡️
       - 🇷🇺 圣彼得堡 Https 🚀 ⏬ 🛡️
       - 🇫🇷 巴黎 Https 🚀 ⏬ 🛡️
       - 🇩🇪 慕尼黑 Https 🚀 ⏬ 🛡️
@@ -204,8 +204,8 @@ proxy-groups:
       - 🇹🇼 台湾2 KuLi云 🚀
       - 🇺🇸 美国 碧老师的GAI 🚀 🆎 ⏬ 🛡️
       - 🇯🇵 东京 碧老师的甲骨文 🆎 ⏬ 🛡️
-      - 🇭🇰 香港 Https ⚡️ 🚀 🆎 ⏬ 🛡️
-      - 🇹🇼 台北 Https ⚡️ 🚀 ⏬ 🛡️
+      - 🇭🇰 香港 Https 🚀 🆎 ⏬ 🛡️
+      - 🇹🇼 台北 Https 🚀 ⏬ 🛡️
       - 🇷🇺 圣彼得堡 Https 🚀 ⏬ 🛡️
       - 🇫🇷 巴黎 Https 🚀 ⏬ 🛡️
       - 🇩🇪 慕尼黑 Https 🚀 ⏬ 🛡️
@@ -229,8 +229,8 @@ proxy-groups:
       - 🇹🇼 台湾2 KuLi云 🚀
       - 🇺🇸 美国 碧老师的GAI 🚀 🆎 ⏬ 🛡️
       - 🇯🇵 东京 碧老师的甲骨文 🆎 ⏬ 🛡️
-      - 🇭🇰 香港 Https ⚡️ 🚀 🆎 ⏬ 🛡️
-      - 🇹🇼 台北 Https ⚡️ 🚀 ⏬ 🛡️
+      - 🇭🇰 香港 Https 🚀 🆎 ⏬ 🛡️
+      - 🇹🇼 台北 Https 🚀 ⏬ 🛡️
       - 🇷🇺 圣彼得堡 Https 🚀 ⏬ 🛡️
       - 🇫🇷 巴黎 Https 🚀 ⏬ 🛡️
       - 🇩🇪 慕尼黑 Https 🚀 ⏬ 🛡️
@@ -313,7 +313,7 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - DIRECT
-      - 🇹🇼 台北 Https ⚡️ 🚀 ⏬ 🛡️
+      - 🇹🇼 台北 Https 🚀 ⏬ 🛡️
       - 🇹🇼 台湾1 KuLi云 🚀
       - 🇹🇼 台湾2 KuLi云 🚀
   - name: Ⓜ️ 微软服务
@@ -351,7 +351,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇹🇼 台北 Https ⚡️ 🚀 ⏬ 🛡️
+      - 🇹🇼 台北 Https 🚀 ⏬ 🛡️
       - 🇹🇼 台湾1 KuLi云 🚀
       - 🇹🇼 台湾2 KuLi云 🚀
   - name: 🇺🇲 美国节点
@@ -362,8 +362,8 @@ proxy-groups:
   - name: 🎥 奈飞节点
     type: select
     proxies:
-      - 🇭🇰 香港 Https ⚡️ 🚀 🆎 ⏬ 🛡️
-      - 🇹🇼 台北 Https ⚡️ 🚀 ⏬ 🛡️
+      - 🇭🇰 香港 Https 🚀 🆎 ⏬ 🛡️
+      - 🇹🇼 台北 Https 🚀 ⏬ 🛡️
       - 🇸🇬 新加坡 flyXXL 🚀 ⏬ 🛡️
       - 🇭🇰 香港 静安 🚀 ⏬
       - 🇨🇦 安大略 菲菲 🚀 🆎 ⏬ 🛡️
