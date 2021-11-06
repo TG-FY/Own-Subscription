@@ -32,57 +32,76 @@ proxies:
   - {name: 🇭🇰 香港 静安 🚀 ⏬, server: 121.12.76.86, port: 556, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 177563:TKzzJA, obfs-param: cfe16177563.www.gov.hk}
   - {name: 🇨🇦 安大略 菲菲 🚀 🆎 ⏬ 🛡️, server: 104.19.57.187, port: 443, type: vmess, uuid: 3c312cd8-1aad-4e99-877c-613b6cd0032e, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /c0eb2/, ws-headers: {Host: ff3.wuxian3.workers.dev}}
   - {name: 🇺🇸 洛杉矶 松鼠 🚀 ⏬ 🛡️, server: 173.82.160.74, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: IaNR0KqB8uSTlE736e2pFyCDaXwOODlCeA4nx3Yc8Azy9DgpZSaxZS33CRFYj5}
+  - {name: 🇹🇼 台湾 静安 ⚡ 🎮, server: 159.75.50.77, port: 40018, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
   - {name: 🇹🇼 台湾1 KuLi云 🚀, server: tw02.kuli888.xyz, port: 36368,type: vmess, uuid: 17fe290e-aa74-357b-8eeb-6d9e8a0838a2, alterId: 1, cipher: auto, udp: true, network: ws, ws-path: /v2ray, ws-headers: {"Host":"www.bing.com"}}
   - {name: 🇹🇼 台湾2 KuLi云 🚀, server: tw.kuli888.xyz, port: 35358, type: vmess, uuid: 17fe290e-aa74-357b-8eeb-6d9e8a0838a2, alterId: 1, cipher: auto, udp: true, network: ws, ws-path: /v2ray, ws-headers: {"Host":"www.bing.com"}}
+  - {name: 🇺🇸 美国 碧老师的GAI 🚀 🆎 ⏬ 🛡️, server: tripod.bihai.ga, port: 443, type: vmess, uuid: 5d0c8db8-0d4f-46c4-88e2-49c3968ea81c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /vm02, ws-headers: {Host: tripod.bihai.ga}}
   - {name: 🇯🇵 东京 碧老师的甲骨文 🆎 ⏬ 🛡️, server: 104.19.30.205, port: 443, type: vmess, uuid: 5d0c8db8-0d4f-46c4-88e2-49c3968ea81c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /vm02, ws-headers: {Host: armjp1.bihai.tk}}
-  -
-    name: '🇰🇷 首尔 二次元 🚀'
-    type: vmess
-    server: gykr.ecyjc.xyz
-    port: 443
-    uuid: c4831574-6b86-332e-a229-4d47812b0bb4
-    alterId: 2
-    cipher: auto
-    udp: true
-    network: ws
-    ws-path: /xxx
-    ws-headers:
-      Host: gykr.ecyjc.xyz
+  - name: 🇭🇰 香港 Https ⚡️ 🚀 🆎 ⏬ 🛡️
+    server: cm-hk.stunnel.vip
+    port: 4800
+    type: http
+    username: "yaojiayu246@gmail.com"
+    password: 33a6e7b02dcc6f79ffae792369085774
     tls: true
-  -
-    name: '🇺🇸 美国 二次元 🚀'
-    type: vmess
-    server: gyus.ecyjc.xyz
-    port: 443
-    uuid: c4831574-6b86-332e-a229-4d47812b0bb4
-    alterId: 2
-    cipher: auto
-    udp: true
-    network: ws
-    ws-path: /xxx
-    ws-headers:
-      Host: gyus.ecyjc.xyz
+    skip-cert-verify: true
+  - name: 🇹🇼 台北 Https ⚡️ 🚀 ⏬ 🛡️
+    server: tw.gotochinatown.net
+    port: 10881
+    type: http
+    username: "yaojiayu246@gmail.com"
+    password: 33a6e7b02dcc6f79ffae792369085774
     tls: true
-  -
-    name: '🇬🇧 伦敦 二次元 🚀'
-    type: vmess
-    server: gyuk.ecyjc.xyz
-    port: 443
-    uuid: c4831574-6b86-332e-a229-4d47812b0bb4
-    alterId: 2
-    cipher: auto
-    udp: true
-    network: ws
-    ws-path: /xxx
-    ws-headers:
-      Host: gyuk.ecyjc.xyz
+    skip-cert-verify: true
+  - name: 🇷🇺 圣彼得堡 Https 🚀 ⏬ 🛡️
+    server: ru.gotochinatown.net
+    port: 10883
+    type: http
+    username: "yaojiayu246@gmail.com"
+    password: 33a6e7b02dcc6f79ffae792369085774
     tls: true
-  - {name: 🇭🇰 香港 隧道 🚀 🆎 ⏬ 🛡️, server: jm.keaiyun.xyz, port: 35714, type: vmess, uuid: 79351377-7c6b-32eb-a53b-3051d7197f13, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}, udp: true}
-  - {name: 🇸🇬 新加坡 隧道 🚀 ⏬ 🛡️, server: jm.keaiyun.xyz, port: 35715, type: vmess, uuid: 79351377-7c6b-32eb-a53b-3051d7197f13, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}, udp: true}
-  - {name: 🇸🇬 新加坡 flyXXL 🚀 ⏬ 🛡️, server: sg10.holiganfan.com, port: 10088, type: trojan, password: f3619029-089e-4b52-9e10-fb74c074bf90, sni: sg10.holiganfan.com, skip-cert-verify: false}
-  - {name: 🇯🇵 东京 flyXXL 🚀 ⏬ 🛡️, server: jp05.holiganfan.com, port: 10088, type: trojan, password: f3619029-089e-4b52-9e10-fb74c074bf90, sni: jp05.holiganfan.com, skip-cert-verify: false}
-  - {name: 🇷🇺 莫斯科 狗子快跑 ⏬, server: dog.newhost.cc, port: 10692, type: ssr, cipher: aes-256-cfb, password: TuXJdt, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 17613:4IhZWw, obfs-param: .microsoft.com}
-  - {name: 🇮🇳 孟买 狗子快跑 ⏬, server: cu.newhost.cc, port: 10693, type: ssr, cipher: aes-256-cfb, password: TuXJdt, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 17613:4IhZWw, obfs-param: .microsoft.com}
+    skip-cert-verify: true
+  - name: 🇫🇷 巴黎 Https 🚀 ⏬ 🛡️
+    server: fr.gotochinatown.net
+    port: 10910
+    type: http
+    username: "yaojiayu246@gmail.com"
+    password: 33a6e7b02dcc6f79ffae792369085774
+    tls: true
+    skip-cert-verify: true
+  - name: 🇩🇪 慕尼黑 Https 🚀 ⏬ 🛡️
+    server: de.gotochinatown.net
+    port: 10887
+    type: http
+    username: "yaojiayu246@gmail.com"
+    password: 33a6e7b02dcc6f79ffae792369085774
+    tls: true
+    skip-cert-verify: true
+  - name: 🇦🇺 悉尼 Https 🚀 ⏬ 🛡️
+    server: au.gotochinatown.net
+    port: 10930
+    type: http
+    username: "yaojiayu246@gmail.com"
+    password: 33a6e7b02dcc6f79ffae792369085774
+    tls: true
+    skip-cert-verify: true
+  - name: 🇳🇿 奥克兰 Https 🚀 ⏬ 🛡️
+    server: nz.gotochinatown.net
+    port: 10920
+    type: http
+    username: "yaojiayu246@gmail.com"
+    password: 33a6e7b02dcc6f79ffae792369085774
+    tls: true
+    skip-cert-verify: true
+  - name: 🇹🇷 伊斯坦布尔 Https 🚀 ⏬ 🛡️
+    server: tr.gotochinatown.net
+    port: 10885
+    type: http
+    username: "yaojiayu246@gmail.com"
+    password: 33a6e7b02dcc6f79ffae792369085774
+    tls: true
+    skip-cert-verify: true
+  - {name: 🇸🇬 新加坡 flyXXL 🚀 ⏬ 🛡️, server: az.iganfan.store, port: 50432, type: trojan, password: f3619029-089e-4b52-9e10-fb74c074bf90, sni: sg20.holiganfan.com, skip-cert-verify: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -94,18 +113,20 @@ proxy-groups:
       - 🇭🇰 香港 静安 🚀 ⏬
       - 🇨🇦 安大略 菲菲 🚀 🆎 ⏬ 🛡️
       - 🇺🇸 洛杉矶 松鼠 🚀 ⏬ 🛡️
+      - 🇹🇼 台湾 静安 ⚡ 🎮
       - 🇹🇼 台湾1 KuLi云 🚀
       - 🇹🇼 台湾2 KuLi云 🚀
+      - 🇺🇸 美国 碧老师的GAI 🚀 🆎 ⏬ 🛡️
       - 🇯🇵 东京 碧老师的甲骨文 🆎 ⏬ 🛡️
-      - 🇰🇷 首尔 二次元 🚀
-      - 🇺🇸 美国 二次元 🚀
-      - 🇬🇧 伦敦 二次元 🚀
-      - 🇭🇰 香港 隧道 🚀 🆎 ⏬ 🛡️
-      - 🇸🇬 新加坡 隧道 🚀 ⏬ 🛡️
+      - 🇭🇰 香港 Https ⚡️ 🚀 🆎 ⏬ 🛡️
+      - 🇹🇼 台北 Https ⚡️ 🚀 ⏬ 🛡️
+      - 🇷🇺 圣彼得堡 Https 🚀 ⏬ 🛡️
+      - 🇫🇷 巴黎 Https 🚀 ⏬ 🛡️
+      - 🇩🇪 慕尼黑 Https 🚀 ⏬ 🛡️
+      - 🇦🇺 悉尼 Https 🚀 ⏬ 🛡️
+      - 🇳🇿 奥克兰 Https 🚀 ⏬ 🛡️
+      - 🇹🇷 伊斯坦布尔 Https 🚀 ⏬ 🛡️
       - 🇸🇬 新加坡 flyXXL 🚀 ⏬ 🛡️
-      - 🇯🇵 东京 flyXXL 🚀 ⏬ 🛡️
-      - 🇷🇺 莫斯科 狗子快跑 ⏬
-      - 🇮🇳 孟买 狗子快跑 ⏬
       - DIRECT
   - name: ♻️ 自动选择
     type: url-test
@@ -118,18 +139,20 @@ proxy-groups:
       - 🇭🇰 香港 静安 🚀 ⏬
       - 🇨🇦 安大略 菲菲 🚀 🆎 ⏬ 🛡️
       - 🇺🇸 洛杉矶 松鼠 🚀 ⏬ 🛡️
+      - 🇹🇼 台湾 静安 ⚡ 🎮
       - 🇹🇼 台湾1 KuLi云 🚀
       - 🇹🇼 台湾2 KuLi云 🚀
+      - 🇺🇸 美国 碧老师的GAI 🚀 🆎 ⏬ 🛡️
       - 🇯🇵 东京 碧老师的甲骨文 🆎 ⏬ 🛡️
-      - 🇰🇷 首尔 二次元 🚀
-      - 🇺🇸 美国 二次元 🚀
-      - 🇬🇧 伦敦 二次元 🚀
-      - 🇭🇰 香港 隧道 🚀 🆎 ⏬ 🛡️
-      - 🇸🇬 新加坡 隧道 🚀 ⏬ 🛡️
+      - 🇭🇰 香港 Https ⚡️ 🚀 🆎 ⏬ 🛡️
+      - 🇹🇼 台北 Https ⚡️ 🚀 ⏬ 🛡️
+      - 🇷🇺 圣彼得堡 Https 🚀 ⏬ 🛡️
+      - 🇫🇷 巴黎 Https 🚀 ⏬ 🛡️
+      - 🇩🇪 慕尼黑 Https 🚀 ⏬ 🛡️
+      - 🇦🇺 悉尼 Https 🚀 ⏬ 🛡️
+      - 🇳🇿 奥克兰 Https 🚀 ⏬ 🛡️
+      - 🇹🇷 伊斯坦布尔 Https 🚀 ⏬ 🛡️
       - 🇸🇬 新加坡 flyXXL 🚀 ⏬ 🛡️
-      - 🇯🇵 东京 flyXXL 🚀 ⏬ 🛡️
-      - 🇷🇺 莫斯科 狗子快跑 ⏬
-      - 🇮🇳 孟买 狗子快跑 ⏬
   - name: 🍃 净化秘术
     type: select
     proxies:
@@ -138,10 +161,11 @@ proxy-groups:
       - DIRECT
       - 🇹🇼 台湾节点
       - 🇺🇲 美国节点
+      - 🇭🇰 香港 Https ⚡️ 🚀 🆎 ⏬ 🛡️
       - 🇭🇰 香港 吱吱自行车 🚀 🆎 ⏬
       - 🇨🇦 安大略 菲菲 🚀 🆎 ⏬ 🛡️
+      - 🇺🇸 美国 碧老师的GAI 🚀 🆎 ⏬ 🛡️
       - 🇯🇵 东京 碧老师的甲骨文 🆎 ⏬ 🛡️
-      - 🇭🇰 香港 隧道 🚀 🆎 ⏬ 🛡️
   - name: 📹 YouTube
     type: select
     proxies:
@@ -154,18 +178,20 @@ proxy-groups:
       - 🇭🇰 香港 静安 🚀 ⏬
       - 🇨🇦 安大略 菲菲 🚀 🆎 ⏬ 🛡️
       - 🇺🇸 洛杉矶 松鼠 🚀 ⏬ 🛡️
+      - 🇹🇼 台湾 静安 ⚡ 🎮
       - 🇹🇼 台湾1 KuLi云 🚀
       - 🇹🇼 台湾2 KuLi云 🚀
+      - 🇺🇸 美国 碧老师的GAI 🚀 🆎 ⏬ 🛡️
       - 🇯🇵 东京 碧老师的甲骨文 🆎 ⏬ 🛡️
-      - 🇰🇷 首尔 二次元 🚀
-      - 🇺🇸 美国 二次元 🚀
-      - 🇬🇧 伦敦 二次元 🚀
-      - 🇭🇰 香港 隧道 🚀 🆎 ⏬ 🛡️
-      - 🇸🇬 新加坡 隧道 🚀 ⏬ 🛡️
+      - 🇭🇰 香港 Https ⚡️ 🚀 🆎 ⏬ 🛡️
+      - 🇹🇼 台北 Https ⚡️ 🚀 ⏬ 🛡️
+      - 🇷🇺 圣彼得堡 Https 🚀 ⏬ 🛡️
+      - 🇫🇷 巴黎 Https 🚀 ⏬ 🛡️
+      - 🇩🇪 慕尼黑 Https 🚀 ⏬ 🛡️
+      - 🇦🇺 悉尼 Https 🚀 ⏬ 🛡️
+      - 🇳🇿 奥克兰 Https 🚀 ⏬ 🛡️
+      - 🇹🇷 伊斯坦布尔 Https 🚀 ⏬ 🛡️
       - 🇸🇬 新加坡 flyXXL 🚀 ⏬ 🛡️
-      - 🇯🇵 东京 flyXXL 🚀 ⏬ 🛡️
-      - 🇷🇺 莫斯科 狗子快跑 ⏬
-      - 🇮🇳 孟买 狗子快跑 ⏬
   - name: 🎵 TikTok
     type: select
     proxies:
@@ -178,18 +204,20 @@ proxy-groups:
       - 🇭🇰 香港 静安 🚀 ⏬
       - 🇨🇦 安大略 菲菲 🚀 🆎 ⏬ 🛡️
       - 🇺🇸 洛杉矶 松鼠 🚀 ⏬ 🛡️
+      - 🇹🇼 台湾 静安 ⚡ 🎮
       - 🇹🇼 台湾1 KuLi云 🚀
       - 🇹🇼 台湾2 KuLi云 🚀
+      - 🇺🇸 美国 碧老师的GAI 🚀 🆎 ⏬ 🛡️
       - 🇯🇵 东京 碧老师的甲骨文 🆎 ⏬ 🛡️
-      - 🇰🇷 首尔 二次元 🚀
-      - 🇺🇸 美国 二次元 🚀
-      - 🇬🇧 伦敦 二次元 🚀
-      - 🇭🇰 香港 隧道 🚀 🆎 ⏬ 🛡️
-      - 🇸🇬 新加坡 隧道 🚀 ⏬ 🛡️
+      - 🇭🇰 香港 Https ⚡️ 🚀 🆎 ⏬ 🛡️
+      - 🇹🇼 台北 Https ⚡️ 🚀 ⏬ 🛡️
+      - 🇷🇺 圣彼得堡 Https 🚀 ⏬ 🛡️
+      - 🇫🇷 巴黎 Https 🚀 ⏬ 🛡️
+      - 🇩🇪 慕尼黑 Https 🚀 ⏬ 🛡️
+      - 🇦🇺 悉尼 Https 🚀 ⏬ 🛡️
+      - 🇳🇿 奥克兰 Https 🚀 ⏬ 🛡️
+      - 🇹🇷 伊斯坦布尔 Https 🚀 ⏬ 🛡️
       - 🇸🇬 新加坡 flyXXL 🚀 ⏬ 🛡️
-      - 🇯🇵 东京 flyXXL 🚀 ⏬ 🛡️
-      - 🇷🇺 莫斯科 狗子快跑 ⏬
-      - 🇮🇳 孟买 狗子快跑 ⏬
   - name: 🕶️ Google Play
     type: select
     proxies:
@@ -202,18 +230,20 @@ proxy-groups:
       - 🇭🇰 香港 静安 🚀 ⏬
       - 🇨🇦 安大略 菲菲 🚀 🆎 ⏬ 🛡️
       - 🇺🇸 洛杉矶 松鼠 🚀 ⏬ 🛡️
+      - 🇹🇼 台湾 静安 ⚡ 🎮
       - 🇹🇼 台湾1 KuLi云 🚀
       - 🇹🇼 台湾2 KuLi云 🚀
+      - 🇺🇸 美国 碧老师的GAI 🚀 🆎 ⏬ 🛡️
       - 🇯🇵 东京 碧老师的甲骨文 🆎 ⏬ 🛡️
-      - 🇰🇷 首尔 二次元 🚀
-      - 🇺🇸 美国 二次元 🚀
-      - 🇬🇧 伦敦 二次元 🚀
-      - 🇭🇰 香港 隧道 🚀 🆎 ⏬ 🛡️
-      - 🇸🇬 新加坡 隧道 🚀 ⏬ 🛡️
+      - 🇭🇰 香港 Https ⚡️ 🚀 🆎 ⏬ 🛡️
+      - 🇹🇼 台北 Https ⚡️ 🚀 ⏬ 🛡️
+      - 🇷🇺 圣彼得堡 Https 🚀 ⏬ 🛡️
+      - 🇫🇷 巴黎 Https 🚀 ⏬ 🛡️
+      - 🇩🇪 慕尼黑 Https 🚀 ⏬ 🛡️
+      - 🇦🇺 悉尼 Https 🚀 ⏬ 🛡️
+      - 🇳🇿 奥克兰 Https 🚀 ⏬ 🛡️
+      - 🇹🇷 伊斯坦布尔 Https 🚀 ⏬ 🛡️
       - 🇸🇬 新加坡 flyXXL 🚀 ⏬ 🛡️
-      - 🇯🇵 东京 flyXXL 🚀 ⏬ 🛡️
-      - 🇷🇺 莫斯科 狗子快跑 ⏬
-      - 🇮🇳 孟买 狗子快跑 ⏬
   - name: 📲 Telegram
     type: select
     proxies:
@@ -263,13 +293,24 @@ proxy-groups:
       - DIRECT
       - 🇹🇼 台湾节点
       - 🇺🇲 美国节点
-  - name: 🌍 OnlyUS
+  - name: 🌍 WebOnlyUS
     type: select
     proxies:
       - 🇺🇲 美国节点
       - 🔰 节点选择
       - ♻️ 自动选择
       - DIRECT
+      - 🇺🇸 美国 碧老师的GAI 🚀 🆎 ⏬ 🛡️
+      - 🇺🇸 洛杉矶 松鼠 🚀 ⏬ 🛡️
+  - name: 🌍 EmbyOnlyUS
+    type: select
+    proxies:
+      - 🇺🇲 美国节点
+      - 🔰 节点选择
+      - ♻️ 自动选择
+      - DIRECT
+      - 🇨🇦 安大略 菲菲 🚀 🆎 ⏬ 🛡️
+      - 🇺🇸 美国 碧老师的GAI 🚀 🆎 ⏬ 🛡️
       - 🇺🇸 洛杉矶 松鼠 🚀 ⏬ 🛡️
   - name: 📺 巴哈姆特
     type: select
@@ -278,6 +319,7 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - DIRECT
+      - 🇹🇼 台北 Https ⚡️ 🚀 ⏬ 🛡️
       - 🇹🇼 台湾1 KuLi云 🚀
       - 🇹🇼 台湾2 KuLi云 🚀
   - name: Ⓜ️ 微软服务
@@ -315,19 +357,24 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - 🇹🇼 台北 Https ⚡️ 🚀 ⏬ 🛡️
       - 🇹🇼 台湾1 KuLi云 🚀
       - 🇹🇼 台湾2 KuLi云 🚀
   - name: 🇺🇲 美国节点
     type: select
     proxies:
+      - 🇺🇸 美国 碧老师的GAI 🚀 🆎 ⏬ 🛡️
       - 🇺🇸 洛杉矶 松鼠 🚀 ⏬ 🛡️
-      - 🇺🇸 美国 二次元 🚀
   - name: 🎥 奈飞节点
     type: select
     proxies:
-      - 🇭🇰 香港 静安 🚀 ⏬
+      - 🇭🇰 香港 Https ⚡️ 🚀 🆎 ⏬ 🛡️
+      - 🇹🇼 台北 Https ⚡️ 🚀 ⏬ 🛡️
       - 🇸🇬 新加坡 flyXXL 🚀 ⏬ 🛡️
+      - 🇭🇰 香港 静安 🚀 ⏬
       - 🇨🇦 安大略 菲菲 🚀 🆎 ⏬ 🛡️
+      - 🇺🇸 美国 碧老师的GAI 🚀 🆎 ⏬ 🛡️
+      - 🇯🇵 东京 碧老师的甲骨文 🆎 ⏬ 🛡️
 rules:
  - SRC-IP-CIDR,192.168.5.100/32,DIRECT
  - SRC-IP-CIDR,192.168.5.101/32,DIRECT
@@ -479,6 +526,119 @@ rules:
  - SRC-IP-CIDR,192.168.5.247/32,DIRECT
  - SRC-IP-CIDR,192.168.5.248/32,DIRECT
  - SRC-IP-CIDR,192.168.5.249/32,DIRECT
+ - DOMAIN,googleapis.cn,🍃 净化秘术
+ - DOMAIN,googleapis.com,🍃 净化秘术
+ - DOMAIN,gstatic.com,🍃 净化秘术
+ - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🕶️ Google Play
+ - DOMAIN-SUFFIX,services.googleapis.cn,🕶️ Google Play
+ - IP-CIDR,120.232.181.162/32,🕶️ Google Play,no-resolve
+ - IP-CIDR,120.241.147.226/32,🕶️ Google Play,no-resolve
+ - IP-CIDR,120.253.253.226/32,🕶️ Google Play,no-resolve
+ - IP-CIDR,120.253.255.162/32,🕶️ Google Play,no-resolve
+ - IP-CIDR,120.253.255.34/32,🕶️ Google Play,no-resolve
+ - IP-CIDR,120.253.255.98/32,🕶️ Google Play,no-resolve
+ - IP-CIDR,180.163.150.162/32,🕶️ Google Play,no-resolve
+ - IP-CIDR,180.163.150.34/32,🕶️ Google Play,no-resolve
+ - IP-CIDR,180.163.151.162/32,🕶️ Google Play,no-resolve
+ - IP-CIDR,180.163.151.34/32,🕶️ Google Play,no-resolve
+ - IP-CIDR,203.208.39.0/24,🕶️ Google Play,no-resolve
+ - IP-CIDR,203.208.40.0/24,🕶️ Google Play,no-resolve
+ - IP-CIDR,203.208.41.0/24,🕶️ Google Play,no-resolve
+ - IP-CIDR,203.208.43.0/24,🕶️ Google Play,no-resolve
+ - IP-CIDR,203.208.50.0/24,🕶️ Google Play,no-resolve
+ - IP-CIDR,220.181.174.162/32,🕶️ Google Play,no-resolve
+ - IP-CIDR,220.181.174.226/32,🕶️ Google Play,no-resolve
+ - IP-CIDR,220.181.174.34/32,🕶️ Google Play,no-resolve
+ - DOMAIN-KEYWORD,youtube,📹 YouTube
+ - DOMAIN,yt3.ggpht.com,📹 YouTube
+ - DOMAIN-SUFFIX,googlevideo.com,📹 YouTube
+ - DOMAIN-SUFFIX,gvt2.com,📹 YouTube
+ - DOMAIN-SUFFIX,youtu.be,📹 YouTube
+ - DOMAIN-SUFFIX,youtube.com,📹 YouTube
+ - DOMAIN-SUFFIX,ytimg.com,📹 YouTube
+# - DOMAIN,youtubei.googleapis.com,📹 YouTube
+ - DOMAIN-KEYWORD,-tiktokcdn-com,🎵 TikTok
+ - DOMAIN-SUFFIX,byteoversea.com,🎵 TikTok
+ - DOMAIN-SUFFIX,ibytedtos.com,🎵 TikTok
+ - DOMAIN-SUFFIX,ipstatp.com,🎵 TikTok
+ - DOMAIN-SUFFIX,muscdn.com,🎵 TikTok
+ - DOMAIN-SUFFIX,musical.ly,🎵 TikTok
+ - DOMAIN-SUFFIX,tik-tokapi.com,🎵 TikTok
+ - DOMAIN-SUFFIX,tiktok.com,🎵 TikTok
+ - DOMAIN-SUFFIX,tiktokcdn.com,🎵 TikTok
+ - DOMAIN-SUFFIX,tiktokv.com,🎵 TikTok
+# - USER-AGENT,TikTok*,🎵 TikTok
+# - DOMAIN,p16-tiktokcdn-com.akamaized.net,🎵 TikTok
+# - DOMAIN-SUFFIX,amemv.com,🎵 TikTok
+# - DOMAIN-SUFFIX,byteoversea.com,🎵 TikTok
+# - DOMAIN-SUFFIX,ibytedtos.com,🎵 TikTok
+# - DOMAIN-SUFFIX,ibyteimg.com,🎵 TikTok
+# - DOMAIN-SUFFIX,ipstatp.com,🎵 TikTok
+# - DOMAIN-SUFFIX,muscdn.com,🎵 TikTok
+# - DOMAIN-SUFFIX,musical.ly,🎵 TikTok
+# - DOMAIN-SUFFIX,sgpstatp.com,🎵 TikTok
+# - DOMAIN-SUFFIX,snssdk.com,🎵 TikTok
+# - DOMAIN-SUFFIX,tik-tokapi.com,🎵 TikTok
+# - DOMAIN-SUFFIX,tiktok.com,🎵 TikTok
+# - DOMAIN-SUFFIX,tiktokcdn.com,🎵 TikTok
+# - DOMAIN-SUFFIX,tiktokv.com,🎵 TikTok
+# - DOMAIN-KEYWORD,-tiktokcdn-com,🎵 TikTok
+# - DOMAIN-KEYWORD,musical.ly,🎵 TikTok
+# - DOMAIN-KEYWORD,tiktok,🎵 TikTok
+# - DOMAIN-KEYWORD,tiktokv,🎵 TikTok
+# - PROCESS-NAME,com.zhiliaoapp.musically,🎵 TikTok
+ - DOMAIN-SUFFIX,cdninstagram.com,🌑 Facebook
+ - DOMAIN-SUFFIX,fb.com,🌑 Facebook
+ - DOMAIN-SUFFIX,fb.me,🌑 Facebook
+ - DOMAIN-SUFFIX,fbaddins.com,🌑 Facebook
+ - DOMAIN-SUFFIX,fbcdn.net,🌑 Facebook
+ - DOMAIN-SUFFIX,fbsbx.com,🌑 Facebook
+ - DOMAIN-SUFFIX,fbworkmail.com,🌑 Facebook
+ - DOMAIN-SUFFIX,instagram.com,🌑 Facebook
+ - DOMAIN-SUFFIX,m.me,🌑 Facebook
+ - DOMAIN-SUFFIX,messenger.com,🌑 Facebook
+ - DOMAIN-SUFFIX,oculus.com,🌑 Facebook
+ - DOMAIN-SUFFIX,oculuscdn.com,🌑 Facebook
+ - DOMAIN-SUFFIX,rocksdb.org,🌑 Facebook
+ - DOMAIN-SUFFIX,whatsapp.com,🌑 Facebook
+ - DOMAIN-SUFFIX,whatsapp.net,🌑 Facebook
+ - DOMAIN-KEYWORD,facebook,🌑 Facebook
+ - IP-CIDR,3.123.36.126/32,🌑 Facebook
+ - IP-CIDR,35.157.215.84/32,🌑 Facebook
+ - IP-CIDR,35.157.217.255/32,🌑 Facebook
+ - IP-CIDR,52.58.209.134/32,🌑 Facebook
+ - IP-CIDR,54.93.124.31/32,🌑 Facebook
+ - IP-CIDR,54.162.243.80/32,🌑 Facebook
+ - IP-CIDR,54.173.34.141/32,🌑 Facebook
+ - IP-CIDR,54.235.23.242/32,🌑 Facebook
+ - IP-CIDR,169.45.248.118/32,🌑 Facebook
+ - DOMAIN-SUFFIX,pscp.tv,🌕 Twitter
+ - DOMAIN-SUFFIX,periscope.tv,🌕 Twitter
+ - DOMAIN-SUFFIX,t.co,🌕 Twitter
+ - DOMAIN-SUFFIX,twimg.co,🌕 Twitter
+ - DOMAIN-SUFFIX,twimg.com,🌕 Twitter
+ - DOMAIN-SUFFIX,twimg.org,🌕 Twitter
+ - DOMAIN-SUFFIX,twitpic.com,🌕 Twitter
+ - DOMAIN-SUFFIX,twitter.com,🌕 Twitter
+ - DOMAIN-SUFFIX,twitter.jp,🌕 Twitter
+ - DOMAIN-SUFFIX,vine.co,🌕 Twitter
+ - DOMAIN-KEYWORD,twitter,🌕 Twitter
+ - DOMAIN,lens.l.google.com,🌍 WebOnlyUS
+ - DOMAIN,pornemby.club,🌍 EmbyOnlyUS
+ - DOMAIN,embyclub.com,🌍 EmbyOnlyUS
+ - DOMAIN-KEYWORD,telegram,📲 Telegram
+ - DOMAIN-SUFFIX,t.me,📲 Telegram
+ - DOMAIN-SUFFIX,tdesktop.com,📲 Telegram
+ - DOMAIN-SUFFIX,telegra.ph,📲 Telegram
+ - DOMAIN-SUFFIX,telegram.me,📲 Telegram
+ - DOMAIN-SUFFIX,telegram.org,📲 Telegram
+ - DOMAIN-SUFFIX,telesco.pe,📲 Telegram
+ - IP-CIDR,91.108.0.0/16,📲 Telegram,no-resolve
+ - IP-CIDR,109.239.140.0/24,📲 Telegram,no-resolve
+ - IP-CIDR,149.154.160.0/20,📲 Telegram,no-resolve
+ - IP-CIDR6,2001:67c:4e8::/48,📲 Telegram,no-resolve
+ - IP-CIDR6,2001:b28:f23d::/48,📲 Telegram,no-resolve
+ - IP-CIDR6,2001:b28:f23f::/48,📲 Telegram,no-resolve
  - DOMAIN-SUFFIX,acl4.ssr,DIRECT
  - DOMAIN-SUFFIX,ip6-localhost,DIRECT
  - DOMAIN-SUFFIX,ip6-loopback,DIRECT
@@ -1143,118 +1303,6 @@ rules:
  - DOMAIN-SUFFIX,go.10086.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,hivedata.cc,🛑 全球拦截
  - DOMAIN-SUFFIX,navi.gd.chinamobile.com,🛑 全球拦截
- - DOMAIN,googleapis.cn,🍃 净化秘术
- - DOMAIN,googleapis.com,🍃 净化秘术
- - DOMAIN,gstatic.com,🍃 净化秘术
- - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🕶️ Google Play
- - DOMAIN-SUFFIX,services.googleapis.cn,🕶️ Google Play
- - IP-CIDR,120.232.181.162/32,🕶️ Google Play,no-resolve
- - IP-CIDR,120.241.147.226/32,🕶️ Google Play,no-resolve
- - IP-CIDR,120.253.253.226/32,🕶️ Google Play,no-resolve
- - IP-CIDR,120.253.255.162/32,🕶️ Google Play,no-resolve
- - IP-CIDR,120.253.255.34/32,🕶️ Google Play,no-resolve
- - IP-CIDR,120.253.255.98/32,🕶️ Google Play,no-resolve
- - IP-CIDR,180.163.150.162/32,🕶️ Google Play,no-resolve
- - IP-CIDR,180.163.150.34/32,🕶️ Google Play,no-resolve
- - IP-CIDR,180.163.151.162/32,🕶️ Google Play,no-resolve
- - IP-CIDR,180.163.151.34/32,🕶️ Google Play,no-resolve
- - IP-CIDR,203.208.39.0/24,🕶️ Google Play,no-resolve
- - IP-CIDR,203.208.40.0/24,🕶️ Google Play,no-resolve
- - IP-CIDR,203.208.41.0/24,🕶️ Google Play,no-resolve
- - IP-CIDR,203.208.43.0/24,🕶️ Google Play,no-resolve
- - IP-CIDR,203.208.50.0/24,🕶️ Google Play,no-resolve
- - IP-CIDR,220.181.174.162/32,🕶️ Google Play,no-resolve
- - IP-CIDR,220.181.174.226/32,🕶️ Google Play,no-resolve
- - IP-CIDR,220.181.174.34/32,🕶️ Google Play,no-resolve
- - DOMAIN-KEYWORD,youtube,📹 YouTube
- - DOMAIN,yt3.ggpht.com,📹 YouTube
- - DOMAIN-SUFFIX,googlevideo.com,📹 YouTube
- - DOMAIN-SUFFIX,gvt2.com,📹 YouTube
- - DOMAIN-SUFFIX,youtu.be,📹 YouTube
- - DOMAIN-SUFFIX,youtube.com,📹 YouTube
- - DOMAIN-SUFFIX,ytimg.com,📹 YouTube
-# - DOMAIN,youtubei.googleapis.com,📹 YouTube
- - DOMAIN-KEYWORD,-tiktokcdn-com,🎵 TikTok
- - DOMAIN-SUFFIX,byteoversea.com,🎵 TikTok
- - DOMAIN-SUFFIX,ibytedtos.com,🎵 TikTok
- - DOMAIN-SUFFIX,ipstatp.com,🎵 TikTok
- - DOMAIN-SUFFIX,muscdn.com,🎵 TikTok
- - DOMAIN-SUFFIX,musical.ly,🎵 TikTok
- - DOMAIN-SUFFIX,tik-tokapi.com,🎵 TikTok
- - DOMAIN-SUFFIX,tiktok.com,🎵 TikTok
- - DOMAIN-SUFFIX,tiktokcdn.com,🎵 TikTok
- - DOMAIN-SUFFIX,tiktokv.com,🎵 TikTok
-# - USER-AGENT,TikTok*,🎵 TikTok
-# - DOMAIN,p16-tiktokcdn-com.akamaized.net,🎵 TikTok
-# - DOMAIN-SUFFIX,amemv.com,🎵 TikTok
-# - DOMAIN-SUFFIX,byteoversea.com,🎵 TikTok
-# - DOMAIN-SUFFIX,ibytedtos.com,🎵 TikTok
-# - DOMAIN-SUFFIX,ibyteimg.com,🎵 TikTok
-# - DOMAIN-SUFFIX,ipstatp.com,🎵 TikTok
-# - DOMAIN-SUFFIX,muscdn.com,🎵 TikTok
-# - DOMAIN-SUFFIX,musical.ly,🎵 TikTok
-# - DOMAIN-SUFFIX,sgpstatp.com,🎵 TikTok
-# - DOMAIN-SUFFIX,snssdk.com,🎵 TikTok
-# - DOMAIN-SUFFIX,tik-tokapi.com,🎵 TikTok
-# - DOMAIN-SUFFIX,tiktok.com,🎵 TikTok
-# - DOMAIN-SUFFIX,tiktokcdn.com,🎵 TikTok
-# - DOMAIN-SUFFIX,tiktokv.com,🎵 TikTok
-# - DOMAIN-KEYWORD,-tiktokcdn-com,🎵 TikTok
-# - DOMAIN-KEYWORD,musical.ly,🎵 TikTok
-# - DOMAIN-KEYWORD,tiktok,🎵 TikTok
-# - DOMAIN-KEYWORD,tiktokv,🎵 TikTok
-# - PROCESS-NAME,com.zhiliaoapp.musically,🎵 TikTok
- - DOMAIN-SUFFIX,cdninstagram.com,🌑 Facebook
- - DOMAIN-SUFFIX,fb.com,🌑 Facebook
- - DOMAIN-SUFFIX,fb.me,🌑 Facebook
- - DOMAIN-SUFFIX,fbaddins.com,🌑 Facebook
- - DOMAIN-SUFFIX,fbcdn.net,🌑 Facebook
- - DOMAIN-SUFFIX,fbsbx.com,🌑 Facebook
- - DOMAIN-SUFFIX,fbworkmail.com,🌑 Facebook
- - DOMAIN-SUFFIX,instagram.com,🌑 Facebook
- - DOMAIN-SUFFIX,m.me,🌑 Facebook
- - DOMAIN-SUFFIX,messenger.com,🌑 Facebook
- - DOMAIN-SUFFIX,oculus.com,🌑 Facebook
- - DOMAIN-SUFFIX,oculuscdn.com,🌑 Facebook
- - DOMAIN-SUFFIX,rocksdb.org,🌑 Facebook
- - DOMAIN-SUFFIX,whatsapp.com,🌑 Facebook
- - DOMAIN-SUFFIX,whatsapp.net,🌑 Facebook
- - DOMAIN-KEYWORD,facebook,🌑 Facebook
- - IP-CIDR,3.123.36.126/32,🌑 Facebook
- - IP-CIDR,35.157.215.84/32,🌑 Facebook
- - IP-CIDR,35.157.217.255/32,🌑 Facebook
- - IP-CIDR,52.58.209.134/32,🌑 Facebook
- - IP-CIDR,54.93.124.31/32,🌑 Facebook
- - IP-CIDR,54.162.243.80/32,🌑 Facebook
- - IP-CIDR,54.173.34.141/32,🌑 Facebook
- - IP-CIDR,54.235.23.242/32,🌑 Facebook
- - IP-CIDR,169.45.248.118/32,🌑 Facebook
- - DOMAIN-SUFFIX,pscp.tv,🌕 Twitter
- - DOMAIN-SUFFIX,periscope.tv,🌕 Twitter
- - DOMAIN-SUFFIX,t.co,🌕 Twitter
- - DOMAIN-SUFFIX,twimg.co,🌕 Twitter
- - DOMAIN-SUFFIX,twimg.com,🌕 Twitter
- - DOMAIN-SUFFIX,twimg.org,🌕 Twitter
- - DOMAIN-SUFFIX,twitpic.com,🌕 Twitter
- - DOMAIN-SUFFIX,twitter.com,🌕 Twitter
- - DOMAIN-SUFFIX,twitter.jp,🌕 Twitter
- - DOMAIN-SUFFIX,vine.co,🌕 Twitter
- - DOMAIN-KEYWORD,twitter,🌕 Twitter
- - DOMAIN,lens.l.google.com,🌍 OnlyUS
- - DOMAIN,pornemby.club,🌍 OnlyUS
- - DOMAIN-KEYWORD,telegram,📲 Telegram
- - DOMAIN-SUFFIX,t.me,📲 Telegram
- - DOMAIN-SUFFIX,tdesktop.com,📲 Telegram
- - DOMAIN-SUFFIX,telegra.ph,📲 Telegram
- - DOMAIN-SUFFIX,telegram.me,📲 Telegram
- - DOMAIN-SUFFIX,telegram.org,📲 Telegram
- - DOMAIN-SUFFIX,telesco.pe,📲 Telegram
- - IP-CIDR,91.108.0.0/16,📲 Telegram,no-resolve
- - IP-CIDR,109.239.140.0/24,📲 Telegram,no-resolve
- - IP-CIDR,149.154.160.0/20,📲 Telegram,no-resolve
- - IP-CIDR6,2001:67c:4e8::/48,📲 Telegram,no-resolve
- - IP-CIDR6,2001:b28:f23d::/48,📲 Telegram,no-resolve
- - IP-CIDR6,2001:b28:f23f::/48,📲 Telegram,no-resolve
  - DOMAIN-SUFFIX,netflix.com,🎥 NETFLIX
  - DOMAIN-SUFFIX,netflix.net,🎥 NETFLIX
  - DOMAIN-SUFFIX,nflxext.com,🎥 NETFLIX
