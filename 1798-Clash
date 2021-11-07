@@ -99,6 +99,7 @@ proxies:
     skip-cert-verify: true
   - {name: 🇹🇼 台湾1 KuLi云 🚀, server: tw02.kuli888.xyz, port: 36368,type: vmess, uuid: 17fe290e-aa74-357b-8eeb-6d9e8a0838a2, alterId: 1, cipher: auto, udp: true, network: ws, ws-path: /v2ray, ws-headers: {"Host":"www.bing.com"}}
   - {name: 🇹🇼 台湾2 KuLi云 🚀, server: tw.kuli888.xyz, port: 35358, type: vmess, uuid: 17fe290e-aa74-357b-8eeb-6d9e8a0838a2, alterId: 1, cipher: auto, udp: true, network: ws, ws-path: /v2ray, ws-headers: {"Host":"www.bing.com"}}
+  - {name: 🇸🇬 新加坡 EMO 🚀 ⏬ 🛡️, server: portazhk1.xiaomai.my03.com, port: 44357, type: ss, cipher: chacha20-ietf-poly1305, password: c931cb42-1aec-45cf-813c-f4280fc86c7d}
   - {name: 🇺🇸 洛杉矶 EMO 🚀 ⏬ 🛡️, server: portazhk1.xiaomai.my03.com, port: 44358, type: ss, cipher: chacha20-ietf-poly1305, password: c931cb42-1aec-45cf-813c-f4280fc86c7d}
   - {name: 🇸🇬 新加坡 flyXXL 🚀 ⏬ 🛡️, server: az.iganfan.store, port: 50432, type: trojan, password: f3619029-089e-4b52-9e10-fb74c074bf90, sni: sg20.holiganfan.com, skip-cert-verify: false}
 proxy-groups:
@@ -123,6 +124,7 @@ proxy-groups:
       - 🇹🇷 伊斯坦布尔 Https 🚀 ⏬ 🛡️
       - 🇹🇼 台湾1 KuLi云 🚀
       - 🇹🇼 台湾2 KuLi云 🚀
+      - 🇸🇬 新加坡 EMO 🚀 ⏬ 🛡️
       - 🇺🇸 洛杉矶 EMO 🚀 ⏬ 🛡️
       - 🇸🇬 新加坡 flyXXL 🚀 ⏬ 🛡️
       - DIRECT
@@ -148,6 +150,7 @@ proxy-groups:
       - 🇹🇷 伊斯坦布尔 Https 🚀 ⏬ 🛡️
       - 🇹🇼 台湾1 KuLi云 🚀
       - 🇹🇼 台湾2 KuLi云 🚀
+      - 🇸🇬 新加坡 EMO 🚀 ⏬ 🛡️
       - 🇺🇸 洛杉矶 EMO 🚀 ⏬ 🛡️
       - 🇸🇬 新加坡 flyXXL 🚀 ⏬ 🛡️
   - name: 🍃 净化秘术
@@ -186,6 +189,7 @@ proxy-groups:
       - 🇹🇷 伊斯坦布尔 Https 🚀 ⏬ 🛡️
       - 🇹🇼 台湾1 KuLi云 🚀
       - 🇹🇼 台湾2 KuLi云 🚀
+      - 🇸🇬 新加坡 EMO 🚀 ⏬ 🛡️
       - 🇺🇸 洛杉矶 EMO 🚀 ⏬ 🛡️
       - 🇸🇬 新加坡 flyXXL 🚀 ⏬ 🛡️
   - name: 🎵 TikTok
@@ -211,6 +215,7 @@ proxy-groups:
       - 🇹🇷 伊斯坦布尔 Https 🚀 ⏬ 🛡️
       - 🇹🇼 台湾1 KuLi云 🚀
       - 🇹🇼 台湾2 KuLi云 🚀
+      - 🇸🇬 新加坡 EMO 🚀 ⏬ 🛡️
       - 🇺🇸 洛杉矶 EMO 🚀 ⏬ 🛡️
       - 🇸🇬 新加坡 flyXXL 🚀 ⏬ 🛡️
   - name: 🕶️ Google Play
@@ -236,6 +241,7 @@ proxy-groups:
       - 🇹🇷 伊斯坦布尔 Https 🚀 ⏬ 🛡️
       - 🇹🇼 台湾1 KuLi云 🚀
       - 🇹🇼 台湾2 KuLi云 🚀
+      - 🇸🇬 新加坡 EMO 🚀 ⏬ 🛡️
       - 🇺🇸 洛杉矶 EMO 🚀 ⏬ 🛡️
       - 🇸🇬 新加坡 flyXXL 🚀 ⏬ 🛡️
   - name: 📲 Telegram
