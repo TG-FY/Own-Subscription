@@ -106,7 +106,6 @@ proxies:
     password: 33a6e7b02dcc6f79ffae792369085774
     tls: true
     skip-cert-verify: true
-  - {name: 🇺🇸 洛杉矶 🚀 ⏬ 🛡️, server: dx1000us1.soflyso.info, port: 443, type: ss, cipher: aes-256-gcm, password: 91e117c60f9f, plugin: v2ray-plugin, plugin-opts: {mode: "", host: dx1000us1.soflyso.info, path: "", tls: true, mux: false}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -136,7 +135,6 @@ proxy-groups:
       - 🇦🇺 悉尼 Https 🚀 ⏬ 🛡️
       - 🇳🇿 奥克兰 Https 🚀 ⏬ 🛡️
       - 🇹🇷 伊斯坦布尔 Https 🚀 ⏬ 🛡️
-      - 🇺🇸 洛杉矶 🚀 ⏬ 🛡️
       - DIRECT
   - name: ♻️ 自动选择
     type: url-test
@@ -167,7 +165,6 @@ proxy-groups:
       - 🇦🇺 悉尼 Https 🚀 ⏬ 🛡️
       - 🇳🇿 奥克兰 Https 🚀 ⏬ 🛡️
       - 🇹🇷 伊斯坦布尔 Https 🚀 ⏬ 🛡️
-      - 🇺🇸 洛杉矶 🚀 ⏬ 🛡️
   - name: 🍃 净化秘术
     type: select
     proxies:
@@ -212,7 +209,6 @@ proxy-groups:
       - 🇦🇺 悉尼 Https 🚀 ⏬ 🛡️
       - 🇳🇿 奥克兰 Https 🚀 ⏬ 🛡️
       - 🇹🇷 伊斯坦布尔 Https 🚀 ⏬ 🛡️
-      - 🇺🇸 洛杉矶 🚀 ⏬ 🛡️
   - name: 🎵 TikTok
     type: select
     proxies:
@@ -243,7 +239,6 @@ proxy-groups:
       - 🇦🇺 悉尼 Https 🚀 ⏬ 🛡️
       - 🇳🇿 奥克兰 Https 🚀 ⏬ 🛡️
       - 🇹🇷 伊斯坦布尔 Https 🚀 ⏬ 🛡️
-      - 🇺🇸 洛杉矶 🚀 ⏬ 🛡️
   - name: 🕶️ Google Play
     type: select
     proxies:
@@ -274,7 +269,6 @@ proxy-groups:
       - 🇦🇺 悉尼 Https 🚀 ⏬ 🛡️
       - 🇳🇿 奥克兰 Https 🚀 ⏬ 🛡️
       - 🇹🇷 伊斯坦布尔 Https 🚀 ⏬ 🛡️
-      - 🇺🇸 洛杉矶 🚀 ⏬ 🛡️
   - name: 📲 Telegram
     type: select
     proxies:
@@ -333,7 +327,6 @@ proxy-groups:
       - DIRECT
       - 🇺🇸 洛杉矶 碧老师的GAI 🚀 🆎 ⏬ 🛡️
       - 🇺🇸 洛杉矶 棉花云 🚀 ⏬
-      - 🇺🇸 洛杉矶 🚀 ⏬ 🛡️
   - name: 🌍 EmbyOnlyUS
     type: select
     proxies:
@@ -344,7 +337,6 @@ proxy-groups:
       - 🇨🇦 安大略 菲菲 🚀 ⏬ 🛡️
       - 🇺🇸 洛杉矶 碧老师的GAI 🚀 🆎 ⏬ 🛡️
       - 🇺🇸 洛杉矶 棉花云 🚀 ⏬
-      - 🇺🇸 洛杉矶 🚀 ⏬ 🛡️
   - name: 📺 巴哈姆特
     type: select
     proxies:
@@ -396,13 +388,11 @@ proxy-groups:
     proxies:
       - 🇺🇸 洛杉矶 碧老师的GAI 🚀 🆎 ⏬ 🛡️
       - 🇺🇸 洛杉矶 棉花云 🚀 ⏬
-      - 🇺🇸 洛杉矶 🚀 ⏬ 🛡️
   - name: 🎥 奈飞节点
     type: select
     proxies:
       - 🇭🇰 香港 Https 🚀 🆎 ⏬ 🛡️
       - 🇹🇼 台北 Https 🚀 ⏬ 🛡️
-      - 🇺🇸 洛杉矶 🚀 ⏬ 🛡️
       - 🇭🇰 香港 静安 🚀 ⏬
       - 🇨🇦 安大略 菲菲 🚀 ⏬ 🛡️
       - 🇺🇸 洛杉矶 碧老师的GAI 🚀 🆎 ⏬ 🛡️
