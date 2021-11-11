@@ -106,6 +106,12 @@ proxies:
     password: 33a6e7b02dcc6f79ffae792369085774
     tls: true
     skip-cert-verify: true
+  - {name: 🇰🇷 春川 ⏬ 🛡️, server: 146.56.112.202, port: 39618, type: ss, cipher: aes-256-gcm, password: ssinthebest}
+  - {name: 🇺🇸 洛杉矶 🚀 ⏬ 🛡️, server: dx1000us1.soflyso.info, port: 443, type: ss, cipher: aes-256-gcm, password: 91e117c60f9f, plugin: v2ray-plugin, plugin-opts: {mode: "", host: dx1000us1.soflyso.info, path: "", tls: true, mux: false}}
+  - {name: 🇹🇼 台湾 超级线路 🚀 🆎 ⏬ 🛡️, server: 211.23.141.52, port: 443, type: ss, cipher: aes-256-gcm, password: bff483ac1406, plugin: v2ray-plugin, plugin-opts: {mode: "", host: dx600twnewss001.soflyso.info, path: "", tls: true, mux: false}}
+  - {name: 🇰🇷 首尔 超级线路 🚀 ⏬ 🛡️, server: 27.102.118.27, port: 443, type: ss, cipher: aes-256-gcm, password: f9bf8919c427, plugin: v2ray-plugin, plugin-opts: {mode: "", host: Krkdanew001.soflyso.info, path: "", tls: true, mux: false}}
+  - {name: 🇺🇸 美国 超级线路 🚀 ⏬ 🛡️, server: 206.119.115.55, port: 443, type: ss, cipher: aes-256-gcm, password: f56e2142b4d9, plugin: v2ray-plugin, plugin-opts: {mode: "", host: dxhk1000new003.soflyso.info, path: "", tls: true, mux: false}}
+  - {name: 🇨🇦 安大略 菲菲免流 🚀 ⏬ 🛡️, server: mlca1.ratzsuck.tk, port: 80, type: vmess, uuid: 2b43f57c-0ee2-4b6f-a8b2-6ab522bb60d3, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: shoutingtoutiao3.10010.com}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -135,6 +141,12 @@ proxy-groups:
       - 🇦🇺 悉尼 Https 🚀 ⏬ 🛡️
       - 🇳🇿 奥克兰 Https 🚀 ⏬ 🛡️
       - 🇹🇷 伊斯坦布尔 Https 🚀 ⏬ 🛡️
+      - 🇰🇷 春川 ⏬ 🛡️
+      - 🇺🇸 洛杉矶 🚀 ⏬ 🛡️
+      - 🇹🇼 台湾 超级线路 🚀 🆎 ⏬ 🛡️
+      - 🇰🇷 首尔 超级线路 🚀 ⏬ 🛡️
+      - 🇺🇸 美国 超级线路 🚀 ⏬ 🛡️
+      - 🇨🇦 安大略 菲菲免流 🚀 ⏬ 🛡️
       - DIRECT
   - name: ♻️ 自动选择
     type: url-test
