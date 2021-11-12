@@ -28,6 +28,45 @@ external-controller: 9090
 proxies:
   - {name: 🇭🇰 香港 EDU学术引擎 ⚡️ ⏬ 🛡️, server: 47.242.170.122, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 3876234956.microsoft.com}}
   - {name: 🇸🇬 新加坡 EDU学术引擎 ⚡️ 🚀 ⏬ 🛡️, server: 13.229.135.145, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 3876234956.microsoft.com}}
+  - name: 🇹🇼 台湾 超级线路 🚀 🆎 ⏬ 🛡️
+    type: ss
+    server: 211.23.141.52
+    port: 443
+    cipher: aes-256-gcm
+    password: "bff483ac1406"
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      tls: true
+      skip-cert-verify: true
+      host: dx600twnewss001.soflyso.info
+      path: "/"
+  - name: 🇰🇷 首尔 超级线路 🚀 ⏬ 🛡️
+    type: ss
+    server: 27.102.118.27
+    port: 443
+    cipher: aes-256-gcm
+    password: "f9bf8919c427"
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      tls: true
+      skip-cert-verify: true
+      host: Krkdanew001.soflyso.info, path
+      path: "/"
+  - name: 🇺🇸 美国 超级线路 🚀 ⏬ 🛡️
+    type: ss
+    server: 206.119.115.55
+    port: 443
+    cipher: aes-256-gcm
+    password: "f56e2142b4d9"
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      tls: true
+      skip-cert-verify: true
+      host: dxhk1000new003.soflyso.info
+      path: "/"
   - {name: 🇭🇰 香港 棉花云 🚀 🆎 ⏬, server: gkdcm1.gkdcn.net, port: 22660, type: ssr, cipher: chacha20-ietf, password: m2KSOD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 6346:4ErhbQ, obfs-param: .microsoft.com}
   - {name: 🇹🇼 台湾 棉花云 🚀 🆎 ⏬, server: gkdcm.gkdcn.net, port: 22673, type: ssr, cipher: chacha20-ietf, password: m2KSOD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 6346:4ErhbQ, obfs-param: .microsoft.com}
   - {name: 🇲🇾 马来西亚 棉花云 🚀 🆎 ⏬, server: gkdcm.gkdcn.net, port: 22645, type: ssr, cipher: chacha20-ietf, password: m2KSOD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 6346:4ErhbQ, obfs-param: .microsoft.com}
@@ -36,7 +75,7 @@ proxies:
   - {name: 🇺🇸 洛杉矶 棉花云 🚀 ⏬, server: gkdcm.gkdcn.net, port: 22649, type: ssr, cipher: chacha20-ietf, password: m2KSOD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 6346:4ErhbQ, obfs-param: .microsoft.com}
   - {name: 🇹🇼 专线 台北 🚀 ⏬ 🛡️, server: 789.out03.nodeserver.top, port: 39063, type: vmess, uuid: 19916b2c-0a87-33df-8a42-a90f151fd2c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 🇲🇾 专线 马来西亚 🚀 ⏬ 🛡️, server: 789.out03.nodeserver.top, port: 39068, type: vmess, uuid: 19916b2c-0a87-33df-8a42-a90f151fd2c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 吱吱自行车 🚀 🆎 ⏬, server: az.xhb.dior.bar, port: 12233, type: vmess, uuid: 09ac7c45-0cf2-442a-8323-fc911e641ec7, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}}
+  - {name: 🇭🇰 香港 吱吱自行车 🚀 🆎 ⏬, server: az.xhb.dior.bar, port: 12234, type: vmess, uuid: 09ac7c45-0cf2-442a-8323-fc911e641ec7, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: shoutingtoutiao3.10010.com}}
   - {name: 🇭🇰 香港 静安 🚀 ⏬, server: 121.12.76.86, port: 556, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 177563:TKzzJA, obfs-param: cfe16177563.www.gov.hk}
   - {name: 🇨🇦 安大略 菲菲 🚀 ⏬ 🛡️, server: 104.19.57.187, port: 443, type: vmess, uuid: 3c312cd8-1aad-4e99-877c-613b6cd0032e, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /c0eb2/, ws-headers: {Host: ff3.wuxian3.workers.dev}}
   - {name: 🇺🇸 洛杉矶 碧老师的GAI 🚀 🆎 ⏬ 🛡️, server: tripod.bihai.ga, port: 443, type: vmess, uuid: 5d0c8db8-0d4f-46c4-88e2-49c3968ea81c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /vm02, ws-headers: {Host: tripod.bihai.ga}}
@@ -105,6 +144,19 @@ proxies:
     password: 33a6e7b02dcc6f79ffae792369085774
     tls: true
     skip-cert-verify: true
+  - name: 🇺🇸 洛杉矶 超级线路 🚀 ⏬ 🛡️
+    type: ss
+    server: dx1000us1.soflyso.info
+    port: 443
+    cipher: aes-256-gcm
+    password: "91e117c60f9f"
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      tls: true
+      skip-cert-verify: true
+      host: dx1000us1.soflyso.info
+      path: "/"
   - {name: 🇰🇷 春川 甲骨文 ⏬ 🛡️, server: 146.56.112.202, port: 39618, type: ss, cipher: aes-256-gcm, password: ssinthebest}
 proxy-groups:
   - name: 🔰 节点选择
@@ -113,6 +165,9 @@ proxy-groups:
       - ♻️ 自动选择
       - 🇭🇰 香港 EDU学术引擎 ⚡️ ⏬ 🛡️
       - 🇸🇬 新加坡 EDU学术引擎 ⚡️ 🚀 ⏬ 🛡️
+      - 🇹🇼 台湾 超级线路 🚀 🆎 ⏬ 🛡️
+      - 🇰🇷 首尔 超级线路 🚀 ⏬ 🛡️
+      - 🇺🇸 美国 超级线路 🚀 ⏬ 🛡️
       - 🇭🇰 香港 棉花云 🚀 🆎 ⏬
       - 🇹🇼 台湾 棉花云 🚀 🆎 ⏬
       - 🇲🇾 马来西亚 棉花云 🚀 🆎 ⏬
@@ -134,6 +189,7 @@ proxy-groups:
       - 🇦🇺 悉尼 Https 🚀 ⏬ 🛡️
       - 🇳🇿 奥克兰 Https 🚀 ⏬ 🛡️
       - 🇹🇷 伊斯坦布尔 Https 🚀 ⏬ 🛡️
+      - 🇺🇸 洛杉矶 超级线路 🚀 ⏬ 🛡️
       - 🇰🇷 春川 甲骨文 ⏬ 🛡️
       - DIRECT
   - name: ♻️ 自动选择
@@ -143,6 +199,9 @@ proxy-groups:
     proxies:
       - 🇭🇰 香港 EDU学术引擎 ⚡️ ⏬ 🛡️
       - 🇸🇬 新加坡 EDU学术引擎 ⚡️ 🚀 ⏬ 🛡️
+      - 🇹🇼 台湾 超级线路 🚀 🆎 ⏬ 🛡️
+      - 🇰🇷 首尔 超级线路 🚀 ⏬ 🛡️
+      - 🇺🇸 美国 超级线路 🚀 ⏬ 🛡️
       - 🇭🇰 香港 棉花云 🚀 🆎 ⏬
       - 🇹🇼 台湾 棉花云 🚀 🆎 ⏬
       - 🇲🇾 马来西亚 棉花云 🚀 🆎 ⏬
@@ -164,6 +223,7 @@ proxy-groups:
       - 🇦🇺 悉尼 Https 🚀 ⏬ 🛡️
       - 🇳🇿 奥克兰 Https 🚀 ⏬ 🛡️
       - 🇹🇷 伊斯坦布尔 Https 🚀 ⏬ 🛡️
+      - 🇺🇸 洛杉矶 超级线路 🚀 ⏬ 🛡️
       - 🇰🇷 春川 甲骨文 ⏬ 🛡️
   - name: 🍃 净化秘术
     type: select
@@ -177,6 +237,7 @@ proxy-groups:
       - 🇭🇰 香港 Https 🚀 🆎 ⏬ 🛡️
       - 🇭🇰 香港 棉花云 🚀 🆎 ⏬
       - 🇹🇼 台湾 棉花云 🚀 🆎 ⏬
+      - 🇹🇼 台湾 超级线路 🚀 🆎 ⏬ 🛡️
       - 🇲🇾 马来西亚 棉花云 🚀 🆎 ⏬
       - 🇺🇸 洛杉矶 碧老师的GAI 🚀 🆎 ⏬ 🛡️
   - name: 📹 YouTube
@@ -187,6 +248,9 @@ proxy-groups:
       - DIRECT
       - 🇭🇰 香港 EDU学术引擎 ⚡️ ⏬ 🛡️
       - 🇸🇬 新加坡 EDU学术引擎 ⚡️ 🚀 ⏬ 🛡️
+      - 🇹🇼 台湾 超级线路 🚀 🆎 ⏬ 🛡️
+      - 🇰🇷 首尔 超级线路 🚀 ⏬ 🛡️
+      - 🇺🇸 美国 超级线路 🚀 ⏬ 🛡️
       - 🇭🇰 香港 棉花云 🚀 🆎 ⏬
       - 🇹🇼 台湾 棉花云 🚀 🆎 ⏬
       - 🇲🇾 马来西亚 棉花云 🚀 🆎 ⏬
@@ -208,6 +272,7 @@ proxy-groups:
       - 🇦🇺 悉尼 Https 🚀 ⏬ 🛡️
       - 🇳🇿 奥克兰 Https 🚀 ⏬ 🛡️
       - 🇹🇷 伊斯坦布尔 Https 🚀 ⏬ 🛡️
+      - 🇺🇸 洛杉矶 超级线路 🚀 ⏬ 🛡️
       - 🇰🇷 春川 甲骨文 ⏬ 🛡️
   - name: 🎵 TikTok
     type: select
@@ -217,6 +282,9 @@ proxy-groups:
       - DIRECT
       - 🇭🇰 香港 EDU学术引擎 ⚡️ ⏬ 🛡️
       - 🇸🇬 新加坡 EDU学术引擎 ⚡️ 🚀 ⏬ 🛡️
+      - 🇹🇼 台湾 超级线路 🚀 🆎 ⏬ 🛡️
+      - 🇰🇷 首尔 超级线路 🚀 ⏬ 🛡️
+      - 🇺🇸 美国 超级线路 🚀 ⏬ 🛡️
       - 🇭🇰 香港 棉花云 🚀 🆎 ⏬
       - 🇹🇼 台湾 棉花云 🚀 🆎 ⏬
       - 🇲🇾 马来西亚 棉花云 🚀 🆎 ⏬
@@ -238,6 +306,7 @@ proxy-groups:
       - 🇦🇺 悉尼 Https 🚀 ⏬ 🛡️
       - 🇳🇿 奥克兰 Https 🚀 ⏬ 🛡️
       - 🇹🇷 伊斯坦布尔 Https 🚀 ⏬ 🛡️
+      - 🇺🇸 洛杉矶 超级线路 🚀 ⏬ 🛡️
       - 🇰🇷 春川 甲骨文 ⏬ 🛡️
   - name: 🕶️ Google Play
     type: select
@@ -247,6 +316,9 @@ proxy-groups:
       - DIRECT
       - 🇭🇰 香港 EDU学术引擎 ⚡️ ⏬ 🛡️
       - 🇸🇬 新加坡 EDU学术引擎 ⚡️ 🚀 ⏬ 🛡️
+      - 🇹🇼 台湾 超级线路 🚀 🆎 ⏬ 🛡️
+      - 🇰🇷 首尔 超级线路 🚀 ⏬ 🛡️
+      - 🇺🇸 美国 超级线路 🚀 ⏬ 🛡️
       - 🇭🇰 香港 棉花云 🚀 🆎 ⏬
       - 🇹🇼 台湾 棉花云 🚀 🆎 ⏬
       - 🇲🇾 马来西亚 棉花云 🚀 🆎 ⏬
@@ -268,6 +340,7 @@ proxy-groups:
       - 🇦🇺 悉尼 Https 🚀 ⏬ 🛡️
       - 🇳🇿 奥克兰 Https 🚀 ⏬ 🛡️
       - 🇹🇷 伊斯坦布尔 Https 🚀 ⏬ 🛡️
+      - 🇺🇸 洛杉矶 超级线路 🚀 ⏬ 🛡️
       - 🇰🇷 春川 甲骨文 ⏬ 🛡️
   - name: 📲 Telegram
     type: select
@@ -327,6 +400,7 @@ proxy-groups:
       - DIRECT
       - 🇺🇸 洛杉矶 碧老师的GAI 🚀 🆎 ⏬ 🛡️
       - 🇺🇸 洛杉矶 棉花云 🚀 ⏬
+      - 🇺🇸 洛杉矶 超级线路 🚀 ⏬ 🛡️
   - name: 🌍 EmbyOnlyUS
     type: select
     proxies:
@@ -337,6 +411,7 @@ proxy-groups:
       - 🇨🇦 安大略 菲菲 🚀 ⏬ 🛡️
       - 🇺🇸 洛杉矶 碧老师的GAI 🚀 🆎 ⏬ 🛡️
       - 🇺🇸 洛杉矶 棉花云 🚀 ⏬
+      - 🇺🇸 洛杉矶 超级线路 🚀 ⏬ 🛡️
   - name: 📺 巴哈姆特
     type: select
     proxies:
@@ -388,6 +463,7 @@ proxy-groups:
     proxies:
       - 🇺🇸 洛杉矶 碧老师的GAI 🚀 🆎 ⏬ 🛡️
       - 🇺🇸 洛杉矶 棉花云 🚀 ⏬
+      - 🇺🇸 洛杉矶 超级线路 🚀 ⏬ 🛡️
   - name: 🎥 奈飞节点
     type: select
     proxies:
