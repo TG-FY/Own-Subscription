@@ -73,12 +73,10 @@ proxies:
   - {name: 🇰🇷 韩国 棉花云 🚀 ⏬, server: gkdcu.gkdcn.net, port: 22678, type: ssr, cipher: chacha20-ietf, password: m2KSOD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 6346:4ErhbQ, obfs-param: .microsoft.com}
   - {name: 🇮🇳 印度 棉花云 🚀 ⏬, server: gkdcu.gkd.world, port: 22647, type: ssr, cipher: chacha20-ietf, password: m2KSOD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 6346:4ErhbQ, obfs-param: .microsoft.com}
   - {name: 🇺🇸 洛杉矶 棉花云 🚀 ⏬, server: gkdcm.gkdcn.net, port: 22649, type: ssr, cipher: chacha20-ietf, password: m2KSOD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 6346:4ErhbQ, obfs-param: .microsoft.com}
-  - {name: 🇹🇼 专线 台北 🚀 ⏬ 🛡️, server: 789.out03.nodeserver.top, port: 39063, type: vmess, uuid: 19916b2c-0a87-33df-8a42-a90f151fd2c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇲🇾 专线 马来西亚 🚀 ⏬ 🛡️, server: 789.out03.nodeserver.top, port: 39068, type: vmess, uuid: 19916b2c-0a87-33df-8a42-a90f151fd2c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 🇭🇰 香港 吱吱自行车 🚀 🆎 ⏬, server: az.xhb.dior.bar, port: 12236, type: vmess, uuid: 09ac7c45-0cf2-442a-8323-fc911e641ec7, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: shoutingtoutiao3.10010.com}}
   - {name: 🇭🇰 香港 静安 🚀 ⏬, server: 121.12.76.86, port: 556, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 177563:TKzzJA, obfs-param: cfe16177563.www.gov.hk}
   - {name: 🇺🇸 洛杉矶 碧老师的GAI 🚀 🆎 ⏬ 🛡️, server: tripod.bihai.ga, port: 443, type: vmess, uuid: 5d0c8db8-0d4f-46c4-88e2-49c3968ea81c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /vm02, ws-headers: {Host: tripod.bihai.ga}}
-  - {name: 🇯🇵 东京 碧老师的甲骨文 ⏬ 🛡️, server: 104.19.30.205, port: 443, type: vmess, uuid: 5d0c8db8-0d4f-46c4-88e2-49c3968ea81c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /vm02, ws-headers: {Host: armjp1.bihai.tk}}
+  - {name: 🇯🇵 东京 碧老师的甲骨文 ⏬ 🛡️, server: armjp2.bihai.ga, port: 443, type: vmess, uuid: 5d0c8db8-0d4f-46c4-88e2-49c3968ea81c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /vm02, ws-headers: {Host: armjp2.bihai.ga}}
   - name: 🇨🇦 安大略 菲菲 🚀 ⏬ 🛡️
     type: vmess
     server: mlca1.ratzsuck.tk
@@ -185,8 +183,6 @@ proxy-groups:
       - 🇰🇷 韩国 棉花云 🚀 ⏬
       - 🇮🇳 印度 棉花云 🚀 ⏬
       - 🇺🇸 洛杉矶 棉花云 🚀 ⏬
-      - 🇹🇼 专线 台北 🚀 ⏬ 🛡️
-      - 🇲🇾 专线 马来西亚 🚀 ⏬ 🛡️
       - 🇭🇰 香港 吱吱自行车 🚀 🆎 ⏬
       - 🇭🇰 香港 静安 🚀 ⏬
       - 🇺🇸 洛杉矶 碧老师的GAI 🚀 🆎 ⏬ 🛡️
@@ -219,8 +215,6 @@ proxy-groups:
       - 🇰🇷 韩国 棉花云 🚀 ⏬
       - 🇮🇳 印度 棉花云 🚀 ⏬
       - 🇺🇸 洛杉矶 棉花云 🚀 ⏬
-      - 🇹🇼 专线 台北 🚀 ⏬ 🛡️
-      - 🇲🇾 专线 马来西亚 🚀 ⏬ 🛡️
       - 🇭🇰 香港 吱吱自行车 🚀 🆎 ⏬
       - 🇭🇰 香港 静安 🚀 ⏬
       - 🇺🇸 洛杉矶 碧老师的GAI 🚀 🆎 ⏬ 🛡️
@@ -268,8 +262,6 @@ proxy-groups:
       - 🇰🇷 韩国 棉花云 🚀 ⏬
       - 🇮🇳 印度 棉花云 🚀 ⏬
       - 🇺🇸 洛杉矶 棉花云 🚀 ⏬
-      - 🇹🇼 专线 台北 🚀 ⏬ 🛡️
-      - 🇲🇾 专线 马来西亚 🚀 ⏬ 🛡️
       - 🇭🇰 香港 吱吱自行车 🚀 🆎 ⏬
       - 🇭🇰 香港 静安 🚀 ⏬
       - 🇺🇸 洛杉矶 碧老师的GAI 🚀 🆎 ⏬ 🛡️
@@ -302,8 +294,6 @@ proxy-groups:
       - 🇰🇷 韩国 棉花云 🚀 ⏬
       - 🇮🇳 印度 棉花云 🚀 ⏬
       - 🇺🇸 洛杉矶 棉花云 🚀 ⏬
-      - 🇹🇼 专线 台北 🚀 ⏬ 🛡️
-      - 🇲🇾 专线 马来西亚 🚀 ⏬ 🛡️
       - 🇭🇰 香港 吱吱自行车 🚀 🆎 ⏬
       - 🇭🇰 香港 静安 🚀 ⏬
       - 🇺🇸 洛杉矶 碧老师的GAI 🚀 🆎 ⏬ 🛡️
@@ -336,8 +326,6 @@ proxy-groups:
       - 🇰🇷 韩国 棉花云 🚀 ⏬
       - 🇮🇳 印度 棉花云 🚀 ⏬
       - 🇺🇸 洛杉矶 棉花云 🚀 ⏬
-      - 🇹🇼 专线 台北 🚀 ⏬ 🛡️
-      - 🇲🇾 专线 马来西亚 🚀 ⏬ 🛡️
       - 🇭🇰 香港 吱吱自行车 🚀 🆎 ⏬
       - 🇭🇰 香港 静安 🚀 ⏬
       - 🇺🇸 洛杉矶 碧老师的GAI 🚀 🆎 ⏬ 🛡️
@@ -431,7 +419,6 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 🇹🇼 台湾 超级线路 🚀 ⏬ 🛡️
-      - 🇹🇼 专线 台北 🚀 ⏬ 🛡️
       - 🇹🇼 台北 Https 🚀 ⏬ 🛡️
   - name: Ⓜ️ 微软服务
     type: select
@@ -469,7 +456,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇹🇼 台湾 超级线路 🚀 ⏬ 🛡️
-      - 🇹🇼 专线 台北 🚀 ⏬ 🛡️
       - 🇹🇼 台北 Https 🚀 ⏬ 🛡️
   - name: 🇺🇲 美国节点
     type: select
