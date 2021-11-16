@@ -11,8 +11,8 @@ dns:
 # 增强模式,可选redir-host或者fake-ip
 #  fake-ip-range: 198.18.0.1/16
 # fake-ip模式下的IP池,一般不会冲突,也不需要改
-#  fake-ip-filter:
- fake-ip模式下的域名白名单,这些域名会采用真实IP连接
+  fake-ip-filter:
+# fake-ip模式下的域名白名单,这些域名会采用真实IP连接
     - '*.lan'
     - localhost.ptlogin2.qq.com
   nameserver:
