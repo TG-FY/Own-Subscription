@@ -29,7 +29,7 @@ proxies:
   - {name: 🇭🇰 香港 EDU学术引擎 ⚡️ ⏬ 🛡️, server: 47.242.170.122, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 3876234956.microsoft.com}}
   - {name: 🇸🇬 新加坡 EDU学术引擎 ⚡️ 🚀 ⏬ 🛡️, server: 13.229.135.145, port: 46869, type: ss, cipher: chacha20-ietf-poly1305, password: EKdOY4, plugin: obfs, plugin-opts: {mode: tls, host: 3876234956.microsoft.com}}
   - {name: 🇭🇰 香港 静安 ⚡️ 🚀 ⏬, server: 121.12.76.86, port: 556, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 177563:TKzzJA, obfs-param: cfe16177563.www.gov.hk}
-  - name: 🇹🇼 台湾 超级线路 🚀 🆎 ⏬ 🛡️
+  - name: 🇹🇼 台湾 飞鸟 🚀 🆎 ⏬ 🛡️
     type: ss
     server: 220.130.18.217
     port: 443
@@ -42,7 +42,20 @@ proxies:
       skip-cert-verify: true
       host: Dx600twnew4.soflyso.info
       path: "/"
-  - name: 🇹🇼 台湾 超级线路 🚀 ⏬ 🛡️
+  - name: 🇭🇰 香港 飞鸟 🚀 ⏬ 🛡️
+    type: ss
+    server: 47.243.165.95
+    port: 443
+    cipher: aes-256-gcm
+    password: "08e1a848a855"
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      tls: true
+      skip-cert-verify: true
+      host: alihsknew2.soflyso.info
+      path: "/"
+  - name: 🇹🇼 台湾 飞鸟 🚀 ⏬ 🛡️
     type: ss
     server: 211.23.141.52
     port: 443
@@ -55,7 +68,20 @@ proxies:
       skip-cert-verify: true
       host: dx600twnewss001.soflyso.info
       path: "/"
-  - name: 🇺🇸 美国 超级线路 🚀 ⏬ 🛡️
+  - name: 🇰🇷 首尔 飞鸟 🚀 ⏬ 🛡️
+    type: ss
+    server: 27.102.118.27
+    port: 443
+    cipher: aes-256-gcm
+    password: "1069673dba7f"
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      tls: true
+      skip-cert-verify: true
+      host: Krkdanew001.soflyso.info
+      path: "/"
+  - name: 🇺🇸 美国 飞鸟 🚀 ⏬ 🛡️
     type: ss
     server: 206.119.115.55
     port: 443
@@ -153,7 +179,7 @@ proxies:
     password: 33a6e7b02dcc6f79ffae792369085774
     tls: true
     skip-cert-verify: true
-  - name: 🇺🇸 洛杉矶 超级线路 🚀 ⏬ 🛡️
+  - name: 🇺🇸 洛杉矶 飞鸟 🚀 ⏬ 🛡️
     type: ss
     server: dx1000us1.soflyso.info
     port: 443
@@ -175,9 +201,11 @@ proxy-groups:
       - 🇭🇰 香港 EDU学术引擎 ⚡️ ⏬ 🛡️
       - 🇸🇬 新加坡 EDU学术引擎 ⚡️ 🚀 ⏬ 🛡️
       - 🇭🇰 香港 静安 ⚡️ 🚀 ⏬
-      - 🇹🇼 台湾 超级线路 🚀 🆎 ⏬ 🛡️
-      - 🇹🇼 台湾 超级线路 🚀 ⏬ 🛡️
-      - 🇺🇸 美国 超级线路 🚀 ⏬ 🛡️
+      - 🇹🇼 台湾 飞鸟 🚀 🆎 ⏬ 🛡️
+      - 🇭🇰 香港 飞鸟 🚀 ⏬ 🛡️
+      - 🇹🇼 台湾 飞鸟 🚀 ⏬ 🛡️
+      - 🇰🇷 首尔 飞鸟 🚀 ⏬ 🛡️
+      - 🇺🇸 美国 飞鸟 🚀 ⏬ 🛡️
       - 🇭🇰 香港 棉花云 🚀 🆎 ⏬
       - 🇹🇼 台湾 棉花云 🚀 🆎 ⏬
       - 🇲🇾 马来西亚 棉花云 🚀 🆎 ⏬
@@ -196,7 +224,7 @@ proxy-groups:
       - 🇦🇺 悉尼 Https 🚀 ⏬ 🛡️
       - 🇳🇿 奥克兰 Https 🚀 ⏬ 🛡️
       - 🇹🇷 伊斯坦布尔 Https 🚀 ⏬ 🛡️
-      - 🇺🇸 洛杉矶 超级线路 🚀 ⏬ 🛡️
+      - 🇺🇸 洛杉矶 飞鸟 🚀 ⏬ 🛡️
       - 🇰🇷 春川 甲骨文 ⏬ 🛡️
       - DIRECT
   - name: ♻️ 自动选择
@@ -207,9 +235,11 @@ proxy-groups:
       - 🇭🇰 香港 EDU学术引擎 ⚡️ ⏬ 🛡️
       - 🇸🇬 新加坡 EDU学术引擎 ⚡️ 🚀 ⏬ 🛡️
       - 🇭🇰 香港 静安 ⚡️ 🚀 ⏬
-      - 🇹🇼 台湾 超级线路 🚀 🆎 ⏬ 🛡️
-      - 🇹🇼 台湾 超级线路 🚀 ⏬ 🛡️
-      - 🇺🇸 美国 超级线路 🚀 ⏬ 🛡️
+      - 🇹🇼 台湾 飞鸟 🚀 🆎 ⏬ 🛡️
+      - 🇭🇰 香港 飞鸟 🚀 ⏬ 🛡️
+      - 🇹🇼 台湾 飞鸟 🚀 ⏬ 🛡️
+      - 🇰🇷 首尔 飞鸟 🚀 ⏬ 🛡️
+      - 🇺🇸 美国 飞鸟 🚀 ⏬ 🛡️
       - 🇭🇰 香港 棉花云 🚀 🆎 ⏬
       - 🇹🇼 台湾 棉花云 🚀 🆎 ⏬
       - 🇲🇾 马来西亚 棉花云 🚀 🆎 ⏬
@@ -228,7 +258,7 @@ proxy-groups:
       - 🇦🇺 悉尼 Https 🚀 ⏬ 🛡️
       - 🇳🇿 奥克兰 Https 🚀 ⏬ 🛡️
       - 🇹🇷 伊斯坦布尔 Https 🚀 ⏬ 🛡️
-      - 🇺🇸 洛杉矶 超级线路 🚀 ⏬ 🛡️
+      - 🇺🇸 洛杉矶 飞鸟 🚀 ⏬ 🛡️
       - 🇰🇷 春川 甲骨文 ⏬ 🛡️
   - name: 🍃 净化秘术
     type: select
@@ -242,9 +272,8 @@ proxy-groups:
       - 🇭🇰 香港 Https 🚀 🆎 ⏬ 🛡️
       - 🇭🇰 香港 棉花云 🚀 🆎 ⏬
       - 🇹🇼 台湾 棉花云 🚀 🆎 ⏬
-      - 🇹🇼 台湾 超级线路 🚀 🆎 ⏬ 🛡️
+      - 🇹🇼 台湾 飞鸟 🚀 🆎 ⏬ 🛡️
       - 🇲🇾 马来西亚 棉花云 🚀 🆎 ⏬
-      - 🇺🇸 洛杉矶 碧老师的GAI 🚀 🆎 ⏬ 🛡️
   - name: 📹 YouTube
     type: select
     proxies:
@@ -254,9 +283,11 @@ proxy-groups:
       - 🇭🇰 香港 EDU学术引擎 ⚡️ ⏬ 🛡️
       - 🇸🇬 新加坡 EDU学术引擎 ⚡️ 🚀 ⏬ 🛡️
       - 🇭🇰 香港 静安 ⚡️ 🚀 ⏬
-      - 🇹🇼 台湾 超级线路 🚀 🆎 ⏬ 🛡️
-      - 🇹🇼 台湾 超级线路 🚀 ⏬ 🛡️
-      - 🇺🇸 美国 超级线路 🚀 ⏬ 🛡️
+      - 🇹🇼 台湾 飞鸟 🚀 🆎 ⏬ 🛡️
+      - 🇭🇰 香港 飞鸟 🚀 ⏬ 🛡️
+      - 🇹🇼 台湾 飞鸟 🚀 ⏬ 🛡️
+      - 🇰🇷 首尔 飞鸟 🚀 ⏬ 🛡️
+      - 🇺🇸 美国 飞鸟 🚀 ⏬ 🛡️
       - 🇭🇰 香港 棉花云 🚀 🆎 ⏬
       - 🇹🇼 台湾 棉花云 🚀 🆎 ⏬
       - 🇲🇾 马来西亚 棉花云 🚀 🆎 ⏬
@@ -275,7 +306,7 @@ proxy-groups:
       - 🇦🇺 悉尼 Https 🚀 ⏬ 🛡️
       - 🇳🇿 奥克兰 Https 🚀 ⏬ 🛡️
       - 🇹🇷 伊斯坦布尔 Https 🚀 ⏬ 🛡️
-      - 🇺🇸 洛杉矶 超级线路 🚀 ⏬ 🛡️
+      - 🇺🇸 洛杉矶 飞鸟 🚀 ⏬ 🛡️
       - 🇰🇷 春川 甲骨文 ⏬ 🛡️
   - name: 🎵 TikTok
     type: select
@@ -286,9 +317,11 @@ proxy-groups:
       - 🇭🇰 香港 EDU学术引擎 ⚡️ ⏬ 🛡️
       - 🇸🇬 新加坡 EDU学术引擎 ⚡️ 🚀 ⏬ 🛡️
       - 🇭🇰 香港 静安 ⚡️ 🚀 ⏬
-      - 🇹🇼 台湾 超级线路 🚀 🆎 ⏬ 🛡️
-      - 🇹🇼 台湾 超级线路 🚀 ⏬ 🛡️
-      - 🇺🇸 美国 超级线路 🚀 ⏬ 🛡️
+      - 🇹🇼 台湾 飞鸟 🚀 🆎 ⏬ 🛡️
+      - 🇭🇰 香港 飞鸟 🚀 ⏬ 🛡️
+      - 🇹🇼 台湾 飞鸟 🚀 ⏬ 🛡️
+      - 🇰🇷 首尔 飞鸟 🚀 ⏬ 🛡️
+      - 🇺🇸 美国 飞鸟 🚀 ⏬ 🛡️
       - 🇭🇰 香港 棉花云 🚀 🆎 ⏬
       - 🇹🇼 台湾 棉花云 🚀 🆎 ⏬
       - 🇲🇾 马来西亚 棉花云 🚀 🆎 ⏬
@@ -307,7 +340,7 @@ proxy-groups:
       - 🇦🇺 悉尼 Https 🚀 ⏬ 🛡️
       - 🇳🇿 奥克兰 Https 🚀 ⏬ 🛡️
       - 🇹🇷 伊斯坦布尔 Https 🚀 ⏬ 🛡️
-      - 🇺🇸 洛杉矶 超级线路 🚀 ⏬ 🛡️
+      - 🇺🇸 洛杉矶 飞鸟 🚀 ⏬ 🛡️
       - 🇰🇷 春川 甲骨文 ⏬ 🛡️
   - name: 🕶️ Google Play
     type: select
@@ -318,9 +351,11 @@ proxy-groups:
       - 🇭🇰 香港 EDU学术引擎 ⚡️ ⏬ 🛡️
       - 🇸🇬 新加坡 EDU学术引擎 ⚡️ 🚀 ⏬ 🛡️
       - 🇭🇰 香港 静安 ⚡️ 🚀 ⏬
-      - 🇹🇼 台湾 超级线路 🚀 🆎 ⏬ 🛡️
-      - 🇹🇼 台湾 超级线路 🚀 ⏬ 🛡️
-      - 🇺🇸 美国 超级线路 🚀 ⏬ 🛡️
+      - 🇹🇼 台湾 飞鸟 🚀 🆎 ⏬ 🛡️
+      - 🇭🇰 香港 飞鸟 🚀 ⏬ 🛡️
+      - 🇹🇼 台湾 飞鸟 🚀 ⏬ 🛡️
+      - 🇰🇷 首尔 飞鸟 🚀 ⏬ 🛡️
+      - 🇺🇸 美国 飞鸟 🚀 ⏬ 🛡️
       - 🇭🇰 香港 棉花云 🚀 🆎 ⏬
       - 🇹🇼 台湾 棉花云 🚀 🆎 ⏬
       - 🇲🇾 马来西亚 棉花云 🚀 🆎 ⏬
@@ -339,7 +374,7 @@ proxy-groups:
       - 🇦🇺 悉尼 Https 🚀 ⏬ 🛡️
       - 🇳🇿 奥克兰 Https 🚀 ⏬ 🛡️
       - 🇹🇷 伊斯坦布尔 Https 🚀 ⏬ 🛡️
-      - 🇺🇸 洛杉矶 超级线路 🚀 ⏬ 🛡️
+      - 🇺🇸 洛杉矶 飞鸟 🚀 ⏬ 🛡️
       - 🇰🇷 春川 甲骨文 ⏬ 🛡️
   - name: 📲 Telegram
     type: select
@@ -352,7 +387,8 @@ proxy-groups:
       - 🇭🇰 香港 EDU学术引擎 ⚡️ ⏬ 🛡️
       - 🇸🇬 新加坡 EDU学术引擎 ⚡️ 🚀 ⏬ 🛡️
       - 🇭🇰 香港 吱吱自行车 🚀 🆎 ⏬
-      - 🇺🇸 美国 超级线路 🚀 ⏬ 🛡️
+      - 🇭🇰 香港 飞鸟 🚀 ⏬ 🛡️
+      - 🇺🇸 美国 飞鸟 🚀 ⏬ 🛡️
       - 🇰🇷 春川 甲骨文 ⏬ 🛡️
   - name: 🌑 Facebook
     type: select
@@ -404,7 +440,7 @@ proxy-groups:
       - DIRECT
       - 🇺🇸 洛杉矶 碧老师的GAI 🚀 🆎 ⏬ 🛡️
       - 🇺🇸 洛杉矶 棉花云 🚀 ⏬
-      - 🇺🇸 洛杉矶 超级线路 🚀 ⏬ 🛡️
+      - 🇺🇸 洛杉矶 飞鸟 🚀 ⏬ 🛡️
   - name: 🌍 EmbyOnlyUS
     type: select
     proxies:
@@ -415,7 +451,7 @@ proxy-groups:
       - 🇨🇦 安大略 菲菲 🚀 ⏬ 🛡️
       - 🇺🇸 洛杉矶 碧老师的GAI 🚀 🆎 ⏬ 🛡️
       - 🇺🇸 洛杉矶 棉花云 🚀 ⏬
-      - 🇺🇸 洛杉矶 超级线路 🚀 ⏬ 🛡️
+      - 🇺🇸 洛杉矶 飞鸟 🚀 ⏬ 🛡️
   - name: 📺 巴哈姆特
     type: select
     proxies:
@@ -423,7 +459,7 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - DIRECT
-      - 🇹🇼 台湾 超级线路 🚀 ⏬ 🛡️
+      - 🇹🇼 台湾 飞鸟 🚀 ⏬ 🛡️
       - 🇹🇼 台北 Https 🚀 ⏬ 🛡️
   - name: Ⓜ️ 微软服务
     type: select
@@ -460,14 +496,14 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇹🇼 台湾 超级线路 🚀 ⏬ 🛡️
+      - 🇹🇼 台湾 飞鸟 🚀 ⏬ 🛡️
       - 🇹🇼 台北 Https 🚀 ⏬ 🛡️
   - name: 🇺🇲 美国节点
     type: select
     proxies:
       - 🇺🇸 洛杉矶 碧老师的GAI 🚀 🆎 ⏬ 🛡️
       - 🇺🇸 洛杉矶 棉花云 🚀 ⏬
-      - 🇺🇸 洛杉矶 超级线路 🚀 ⏬ 🛡️
+      - 🇺🇸 洛杉矶 飞鸟 🚀 ⏬ 🛡️
   - name: 🎥 奈飞节点
     type: select
     proxies:
