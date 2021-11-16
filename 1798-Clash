@@ -109,7 +109,7 @@ proxies:
     alterId: 0
     cipher: auto
     network: ws
-    ws-path: /
+    ws-path: /wLVlFo06/
     ws-headers:
      Host: pull-hls.free.video.10010.com
     tls: false
