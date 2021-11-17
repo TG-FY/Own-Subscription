@@ -102,7 +102,7 @@ proxies:
   - {name: 🇭🇰 香港 吱吱自行车 🚀 🆎 ⏬, server: az.xhb.dior.bar, port: 12236, type: vmess, uuid: 09ac7c45-0cf2-442a-8323-fc911e641ec7, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: shoutingtoutiao3.10010.com}}
   - {name: 🇺🇸 洛杉矶 碧老师的GAI 🚀 🆎 ⏬ 🛡️, server: tripod.bihai.ga, port: 443, type: vmess, uuid: 5d0c8db8-0d4f-46c4-88e2-49c3968ea81c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /vm02, ws-headers: {Host: tripod.bihai.ga}}
   - {name: 🇯🇵 东京 碧老师的甲骨文 ⏬ 🛡️, server: armjp2.bihai.ga, port: 443, type: vmess, uuid: 5d0c8db8-0d4f-46c4-88e2-49c3968ea81c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /vm02, ws-headers: {Host: armjp2.bihai.ga}}
-  - name: 🇭🇰 香港 菲菲 🚀 ⏬ 🛡️
+  - name: 🇭🇰 香港 菲菲 ⚡️ 🚀 ⏬ 🛡️
     type: vmess
     server: 104.19.239.85
     port: 80
@@ -217,7 +217,7 @@ proxy-groups:
       - 🇭🇰 香港 吱吱自行车 🚀 🆎 ⏬
       - 🇺🇸 洛杉矶 碧老师的GAI 🚀 🆎 ⏬ 🛡️
       - 🇯🇵 东京 碧老师的甲骨文 ⏬ 🛡️
-      - 🇭🇰 香港 菲菲 🚀 ⏬ 🛡️
+      - 🇭🇰 香港 菲菲 ⚡️ 🚀 ⏬ 🛡️
       - 🇨🇦 安大略 菲菲 🚀 ⏬ 🛡️
       - 🇹🇼 台北 Https 🚀 ⏬ 🛡️
       - 🇷🇺 圣彼得堡 Https 🚀 ⏬ 🛡️
@@ -250,7 +250,7 @@ proxy-groups:
       - 🇭🇰 香港 吱吱自行车 🚀 🆎 ⏬
       - 🇺🇸 洛杉矶 碧老师的GAI 🚀 🆎 ⏬ 🛡️
       - 🇯🇵 东京 碧老师的甲骨文 ⏬ 🛡️
-      - 🇭🇰 香港 菲菲 🚀 ⏬ 🛡️
+      - 🇭🇰 香港 菲菲 ⚡️ 🚀 ⏬ 🛡️
       - 🇨🇦 安大略 菲菲 🚀 ⏬ 🛡️
       - 🇹🇼 台北 Https 🚀 ⏬ 🛡️
       - 🇷🇺 圣彼得堡 Https 🚀 ⏬ 🛡️
@@ -295,7 +295,7 @@ proxy-groups:
       - 🇭🇰 香港 吱吱自行车 🚀 🆎 ⏬
       - 🇺🇸 洛杉矶 碧老师的GAI 🚀 🆎 ⏬ 🛡️
       - 🇯🇵 东京 碧老师的甲骨文 ⏬ 🛡️
-      - 🇭🇰 香港 菲菲 🚀 ⏬ 🛡️
+      - 🇭🇰 香港 菲菲 ⚡️ 🚀 ⏬ 🛡️
       - 🇨🇦 安大略 菲菲 🚀 ⏬ 🛡️
       - 🇹🇼 台北 Https 🚀 ⏬ 🛡️
       - 🇷🇺 圣彼得堡 Https 🚀 ⏬ 🛡️
@@ -328,7 +328,7 @@ proxy-groups:
       - 🇭🇰 香港 吱吱自行车 🚀 🆎 ⏬
       - 🇺🇸 洛杉矶 碧老师的GAI 🚀 🆎 ⏬ 🛡️
       - 🇯🇵 东京 碧老师的甲骨文 ⏬ 🛡️
-      - 🇭🇰 香港 菲菲 🚀 ⏬ 🛡️
+      - 🇭🇰 香港 菲菲 ⚡️ 🚀 ⏬ 🛡️
       - 🇨🇦 安大略 菲菲 🚀 ⏬ 🛡️
       - 🇹🇼 台北 Https 🚀 ⏬ 🛡️
       - 🇷🇺 圣彼得堡 Https 🚀 ⏬ 🛡️
@@ -361,7 +361,7 @@ proxy-groups:
       - 🇭🇰 香港 吱吱自行车 🚀 🆎 ⏬
       - 🇺🇸 洛杉矶 碧老师的GAI 🚀 🆎 ⏬ 🛡️
       - 🇯🇵 东京 碧老师的甲骨文 ⏬ 🛡️
-      - 🇭🇰 香港 菲菲 🚀 ⏬ 🛡️
+      - 🇭🇰 香港 菲菲 ⚡️ 🚀 ⏬ 🛡️
       - 🇨🇦 安大略 菲菲 🚀 ⏬ 🛡️
       - 🇹🇼 台北 Https 🚀 ⏬ 🛡️
       - 🇷🇺 圣彼得堡 Https 🚀 ⏬ 🛡️
@@ -383,8 +383,8 @@ proxy-groups:
       - 🇺🇲 美国节点
       - 🇭🇰 香港 EDU学术引擎 ⚡️ ⏬ 🛡️
       - 🇸🇬 新加坡 EDU学术引擎 ⚡️ 🚀 ⏬ 🛡️
+      - 🇭🇰 香港 菲菲 ⚡️ 🚀 ⏬ 🛡️
       - 🇭🇰 香港 纯白 ⚡️ 🚀 🆎 ⏬
-      - 🇭🇰 香港 菲菲 🚀 ⏬ 🛡️
       - 🇭🇰 香港 吱吱自行车 🚀 🆎 ⏬
       - 🇭🇰 香港 飞鸟 🚀 ⏬ 🛡️
       - 🇺🇸 美国 飞鸟 🚀 ⏬ 🛡️
@@ -506,7 +506,7 @@ proxy-groups:
   - name: 🎥 奈飞节点
     type: select
     proxies:
-      - 🇭🇰 香港 菲菲 🚀 ⏬ 🛡️
+      - 🇭🇰 香港 菲菲 ⚡️ 🚀 ⏬ 🛡️
       - 🇭🇰 香港 Pu云 ⚡️ 🚀 ⏬
       - 🇹🇼 台北 Https 🚀 ⏬ 🛡️
       - 🇲🇾 马来西亚 棉花云 🚀 🆎 ⏬
