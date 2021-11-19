@@ -144,7 +144,6 @@ proxies:
       path: "/"
   - {name: 🇰🇷 春川 甲骨文 ⏬ 🛡️, server: 146.56.112.202, port: 39618, type: ss, cipher: aes-256-gcm, password: ssinthebest}
   - {name: 🇭🇰 香港 纯白 ⚡️ 🚀 🆎 ⏬, server: sh.shcuddns.xyz, port: 11421, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 1065:5ucWfo, obfs-param: 385231065.microsoft.com}
-  - {name: 🇸🇬 新加坡 flyXXL 🚀 ⏬ 🛡️, server: sg25.holiganfan.com, port: 10088, type: trojan, password: f3619029-089e-4b52-9e10-fb74c074bf90, sni: sg25.holiganfan.com}
   - {name: 🇭🇰 香港 QTY ⚡️ 🚀 ⏬, server: hk.huanyumingle.xyz, port: 10340, type: vmess, uuid: d480642d-a243-39a8-848d-11ae79c69dcf, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: t7z.cupid.iqiyi.com}}
 proxy-groups:
   - name: 🔰 节点选择
@@ -167,7 +166,6 @@ proxy-groups:
       - 🇺🇸 洛杉矶 飞鸟 🚀 ⏬ 🛡️
       - 🇰🇷 春川 甲骨文 ⏬ 🛡️
       - 🇭🇰 香港 纯白 ⚡️ 🚀 🆎 ⏬
-      - 🇸🇬 新加坡 flyXXL 🚀 ⏬ 🛡️
       - 🇭🇰 香港 QTY ⚡️ 🚀 ⏬
       - DIRECT
   - name: ♻️ 自动选择
@@ -191,7 +189,6 @@ proxy-groups:
       - 🇺🇸 洛杉矶 飞鸟 🚀 ⏬ 🛡️
       - 🇰🇷 春川 甲骨文 ⏬ 🛡️
       - 🇭🇰 香港 纯白 ⚡️ 🚀 🆎 ⏬
-      - 🇸🇬 新加坡 flyXXL 🚀 ⏬ 🛡️
       - 🇭🇰 香港 QTY ⚡️ 🚀 ⏬
   - name: 🍃 净化秘术
     type: select
@@ -228,7 +225,6 @@ proxy-groups:
       - 🇺🇸 洛杉矶 飞鸟 🚀 ⏬ 🛡️
       - 🇰🇷 春川 甲骨文 ⏬ 🛡️
       - 🇭🇰 香港 纯白 ⚡️ 🚀 🆎 ⏬
-      - 🇸🇬 新加坡 flyXXL 🚀 ⏬ 🛡️
       - 🇭🇰 香港 QTY ⚡️ 🚀 ⏬
   - name: 🎵 TikTok
     type: select
@@ -252,7 +248,6 @@ proxy-groups:
       - 🇺🇸 洛杉矶 飞鸟 🚀 ⏬ 🛡️
       - 🇰🇷 春川 甲骨文 ⏬ 🛡️
       - 🇭🇰 香港 纯白 ⚡️ 🚀 🆎 ⏬
-      - 🇸🇬 新加坡 flyXXL 🚀 ⏬ 🛡️
       - 🇭🇰 香港 QTY ⚡️ 🚀 ⏬
   - name: 🕶️ Google Play
     type: select
@@ -276,7 +271,6 @@ proxy-groups:
       - 🇺🇸 洛杉矶 飞鸟 🚀 ⏬ 🛡️
       - 🇰🇷 春川 甲骨文 ⏬ 🛡️
       - 🇭🇰 香港 纯白 ⚡️ 🚀 🆎 ⏬
-      - 🇸🇬 新加坡 flyXXL 🚀 ⏬ 🛡️
       - 🇭🇰 香港 QTY ⚡️ 🚀 ⏬
   - name: 📲 Telegram
     type: select
