@@ -143,11 +143,6 @@ proxies:
       host: dx1000us1.soflyso.info
       path: "/"
   - {name: 🇰🇷 春川 甲骨文 ⏬ 🛡️, server: 146.56.112.202, port: 39618, type: ss, cipher: aes-256-gcm, password: ssinthebest}
-  - {name: 🇭🇰 香港 IEPL ⚡️ 🚀 ⏬ 🛡️, server: 120.233.151.181, port: 2016, type: ss, cipher: aes-128-gcm, password: V2efLnR3SJZr, plugin: obfs, plugin-opts: {mode: http, host: 874dd129869.zhaoj.in}}
-  - {name: 🇹🇼 台湾 IEPL ⚡️ 🚀 ⏬ 🛡️, server: 120.233.151.181, port: 2019, type: ss, cipher: aes-128-gcm, password: V2efLnR3SJZr, plugin: obfs, plugin-opts: {mode: http, host: 874dd129869.zhaoj.in}}
-  - {name: 🇯🇵 东京 IEPL ⚡️ 🚀 ⏬ 🛡️, server: 139.9.0.246, port: 2031, type: ss, cipher: aes-128-gcm, password: V2efLnR3SJZr, plugin: obfs, plugin-opts: {mode: http, host: 874dd129869.zhaoj.in}}
-  - {name: 🇸🇬 新加坡 IEPL 🚀 ⏬ 🛡️, server: 120.233.151.181, port: 2034, type: ss, cipher: aes-128-gcm, password: V2efLnR3SJZr, plugin: obfs, plugin-opts: {mode: http, host: 874dd129869.zhaoj.in}}
-  - {name: 🇺🇸 洛杉矶 IEPL 🚀 ⏬ 🛡️, server: 120.233.151.181, port: 2029, type: ss, cipher: aes-128-gcm, password: V2efLnR3SJZr, plugin: obfs, plugin-opts: {mode: http, host: 874dd129869.zhaoj.in}}
   - {name: 🇭🇰 香港 纯白 ⚡️ 🚀 🆎 ⏬, server: sh.shcuddns.xyz, port: 11421, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 1065:5ucWfo, obfs-param: 385231065.microsoft.com}
   - {name: 🇸🇬 新加坡 flyXXL 🚀 ⏬ 🛡️, server: sg25.holiganfan.com, port: 10088, type: trojan, password: f3619029-089e-4b52-9e10-fb74c074bf90, sni: sg25.holiganfan.com}
 proxy-groups:
@@ -170,11 +165,6 @@ proxy-groups:
       - 🇹🇼 台北 Https 🚀 ⏬ 🛡️
       - 🇺🇸 洛杉矶 飞鸟 🚀 ⏬ 🛡️
       - 🇰🇷 春川 甲骨文 ⏬ 🛡️
-      - 🇭🇰 香港 IEPL ⚡️ 🚀 ⏬ 🛡️
-      - 🇹🇼 台湾 IEPL ⚡️ 🚀 ⏬ 🛡️
-      - 🇯🇵 东京 IEPL ⚡️ 🚀 ⏬ 🛡️
-      - 🇸🇬 新加坡 IEPL 🚀 ⏬ 🛡️
-      - 🇺🇸 洛杉矶 IEPL 🚀 ⏬ 🛡️
       - 🇭🇰 香港 纯白 ⚡️ 🚀 🆎 ⏬
       - 🇸🇬 新加坡 flyXXL 🚀 ⏬ 🛡️
       - DIRECT
@@ -198,11 +188,6 @@ proxy-groups:
       - 🇹🇼 台北 Https 🚀 ⏬ 🛡️
       - 🇺🇸 洛杉矶 飞鸟 🚀 ⏬ 🛡️
       - 🇰🇷 春川 甲骨文 ⏬ 🛡️
-      - 🇭🇰 香港 IEPL ⚡️ 🚀 ⏬ 🛡️
-      - 🇹🇼 台湾 IEPL ⚡️ 🚀 ⏬ 🛡️
-      - 🇯🇵 东京 IEPL ⚡️ 🚀 ⏬ 🛡️
-      - 🇸🇬 新加坡 IEPL 🚀 ⏬ 🛡️
-      - 🇺🇸 洛杉矶 IEPL 🚀 ⏬ 🛡️
       - 🇭🇰 香港 纯白 ⚡️ 🚀 🆎 ⏬
       - 🇸🇬 新加坡 flyXXL 🚀 ⏬ 🛡️
   - name: 🍃 净化秘术
@@ -239,11 +224,6 @@ proxy-groups:
       - 🇹🇼 台北 Https 🚀 ⏬ 🛡️
       - 🇺🇸 洛杉矶 飞鸟 🚀 ⏬ 🛡️
       - 🇰🇷 春川 甲骨文 ⏬ 🛡️
-      - 🇭🇰 香港 IEPL ⚡️ 🚀 ⏬ 🛡️
-      - 🇹🇼 台湾 IEPL ⚡️ 🚀 ⏬ 🛡️
-      - 🇯🇵 东京 IEPL ⚡️ 🚀 ⏬ 🛡️
-      - 🇸🇬 新加坡 IEPL 🚀 ⏬ 🛡️
-      - 🇺🇸 洛杉矶 IEPL 🚀 ⏬ 🛡️
       - 🇭🇰 香港 纯白 ⚡️ 🚀 🆎 ⏬
       - 🇸🇬 新加坡 flyXXL 🚀 ⏬ 🛡️
   - name: 🎵 TikTok
@@ -267,11 +247,6 @@ proxy-groups:
       - 🇹🇼 台北 Https 🚀 ⏬ 🛡️
       - 🇺🇸 洛杉矶 飞鸟 🚀 ⏬ 🛡️
       - 🇰🇷 春川 甲骨文 ⏬ 🛡️
-      - 🇭🇰 香港 IEPL ⚡️ 🚀 ⏬ 🛡️
-      - 🇹🇼 台湾 IEPL ⚡️ 🚀 ⏬ 🛡️
-      - 🇯🇵 东京 IEPL ⚡️ 🚀 ⏬ 🛡️
-      - 🇸🇬 新加坡 IEPL 🚀 ⏬ 🛡️
-      - 🇺🇸 洛杉矶 IEPL 🚀 ⏬ 🛡️
       - 🇭🇰 香港 纯白 ⚡️ 🚀 🆎 ⏬
       - 🇸🇬 新加坡 flyXXL 🚀 ⏬ 🛡️
   - name: 🕶️ Google Play
@@ -295,11 +270,6 @@ proxy-groups:
       - 🇹🇼 台北 Https 🚀 ⏬ 🛡️
       - 🇺🇸 洛杉矶 飞鸟 🚀 ⏬ 🛡️
       - 🇰🇷 春川 甲骨文 ⏬ 🛡️
-      - 🇭🇰 香港 IEPL ⚡️ 🚀 ⏬ 🛡️
-      - 🇹🇼 台湾 IEPL ⚡️ 🚀 ⏬ 🛡️
-      - 🇯🇵 东京 IEPL ⚡️ 🚀 ⏬ 🛡️
-      - 🇸🇬 新加坡 IEPL 🚀 ⏬ 🛡️
-      - 🇺🇸 洛杉矶 IEPL 🚀 ⏬ 🛡️
       - 🇭🇰 香港 纯白 ⚡️ 🚀 🆎 ⏬
       - 🇸🇬 新加坡 flyXXL 🚀 ⏬ 🛡️
   - name: 📲 Telegram
@@ -313,10 +283,6 @@ proxy-groups:
       - 🇭🇰 香港 Relay ⚡️ 🚀 🆎 ⏬
       - 🇸🇬 新加坡 Relay ⚡️ 🚀 🆎 ⏬
       - 🇭🇰 香港 菲菲 ⚡️ 🚀 ⏬ 🛡️
-      - 🇭🇰 香港 IEPL ⚡️ 🚀 ⏬ 🛡️
-      - 🇹🇼 台湾 IEPL ⚡️ 🚀 ⏬ 🛡️
-      - 🇯🇵 东京 IEPL ⚡️ 🚀 ⏬ 🛡️
-      - 🇸🇬 新加坡 IEPL 🚀 ⏬ 🛡️
       - 🇭🇰 香港 飞鸟 🚀 ⏬ 🛡️
       - 🇺🇸 美国 飞鸟 🚀 ⏬ 🛡️
       - 🇰🇷 春川 甲骨文 ⏬ 🛡️
@@ -369,7 +335,6 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸 洛杉矶 IEPL 🚀 ⏬ 🛡️
       - 🇺🇸 洛杉矶 棉花云 🚀 ⏬
       - 🇺🇸 洛杉矶 飞鸟 🚀 ⏬ 🛡️
   - name: 🌍 EmbyOnlyUS
@@ -380,7 +345,6 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 🇨🇦 安大略 菲菲 🚀 ⏬ 🛡️
-      - 🇺🇸 洛杉矶 IEPL 🚀 ⏬ 🛡️
       - 🇺🇸 洛杉矶 棉花云 🚀 ⏬
       - 🇺🇸 洛杉矶 飞鸟 🚀 ⏬ 🛡️
   - name: 📺 巴哈姆特
@@ -390,7 +354,6 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - DIRECT
-      - 🇹🇼 台湾 IEPL ⚡️ 🚀 ⏬ 🛡️
       - 🇹🇼 台湾 飞鸟 🚀 ⏬ 🛡️
       - 🇹🇼 台湾 棉花云 🚀 ⏬
       - 🇹🇼 台北 Https 🚀 ⏬ 🛡️
@@ -429,14 +392,12 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇹🇼 台湾 IEPL ⚡️ 🚀 ⏬ 🛡️
       - 🇹🇼 台湾 飞鸟 🚀 ⏬ 🛡️
       - 🇹🇼 台湾 棉花云 🚀 ⏬
       - 🇹🇼 台北 Https 🚀 ⏬ 🛡️
   - name: 🇺🇲 美国节点
     type: select
     proxies:
-      - 🇺🇸 洛杉矶 IEPL 🚀 ⏬ 🛡️
       - 🇺🇸 洛杉矶 棉花云 🚀 ⏬
       - 🇺🇸 洛杉矶 飞鸟 🚀 ⏬ 🛡️
   - name: 🎥 奈飞节点
@@ -445,11 +406,6 @@ proxy-groups:
       - 🇭🇰 香港 菲菲 ⚡️ 🚀 ⏬ 🛡️
       - 🇲🇾 马来西亚 棉花云 🚀 🆎 ⏬
       - 🇰🇷 春川 甲骨文 ⏬ 🛡️
-      - 🇭🇰 香港 IEPL ⚡️ 🚀 ⏬ 🛡️
-      - 🇹🇼 台湾 IEPL ⚡️ 🚀 ⏬ 🛡️
-      - 🇯🇵 东京 IEPL ⚡️ 🚀 ⏬ 🛡️
-      - 🇸🇬 新加坡 IEPL 🚀 ⏬ 🛡️
-      - 🇺🇸 洛杉矶 IEPL 🚀 ⏬ 🛡️
 rules:
  - SRC-IP-CIDR,192.168.5.100/32,DIRECT
  - SRC-IP-CIDR,192.168.5.101/32,DIRECT
