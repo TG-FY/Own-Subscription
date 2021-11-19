@@ -134,7 +134,6 @@ proxies:
   - {name: 🇭🇰 香港 纯白 ⚡️ 🚀 🆎 ⏬, server: sh.shcuddns.xyz, port: 11421, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 1065:5ucWfo, obfs-param: 385231065.microsoft.com}
   - {name: 🇭🇰 香港 QTY ⚡️ 🚀 ⏬, server: hk.huanyumingle.xyz, port: 10340, type: vmess, uuid: d480642d-a243-39a8-848d-11ae79c69dcf, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: t7z.cupid.iqiyi.com}}
   - {name: 🇭🇰 香港 Disico ⚡️ 🚀 ⏬, server: dg-hk-node02.linkthink.app, port: 12078, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 248643:bhLde6T3DK, obfs-param: ""}
-  - {name: 🇺🇸 美国 Seal 🚀 ⏬, server: 98.126.31.175, port: 60086, type: ssr, cipher: none, password: sealnet+305, protocol: auth_chain_a, obfs: plain, protocol-param: "", obfs-param: ""}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -157,7 +156,6 @@ proxy-groups:
       - 🇭🇰 香港 纯白 ⚡️ 🚀 🆎 ⏬
       - 🇭🇰 香港 QTY ⚡️ 🚀 ⏬
       - 🇭🇰 香港 Disico ⚡️ 🚀 ⏬
-      - 🇺🇸 美国 Seal 🚀 ⏬
       - DIRECT
   - name: ♻️ 自动选择
     type: url-test
@@ -181,7 +179,6 @@ proxy-groups:
       - 🇭🇰 香港 纯白 ⚡️ 🚀 🆎 ⏬
       - 🇭🇰 香港 QTY ⚡️ 🚀 ⏬
       - 🇭🇰 香港 Disico ⚡️ 🚀 ⏬
-      - 🇺🇸 美国 Seal 🚀 ⏬
   - name: 🍃 净化秘术
     type: select
     proxies:
@@ -218,7 +215,6 @@ proxy-groups:
       - 🇭🇰 香港 纯白 ⚡️ 🚀 🆎 ⏬
       - 🇭🇰 香港 QTY ⚡️ 🚀 ⏬
       - 🇭🇰 香港 Disico ⚡️ 🚀 ⏬
-      - 🇺🇸 美国 Seal 🚀 ⏬
   - name: 🎵 TikTok
     type: select
     proxies:
@@ -242,7 +238,6 @@ proxy-groups:
       - 🇭🇰 香港 纯白 ⚡️ 🚀 🆎 ⏬
       - 🇭🇰 香港 QTY ⚡️ 🚀 ⏬
       - 🇭🇰 香港 Disico ⚡️ 🚀 ⏬
-      - 🇺🇸 美国 Seal 🚀 ⏬
   - name: 🕶️ Google Play
     type: select
     proxies:
@@ -266,7 +261,6 @@ proxy-groups:
       - 🇭🇰 香港 纯白 ⚡️ 🚀 🆎 ⏬
       - 🇭🇰 香港 QTY ⚡️ 🚀 ⏬
       - 🇭🇰 香港 Disico ⚡️ 🚀 ⏬
-      - 🇺🇸 美国 Seal 🚀 ⏬
   - name: 📲 Telegram
     type: select
     proxies:
@@ -333,7 +327,6 @@ proxy-groups:
       - DIRECT
       - 🇺🇸 洛杉矶 棉花云 🚀 ⏬
       - 🇺🇸 洛杉矶 飞鸟 🚀 ⏬ 🛡️
-      - 🇺🇸 美国 Seal 🚀 ⏬
   - name: 🌍 EmbyOnlyUS
     type: select
     proxies:
@@ -344,7 +337,6 @@ proxy-groups:
       - 🇨🇦 安大略 菲菲 🚀 ⏬ 🛡️
       - 🇺🇸 洛杉矶 棉花云 🚀 ⏬
       - 🇺🇸 洛杉矶 飞鸟 🚀 ⏬ 🛡️
-      - 🇺🇸 美国 Seal 🚀 ⏬
   - name: 📺 巴哈姆特
     type: select
     proxies:
@@ -398,7 +390,6 @@ proxy-groups:
     proxies:
       - 🇺🇸 洛杉矶 棉花云 🚀 ⏬
       - 🇺🇸 洛杉矶 飞鸟 🚀 ⏬ 🛡️
-      - 🇺🇸 美国 Seal 🚀 ⏬
   - name: 🎥 奈飞节点
     type: select
     proxies:
