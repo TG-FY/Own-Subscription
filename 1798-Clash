@@ -341,6 +341,7 @@ proxy-groups:
       - 🇺🇸 圣克拉拉 IPLC 🚀 ⏬
       - 🇲🇾 马来西亚 棉花云 🚀 🆎 ⏬
       - 🇰🇷 春川 甲骨文 ⏬ 🛡️
+      - 🇨🇦 安大略 菲菲 🚀 ⏬ 🛡️
 rules:
  - SRC-IP-CIDR,192.168.5.100/32,DIRECT
  - SRC-IP-CIDR,192.168.5.101/32,DIRECT
