@@ -84,7 +84,7 @@ proxies:
     password: 33a6e7b02dcc6f79ffae792369085774
     tls: true
     skip-cert-verify: true
-  - {name: 🇰🇷 春川 甲骨文 ⏬ 🛡️, server: 146.56.112.202, port: 39618, type: ss, cipher: aes-256-gcm, password: ssinthebest}
+  - {name: 🇰🇷 春川 甲骨文 🚀 🆎 ⏬ 🛡️, server: 146.56.112.202, port: 39618, type: ss, cipher: aes-256-gcm, password: ssinthebest}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -105,7 +105,7 @@ proxy-groups:
       - 🇺🇸 圣何塞 菲菲 🚀 ⏬ 🛡️
       - 🇨🇦 安大略 菲菲 🚀 ⏬ 🛡️
       - 🇹🇼 台北 Https 🚀 ⏬ 🛡️
-      - 🇰🇷 春川 甲骨文 ⏬ 🛡️
+      - 🇰🇷 春川 甲骨文 🚀 🆎 ⏬ 🛡️
       - DIRECT
   - name: ♻️ 自动选择
     type: url-test
@@ -127,7 +127,7 @@ proxy-groups:
       - 🇺🇸 圣何塞 菲菲 🚀 ⏬ 🛡️
       - 🇨🇦 安大略 菲菲 🚀 ⏬ 🛡️
       - 🇹🇼 台北 Https 🚀 ⏬ 🛡️
-      - 🇰🇷 春川 甲骨文 ⏬ 🛡️
+      - 🇰🇷 春川 甲骨文 🚀 🆎 ⏬ 🛡️
   - name: 🍃 净化秘术
     type: select
     proxies:
@@ -140,6 +140,7 @@ proxy-groups:
       - 🇸🇬 新加坡 Relay ⚡️ 🚀 🆎 ⏬
       - 🇹🇼 台湾 飞鸟 🚀 🆎 ⏬ 🛡️
       - 🇲🇾 马来西亚 棉花云 🚀 🆎 ⏬
+      - 🇰🇷 春川 甲骨文 🚀 🆎 ⏬ 🛡️
   - name: 📹 YouTube
     type: select
     proxies:
@@ -161,7 +162,7 @@ proxy-groups:
       - 🇺🇸 圣何塞 菲菲 🚀 ⏬ 🛡️
       - 🇨🇦 安大略 菲菲 🚀 ⏬ 🛡️
       - 🇹🇼 台北 Https 🚀 ⏬ 🛡️
-      - 🇰🇷 春川 甲骨文 ⏬ 🛡️
+      - 🇰🇷 春川 甲骨文 🚀 🆎 ⏬ 🛡️
   - name: 🎵 TikTok
     type: select
     proxies:
@@ -183,7 +184,7 @@ proxy-groups:
       - 🇺🇸 圣何塞 菲菲 🚀 ⏬ 🛡️
       - 🇨🇦 安大略 菲菲 🚀 ⏬ 🛡️
       - 🇹🇼 台北 Https 🚀 ⏬ 🛡️
-      - 🇰🇷 春川 甲骨文 ⏬ 🛡️
+      - 🇰🇷 春川 甲骨文 🚀 🆎 ⏬ 🛡️
   - name: 🕶️ Google Play
     type: select
     proxies:
@@ -205,7 +206,7 @@ proxy-groups:
       - 🇺🇸 圣何塞 菲菲 🚀 ⏬ 🛡️
       - 🇨🇦 安大略 菲菲 🚀 ⏬ 🛡️
       - 🇹🇼 台北 Https 🚀 ⏬ 🛡️
-      - 🇰🇷 春川 甲骨文 ⏬ 🛡️
+      - 🇰🇷 春川 甲骨文 🚀 🆎 ⏬ 🛡️
   - name: 📲 Telegram
     type: select
     proxies:
@@ -219,7 +220,7 @@ proxy-groups:
       - 🇭🇰 香港 Relay ⚡️ 🚀 🆎 ⏬
       - 🇸🇬 新加坡 Relay ⚡️ 🚀 🆎 ⏬
       - 🇺🇸 美国 飞鸟 🚀 ⏬ 🛡️
-      - 🇰🇷 春川 甲骨文 ⏬ 🛡️
+      - 🇰🇷 春川 甲骨文 🚀 🆎 ⏬ 🛡️
   - name: 🌑 Facebook
     type: select
     proxies:
@@ -341,7 +342,7 @@ proxy-groups:
       - 🇺🇸 圣何塞 菲菲 🚀 ⏬ 🛡️
       - 🇺🇸 圣克拉拉 IPLC 🚀 ⏬
       - 🇲🇾 马来西亚 棉花云 🚀 🆎 ⏬
-      - 🇰🇷 春川 甲骨文 ⏬ 🛡️
+      - 🇰🇷 春川 甲骨文 🚀 🆎 ⏬ 🛡️
       - 🇨🇦 安大略 菲菲 🚀 ⏬ 🛡️
 rules:
  - SRC-IP-CIDR,192.168.5.100/32,DIRECT
