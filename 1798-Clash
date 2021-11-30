@@ -27,9 +27,10 @@ log-level: info
 #    - https://1.1.1.1/dns-query
 external-controller: 9090
 proxies:
+  - {name: 🇭🇰 香港 Pool ⚡️ 🚀 🆎 ⏬ 🛡️, server: 118.107.244.112, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: 🇭🇰 香港 52VPN 🚀 ⏬, server: gz.52node.xyz, port: 28038, type: vmess, uuid: fead7086-54ec-3772-b603-ba9e740ec3da, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: hk.jd.com}}
   - {name: 🇹🇼 台湾 52VPN 🚀 ⏬, server: gz.52node.xyz, port: 28001, type: vmess, uuid: fead7086-54ec-3772-b603-ba9e740ec3da, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: hk.jd.com}}
-  - {name: 🇲🇾 马来西亚 棉花云 🚀 🆎 ⏬, server: gkdcm.gkdcn.net, port: 22645, type: ssr, cipher: chacha20-ietf, password: m2KSOD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 6346:4ErhbQ, obfs-param: .microsoft.com}
+  - {name: 🇲🇾 马来西亚 棉花云 🚀 ⏬, server: gkdcm.gkdcn.net, port: 22645, type: ssr, cipher: chacha20-ietf, password: m2KSOD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 6346:4ErhbQ, obfs-param: .microsoft.com}
   - name: 🇨🇦 安大略 菲菲 🚀 ⏬ 🛡️
     type: vmess
     server: mlca1.ratzsuck.tk
@@ -80,19 +81,16 @@ proxies:
     alterId: 2
     cipher: auto
     network: http
+  - {name: 🇭🇰 香港 猪猪云 ⚡️ 🚀 ⏬, server: 5.zhuzhu12.com, port: 80, type: vmess, uuid: 908b8763-4cc1-338e-ab28-56378af766e5, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: a.189.cn}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
-      - 🇭🇰 香港 UU云 ⚡️ 🚀 ⏬
-      - 🇸🇬 新加坡 IPLC ⚡️ 🚀 ⏬
-      - 🇺🇸 圣克拉拉 IPLC 🚀 ⏬
+      - 🇭🇰 香港 Pool ⚡️ 🚀 🆎 ⏬ 🛡️
       - 🇭🇰 香港 52VPN 🚀 ⏬
       - 🇹🇼 台湾 52VPN 🚀 ⏬
-      - 🇭🇰 香港 Relay ⚡️ 🚀 🆎 ⏬
-      - 🇸🇬 新加坡 Relay ⚡️ 🚀 🆎 ⏬
-      - 🇲🇾 马来西亚 棉花云 🚀 🆎 ⏬
+      - 🇲🇾 马来西亚 棉花云 🚀 ⏬
       - 🇨🇦 安大略 菲菲 🚀 ⏬ 🛡️
       - 🇹🇼 台湾 飞鸟 🚀 🆎 ⏬ 🛡️
       - 🇺🇸 美国 飞鸟 🚀 ⏬ 🛡️
@@ -101,20 +99,17 @@ proxy-groups:
       - 🇰🇷 春川 pāndà湿的甲骨文 🚀 🆎 ⏬ 🛡️
       - 🇺🇸 圣何塞 pāndà湿的甲骨文 🚀 🆎 ⏬ 🛡️
       - 🇭🇰 香港 V2云 ⚡️ 🚀 ⏬
+      - 🇭🇰 香港 猪猪云 ⚡️ 🚀 ⏬
       - DIRECT
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 500
     proxies:
-      - 🇭🇰 香港 UU云 ⚡️ 🚀 ⏬
-      - 🇸🇬 新加坡 IPLC ⚡️ 🚀 ⏬
-      - 🇺🇸 圣克拉拉 IPLC 🚀 ⏬
+      - 🇭🇰 香港 Pool ⚡️ 🚀 🆎 ⏬ 🛡️
       - 🇭🇰 香港 52VPN 🚀 ⏬
       - 🇹🇼 台湾 52VPN 🚀 ⏬
-      - 🇭🇰 香港 Relay ⚡️ 🚀 🆎 ⏬
-      - 🇸🇬 新加坡 Relay ⚡️ 🚀 🆎 ⏬
-      - 🇲🇾 马来西亚 棉花云 🚀 🆎 ⏬
+      - 🇲🇾 马来西亚 棉花云 🚀 ⏬
       - 🇨🇦 安大略 菲菲 🚀 ⏬ 🛡️
       - 🇹🇼 台湾 飞鸟 🚀 🆎 ⏬ 🛡️
       - 🇺🇸 美国 飞鸟 🚀 ⏬ 🛡️
@@ -123,6 +118,7 @@ proxy-groups:
       - 🇰🇷 春川 pāndà湿的甲骨文 🚀 🆎 ⏬ 🛡️
       - 🇺🇸 圣何塞 pāndà湿的甲骨文 🚀 🆎 ⏬ 🛡️
       - 🇭🇰 香港 V2云 ⚡️ 🚀 ⏬
+      - 🇭🇰 香港 猪猪云 ⚡️ 🚀 ⏬
   - name: 🍃 净化秘术
     type: select
     proxies:
@@ -131,10 +127,8 @@ proxy-groups:
       - DIRECT
       - 🇹🇼 台湾节点
       - 🇺🇲 美国节点
-      - 🇭🇰 香港 Relay ⚡️ 🚀 🆎 ⏬
-      - 🇸🇬 新加坡 Relay ⚡️ 🚀 🆎 ⏬
+      - 🇭🇰 香港 Pool ⚡️ 🚀 🆎 ⏬ 🛡️
       - 🇹🇼 台湾 飞鸟 🚀 🆎 ⏬ 🛡️
-      - 🇲🇾 马来西亚 棉花云 🚀 🆎 ⏬
       - 🇰🇷 春川 pāndà湿的甲骨文 🚀 🆎 ⏬ 🛡️
       - 🇺🇸 圣何塞 pāndà湿的甲骨文 🚀 🆎 ⏬ 🛡️
   - name: 📹 YouTube
@@ -143,14 +137,10 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - DIRECT
-      - 🇭🇰 香港 UU云 ⚡️ 🚀 ⏬
-      - 🇸🇬 新加坡 IPLC ⚡️ 🚀 ⏬
-      - 🇺🇸 圣克拉拉 IPLC 🚀 ⏬
+      - 🇭🇰 香港 Pool ⚡️ 🚀 🆎 ⏬ 🛡️
       - 🇭🇰 香港 52VPN 🚀 ⏬
       - 🇹🇼 台湾 52VPN 🚀 ⏬
-      - 🇭🇰 香港 Relay ⚡️ 🚀 🆎 ⏬
-      - 🇸🇬 新加坡 Relay ⚡️ 🚀 🆎 ⏬
-      - 🇲🇾 马来西亚 棉花云 🚀 🆎 ⏬
+      - 🇲🇾 马来西亚 棉花云 🚀 ⏬
       - 🇨🇦 安大略 菲菲 🚀 ⏬ 🛡️
       - 🇹🇼 台湾 飞鸟 🚀 🆎 ⏬ 🛡️
       - 🇺🇸 美国 飞鸟 🚀 ⏬ 🛡️
@@ -159,20 +149,17 @@ proxy-groups:
       - 🇰🇷 春川 pāndà湿的甲骨文 🚀 🆎 ⏬ 🛡️
       - 🇺🇸 圣何塞 pāndà湿的甲骨文 🚀 🆎 ⏬ 🛡️
       - 🇭🇰 香港 V2云 ⚡️ 🚀 ⏬
+      - 🇭🇰 香港 猪猪云 ⚡️ 🚀 ⏬
   - name: 🎵 TikTok
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - DIRECT
-      - 🇭🇰 香港 UU云 ⚡️ 🚀 ⏬
-      - 🇸🇬 新加坡 IPLC ⚡️ 🚀 ⏬
-      - 🇺🇸 圣克拉拉 IPLC 🚀 ⏬
+      - 🇭🇰 香港 Pool ⚡️ 🚀 🆎 ⏬ 🛡️
       - 🇭🇰 香港 52VPN 🚀 ⏬
       - 🇹🇼 台湾 52VPN 🚀 ⏬
-      - 🇭🇰 香港 Relay ⚡️ 🚀 🆎 ⏬
-      - 🇸🇬 新加坡 Relay ⚡️ 🚀 🆎 ⏬
-      - 🇲🇾 马来西亚 棉花云 🚀 🆎 ⏬
+      - 🇲🇾 马来西亚 棉花云 🚀 ⏬
       - 🇨🇦 安大略 菲菲 🚀 ⏬ 🛡️
       - 🇹🇼 台湾 飞鸟 🚀 🆎 ⏬ 🛡️
       - 🇺🇸 美国 飞鸟 🚀 ⏬ 🛡️
@@ -181,20 +168,17 @@ proxy-groups:
       - 🇰🇷 春川 pāndà湿的甲骨文 🚀 🆎 ⏬ 🛡️
       - 🇺🇸 圣何塞 pāndà湿的甲骨文 🚀 🆎 ⏬ 🛡️
       - 🇭🇰 香港 V2云 ⚡️ 🚀 ⏬
+      - 🇭🇰 香港 猪猪云 ⚡️ 🚀 ⏬
   - name: 🕶️ Google Play
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - DIRECT
-      - 🇭🇰 香港 UU云 ⚡️ 🚀 ⏬
-      - 🇸🇬 新加坡 IPLC ⚡️ 🚀 ⏬
-      - 🇺🇸 圣克拉拉 IPLC 🚀 ⏬
+      - 🇭🇰 香港 Pool ⚡️ 🚀 🆎 ⏬ 🛡️
       - 🇭🇰 香港 52VPN 🚀 ⏬
       - 🇹🇼 台湾 52VPN 🚀 ⏬
-      - 🇭🇰 香港 Relay ⚡️ 🚀 🆎 ⏬
-      - 🇸🇬 新加坡 Relay ⚡️ 🚀 🆎 ⏬
-      - 🇲🇾 马来西亚 棉花云 🚀 🆎 ⏬
+      - 🇲🇾 马来西亚 棉花云 🚀 ⏬
       - 🇨🇦 安大略 菲菲 🚀 ⏬ 🛡️
       - 🇹🇼 台湾 飞鸟 🚀 🆎 ⏬ 🛡️
       - 🇺🇸 美国 飞鸟 🚀 ⏬ 🛡️
@@ -203,6 +187,7 @@ proxy-groups:
       - 🇰🇷 春川 pāndà湿的甲骨文 🚀 🆎 ⏬ 🛡️
       - 🇺🇸 圣何塞 pāndà湿的甲骨文 🚀 🆎 ⏬ 🛡️
       - 🇭🇰 香港 V2云 ⚡️ 🚀 ⏬
+      - 🇭🇰 香港 猪猪云 ⚡️ 🚀 ⏬
   - name: 📲 Telegram
     type: select
     proxies:
@@ -212,9 +197,7 @@ proxy-groups:
       - 🇹🇼 台湾节点
       - 🇺🇲 美国节点
       - 🇭🇰 香港 V2云 ⚡️ 🚀 ⏬
-      - 🇭🇰 香港 UU云 ⚡️ 🚀 ⏬
-      - 🇸🇬 新加坡 IPLC ⚡️ 🚀 ⏬
-      - 🇸🇬 新加坡 Relay ⚡️ 🚀 🆎 ⏬
+      - 🇭🇰 香港 Pool ⚡️ 🚀 🆎 ⏬ 🛡️
       - 🇺🇸 美国 飞鸟 🚀 ⏬ 🛡️
       - 🇰🇷 春川 pāndà湿的甲骨文 🚀 🆎 ⏬ 🛡️
   - name: 🌑 Facebook
@@ -266,7 +249,6 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 🇺🇸 圣何塞 pāndà湿的甲骨文 🚀 🆎 ⏬ 🛡️
-      - 🇺🇸 圣克拉拉 IPLC 🚀 ⏬
       - 🇺🇸 洛杉矶 碧老师的GIA 🚀 🆎 ⏬ 🛡️
   - name: 🌍 EmbyOnlyUS
     type: select
@@ -277,7 +259,6 @@ proxy-groups:
       - DIRECT
       - 🇨🇦 安大略 菲菲 🚀 ⏬ 🛡️
       - 🇺🇸 圣何塞 pāndà湿的甲骨文 🚀 🆎 ⏬ 🛡️
-      - 🇺🇸 圣克拉拉 IPLC 🚀 ⏬
       - 🇺🇸 洛杉矶 碧老师的GIA 🚀 🆎 ⏬ 🛡️
   - name: 📺 巴哈姆特
     type: select
@@ -327,16 +308,15 @@ proxy-groups:
     type: select
     proxies:
       - 🇺🇸 圣何塞 pāndà湿的甲骨文 🚀 🆎 ⏬ 🛡️
-      - 🇺🇸 圣克拉拉 IPLC 🚀 ⏬
       - 🇺🇸 洛杉矶 碧老师的GIA 🚀 🆎 ⏬ 🛡️
   - name: 🎥 奈飞节点
     type: select
     proxies:
-      - 🇭🇰 香港 UU云 ⚡️ 🚀 ⏬
-      - 🇺🇸 圣克拉拉 IPLC 🚀 ⏬
-      - 🇲🇾 马来西亚 棉花云 🚀 🆎 ⏬
+      - 🇭🇰 香港 猪猪云 ⚡️ 🚀 ⏬
+      - 🇲🇾 马来西亚 棉花云 🚀 ⏬
       - 🇰🇷 春川 pāndà湿的甲骨文 🚀 🆎 ⏬ 🛡️
       - 🇺🇸 圣何塞 pāndà湿的甲骨文 🚀 🆎 ⏬ 🛡️
+      - 🇨🇦 安大略 菲菲 🚀 ⏬ 🛡️
 rules:
  - SRC-IP-CIDR,192.168.5.100/32,DIRECT
  - SRC-IP-CIDR,192.168.5.101/32,DIRECT
