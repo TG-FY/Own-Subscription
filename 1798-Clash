@@ -84,7 +84,7 @@ proxies:
   - {name: 🇭🇰 香港 猪猪云 ⚡️ 🚀 ⏬, server: 5.zhuzhu12.com, port: 80, type: vmess, uuid: 908b8763-4cc1-338e-ab28-56378af766e5, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: a.189.cn}}
   - {name: 🇨🇳 上海 IEPL ⚡️ 🚀 ⏬ 🛡️, server: 42.157.196.204, port: 5017, type: ss, cipher: aes-128-gcm, password: Ps5jQN}
   - {name: 🇭🇰 香港 IEPL ⚡️ 🚀 ⏬ 🛡️, server: 120.232.193.19, port: 35018, type: ss, cipher: aes-128-gcm, password: Ps5jQN}
-  - {name: 🇹🇼 高雄 IEPL ⚡️ 🚀 ⏬ 🛡️, server: 120.232.193.34, port: 5017, type: ss, cipher: aes-128-gcm, password: Ps5jQN}
+  - {name: 🇹🇼 高雄 IEPL ⚡️ 🚀 ⏬ 🛡️, server: 42.157.196.197, port: 5017, type: ss, cipher: aes-128-gcm, password: Ps5jQN}
   - {name: 🇵🇭 马尼拉 IEPL 🚀 🆎 ⏬ 🛡️, server: 120.232.193.18, port: 5017, type: ss, cipher: aes-128-gcm, password: Ps5jQN}
 proxy-groups:
   - name: 🔰 节点选择
