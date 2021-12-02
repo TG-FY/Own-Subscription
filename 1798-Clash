@@ -70,10 +70,10 @@ proxies:
       host: dxhk1000new003.soflyso.info
       path: "/"
   - {name: 🇺🇸 洛杉矶 碧老师的GIA 🚀 🆎 ⏬ 🛡️, server: tripod.bihai.ga, port: 443, type: vmess, uuid: 5d0c8db8-0d4f-46c4-88e2-49c3968ea81c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /vm02, ws-headers: {Host: tripod.bihai.ga}}
-  - {name: 🇯🇵 东京 碧老师的甲骨文 🚀 ⏬ 🛡️, server: 104.19.226.146, port: 443, type: vmess, uuid: 5d0c8db8-0d4f-46c4-88e2-49c3968ea81c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /vm02, ws-headers: {Host: armjp1.bihai.ga}}
+  - {name: 🇯🇵 东京 碧老师的甲骨文 🚀 ⏬ 🛡️, server: 104.18.91.215, port: 443, type: vmess, uuid: 5d0c8db8-0d4f-46c4-88e2-49c3968ea81c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /vm02, ws-headers: {Host: armjp1.bihai.ga}}
   - {name: 🇰🇷 春川 pāndà湿的甲骨文 🚀 🆎 ⏬ 🛡️, server: 146.56.112.202, port: 39618, type: ss, cipher: aes-256-gcm, password: ssinthebest}
   - {name: 🇺🇸 圣何塞 pāndà湿的甲骨文 🚀 🆎 ⏬ 🛡️, server: 198.23.236.100, port: 24723, type: ss, cipher: chacha20-ietf-poly1305, password: LPjhFuYyDasY}
-  - {name: 🇺🇸 圣何塞 菲菲的甲骨文 🚀 🆎 ⏬ 🛡️, server: 104.19.226.146, port: 80, type: vmess, uuid: 44e0d410-535a-11ec-968f-02001700aa14, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: armsj2.jbdd1123.workers.dev}}
+  - {name: 🇺🇸 圣何塞 菲菲的甲骨文 🚀 🆎 ⏬ 🛡️, server: 104.18.91.215, port: 80, type: vmess, uuid: 44e0d410-535a-11ec-968f-02001700aa14, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: armsj2.jbdd1123.workers.dev}}
   - name: 🇭🇰 香港 V2云 ⚡️ 🚀 ⏬
     type: vmess
     server: 20.205.1.73
@@ -525,24 +525,24 @@ rules:
  - DOMAIN,gstatic.com,🍃 净化秘术
  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🕶️ Google Play
  - DOMAIN-SUFFIX,services.googleapis.cn,🕶️ Google Play
- - IP-CIDR,120.232.181.162/32,🕶️ Google Play,no-resolve
- - IP-CIDR,120.241.147.226/32,🕶️ Google Play,no-resolve
- - IP-CIDR,120.253.253.226/32,🕶️ Google Play,no-resolve
- - IP-CIDR,120.253.255.162/32,🕶️ Google Play,no-resolve
- - IP-CIDR,120.253.255.34/32,🕶️ Google Play,no-resolve
- - IP-CIDR,120.253.255.98/32,🕶️ Google Play,no-resolve
- - IP-CIDR,180.163.150.162/32,🕶️ Google Play,no-resolve
- - IP-CIDR,180.163.150.34/32,🕶️ Google Play,no-resolve
- - IP-CIDR,180.163.151.162/32,🕶️ Google Play,no-resolve
- - IP-CIDR,180.163.151.34/32,🕶️ Google Play,no-resolve
- - IP-CIDR,203.208.39.0/24,🕶️ Google Play,no-resolve
- - IP-CIDR,203.208.40.0/24,🕶️ Google Play,no-resolve
- - IP-CIDR,203.208.41.0/24,🕶️ Google Play,no-resolve
- - IP-CIDR,203.208.43.0/24,🕶️ Google Play,no-resolve
- - IP-CIDR,203.208.50.0/24,🕶️ Google Play,no-resolve
- - IP-CIDR,220.181.174.162/32,🕶️ Google Play,no-resolve
- - IP-CIDR,220.181.174.226/32,🕶️ Google Play,no-resolve
- - IP-CIDR,220.181.174.34/32,🕶️ Google Play,no-resolve
+#  - IP-CIDR,120.232.181.162/32,🕶️ Google Play,no-resolve
+#  - IP-CIDR,120.241.147.226/32,🕶️ Google Play,no-resolve
+#  - IP-CIDR,120.253.253.226/32,🕶️ Google Play,no-resolve
+#  - IP-CIDR,120.253.255.162/32,🕶️ Google Play,no-resolve
+#  - IP-CIDR,120.253.255.34/32,🕶️ Google Play,no-resolve
+#  - IP-CIDR,120.253.255.98/32,🕶️ Google Play,no-resolve
+#  - IP-CIDR,180.163.150.162/32,🕶️ Google Play,no-resolve
+#  - IP-CIDR,180.163.150.34/32,🕶️ Google Play,no-resolve
+#  - IP-CIDR,180.163.151.162/32,🕶️ Google Play,no-resolve
+#  - IP-CIDR,180.163.151.34/32,🕶️ Google Play,no-resolve
+#  - IP-CIDR,203.208.39.0/24,🕶️ Google Play,no-resolve
+#  - IP-CIDR,203.208.40.0/24,🕶️ Google Play,no-resolve
+#  - IP-CIDR,203.208.41.0/24,🕶️ Google Play,no-resolve
+#  - IP-CIDR,203.208.43.0/24,🕶️ Google Play,no-resolve
+#  - IP-CIDR,203.208.50.0/24,🕶️ Google Play,no-resolve
+#  - IP-CIDR,220.181.174.162/32,🕶️ Google Play,no-resolve
+#  - IP-CIDR,220.181.174.226/32,🕶️ Google Play,no-resolve
+#  - IP-CIDR,220.181.174.34/32,🕶️ Google Play,no-resolve
  - DOMAIN-KEYWORD,youtube,📹 YouTube
  - DOMAIN,yt3.ggpht.com,📹 YouTube
  - DOMAIN-SUFFIX,googlevideo.com,📹 YouTube
@@ -1746,10 +1746,10 @@ rules:
  - DOMAIN-SUFFIX,g.co,🔰 节点选择
  - DOMAIN-SUFFIX,ggpht.com,🔰 节点选择
  - DOMAIN-SUFFIX,goo.gl,🔰 节点选择
- - DOMAIN-SUFFIX,googleapis.cn,🔰 节点选择
- - DOMAIN-SUFFIX,googleapis.com,🔰 节点选择
- - DOMAIN-SUFFIX,gstatic.cn,🔰 节点选择
- - DOMAIN-SUFFIX,gstatic.com,🔰 节点选择
+# - DOMAIN-SUFFIX,googleapis.cn,🔰 节点选择
+# - DOMAIN-SUFFIX,googleapis.com,🔰 节点选择
+# - DOMAIN-SUFFIX,gstatic.cn,🔰 节点选择
+# - DOMAIN-SUFFIX,gstatic.com,🔰 节点选择
  - DOMAIN-SUFFIX,gvt0.com,🔰 节点选择
  - DOMAIN-SUFFIX,gvt1.com,🔰 节点选择
  - DOMAIN-SUFFIX,gvt2.com,🔰 节点选择
