@@ -40,7 +40,7 @@ proxies:
     network: ws
     ws-path: /
     ws-headers:
-     Host: shoutingtoutiao3.10010.com
+     Host: shoutingtoutiao4.10010.com
     tls: false
   - name: 🇹🇼 台湾 飞鸟 🚀 🆎 ⏬ 🛡️
     type: ss
