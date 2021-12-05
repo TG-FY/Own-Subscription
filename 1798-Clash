@@ -60,7 +60,7 @@ proxies:
   - {name: 🇯🇵 东京 碧老师的甲骨文 🚀 ⏬ 🛡️, server: 104.18.91.215, port: 443, type: vmess, uuid: 5d0c8db8-0d4f-46c4-88e2-49c3968ea81c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /vm02, ws-headers: {Host: armjp1.bihai.ga}}
   - {name: 🇰🇷 春川 pāndà湿的甲骨文 🚀 🆎 ⏬ 🛡️, server: 129.154.63.97, port: 41783, type: ss, cipher: chacha20-ietf-poly1305, password: FZQN8gx41AXL}
   - {name: 🇺🇸 圣何塞 pāndà湿的甲骨文 🚀 🆎 ⏬ 🛡️, server: 198.23.236.100, port: 24723, type: ss, cipher: chacha20-ietf-poly1305, password: LPjhFuYyDasY}
-  - {name: 🇺🇸 圣何塞 菲菲的甲骨文 🚀 🆎 ⏬ 🛡️, server: armsj.kozow.com, port: 80, type: vmess, uuid: 44e0d410-535a-11ec-968f-02001700aa14, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: armsj.kozow.com}}
+  - {name: 🇺🇸 圣何塞 菲菲的甲骨文 🚀 🆎 ⏬ 🛡️, server: armsj.kozow.com, port: 80, type: vmess, uuid: 44e0d410-535a-11ec-968f-02001700aa14, alterId: 0, cipher: auto, tls: false}
   - {name: 🇸🇬 新加坡 狐 🚀 🆎 ⏬, server: 104.19.57.187, port: 2053, type: vmess, uuid: 94286d72-960f-4445-f594-483cdd4d52ba, alterId: 32, cipher: auto, tls: true, network: ws, ws-path: /dwe3faqwe, ws-headers: {Host: sg2.fovi.tk}}
   - {name: 🇭🇰 香港 52VPN 🚀 ⏬, server: gz.52node.xyz, port: 28038, type: vmess, uuid: fead7086-54ec-3772-b603-ba9e740ec3da, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: hk.jd.com}}
   - {name: 🇹🇼 台湾 52VPN 🚀 ⏬, server: gz.52node.xyz, port: 28001, type: vmess, uuid: fead7086-54ec-3772-b603-ba9e740ec3da, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: hk.jd.com}}
@@ -73,7 +73,6 @@ proxies:
     cipher: auto
     network: http
   - {name: 🇭🇰 香港 猪猪云 ⚡️ 🚀 ⏬, server: 5.zhuzhu12.com, port: 80, type: vmess, uuid: 908b8763-4cc1-338e-ab28-56378af766e5, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: a.189.cn}}
-  - {name: 🇭🇰 香港 Pool ⚡️ 🚀 🆎 ⏬ 🛡️, server: 118.107.244.112, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -94,7 +93,6 @@ proxy-groups:
       - 🇹🇼 台湾 52VPN 🚀 ⏬
       - 🇭🇰 香港 V2云 ⚡️ 🚀 ⏬
       - 🇭🇰 香港 猪猪云 ⚡️ 🚀 ⏬
-      - 🇭🇰 香港 Pool ⚡️ 🚀 🆎 ⏬ 🛡️
       - DIRECT
   - name: ♻️ 自动选择
     type: url-test
@@ -116,7 +114,6 @@ proxy-groups:
       - 🇹🇼 台湾 52VPN 🚀 ⏬
       - 🇭🇰 香港 V2云 ⚡️ 🚀 ⏬
       - 🇭🇰 香港 猪猪云 ⚡️ 🚀 ⏬
-      - 🇭🇰 香港 Pool ⚡️ 🚀 🆎 ⏬ 🛡️
   - name: 🍃 净化秘术
     type: select
     proxies:
@@ -130,7 +127,6 @@ proxy-groups:
       - 🇺🇸 圣何塞 pāndà湿的甲骨文 🚀 🆎 ⏬ 🛡️
       - 🇺🇸 圣何塞 菲菲的甲骨文 🚀 🆎 ⏬ 🛡️
       - 🇸🇬 新加坡 狐 🚀 🆎 ⏬
-      - 🇭🇰 香港 Pool ⚡️ 🚀 🆎 ⏬ 🛡️
   - name: 📹 YouTube
     type: select
     proxies:
@@ -152,7 +148,6 @@ proxy-groups:
       - 🇹🇼 台湾 52VPN 🚀 ⏬
       - 🇭🇰 香港 V2云 ⚡️ 🚀 ⏬
       - 🇭🇰 香港 猪猪云 ⚡️ 🚀 ⏬
-      - 🇭🇰 香港 Pool ⚡️ 🚀 🆎 ⏬ 🛡️
   - name: 🎵 TikTok
     type: select
     proxies:
@@ -174,7 +169,6 @@ proxy-groups:
       - 🇹🇼 台湾 52VPN 🚀 ⏬
       - 🇭🇰 香港 V2云 ⚡️ 🚀 ⏬
       - 🇭🇰 香港 猪猪云 ⚡️ 🚀 ⏬
-      - 🇭🇰 香港 Pool ⚡️ 🚀 🆎 ⏬ 🛡️
   - name: 🕶️ Google Play
     type: select
     proxies:
@@ -196,7 +190,6 @@ proxy-groups:
       - 🇹🇼 台湾 52VPN 🚀 ⏬
       - 🇭🇰 香港 V2云 ⚡️ 🚀 ⏬
       - 🇭🇰 香港 猪猪云 ⚡️ 🚀 ⏬
-      - 🇭🇰 香港 Pool ⚡️ 🚀 🆎 ⏬ 🛡️
   - name: 📲 Telegram
     type: select
     proxies:
@@ -205,7 +198,6 @@ proxy-groups:
       - DIRECT
       - 🇹🇼 台湾节点
       - 🇺🇲 美国节点
-      - 🇭🇰 香港 Pool ⚡️ 🚀 🆎 ⏬ 🛡️
       - 🇭🇰 香港 V2云 ⚡️ 🚀 ⏬
       - 🇭🇰 香港 Marslink ⚡️ 🚀 🛡️
       - 🇸🇬 新加坡 二次元 🚀 🛡️
