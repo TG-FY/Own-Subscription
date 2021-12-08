@@ -5,4 +5,29 @@ http=tx.wy.fastqvpn.com:29984, username=442358231600201728, password=984a2e30-e3
 http=tx.wy.fastqvpn.com:29985, username=442358231600201728, password=984a2e30-e37a-4bd7-87d3-7d26e3c6a861, over-tls=true, tls-verification=false, tag=🇯🇵 日本 WY
 http=tx.wy.fastqvpn.com:29987, username=442358231600201728, password=984a2e30-e37a-4bd7-87d3-7d26e3c6a861, over-tls=true, tls-verification=false, tag=🇬🇧 英国 WY
 http=tx.wy.fastqvpn.com:29988, username=442358231600201728, password=984a2e30-e37a-4bd7-87d3-7d26e3c6a861, over-tls=true, tls-verification=false, tag=🇺🇸 美国 WY
+shadowsocks = 203.69.53.127:443, method=aes-256-gcm, password=c5c41727af83, obfs=ws, obfs-host=twn600wds12.soflyso.info, tag=试用线路
+shadowsocks = 211.23.141.54:443, method=aes-256-gcm, password=3c7ab2c61374, obfs=ws, obfs-host=dx600twnewss002.soflyso.info, tag=🇸🇬 ️‍🌈 新用户专线
+shadowsocks = 211.21.20.192:443, method=aes-256-gcm, password=ab9159caa85a, obfs=ws, obfs-host=Dx600twnew3.soflyso.info, tag=🇨🇳 台湾06
+shadowsocks = 60.250.137.213:443, method=aes-256-gcm, password=90185e1ac1cf, obfs=ws, obfs-host=dx600twnews001.soflyso.info, tag=🇨🇳 台湾09
+shadowsocks = 60.250.153.102:443, method=aes-256-gcm, password=32f424b28a05, obfs=ws, obfs-host=twn600wds11.soflyso.info, tag=🇨🇳 台湾tw
+shadowsocks = 220.130.18.217:443, method=aes-256-gcm, password=973d3abdc9b2, obfs=ws, obfs-host=Dx600twnew4.soflyso.info, tag=🇨🇳 台湾07
+shadowsocks = 60.251.66.27:443, method=aes-256-gcm, password=02108df50c2b, obfs=ws, obfs-host=dx600twnews003.soflyso.info, tag=🇨🇳 台湾00
+shadowsocks = 59.125.101.101:443, method=aes-256-gcm, password=68e13c9db0a9, obfs=ws, obfs-host=twn600wd5.soflyso.info, tag=🇨🇳 台湾01
+shadowsocks = 60.251.66.116:443, method=aes-256-gcm, password=fa1461264001, obfs=ws, obfs-host=twn600wds10.soflyso.info, tag=🇨🇳 台湾05
+shadowsocks = 59.125.98.29:443, method=aes-256-gcm, password=a22c307e4a69, obfs=ws, obfs-host=twn600wd8.soflyso.info, tag=🇨🇳 台湾03
+shadowsocks = 211.23.141.52:443, method=aes-256-gcm, password=bff483ac1406, obfs=ws, obfs-host=dx600twnewss001.soflyso.info, tag=🇨🇳 台湾08
+shadowsocks = 203.69.243.19:443, method=aes-256-gcm, password=cb411c16c567, obfs=ws, obfs-host=twn600wdnew10.soflyso.info, tag=🇨🇳 台湾04
+shadowsocks = 47.243.165.95:443, method=aes-256-gcm, password=08e1a848a855, obfs=ws, obfs-host=alihsknew2.soflyso.info, tag=🇭🇰 香港01
+shadowsocks = 60.250.78.252:443, method=aes-256-gcm, password=bb01c71b1c9d, obfs=ws, obfs-host=twn600wd4.soflyso.info, tag=🇭🇰 香港03
+shadowsocks = 206.119.115.55:443, method=aes-256-gcm, password=f56e2142b4d9, obfs=ws, obfs-host=dxhk1000new003.soflyso.info, tag=🇭🇰 香港05
+shadowsocks = 206.119.115.51:1443, method=aes-256-gcm, password=832167441530, obfs=ws, obfs-host=dxhk1000new001.soflyso.info, tag=🇭🇰 香港04
+shadowsocks = 104.233.235.104:443, method=aes-256-gcm, password=64ca9e7dd260, obfs=ws, obfs-host=dxus.soflyso.info, tag=🇺🇸 美国01
+shadowsocks = 142.4.101.202:1443, method=aes-256-gcm, password=83e01b5d4a8b, obfs=ws, obfs-host=dx1000usnew001.soflyso.info, tag=🇺🇸 美国02
+shadowsocks = 107.148.145.139:443, method=aes-256-gcm, password=91e117c60f9f, obfs=ws, obfs-host=dx1000us1.soflyso.info, tag=🇺🇸 美国03
+shadowsocks = 194.76.0.4:1443, method=aes-256-gcm, password=9bc9c622dd8d, obfs=ws, obfs-host=yyusnew003.soflyso.info, tag=🇺🇸 美国04
+shadowsocks = 47.245.14.32:443, method=aes-256-gcm, password=c801c5b9bb6b, obfs=ws, obfs-host=alisjpnews001.soflyso.info, tag=🇯🇵 日本01
+shadowsocks = 202.79.166.241:1443, method=aes-256-gcm, password=f58cddf6cd9d, obfs=ws, obfs-host=xw1.soflyso.info, tag=🇯🇵 日本02
+shadowsocks = 137.220.185.22:443, method=chacha20-ietf-poly1305, password=4944b4040806, obfs=ws, obfs-host=xw2.soflyso.info, tag=🇯🇵 日本03
+shadowsocks = 27.102.118.27:1443, method=aes-256-gcm, password=1069673dba7f, obfs=ws, obfs-host=Krkdanew001.soflyso.info, tag=🇰🇷 韩国01
+shadowsocks = 27.124.44.5:443, method=aes-256-gcm, password=fcc1e096fe7f, obfs=ws, obfs-host=jc10.soflyso.info, tag=🇰🇷 韩国02
 
