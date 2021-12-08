@@ -623,8 +623,8 @@ rules:
  - DOMAIN-KEYWORD,twitter,🌍 OnlyUS
 # - Google Voice
  - DOMAIN,lens.l.google.com,🌍 OnlyUS
- - DOMAIN,pornemby.club,🌍 EmbyOnlyUS
- - DOMAIN,embyclub.com,🌍 EmbyOnlyUS
+ - DOMAIN,pornemby.club,🌍 Emby
+ - DOMAIN,embyclub.com,🌍 Emby
  - DOMAIN-KEYWORD,telegram,📲 Telegram
  - DOMAIN-SUFFIX,t.me,📲 Telegram
  - DOMAIN-SUFFIX,tdesktop.com,📲 Telegram
