@@ -72,7 +72,6 @@ proxies:
     alterId: 2
     cipher: auto
     network: http
-  - {name: 🇭🇰 香港 猪猪云 ⚡️ 🚀 ⏬, server: 5.zhuzhu12.com, port: 80, type: vmess, uuid: 908b8763-4cc1-338e-ab28-56378af766e5, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: a.189.cn}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -92,7 +91,6 @@ proxy-groups:
       - 🇭🇰 香港 52VPN 🚀 ⏬
       - 🇹🇼 台湾 52VPN 🚀 ⏬
       - 🇭🇰 香港 V2云 ⚡️ 🚀 ⏬
-      - 🇭🇰 香港 猪猪云 ⚡️ 🚀 ⏬
       - DIRECT
   - name: ♻️ 自动选择
     type: url-test
@@ -113,7 +111,6 @@ proxy-groups:
       - 🇭🇰 香港 52VPN 🚀 ⏬
       - 🇹🇼 台湾 52VPN 🚀 ⏬
       - 🇭🇰 香港 V2云 ⚡️ 🚀 ⏬
-      - 🇭🇰 香港 猪猪云 ⚡️ 🚀 ⏬
   - name: 🍃 净化秘术
     type: select
     proxies:
@@ -147,7 +144,6 @@ proxy-groups:
       - 🇭🇰 香港 52VPN 🚀 ⏬
       - 🇹🇼 台湾 52VPN 🚀 ⏬
       - 🇭🇰 香港 V2云 ⚡️ 🚀 ⏬
-      - 🇭🇰 香港 猪猪云 ⚡️ 🚀 ⏬
   - name: 🎵 TikTok
     type: select
     proxies:
@@ -168,7 +164,6 @@ proxy-groups:
       - 🇭🇰 香港 52VPN 🚀 ⏬
       - 🇹🇼 台湾 52VPN 🚀 ⏬
       - 🇭🇰 香港 V2云 ⚡️ 🚀 ⏬
-      - 🇭🇰 香港 猪猪云 ⚡️ 🚀 ⏬
   - name: 🕶️ Google Play
     type: select
     proxies:
@@ -189,7 +184,6 @@ proxy-groups:
       - 🇭🇰 香港 52VPN 🚀 ⏬
       - 🇹🇼 台湾 52VPN 🚀 ⏬
       - 🇭🇰 香港 V2云 ⚡️ 🚀 ⏬
-      - 🇭🇰 香港 猪猪云 ⚡️ 🚀 ⏬
   - name: 📲 Telegram
     type: select
     proxies:
@@ -317,11 +311,10 @@ proxy-groups:
   - name: 🎥 奈飞节点
     type: select
     proxies:
-      - 🇭🇰 香港 猪猪云 ⚡️ 🚀 ⏬
-      - 🇲🇾 马来西亚 棉花云 🚀 ⏬
+      - 🇺🇸 圣何塞 菲菲的甲骨文 🚀 🆎 ⏬ 🛡️
       - 🇯🇵 东京 碧老师的甲骨文 🚀 ⏬ 🛡️
       - 🇰🇷 春川 pāndà湿的甲骨文 🚀 🆎 ⏬ 🛡️
-      - 🇺🇸 圣何塞 菲菲的甲骨文 🚀 🆎 ⏬ 🛡️
+      - 🇲🇾 马来西亚 棉花云 🚀 ⏬
 rules:
  - SRC-IP-CIDR,192.168.5.100/32,DIRECT
  - SRC-IP-CIDR,192.168.5.101/32,DIRECT
