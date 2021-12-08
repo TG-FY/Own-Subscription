@@ -43,6 +43,19 @@ proxies:
       skip-cert-verify: true
       host: Dx600twnew3.soflyso.info
       path: "/"
+  - name: 🇹🇼 台湾 飞鸟 🚀 ⏬ 🛡️
+    type: ss
+    server: 211.23.141.52
+    port: 443
+    cipher: aes-256-gcm
+    password: "bff483ac1406"
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      tls: true
+      skip-cert-verify: true
+      host: dx600twnewss001.soflyso.info
+      path: "/"
   - name: 🇺🇸 美国 飞鸟 🚀 ⏬ 🛡️
     type: ss
     server: 206.119.115.55
@@ -81,6 +94,7 @@ proxy-groups:
       - 🇸🇬 新加坡 二次元 🚀 🛡️
       - 🇲🇾 马来西亚 棉花云 🚀 ⏬
       - 🇹🇼 台湾 飞鸟 🚀 🆎 ⏬ 🛡️
+      - 🇹🇼 台湾 飞鸟 🚀 ⏬ 🛡️
       - 🇺🇸 美国 飞鸟 🚀 ⏬ 🛡️
       - 🇺🇸 洛杉矶 碧老师的GIA 🚀 🆎 ⏬ 🛡️
       - 🇯🇵 东京 碧老师的甲骨文 🚀 ⏬ 🛡️
@@ -101,6 +115,7 @@ proxy-groups:
       - 🇸🇬 新加坡 二次元 🚀 🛡️
       - 🇲🇾 马来西亚 棉花云 🚀 ⏬
       - 🇹🇼 台湾 飞鸟 🚀 🆎 ⏬ 🛡️
+      - 🇹🇼 台湾 飞鸟 🚀 ⏬ 🛡️
       - 🇺🇸 美国 飞鸟 🚀 ⏬ 🛡️
       - 🇺🇸 洛杉矶 碧老师的GIA 🚀 🆎 ⏬ 🛡️
       - 🇯🇵 东京 碧老师的甲骨文 🚀 ⏬ 🛡️
@@ -134,6 +149,7 @@ proxy-groups:
       - 🇸🇬 新加坡 二次元 🚀 🛡️
       - 🇲🇾 马来西亚 棉花云 🚀 ⏬
       - 🇹🇼 台湾 飞鸟 🚀 🆎 ⏬ 🛡️
+      - 🇹🇼 台湾 飞鸟 🚀 ⏬ 🛡️
       - 🇺🇸 美国 飞鸟 🚀 ⏬ 🛡️
       - 🇺🇸 洛杉矶 碧老师的GIA 🚀 🆎 ⏬ 🛡️
       - 🇯🇵 东京 碧老师的甲骨文 🚀 ⏬ 🛡️
@@ -154,6 +170,7 @@ proxy-groups:
       - 🇸🇬 新加坡 二次元 🚀 🛡️
       - 🇲🇾 马来西亚 棉花云 🚀 ⏬
       - 🇹🇼 台湾 飞鸟 🚀 🆎 ⏬ 🛡️
+      - 🇹🇼 台湾 飞鸟 🚀 ⏬ 🛡️
       - 🇺🇸 美国 飞鸟 🚀 ⏬ 🛡️
       - 🇺🇸 洛杉矶 碧老师的GIA 🚀 🆎 ⏬ 🛡️
       - 🇯🇵 东京 碧老师的甲骨文 🚀 ⏬ 🛡️
@@ -174,6 +191,28 @@ proxy-groups:
       - 🇸🇬 新加坡 二次元 🚀 🛡️
       - 🇲🇾 马来西亚 棉花云 🚀 ⏬
       - 🇹🇼 台湾 飞鸟 🚀 🆎 ⏬ 🛡️
+      - 🇹🇼 台湾 飞鸟 🚀 ⏬ 🛡️
+      - 🇺🇸 美国 飞鸟 🚀 ⏬ 🛡️
+      - 🇺🇸 洛杉矶 碧老师的GIA 🚀 🆎 ⏬ 🛡️
+      - 🇯🇵 东京 碧老师的甲骨文 🚀 ⏬ 🛡️
+      - 🇰🇷 春川 pāndà湿的甲骨文 🚀 🆎 ⏬ 🛡️
+      - 🇺🇸 圣何塞 pāndà湿的甲骨文 🚀 🆎 ⏬ 🛡️
+      - 🇺🇸 圣何塞 菲菲的甲骨文 🚀 🆎 ⏬ 🛡️
+      - 🇸🇬 新加坡 狐 🚀 🆎 ⏬
+      - 🇭🇰 香港 52VPN 🚀 ⏬
+      - 🇹🇼 台湾 52VPN 🚀 ⏬
+      - 🇭🇰 香港 V2云 ⚡️ 🚀 ⏬
+  - name: 🌍 Emby
+    type: select
+    proxies:
+      - 🔰 节点选择
+      - ♻️ 自动选择
+      - DIRECT
+      - 🇭🇰 香港 Marslink ⚡️ 🚀 🛡️
+      - 🇸🇬 新加坡 二次元 🚀 🛡️
+      - 🇲🇾 马来西亚 棉花云 🚀 ⏬
+      - 🇹🇼 台湾 飞鸟 🚀 🆎 ⏬ 🛡️
+      - 🇹🇼 台湾 飞鸟 🚀 ⏬ 🛡️
       - 🇺🇸 美国 飞鸟 🚀 ⏬ 🛡️
       - 🇺🇸 洛杉矶 碧老师的GIA 🚀 🆎 ⏬ 🛡️
       - 🇯🇵 东京 碧老师的甲骨文 🚀 ⏬ 🛡️
@@ -197,30 +236,6 @@ proxy-groups:
       - 🇸🇬 新加坡 二次元 🚀 🛡️
       - 🇺🇸 美国 飞鸟 🚀 ⏬ 🛡️
       - 🇰🇷 春川 pāndà湿的甲骨文 🚀 🆎 ⏬ 🛡️
-  - name: 🌑 Facebook
-    type: select
-    proxies:
-      - 🔰 节点选择
-      - ♻️ 自动选择
-      - DIRECT
-      - 🇹🇼 台湾节点
-      - 🇺🇲 美国节点
-  - name: 🌕 Twitter
-    type: select
-    proxies:
-      - 🔰 节点选择
-      - ♻️ 自动选择
-      - DIRECT
-      - 🇹🇼 台湾节点
-      - 🇺🇲 美国节点
-  - name: Ⓜ️ 微软云盘
-    type: select
-    proxies:
-      - 🔰 节点选择
-      - ♻️ 自动选择
-      - DIRECT
-      - 🇹🇼 台湾节点
-      - 🇺🇲 美国节点
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -230,34 +245,6 @@ proxy-groups:
       - DIRECT
       - 🇹🇼 台湾节点
       - 🇺🇲 美国节点
-  - name: 🌍 国外媒体
-    type: select
-    proxies:
-      - 🔰 节点选择
-      - ♻️ 自动选择
-      - DIRECT
-      - 🇹🇼 台湾节点
-      - 🇺🇲 美国节点
-  - name: 🌍 WebOnlyUS
-    type: select
-    proxies:
-      - 🇺🇲 美国节点
-      - 🔰 节点选择
-      - ♻️ 自动选择
-      - DIRECT
-      - 🇺🇸 圣何塞 菲菲的甲骨文 🚀 🆎 ⏬ 🛡️
-      - 🇺🇸 圣何塞 pāndà湿的甲骨文 🚀 🆎 ⏬ 🛡️
-      - 🇺🇸 洛杉矶 碧老师的GIA 🚀 🆎 ⏬ 🛡️
-  - name: 🌍 EmbyOnlyUS
-    type: select
-    proxies:
-      - 🇺🇲 美国节点
-      - 🔰 节点选择
-      - ♻️ 自动选择
-      - DIRECT
-      - 🇺🇸 圣何塞 菲菲的甲骨文 🚀 🆎 ⏬ 🛡️
-      - 🇺🇸 圣何塞 pāndà湿的甲骨文 🚀 🆎 ⏬ 🛡️
-      - 🇺🇸 洛杉矶 碧老师的GIA 🚀 🆎 ⏬ 🛡️
   - name: 📺 巴哈姆特
     type: select
     proxies:
@@ -266,6 +253,7 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 🇹🇼 台湾 52VPN 🚀 ⏬
+      - 🇹🇼 台湾 飞鸟 🚀 ⏬ 🛡️
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -280,6 +268,32 @@ proxy-groups:
       - DIRECT
       - 🔰 节点选择
       - ♻️ 自动选择
+      - 🇹🇼 台湾节点
+      - 🇺🇲 美国节点
+  - name: 🌍 OnlyUS
+    type: select
+    proxies:
+      - 🇺🇲 美国节点
+      - 🔰 节点选择
+      - ♻️ 自动选择
+      - DIRECT
+      - 🇺🇸 圣何塞 菲菲的甲骨文 🚀 🆎 ⏬ 🛡️
+      - 🇺🇸 圣何塞 pāndà湿的甲骨文 🚀 🆎 ⏬ 🛡️
+      - 🇺🇸 洛杉矶 碧老师的GIA 🚀 🆎 ⏬ 🛡️
+  - name: Ⓜ️ 微软云盘
+    type: select
+    proxies:
+      - 🔰 节点选择
+      - ♻️ 自动选择
+      - DIRECT
+      - 🇹🇼 台湾节点
+      - 🇺🇲 美国节点
+  - name: 🌍 国外媒体
+    type: select
+    proxies:
+      - 🔰 节点选择
+      - ♻️ 自动选择
+      - DIRECT
       - 🇹🇼 台湾节点
       - 🇺🇲 美国节点
   - name: 🐟 漏网之鱼
@@ -302,6 +316,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇹🇼 台湾 52VPN 🚀 ⏬
+      - 🇹🇼 台湾 飞鸟 🚀 ⏬ 🛡️
   - name: 🇺🇲 美国节点
     type: select
     proxies:
@@ -568,43 +583,46 @@ rules:
 # - DOMAIN-KEYWORD,tiktok,🎵 TikTok
 # - DOMAIN-KEYWORD,tiktokv,🎵 TikTok
 # - PROCESS-NAME,com.zhiliaoapp.musically,🎵 TikTok
- - DOMAIN-SUFFIX,cdninstagram.com,🌑 Facebook
- - DOMAIN-SUFFIX,fb.com,🌑 Facebook
- - DOMAIN-SUFFIX,fb.me,🌑 Facebook
- - DOMAIN-SUFFIX,fbaddins.com,🌑 Facebook
- - DOMAIN-SUFFIX,fbcdn.net,🌑 Facebook
- - DOMAIN-SUFFIX,fbsbx.com,🌑 Facebook
- - DOMAIN-SUFFIX,fbworkmail.com,🌑 Facebook
- - DOMAIN-SUFFIX,instagram.com,🌑 Facebook
- - DOMAIN-SUFFIX,m.me,🌑 Facebook
- - DOMAIN-SUFFIX,messenger.com,🌑 Facebook
- - DOMAIN-SUFFIX,oculus.com,🌑 Facebook
- - DOMAIN-SUFFIX,oculuscdn.com,🌑 Facebook
- - DOMAIN-SUFFIX,rocksdb.org,🌑 Facebook
- - DOMAIN-SUFFIX,whatsapp.com,🌑 Facebook
- - DOMAIN-SUFFIX,whatsapp.net,🌑 Facebook
- - DOMAIN-KEYWORD,facebook,🌑 Facebook
- - IP-CIDR,3.123.36.126/32,🌑 Facebook
- - IP-CIDR,35.157.215.84/32,🌑 Facebook
- - IP-CIDR,35.157.217.255/32,🌑 Facebook
- - IP-CIDR,52.58.209.134/32,🌑 Facebook
- - IP-CIDR,54.93.124.31/32,🌑 Facebook
- - IP-CIDR,54.162.243.80/32,🌑 Facebook
- - IP-CIDR,54.173.34.141/32,🌑 Facebook
- - IP-CIDR,54.235.23.242/32,🌑 Facebook
- - IP-CIDR,169.45.248.118/32,🌑 Facebook
- - DOMAIN-SUFFIX,pscp.tv,🌕 Twitter
- - DOMAIN-SUFFIX,periscope.tv,🌕 Twitter
- - DOMAIN-SUFFIX,t.co,🌕 Twitter
- - DOMAIN-SUFFIX,twimg.co,🌕 Twitter
- - DOMAIN-SUFFIX,twimg.com,🌕 Twitter
- - DOMAIN-SUFFIX,twimg.org,🌕 Twitter
- - DOMAIN-SUFFIX,twitpic.com,🌕 Twitter
- - DOMAIN-SUFFIX,twitter.com,🌕 Twitter
- - DOMAIN-SUFFIX,twitter.jp,🌕 Twitter
- - DOMAIN-SUFFIX,vine.co,🌕 Twitter
- - DOMAIN-KEYWORD,twitter,🌕 Twitter
- - DOMAIN,lens.l.google.com,🌍 WebOnlyUS
+# - Meta
+ - DOMAIN-SUFFIX,cdninstagram.com,🌍 OnlyUS
+ - DOMAIN-SUFFIX,fb.com,🌍 OnlyUS
+ - DOMAIN-SUFFIX,fb.me,🌍 OnlyUS
+ - DOMAIN-SUFFIX,fbaddins.com,🌍 OnlyUS
+ - DOMAIN-SUFFIX,fbcdn.net,🌍 OnlyUS
+ - DOMAIN-SUFFIX,fbsbx.com,🌍 OnlyUS
+ - DOMAIN-SUFFIX,fbworkmail.com,🌍 OnlyUS
+ - DOMAIN-SUFFIX,instagram.com,🌍 OnlyUS
+ - DOMAIN-SUFFIX,m.me,🌍 OnlyUS
+ - DOMAIN-SUFFIX,messenger.com,🌍 OnlyUS
+ - DOMAIN-SUFFIX,oculus.com,🌍 OnlyUS
+ - DOMAIN-SUFFIX,oculuscdn.com,🌍 OnlyUS
+ - DOMAIN-SUFFIX,rocksdb.org,🌍 OnlyUS
+ - DOMAIN-SUFFIX,whatsapp.com,🌍 OnlyUS
+ - DOMAIN-SUFFIX,whatsapp.net,🌍 OnlyUS
+ - DOMAIN-KEYWORD,facebook,🌍 OnlyUS
+ - IP-CIDR,3.123.36.126/32,🌍 OnlyUS
+ - IP-CIDR,35.157.215.84/32,🌍 OnlyUS
+ - IP-CIDR,35.157.217.255/32,🌍 OnlyUS
+ - IP-CIDR,52.58.209.134/32,🌍 OnlyUS
+ - IP-CIDR,54.93.124.31/32,🌍 OnlyUS
+ - IP-CIDR,54.162.243.80/32,🌍 OnlyUS
+ - IP-CIDR,54.173.34.141/32,🌍 OnlyUS
+ - IP-CIDR,54.235.23.242/32,🌍 OnlyUS
+ - IP-CIDR,169.45.248.118/32,🌍 OnlyUS
+# - Twitter
+ - DOMAIN-SUFFIX,pscp.tv,🌍 OnlyUS
+ - DOMAIN-SUFFIX,periscope.tv,🌍 OnlyUS
+ - DOMAIN-SUFFIX,t.co,🌍 OnlyUS
+ - DOMAIN-SUFFIX,twimg.co,🌍 OnlyUS
+ - DOMAIN-SUFFIX,twimg.com,🌍 OnlyUS
+ - DOMAIN-SUFFIX,twimg.org,🌍 OnlyUS
+ - DOMAIN-SUFFIX,twitpic.com,🌍 OnlyUS
+ - DOMAIN-SUFFIX,twitter.com,🌍 OnlyUS
+ - DOMAIN-SUFFIX,twitter.jp,🌍 OnlyUS
+ - DOMAIN-SUFFIX,vine.co,🌍 OnlyUS
+ - DOMAIN-KEYWORD,twitter,🌍 OnlyUS
+# - Google Voice
+ - DOMAIN,lens.l.google.com,🌍 OnlyUS
  - DOMAIN,pornemby.club,🌍 EmbyOnlyUS
  - DOMAIN,embyclub.com,🌍 EmbyOnlyUS
  - DOMAIN-KEYWORD,telegram,📲 Telegram
